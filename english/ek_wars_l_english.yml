@@ -4,6 +4,8 @@
  DEJURE_CB_KINGDOM_NAME_GENERIC:1 "Seize [de_jure|E] [kingdom|E]"
  CONQUEST_KINGDOM_CB_NAME:0 "Conquer [kingdom|E]"
  CONQUEST_EMPIRE_CB_NAME:1 "Conquer [empire|E]"
+
+	HOUSE_TOMB_0_CONQUEST_CB_NAME:0 "Retake Great House Tomb"
  
  CLEANSE_ABOMINATIONS_NAME:1 "Abomination Cleansing in the [TITLE.GetBaseName]"
  CLEANSE_ABOMINATIONS_DUCHY_NAME:1 "Abomination Cleansing"

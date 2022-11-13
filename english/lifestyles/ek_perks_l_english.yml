@@ -42,11 +42,11 @@
  # Martial: Plunderer Tree
  plunderer_name:1 "Plunderer"
  raider_perk_name:0 "Land Raids"
- RAIDER_PERK_EFFECT:0 "Unlocks the ability to [raid|E]"
+ RAIDER_PERK_EFFECT:0 "Unlocks the ability to [raid|E]\nCharacters whose [faith|E] has the [GetFaithDoctrine('tenet_pacifism').GetBaseName] [core_tenet|E] can raid, but with a [piety|E] cost"
  sea_raider_perk_name:0 "Sea Raids"
  SEA_RAIDER_PERK_EFFECT:0 "Unlocks the ability to [raid|E] over seas"
  sacred_raids_perk_name:0 "Sacred Raids"
- SACRED_RAIDS_PERK_EFFECT:0 "[raiding|E] awards piety, equivalent to the [gold|E] and [prestige|E] gained"
+ SACRED_RAIDS_PERK_EFFECT:0 "[raiding|E] awards piety, equivalent to the [gold|E] and [prestige|E] gained\nRemoves the [piety|E] cost of Raiding for characters whose [faith|E] has the [GetFaithDoctrine('tenet_pacifism').GetBaseName] [core_tenet|E]"
  grand_raider_perk_name:0 "Grand Raider"
  GRAND_RAIDER_PERK_EFFECT:0 "Increases the loot gained via [raiding|E] by a quarter"
  prisoners_and_loot_perk_name:0 "Prisoners and Loot..."
