@@ -230,6 +230,8 @@
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_war_01:0 "Altmer Glass Armor"
  PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_noble_war_01:0 "Altmer Glass Helmet"
  
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_common_war_01:0 "Altmer Moonstone Armor"
+ 
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_common:0 "Altmer Common Clothing 1"
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_common:0 "Altmer Common Clothing 2"
  
@@ -254,10 +256,31 @@
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_female_noble_war_01:0 "Altmer Glass Armor"
  PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_female_noble_war_01:0 "Altmer Glass Helmet"
  
+ PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_female_common_war_01:0 "Altmer Moonstone Armor"
+ 
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_low:0 "Altmer Low Nobility Neckguard"
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_low:0 "Altmer Low Nobility Cape"
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_high:0 "Altmer High Nobility Neckguard"
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_high:0 "Altmer High Nobility Cape"
+ 
+#########################################
+################ Akaviri ################
+#########################################
+ 
+
+### Male ###
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_common:0 "Akaviri Common Clothing"
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_low:0 "Akaviri Low Nobility Clothing"
+PORTRAIT_MODIFIER_custom_clothes_male_clothes_kimono_samurai_01_high:0 "Akaviri High Nobility Clothing"
+
+PORTRAIT_MODIFIER_custom_legwear_male_legwear_tabi_01_high:0 "Akaviri Tabi Socks"
+ 
+### Female ###
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_common:0 "Akaviri Common Clothing"
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_low:0 "Akaviri Low Nobility Clothing"
+PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_high:0 "Akaviri High Nobility Clothing"
+
+PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "Akaviri Tabi Socks"
  
  #########################################
  ################ Misc ################

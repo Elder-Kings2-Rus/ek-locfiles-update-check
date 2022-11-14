@@ -207,7 +207,7 @@
  artifact_skeleton_key_description:0 "A Daedric artifact of the Daedric Prince Nocturnal that can be used to unlock any lock. The two limitations placed on the Key by wizards who sought to protect their storehouses were that the Key could only be used once a day and it would never be the property of one thief for too long, eventually disappearing."
 
  artifact_shadow_key_name:1 "Shadowkey"
- artifact_skeleton_key_description:0 "A large key enchanted with Shadow Magic, with the ability to open Shadowgates across Mundus."
+ artifact_shadow_key_description:0 "A large key enchanted with Shadow Magic, with the ability to open Shadowgates across Mundus."
 
  artifact_ring_namira_name:1 "Ring of Namira"
  artifact_ring_namira_description:0 "A Daedric artifact bestowed by Namira upon those who do her bidding, the ring has been known to enable damage reflection, increase one's stamina or even heal their wounds if a corpse is eaten."

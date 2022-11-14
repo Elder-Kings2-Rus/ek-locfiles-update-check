@@ -164,6 +164,7 @@
  chukka_sei_decision_tooltip:0 "Partake on Chukka-Sei and prove myself worthy of being named."
  chukka_sei_decision_confirm:0 "Let the naming trial begin!"
  chukka_sei_decision_effect_tt:0 "Ingest #E Hist Sap#! and overcome your trial into adulthood."
+ current_month_5:0 "The current month is Hist-Dooka (5)"
  
  recruit_priest_liturgical_language_decision:0 "Request a new Realm Priest"
  recruit_priest_liturgical_language_decision_daedric:0 "The [ROOT.Char.GetFaith.GetAdjective] priesthood is required to speak the Daedric tongue, but unfortunately no-one in my court knows the language of Oblivion. Luckily, I can summon a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the gap."

@@ -79,6 +79,8 @@
  action_stronger_autocratic_vassal_combined_group_description:0 "Some of your vassals have a higher maximum Military Strength than you. Their [opinion|E] of you will be drastically lowered.\n\n#help Try to gain their loyalty by increasing their Opinion of you, expanding your military, or finding a way to weaken theirs.#!\n\n#weak Autocratic vassals are only loyal as long as you can enforce your power over them. Should they think they can defeat you in war, they will start rejecting your rule.#!"
  action_stronger_autocratic_vassal_combined_label:0 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
  high_enough_ratio_vassal_max_military_strength_max_military_strength:0 "The total Maximum Military Strength of your vassals cannot exceed #V $VALUE|0$%#! of yours\n#weak Current value: [Character.MakeScope.ScriptValue('ratio_vassal_max_military_strength_max_military_strength')|1]%#!#!"
+ vassal_revocation_tyranny_effect_low_ca_tyranny:0 "#N You get [tyranny|E] due to your low [crown_authority|E]. Increase it past #V [GetPlayer.Custom('GetCrownAuthority0')]#! to avoid the Tyranny gain.#!"
+ revocation_tyranny_effect_low_ca_tyranny:0 "#N You get [tyranny|E] due to your low [crown_authority|E]. Increase it past #V [GetPlayer.Custom('GetCrownAuthority0')]#! to avoid the Tyranny gain.#!"
  ### Magocracy
  magocracy_government:0 "Magocracy"
     magocracy_government_adjective:0 "Magocratic"

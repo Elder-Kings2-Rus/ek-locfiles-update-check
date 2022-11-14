@@ -332,7 +332,7 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
 
  trait_laid_egg:0 "Laid Egg"
  trait_laid_egg_desc:0 "This character laid an egg recently."
- trait_laid_egg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] layed an egg recently."
+ trait_laid_egg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] laid an egg recently."
  
  trait_argonian_behemoth:0 "Behemoth"
  trait_argonian_behemoth_desc:0 "This character is a big chonker Behemoth"
