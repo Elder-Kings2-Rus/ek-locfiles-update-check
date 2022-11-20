@@ -82,6 +82,10 @@
  ek_court.0003.desc42:0 ""Once the Dunmeri were united, then they split in many until only few remained. M'aiq pities them, for everyone knows Khajiit only know Anequinans and Pellitines.""
  ek_court.0003.desc43:0 ""M'aiq's father told him that Khajiit came from Black Marsh. Though M'aiq thinks he made this up.""
  ek_court.0003.desc44:0 ""M'aiq hears that when a rainbow persisted after the end of the month of rainbows, many dremora hissed at the gates like frightened kittens. They were not let in.""
+ ek_court.0003.desc45:0 ""Ma'iq has heard it said that Dragonbreaks are wont to break "save games". Alkosh aside, what does this mean? Ma'iq thought games are for gambling, not saving coin.""
+ ek_court.0003.desc46:0 ""Ma'iq is told that Pelinal was once called Hans the Fox. Ma'iq, too, was once a fox - but very briefly, for he missed the sound of his purrs.""
+ ek_court.0003.desc47:0 ""Ma'iq cannot quite tell the difference between the sour-faced Dunmer and Dremora. It seems neither could some conjurers, back in the old days."" 
+ ek_court.0003.desc48:0 ""Ma'iq does not see the point of being a vampire.  Ma'iq's legacy already lives forever.""
  ek_court.0003.a:0 "That was... interesting."
 
  ek_court.0004.t:0 "$hold_court_header$ Last of His Kind"
@@ -340,6 +344,11 @@
  ek_daedric_artifacts.0040.desc:0 "The Shadowkey functions as a tool for "unlocking" all things, including portals, hidden potential, and other unknown possibilities.\n\nI've been wondering what hidden potential it could unlock in me, making me a better [ROOT.Char.GetTitleAsName]."
  ek_daedric_artifacts.0040.a:0 "I'll unlock my true potential!"
  ek_daedric_artifacts.0040.b:0 "I'd rather keep the key."
+
+ ek_daedric_artifacts.0041.t:0 "Bane of Daedra"
+ ek_daedric_artifacts.0041.desc:0 "Having no friends never bothered me that much but, lately, seeing people laughing together, playing games and making plans has frustrated me immensely.\n\nOne night, praying in my room for any modicum of company, my prayers seemed to be answered, but not in the way I was expecting.\n\n"Are you alone, little mortal? Fret not, for the Prince of Outcasts is here. I offer you the bold defender of the friendless, in exchange for your undying loyalty. Do not reject me, mortal, or being without company will be the least of your problems.""
+ ek_daedric_artifacts.0041.a:0 "I accept, Master!"
+ ek_daedric_artifacts.0041.b:0 "I don't care for trinkets, daedra."
 
  ek_murder_outcome.1001.t:0 "Boethiah's Proving"
  ek_murder_outcome.1001.desc:0 "The time has come. My agents are in place. One of them will kidnap the target the very night the deed will happen. Another will ensure the wall is unguarded. A third will leave a subtle trail of candles to [target.GetTitledFirstNamePossessive] bedchamber.\n\nEverything is in place."

@@ -49,9 +49,9 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_occultist_desc:0 "A powerful witch, this character performed an old and dark ritual to trade some of their humanity in exchange for forgotten powers."
  trait_occultist_character_desc:0 "A powerful witch, [ROOT.GetCharacter.GetFirstNameNoTooltip] performed an old and dark ritual to trade some of [ROOT.GetCharacter.GetHerHis] humanity in exchange for forgotten powers."
 
- trait_lich_character:0 "Undead Lich"
- trait_lich_character_desc:0 "This character is a SPOOKY Undead Lich!!!"
- trait_lich_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a SPOOKY Undead Lich!!!"
+ trait_lich_character:0 "Lich"
+ trait_lich_character_desc:0 "This character has gone into death and wrestled it to its knees with dark magicks and forbidden rituals, attaining lichdom and becoming undead."
+ trait_lich_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has gone into death and wrestled it to its knees with dark magicks and forbidden rituals, attaining lichdom and becoming undead."
  
  trait_undead:0 "Undead"
  trait_undead_character:0 "Undead"
@@ -128,26 +128,33 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_line_of_x_desc:0 "This character represents the Line of [ROOT.Char.GetFirstNameNoTooltip]."
  trait_line_of_x_desc_null:0 "This character represents the Line of X." # incase character doesnt exist
  
- trait_lifespan:0 "Lifespan"
- trait_lifespan_1:1 "Lifespan I"
- trait_lifespan_1_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] early 100s."
- trait_lifespan_1_desc:1 "By means of nature or magicka, it is expected that this character will live into their early 100s."
- trait_lifespan_2:1 "Lifespan II"
- trait_lifespan_2_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] mid 100s."
- trait_lifespan_2_desc:1 "By means of nature or magicka, it is expected that this character will live into their mid 100s."
- trait_lifespan_3:1 "Lifespan III"
- trait_lifespan_3_desc:1 "By means of nature or magicka, it is expected that this character will live into their early 200s."
- trait_lifespan_3_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] early 200s."
- trait_lifespan_4:1 "Lifespan IV"
- trait_lifespan_4_desc:1 "By means of nature or magicka, it is expected that this character will live into their early 400s."
- trait_lifespan_4_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] early 400s."
- trait_lifespan_5:1 "Lifespan V"
- trait_lifespan_5_desc:1 "By means of nature or magicka, it is expected that this character will live into their early 700s."
- trait_lifespan_5_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] early 700s."
- trait_lifespan_6:1 "Lifespan VI"
- trait_lifespan_6_desc:1 "By means of nature or magicka, it is expected that this character will live into their early 1000s."
- trait_lifespan_6_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] early 1000s."
- trait_lifespan_7:1 "Immortality"
+ trait_lifespan:0 "[enc_lifespan|E]"
+ 
+ trait_lifespan_1:1 "Lifespan I #italic ([enc_lifespan|E])#!"
+ trait_lifespan_1_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] early 100s. Women with this trait will become infertile at around age 65."
+ trait_lifespan_1_desc:1 "By means of nature or magicka, it is expected that this character will live into their early 100s. Women with this trait will become infertile at around age 65."
+ 
+ trait_lifespan_2:1 "Lifespan II #italic ([enc_lifespan|E])#!"
+ trait_lifespan_2_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] mid 100s. Women with this trait will become infertile at around age 105."
+ trait_lifespan_2_desc:1 "By means of nature or magicka, it is expected that this character will live into their mid 100s. Women with this trait will become infertile at around age 105."
+ 
+ trait_lifespan_3:1 "Lifespan III #italic ([enc_lifespan|E])#!"
+ trait_lifespan_3_desc:1 "By means of nature or magicka, it is expected that this character will live into their mid 200s. Women with this trait will become infertile at around age 160."
+ trait_lifespan_3_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] mid 200s. Women with this trait will become infertile at around age 160."
+ 
+ trait_lifespan_4:1 "Lifespan IV #italic ([enc_lifespan|E])#!"
+ trait_lifespan_4_desc:1 "By means of nature or magicka, it is expected that this character will live into their mid 300s. Women with this trait will become infertile at around age 215."
+ trait_lifespan_4_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] mid 300s. Women with this trait will become infertile at around age 215."
+ 
+ trait_lifespan_5:1 "Lifespan V #italic ([enc_lifespan|E])#!"
+ trait_lifespan_5_desc:1 "By means of nature or magicka, it is expected that this character will live into their early 500s. Women with this trait will become infertile at around age 335."
+ trait_lifespan_5_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] early 500s. Women with this trait will become infertile at around age 335."
+ 
+ trait_lifespan_6:1 "Lifespan VI #italic ([enc_lifespan|E])#!"
+ trait_lifespan_6_desc:1 "By means of nature or magicka, it is expected that this character will live to around 700. Women with this trait will become infertile at around age 450."
+ trait_lifespan_6_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live to around 700. Women with this trait will become infertile at around age 450."
+ 
+ trait_lifespan_7:1 "Immortality #italic ([enc_lifespan|E])#!"
  trait_lifespan_7_desc:1 "This character will not die of old age, but that comes at a cost to both their body and mind."
  trait_lifespan_7_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] will not die of old age, but that comes at a cost to both [ROOT.GetCharacter.GetHerHis] body and mind."
  
@@ -259,6 +266,10 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_champion_sheogorath:0 "Champion of $sheogorath$"
  trait_champion_sheogorath_desc:0 "This character is the appointed champion of $sheogorath$, the $sheogorath_alt$."
  trait_champion_sheogorath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $sheogorath$, the $sheogorath_alt$."
+
+ trait_champion_malacath:0 "Champion of $malacath$"
+ trait_champion_malacath_desc:0 "This character is the appointed champion of $malacath$, the $malacath_alt$."
+ trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $malacath$, the $malacath_alt$."
 
  # Coping mechanisms
  trait_skooma_drinker:0 "Skooma Drinker"

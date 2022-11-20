@@ -104,9 +104,24 @@
  create_orsinium_decision_desc:0 "The Kingdom of Orsinium has been established, razed and reestablished many times in Tamriel's history. A sufficiently powerful Orsimer ruler could claim to be the new King of the Orcs and restore the old kingdom of the Pariah Folk. \n \n( #S Note#!: If you're a [duke|E], you'll only be able to expand Orsinium's [de_jure|E] borders within the De Jure [kingdom|E] you reestablish it in)."
  create_orsinium_decision_tooltip:0 "Create the Kingdom of Orsinium!"
  create_orsinium_decision_confirm:0 "For Orsinium!"
- create_orsinium_decision_cd:0 "Your main [duchy|E]'s [capital|E], which must not be another [kingdom|E]'s capital duchy, has Orsimer [culture|E]"
+ create_orsinium_decision_cd:0 "Your [capital|E], which must not be inside another [kingdom|E]'s capital duchy, has Orsimer [culture|E]"
+ create_orsinium_decision_alt_cd:0 "Your [capital|E] is not located inside another [de_jure|E] [kingdom|E] capital [duchy|E] (for example, the Duchy of The Imperial Isle in the Kingdom of The Heartlands)"
+ orsinium_hold_capital_duchy_cd:0 "You hold the [duchy|E] where your [capital|E] is located"
+ orsinium_county_culture_cd:0 "Your [capital|E] is of your culture"
  create_orsinium_kingdom_decision:0 "Reestablish Orsinium"
  create_orsinium_kingdom_decision_confirm:0 "For Orsinium!"
+ 
+ form_orsinium_empire_decision:0 "Establish Greater Orsinium"
+ form_orsinium_empire_decision_desc:0 "Now that the Kingdom of Orsinium has been reestablished, a better, stronger and greater Orsinium awaits."
+ form_orsinium_empire_decision_tooltip:0 "Make Orsinium great again!"
+ form_orsinium_empire_decision_confirm:0 "For Greater Orsinium!"
+ expanded_orsinium_cd:0 "You have expanded the Kingdom of Orsinium [de_jure|E] borders beyond it's initial [duchy|E]"
+ orsinium_kingdom_requirement_cd: "You hold at least 4 [kingdom|E] titles"
+ 
+ old_orsinium_capital_decision:0 "Occupy Old Orsinium"
+ old_orsinium_capital_decision_desc:0 "The original Orsinium, built on the impugnable hills overlooking Shipwreck Bay, was razed countless times by the Breton hordes. It's high time that we reocuppy it as the rightful capital of the Pariah Folk."
+ old_orsinium_capital_decision_tooltip:0 "Move Orsinium's capital back to Old Orsinium"
+ old_orsinium_capital_decision_confirm:0 "Tradition matters!"
  
  expand_orsinium_decision:0 "Expand Orsinium"
  expand_orsinium_decision_desc:0 "The frontiers of Orsinium should expand to compreheend all of its former [de_jure|E] [kingdom|E]. Only a strong Orsinium shall be a lasting Orsinium."
@@ -119,6 +134,7 @@
  reintegrate_orsinium_decision_tooltip:0 "Decimate pesky Orsinium!"
  reintegrate_orsinium_decision_confirm:0 "Orsinium is no more!"
  reintegrate_orsinium_decision_cd:0 "Control Orsinium's capital [duchy|E]"
+ no_orsimer_king_vassal_cd:0 "Orsinium isn't held by an Orsimer vassal"
  
  ### Nibenay
  establish_new_nibenay_kingdom_decision:0 "Found a New Kingdom in Eastern Nibenay"

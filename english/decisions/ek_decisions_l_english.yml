@@ -9,6 +9,20 @@
  stress_loss_vampire_decision_tooltip:0 "Let me prey on the innocent."
  stress_loss_vampire_decision_confirm:1 "Who shall be my next victim?"
  
+ # Nord pantheon or Atmoran to Dragon Cult conversion decision
+ convert_dragon_cult_decision:0 "Convert to the Dragon Cult"
+ convert_dragon_cult_decision_desc:0 "[ROOT.Char.GetFaith.PantheonTerm|U] are silent and unimpressive beings, responding to no prayers, residing in cold and unliving stone that fools carve and fools worship. The Dragons alone were living gods among the Nords, long ago, and brought tangible, fearsome powers to those who proved themselves worthy of speaking their flame-words and wearing their ferocious masks. I do not believe I am alone in admiring the Dragon Priests of old, who ruled a much more vital land on behalf of much more immediate gods..."
+ convert_dragon_cult_decision_tooltip:0 "Convert to the Dragon Cult"
+ convert_dragon_cult_decision_confirm:0 "I will seek out the nearest dragon mound, at midnight."
+ convert_dragon_cult_custom_desc:0 "You convert to the Dragon Cult and gain the [trait|E] [GetTrait('zealous').GetName( GetNullCharacter )]"
+ 
+ dragon_cult.1001.t:0 "The Dragon Burial Mound"
+ dragon_cult.1001.d:0 "By Alduin, it was I who was a fool to turn my back on the gods! Since the dawn of time the true gods have made their presence known to us mortals, and until time itself is consumed, it is our lot to serve them.\n\nAs I lay my eyes on the dragon mound before me, its strange runic script makes my eyes water for a second - I am not worthy, yet, to read the wild words, but this alone is testament to their strength.\n\nI will return, unchanged to the naked eye, to my court of unbelievers and ignorants, but there is dragon-fire in my heart now, never to be extinguished, soon to ignite the world."
+ dragon_cult.1001.a:0 "Praise be to Alduin!"
+ dragon_cult.1001.b:0 "On second thought..."
+
+
+    
  # Perks
  raise_risen_dead_decision:0 "Raise the Dead"
  raise_risen_dead_decision_desc:0 "Wars are won by the side that can throw the highest number of bodies onto the battlefield and city walls. And what better body than the one who already died?"

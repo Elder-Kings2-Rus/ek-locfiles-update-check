@@ -349,6 +349,15 @@
  building_development_committee_04_desc:0 "$building_type_development_committee_01_desc$"
  building_development_committee_05:0 "$building_type_development_committee_01$"
  building_development_committee_05_desc:0 "$building_type_development_committee_01_desc$"
+
+ building_type_mala_tor_01:0 "Mala Tor"
+ building_type_mala_tor_01_desc:0 "Mala Tor was built by the Ayleids at the easternmost border of their Imperatum to pacify the scar-covered Rontha nomads, both to repel their raids into Ut-Cyrod and to facilitate their enslavement. Since the destruction of the Imperatum Saliache, this foreboding, elegant spire has changed hands between the Imperial heirs to the Heartland, who long sought to use it as a garrison of the East, and the native Dunmeri, who have made it a bulwark against Imperial encroachment upon their lands."
+ building_mala_tor_01:0 "$building_type_mala_tor_01$"
+ building_mala_tor_01_desc:0 "$building_type_mala_tor_01_desc$"
+ building_type_under_skar_01:0 "Under Skar"
+ building_type_under_skar_01_desc:0 "The mighty Skar was once the greatest of the emperor crabs, who ruled Vvardenfell in ages long lost. Skar alone avoided his species' degeneration into the feeble mudcrab, meeting an honourable end at the speartips of a united Ashlander host instead. Now his massive shell houses a neutral meeting ground for the tribes, reminding them of the great deeds they may accomplish, if they stand united. Legends tell that Skar will, in the time of Morrowind's greatest need, rise up to stand with the Ashlanders in a fierce and final battle."
+ building_under_skar_01:0 "$building_type_under_skar_01$"
+ building_under_skar_01_desc:0 "$building_type_under_skar_01_desc$"
  
  ### Holy Sites
  # Specific

@@ -44,13 +44,6 @@
  solstheim_claim_coast_decision_tooltip:0 "Build the ships, and prepare the men!"
  solstheim_claim_coast_decision_confirm:0 "No one will forget us!"
 
- keizaal_realm_decision:0 "Vokrii Dovah Rel"
- keizaal_realm_decision_desc:0 "Keizaal is the ancestral center of the Dragon Cult's power. The [CHARACTER.GetPrimaryTitle] should be the one to rule it. Vokrii Dovah Rel! Down with the rule of Men! Long live the Dragon Cult! Vokrii Dovah Suleyk!"
- keizaal_realm_tooltip:0 "Reinstate the Rule of Wing and Claw, so Keizaal can be whole once again!"
- keizaal_realm_decision_tooltip:0 "Reinstate Dragon Rule"
- keizaal_realm_decision_confirm:0 "Keizaal Los Un!"
- Keizaal:0 "Keizaal"
-
  reform_first_nordic_empire_decision:0 "An Empire of the Nords"
  reform_first_nordic_empire_decision_desc:0 "Long ago, in the early First Era, our forefathers and foremothers conquered vast parts of High Rock, Morrowind and even Cyrodiil under King Vrage the Gifted and his successors.\n\nThe Cyrods would later call this vast realm the 'First Empire of the Nords', though we Nords simply remember it as the High Kingdom expanding its reaches past Skyrim.\n\nToday, we can restore this great 'Empire' and reestablish our rule over northern Tamriel."
  reform_first_nordic_empire_decision_tooltip:0 "Long ago we Nords dominated northern Tamriel - and we can do it again."

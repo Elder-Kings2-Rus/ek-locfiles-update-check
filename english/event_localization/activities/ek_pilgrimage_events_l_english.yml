@@ -18,3 +18,8 @@
  ek_pilgrimage.0001.desc:0 "Even when on pilgrimage, the priests still read from the Sermons. A meeting is commonly held out in the open when no temple is nearby.\n\nUndeterred, a zealous [ROOT.Char.Custom('DefaultPriestTitle')] is standing out, reading from the Sermons. I sit among the audience, listening to [sermon_reader.GetHerHim].\n\n"The ending of the words is ALMSIVI.", [sermon_reader.GetSheHe] finishes. I ponder about the reading."
  ek_pilgrimage.0001.a:0 "Praise Vivec!"
  ek_pilgrimage.0001.b:0 "How boring, I'll be in my tent."
+
+ ek_pilgrimage.0002.t:0 "Wisdom of the Ages"
+ ek_pilgrimage.0002.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the shield that Pelinal Whitestrake carried into battle, made by Julianos himself. Oh, joyous day! I fall to my knees and start a fervorous prayer to my patron god. Touching it reveals an inscription on the rock behind it:\n\n#F "Know the truth. Observe the law. When in doubt, seek wisdom from the wise. Julianos blesses you with his wisdom and his guidance. Trust in your knowledge for it is the whole of who you are." #! "
+ ek_pilgrimage.0002.a:0 "Bless Julianos!"
+ ek_pilgrimage.0002.b:0 "I'm not worthy, my Lord."

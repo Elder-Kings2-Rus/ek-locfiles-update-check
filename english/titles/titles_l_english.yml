@@ -134,9 +134,8 @@
  ## Black Marsh
  d_south_argonia:0 "South Argonia"
  d_south_argonia_adj:0 "South Argonian"
- d_orma_ka:0 "Orma-Ka"
- d_orma_ka_adj:0 "Orma-Ka"
- d_orma_ka_article:0 "the "
+ d_orma_ka:0 "Ormala"
+ d_orma_ka_adj:0 "Ormala"
 
  ##Cyrodiil
  k_abbey_eight:0 "Abbey of the Eight"

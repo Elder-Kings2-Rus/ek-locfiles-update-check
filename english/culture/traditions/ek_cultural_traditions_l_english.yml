@@ -102,4 +102,4 @@
  culture_parameter_good_arcana_traits_give_bonuses:0 "#V $trait_arcana_good$#! and #V $trait_education_magical_ability$#! [traits|E] are more valued"
  culture_parameter_bad_arcana_traits_give_maluses:0 "#V $trait_arcana_bad$#! [traits|E] are looked down upon"
 
- CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "Your [culture|E] is already considered [native|E] to your [capital|E]'s [nativity_region|E]"
+ CULTURE_NOT_NATIVE_FOR_DIVERGENCE:0 "A [culture|E] with this [heritage|E] is already considered [native|E] to your [capital|E]'s [nativity_region|E]"

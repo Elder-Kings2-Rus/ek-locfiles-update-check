@@ -228,6 +228,10 @@
  game_concept_tsaescence:0 "Tsaescence"
  game_concept_tsaescence_desc:0 "Tsaescence, or name-biting, is a philosophical endeavour concerned with the loss and acquisition of identity. [rulers|E] belonging to a [faith|E] with the [GetFaithDoctrine('tenet_tsaescence').GetBaseName] [core_tenet|E] can consume prisoners in order to get a chance to inherit one of their captive's [traits|E] or to increase a [skill|E], as well as prolonging their lifespan."
  
+ game_concept_enc_lifespan:0 "Lifespan"
+ game_concept_enc_longlived:0 "Longlived"
+ game_concept_enc_lifespan_desc:0 "The Lifespan traits represent both natural and magicka-related prolonged lifespans. Only the natural lifespan - that is, the lifespan the character had at birth - can be inherited. Magically-altered lifespans are not passed on to children\n\nLifespan represents how long a character lives, how quickly they age, and how long they are fertile. Aging is represented via character modifiers, which can be viewed by hovering over a characters health."
+  
  game_concept_aldmeris:0 "Aldmeris"
  game_concept_aldmeris_desc:0 "Aldmeris is the mythical homeland of the Aldmer from which it is said all Mer decend."
  

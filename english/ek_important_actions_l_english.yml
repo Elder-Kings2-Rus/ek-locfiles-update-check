@@ -23,4 +23,9 @@
  action_can_hire_court_mage_label:0 "You can hire a Court Mage"
  action_can_hire_court_mage_desc:0 "You are not employing a Court Mage as a [court_position|E], you should hire one."
  action_can_hire_court_mage_click:0 "#I Click to view#!"
+
+ action_lifestyle_magic:0 "$action_can_spend_perk_point$"
+ action_lifestyle_magic_label:0 "$action_can_spend_perk_point_label$"
+ action_lifestyle_magic_desc:0 "$action_can_spend_perk_point_desc$"
+ action_lifestyle_magic_click:0 "$action_can_spend_perk_point_click$"
  
