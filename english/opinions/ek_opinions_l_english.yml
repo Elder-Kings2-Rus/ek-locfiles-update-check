@@ -1,2 +1,6 @@
 ﻿l_english:
  thrall_opinion:0 "Thrall"
+ charm_opinion:0 "Charmed"
+ major_charm_opinion:0 "Charmed"
+ cast_hostile_spell:0 "Cast Hostile Spell"
+ returned_temple_land_opinion:0 "Returned Necrom to the Temple"

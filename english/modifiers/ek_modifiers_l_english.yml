@@ -219,6 +219,9 @@
  recent_migration_out:0 "Recent emigration"
  recent_migration_out_desc:0 "This province was once held by a nomadic people, but they left recently, leaving this province almost empty."
  
+ yummy_tea:0 "Yummy Tea"
+ yummy_tea_desc:0 "This character had a lovely cup of tea."
+
  ### Imperial City
  imperial_city_arena_01_duchy_modifier:0 "Owner of the Imperial City Arena"
  imperial_city_arena_01_duchy_modifier_desc:0 "While not being its direct owner, this character benefits from the presence of the Imperial City Arena.\n\n#weak Note: This modifier only applies as long as the Imperial City is your capital and you do not personally own the Arena District#!"
@@ -254,7 +257,7 @@
  
  direnni_reclaim_hegemony_1:0 "Direnni expansionism"
  direnni_reclaim_hegemony_1_desc:0 "Eager to reclaim the old Direnni Hegemony, the members of the Direnni bloodline have been tasked with conquering what was once theirs. Only time will tell if their efforts will bear fruit.\n\nMembers of this [dynasty|E] also receive: #P -10%#! Casus Belli cost"
- direnni_reclaim_hegemony_2:0 "New Direnni Renaissane"
+ direnni_reclaim_hegemony_2:0 "New Direnni Renaissance"
  direnni_reclaim_hegemony_2_desc:0 "The reclamation of all the territories from the former Direnni Hegemony have put the old Elven line once again at the front center of Tamrieli politics. Scholars and refugees once again flock to their holdings, and most kingly courts in Tamriel have a Direnni ambassade attached to them."
  direnni_reclaim_hegemony_3:0 "A New Hegemon"
  direnni_reclaim_hegemony_3_desc:0 "This family claimed the territory from the old Direnni Hegemony. While they do not claim the same blood as the former Elven masters of High Rock, their place in Tamriel and their achievements force most rulers to respect them."
@@ -304,6 +307,9 @@
  ### Coping mechanisms
  stress_skooma_stupor:0 "Skooma-Muddled"
  stress_skooma_stupor_desc:1 "$stress_hashish_stupor_desc$"
+ secret_vampire_modifier:0 "Night Habits"
+ secret_vampire_modifier_desc:0 "This character avoids going out under the sunlight."
+ secret_vampire_modifier_ct:0 "You got the moonlight and starlight. To make my dreams come true tonight"
  low_blood_modifier:0 "Low Blood"
  low_blood_modifier_desc:0 "This character feels dizzy after their recent encounter with a vampire."
  vampire_scare_modifier:0 "Vampire Scare"
@@ -602,6 +608,8 @@
  narsis_mining_successful_desc:0 "Despite the eventual worker going insane, production has done wonders to these lands."
  narsis_mining_disaster:0 "Mine Disaster"
  narsis_mining_disaster_desc:0 "Our efforts were in vain, now the people of these lands report hearing whispers everywhere at night..."
+ royal_revelry:0 "Beautiful Illusion Dazzlers"
+ royal_revelry_desc:0 "You set off Illusion Dazzlers to the amusement of the people in this county."
  ek_yearly_events_read_smiler:0 "Read the Smiler Poem"
  ek_yearly_events_read_smiler_desc:0 "He smiles throughout the morning,\nAnd all the afternoon;\nHe smiles whene'er the sun shines,\nAnd also at the moons."
  participate_godspeak:0 "Danced in Godspeak"
@@ -646,16 +654,21 @@
  gift_ring:0 "Beautiful Ring"
  noise_ring:0 "Ringing Noise"
  noise_ring_desc:0 "Where is it coming from?!"
+ heart_musings:0 "Musings over the Heart of Lorkhan"
+ heart_musings_desc:0 "This character has gazed upon Red Mountain and its mysteries."
  scholar_insight:0 "Scholar's Insight"
  lovers_insight:0 "Lover's Insight"
  moras_boon:0 "Mora's Boon"
  dreugh_smugglers_positive:0 "Controlled Dreughs"
  dreugh_smugglers_negative:0 "Bandits Using Dreughs"
  dreugh_smugglers_dread_positive:0 "Smugglers Intimidated"
+ arcane_shipbuilding:0 "Arcane Shipbuilding"
  dreugh_smugglers_dread_negative:0 "Uncontrolled Smugglers"
  dreugh_smugglers_legal:0 "Dreugh Eggs Exportation"
  county_corruption_goblins_rampant_modifier:0 "Goblins Running Rampant"
  county_corruption_goblins_rampant_modifier_desc:0 "[county_corruption|E]\nGoblins roam freely in the County"
+ county_corruption_undead_rampant_modifier:0 "Undead Running Rampant"
+ county_corruption_undead_rampant_modifier_desc:0 "[county_corruption|E]\nUndead roam freely in the County"
  neglected_studies:0 "Neglected Studies"
  neglected_studies_desc:0 "This character has given up on certain basic magical studies, lagging behind compared to their peers."
  conjuration_focus:0 "Conjuration Focus"
@@ -739,6 +752,10 @@
  splendor_desc:0 "This character utilizes Restoration magic to keep mortal decay at bay"
  enriched_capital:0 "Enriched Capital"
  enriched_capital_desc:0 "This county was improved by using Restoration magic to manipulate the Earthbones for enriching the soil"
+ everscamps_modifier:0 "Everscamps!"
+ everscamps_modifier_desc:0 "Everscamps are scamps whose presence are made permanent by the Staff of the Everscamp, as they will immediately rematerialize post-mortem. Additionally, the staff will slow down the speed of a wielder. Finally, it will compel its user to not dispose of it, and can only be rid of by taking it back to the shrine in Darkfathom Cave."
+ learned_to_let_go:0 "Learned to Let Go"
+ learned_to_let_go_desc:0 "Through trial and error, this character learned to let go of things."
  
 
  
@@ -807,3 +824,7 @@
  lover_keepsake_shell_modifier:0 "A Shell"
 
  xxxxx:0 "xxxxx"
+
+#Nenalata Restoration modifier (TODO: put this somewhere sensible)
+ ayleid_ruin_excavation:0 "Ayleid Ruin Excavation"
+ ayleid_ruin_excavation_desc:0 "Excavation and resettlement of an old Ayleid city is attracting settlers, tradesmen and laborers alike."

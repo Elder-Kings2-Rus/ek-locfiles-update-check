@@ -69,6 +69,13 @@
  restoration_expert_perk_name:0 "Expert Restoration"
  restoration_master_perk_name:0 "Master Restoration"
 
+ necromancy_name:0 "Necromancy"
+ necromancy_novice_perk_name:0 "Novice Necromancy"
+ necromancy_apprentice_perk_name:0 "Apprentice Necromancy"
+ necromancy_journeyman_perk_name:0 "Journeyman Necromancy"
+ necromancy_expert_perk_name:0 "Expert Necromancy"
+ necromancy_master_perk_name:0 "Master Necromancy"
+
 #  conjuration_novice_perk_effect:0 "Unlocks novice level conjuration spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('conjuration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]" #.AddScope('tier', MakeScopeValue('(CFixedPoint)1') )
 
  conjuration_novice_perk_ritual_effect:0 "Unlocks Conjuration [rituals|E]"

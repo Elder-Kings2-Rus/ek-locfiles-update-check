@@ -70,6 +70,10 @@
  
  EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "I be trained into the arts of Magicka, and receive a #V Student of Magicka#! [trait|E]"
  EDUCATE_CHILD_OPTION_TRAIN_ARCANA_EFFECT:1 "Will be trained into the arts of Magicka, and receive a #V Student of Magicka#! [trait|E]"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a [tradition|E] such as #V $tradition_sorcerer_kings_name$#!, or the child's [dynasty|E] has the #V $magicka_legacy_3_name$#! [dynasty_perk|E], you need to find a Tutor with a #V $trait_education_magical_ability$#! or #V $trait_arcana_good$#! [trait|E]"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_2:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a the #V $innovation_schools_of_magic$#! [innovation|E], you need to find a Tutor with a #V $trait_education_magical_ability$#! or #V $trait_arcana_good$#! [trait|E]"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a the #V $innovation_magical_studies$#! [innovation|E], you need to find a Tutor with a #V $trait_arcana_good$#! [trait|E]"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture neither has the #V $innovation_magical_studies$#! or #V $innovation_schools_of_magic$#! [innovation|E], does not have a [tradition|E] such as such as #V $tradition_sorcerer_kings_name$#!, and their [dynasty|E] does not have the #V $magicka_legacy_3_name$#! [dynasty_perk|E], Magical education is #N impossible#!."
 
  consume_interaction:0 "Consume"
  consume_interaction_desc:0 "Consume [recipient.GetShortUINameNoTooltip] in the endeavor to increase [tsaescence|E]"

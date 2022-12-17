@@ -74,10 +74,10 @@
  YEAR_2E_MPGSBD:0 "Subtract_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThanOrEqualTo_int32( GameMpSetup.GetSelectedBookmark.GetDate.GetYear, $ERA_FIRST_END$ ) ), '(int32)1' ), $ERA_FIRST_END$ ) )"
  
  ### DATE_STRING replacements
- GAME_DATE_STRING:0 "$DAY|O$ $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
- GAME_DATE_STRING_SHORT:0 "$DAY|O$ $MONTH_SHORT$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
- GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY|O$ $MONTH$"
- GAME_DATE_STRING_LONG:2 "$DAY|O$ of $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
+ #GAME_DATE_STRING:0 "$DAY|O$ $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
+ #GAME_DATE_STRING_SHORT:0 "$DAY|O$ $MONTH_SHORT$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
+ #GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY|O$ $MONTH$"
+ #GAME_DATE_STRING_LONG:2 "$DAY|O$ of $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
  
  ### Text replacements in main menu
  FRONTEND_CONTINUE_TT:1 "#T Continue From Save Game\n#!"[SaveGameItem.GetName]"\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetStringShortNoYear|V], $ERA_SEL_SGI$ $YEAR_SEL_SGI$\n[Select_CString(SaveGameItem.IsCloudSave, 'Cloud Save', '' )]"
@@ -95,6 +95,7 @@
  frontend_mp_game_setup_date_replace:0 "[MpBookmarkItem.GetDate.GetStringShortNoYear], $ERA_SEL_MPGSD$ $YEAR_SEL_MPGSD$"
  # Default: [GameMpSetup.GetSelectedBookmark.GetDate.GetString]
  frontend_mp_game_setup_bookmark_date_replace:0 "[GameMpSetup.GetSelectedBookmark.GetDate.GetStringShortNoYear], $ERA_SEL_MPGSBD$ $YEAR_SEL_MPGSBD$"
+ 
  
  ### Loc replacement
  game_concept_religion_desc:0 "A $game_concept_religion$ can consist of many different denominations, called [faiths|E]. Religions, in turn, belong to one of three larger [religious_families|E]: [GetReligionFamily('rf_aedra').GetName], [GetReligionFamily('rf_daedra').GetName] or [GetReligionFamily('rf_aurbis').GetName]."

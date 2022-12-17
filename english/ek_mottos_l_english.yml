@@ -33,6 +33,8 @@
  dynn_rilis_motto:0 "Go forth true son of Rilis"
  dynn_auriel_motto:0 "Royal Blood of Auri-El"
  dynn_marx_motto:0 "With disdain I will throw my gauntlet"
+ dynn_dulac_motto:0 "Green Fields, Fast Hooves"
+ dynn_oroin_motto:0 "A Lone Nail Cannot Sustain a Bridge"
  dynn_juseius_motto:0 "Let There Be Dark"
  dynn_galerion_motto:0 "Bold and Bright As Day"
  dynn_mannimarco_motto:0 "It Is My Right"
@@ -50,6 +52,7 @@
  dynn_pullia_motto:0 "My Sword Is My Claim"
  dynn_zantonius_motto:0 "Adventure Beckons"
  dynn_cursebraid_motto:0 "Dread the Locks"
+ dynn_changewind_motto:0 "No Speech, no Succour"
  dynn_flamehair_motto:0 "Chosen By The Crown"
  dynn_reachbreaker_motto:0 "Tame the Reach"
  dynn_redcrow_motto:0 "Burn the Invaders"
@@ -137,6 +140,10 @@
  dynn_camoran_grahtwood_motto:0 "Safety in a Dangerous World"
  dynn_ancmirar_motto:0 "Above The Fray"
  dynn_heart_fang_motto:0 "Survive the Hunt"
+ dynn_chiluk_motto:0 "Sail Until Last Light"
+ dynn_dresley_motto:0 "More than mere Nix-Hounds"
+ dynn_tswift_motto:0 "The archer, the prey; who could stay?"
+ dynn_copperton_motto:0 "Every day, once a day, give yourself a present"
 
 #Placeholder Motto
  dynn_placeholder_motto:0 "Cool One-Liner To Be Added"

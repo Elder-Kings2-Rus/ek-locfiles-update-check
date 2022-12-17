@@ -6,7 +6,8 @@
 
  ### Protip: Bookmark descriptions are best written at around 160 words or less
 
- ###
+ ### 
+ bm_group_440:0 "2E 440"
  # Warlord Rising - Cyrodiil
  bm_warlordrising_cyrodiil:0 "Warlord Rising"
  bm_warlordrising_cyrodiil_desc:0 "It has been ten years since the vile Akaviri Potentate was assassinated by the Morag Tong. Yet some Tsaesci still cling to the Imperial City, supported by powerful Nibenese nobility in the east. It is time someone disposed of them.\n\nThe stage is set for the young Attrebus Sossildor — a fanatical follower of the Eight and sworn enemy of Daedra worship and other outlandish beliefs — who has succeeded in uniting the Colovian kingdoms into the Colovian Estates and now stands as Cyrodiil's protector.\n\nMost Nibenese, however, remain loyal to the Tsaesci, fearful of losing their influence over the Heartlands. Meanwhile, chaos breaks out all over Tamriel as the inevitable Interregnum threatens to shatter what is left of the Empire.\n\n#bold Will Attrebus restore what seems lost, or will the "days and nights of blood and venom" reign?#!"
@@ -116,6 +117,7 @@
  bm_warlordrising_blackmarsh_talenjei_desc:0 "Thousands of years before this Era, Black Marsh had a King. Order, progress, lasting achievement were the law of the land. Through obscure xanmeer magicks this King underwent rebirth. Failure or the erosion of time thwarted his designs, casting him into a much diminished vessel. Talen-Jei is now the scion of a ruined kingdom, surrounded by a populace which embraces squalor \n\n#bold Can Talen-Jei restore the glory of Duskfall or will he fail to tame the heart of the people?#!"
 
  # Interregnum
+ bm_group_450:0 "2E 450"
  bm_interregnum:0 "Interregnum"
  bm_interregnum_desc:0 "Twenty years ago, the last Akaviri Potentate and all of his heirs were murdered, ending the Second Empire.\nCyrodiil and High Rock are now split between dozens of rival successor states. Skyrim struggles with civil unrest as two self-proclaimed High Kings strive to claim the province for themselves. Former subjects of the Empire struggle with one another over even the smallest of resources. Most of Tamriel fares no better, with regional hostilities gripping nearly every region outside of Alinor.\n\n#bold In all this chaos, is it possible for the Empire to be restored? Can any individual possibly hope to pacify the turbulence and stand above all others as the Emperor of not only Cyrodiil but also all Tamriel? Anything is possible amidst the chaos of the Interregnum.#!"
  bm_interregnum_marandrujo:0 "Mane Ma'randru-jo"

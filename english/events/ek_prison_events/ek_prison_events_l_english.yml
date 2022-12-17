@@ -27,7 +27,7 @@
  ek_prison.1002.c:0 "We have known eacher for a while, couldn't you just let me go?"
  ek_prison.1002.blood_price_wanted_freedom:0 "Hopefully [imprisoner.GetFirstNameNoTooltip] will see reason and let you go untouched..."
  
- ek_prison.1003.desc_intro:0 "[prisoner.GetName] is in my dungeons! According to our old traditions, prisoners are to pay a Blood Price - they either pay a ransom in gold and riches, or their prisoner draws their blood until they are satisfied."
+ ek_prison.1003.desc_intro:0 "[prisoner.GetName] is in my dungeons! According to our old traditions, prisoners are to pay a Blood Price - they either pay a ransom in gold and riches, or their jailor draws their blood until they are satisfied."
  ek_prison.1003.desc_pay_gold:0 "\n\nIt seems [prisoner.GetFirstName] does not wish to bleed today, as [prisoner.GetSheHe] has offered me money in exchange for an untouched body."
  ek_prison.1003.desc_pay_blood:0 "\n\nLooking straight into my eyes, [prisoner.GetFirstName] expressed [prisoner.GetHerHis] desire to pay in blood. [prisoner.GetHerHis|U] bravery honors [prisoner.GetHerHim]."
  ek_prison.1003.desc_freedom:0 "\n\n[prisoner.GetFirstName] pleaded for [prisoner.GetHerHis] freedom, claiming that our close bonds should be the guarantee that we wouldn't harm one another."

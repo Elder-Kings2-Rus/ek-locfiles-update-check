@@ -259,7 +259,9 @@
  game_concept_goblin_faction:0 "$FACTION_GOBLIN_NAME$"
  game_concept_goblin_faction_desc:2 "The $game_concept_goblin_faction$ is populated by [counties|E] overrun by the local goblinken population. Successful Goblin Uprisings will take land from your [realm|E] for their own."
 
-
+ game_concept_undead_faction:0 "$FACTION_UNDEAD_NAME$"
+ game_concept_undead_faction_desc:2 "The $game_concept_undead_faction$ is populated by [counties|E] overrun by undead of all kinds. Successful Undead Hordes will take land from your [realm|E] for their own."
+ 
  game_concept_praxis:0 "Praxis"
  game_concept_praxis_desc:0 "Praxis is the measurement of a character's conformity to the strict standards of 'The Path to Alaxon' - an Altmeri philsophy emphasising the search for perfection. \n\nConforming to these social expectations ensures harmony within realm. Those who stray from the path may have an easier personal life - but risk social ostracism. \n\nA ruler will be judged for their Praxis by their behaviour at public events such as attending a [feast|E] or [holding_court|E]."
 

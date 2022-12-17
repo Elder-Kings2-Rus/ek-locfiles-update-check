@@ -27,6 +27,12 @@
  modifier_spell_weakness_weapons_desc:0 "This character is under the effect of a weakness to weapons spell, and their troops will be more likely to die in combat."
  modifier_spell_demoralize:0 "Demoralize"
  modifier_spell_demoralize_desc:0 "This character is under the effect of a demoralization spell, and their troops will be suffering from low morale."
+ modifier_spell_creeping_shadows:0 "Creeping Shadows"
+ modifier_spell_creeping_shadows_desc:0 "This character is under the effect of a creeping shadows spell, and cannot tell apart real from imaginary threats."
+ modifier_spell_charm:0 "Charm"
+ modifier_spell_charm_desc:0 "This character is under the effect of a charm spell, and has been magically manipulated to fall for personal schemes more easily."
+ modifier_spell_major_charm:0 "Charm"
+ modifier_spell_major_charm_desc:0 "This character is under the effect of a charm spell, and has been magically manipulated to fall for personal schemes more easily."
  modifier_spell_hysteria:0 "Mass Hysteria"
  modifier_spell_hysteria_desc:0 "The people in this province had their minds magically tampered with, reducing their opinion of their liege." #PLACEHOLDER
  modifier_spell_resilience:0 "Resilience"

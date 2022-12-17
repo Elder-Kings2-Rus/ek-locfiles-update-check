@@ -200,6 +200,11 @@
  building_winterhold_college_01:0 "$building_type_winterhold_college_01$"
  building_winterhold_college_01_desc:0 "$building_type_winterhold_college_01_desc$"
 
+ building_type_orphanage_01:0 "Orphanage"
+ building_type_orphanage_01_desc:0 "An institution devoted to the care of orphans and children who, for various reasons, lack a loving family."
+ building_orphanage_01:0 "$building_type_orphanage_01$"
+ building_orphanage_01_desc:0 "$building_type_orphanage_01_desc$" 
+
  ### Mines
  building_type_aalto_sulfur_mines_01:0 "Sulfur Deposits of Aalto"
  building_type_aalto_sulfur_mines_01_desc:0 "Deep within Eastmarch, vast sources of sulfur have been exploited over the centuries, providing strong steel and precious trade materials."
@@ -303,6 +308,11 @@
  building_type_cloudruler_temple_01_desc:0 "Cloud Ruler Temple lords over the Jerall Mountains like a stone dragon perched upon its roost. In this resolute Tsaesci complex, more fortress than temple, the Dragonguard prepare themselves for the hunt, train new blood, preserve ancient Akaviri texts, and pursue all other duties to the Emperor that were once entrusted to them. Even now, secure within its walls even as the Interregnum rages outside, the Dragonguard await a new Dragonborn Emperor to which they may pledge allegiance."
  building_cloudruler_temple_01:1 "$building_type_cloudruler_temple_01$"
  building_cloudruler_temple_01_desc:1 "$building_type_cloudruler_temple_01_desc$"
+
+ building_type_anequina_moon_gate_01:0 "Moon Gate of Anequina"
+ building_type_anequina_moon_gate_01_desc:0 "Though the knowledge on how to operate this ancient Moon Gate has been forgotten for millenia, it is still considered one of the most important sites of lunar worship and research, drawing in pilgrims and scholars alike."
+ building_anequina_moon_gate_01:1 "$building_type_anequina_moon_gate_01$"
+ building_anequina_moon_gate_01_desc:1 "$building_type_anequina_moon_gate_01_desc$"
  
  building_type_white_gold_tower_01:0 "White-Gold Tower"
  building_type_white_gold_tower_01_desc:0 "Standing in the center of the Imperial City, White-Gold was built ages ago by the Ayleids, in reverence of the Adamantine Tower. Some say the very powers of the world course through here, and the shape of the Tower allows it to radiate throughout the entire province of Cyrodiil..."

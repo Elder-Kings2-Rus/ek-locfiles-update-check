@@ -34,6 +34,7 @@
     rimmenese_history_loc:0 "[CULTURE.GetName] traders settled in the Rim Territories" 
     daedra_history_loc:0 "Interlopers from the Planes of Oblivion"
     maormer_history_loc:0 "Cast out from fabled [aldmeris|E] in the [dawn_era|E]"
+    beyonder_history_loc:0 "[CULTURE.GetName] adventurers and pirates far from their mythical home of Pyandonea"
     skaal_history_loc:0 "Diverged from their Mainland cousins after years of isolation"
 
 

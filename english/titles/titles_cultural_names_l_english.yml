@@ -76,6 +76,12 @@
  cn_bisnensel:0 "Bisnensel"
  cn_bisnenselaran:0 "Bisnensel Aran Arpena"
 
+# Balfiera
+ cn_ada_mantia:0 "Ada-Mantia"
+ cn_ada_mantia_adj:0 "Ada-Mantia"
+ cn_direnni_tower:0 "Direnni Tower"
+ cn_direnni_tower_adj:0 "Direnni Tower"
+
 ##################
 ### Hammerfell ###
 ##################
@@ -137,12 +143,7 @@
  cn_vtholftenzel_adj:0 "Vtholftenzel"
  cn_hrammafel:0 "Hrammafel"
  cn_jephre_path:0 "Jephre's Path"
-
-# Balfiera
- cn_ada_mantia:0 "Ada-Mantia"
- cn_ada_mantia_adj:0 "Ada-Mantia"
- cn_direnni_tower:0 "Direnni Tower"
- cn_direnni_tower_adj:0 "Direnni Tower"
+ cn_mitana_mkai:0 "Mitana M'kai"
 
 
 ##############
@@ -698,6 +699,8 @@
  cn_senchel:0 "Senchel"
  cn_corinth:0 "Corinth"
  cn_acacia:0 "Acacia"
+ cn_rimmenese:0 "Rimmenese"
+ cn_rimmenese_article:0 "the "
 #Ilniviri
  cn_rimyn:0 "Rimyn"
  cn_zisa_embrace:0 "Zisa's Embrace"

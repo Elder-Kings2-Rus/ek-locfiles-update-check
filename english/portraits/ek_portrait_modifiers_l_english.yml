@@ -288,6 +288,11 @@ PORTRAIT_MODIFIER_custom_legwear_female_legwear_tabi_01_high:0 "Akaviri Tabi Soc
  
  
   ### Male ###
+  
+  PORTRAIT_MODIFIER_special_draugr:0 "Undead"
+  
+  PORTRAIT_MODIFIER_custom_beards_male_beard_dwemer_01:0 "Dwemer Beard"
+  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:0 "No Clothes"
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common:0 "No Clothes"
   PORTRAIT_MODIFIER_custom_clothes_male_empty:0 "EMPTY PLACEHOLDER REPLACE ME"

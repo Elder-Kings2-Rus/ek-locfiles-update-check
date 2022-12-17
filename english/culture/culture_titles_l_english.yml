@@ -50,6 +50,9 @@
  title_warden:0 "Warden"
  title_warden_female:0 "Warden"
  
+ title_custodian_general:0 "Legate"
+ title_custodian_female_general:0 "Legate"
+ 
  arch_primate:1 "Arch-Primate"
  arch_prelate:1 "Arch-Prelate"
  
@@ -127,10 +130,6 @@
  imperial_city_captain_male:0 "Captain"
  imperial_city_captain_female:0 "Captain"
  
- imperial_city_protector_male:0 "Lord Protector"
- imperial_city_protector_female:0 "Lady Protector"
- imperial_city_protectorate:0 "Protectorate"
- 
  vampire_lord_male:0 "Lord"
  vampire_lord_female:0 "Lady"
  vampire_lordship:0 "Host"
@@ -144,6 +143,10 @@
  committee_republic_male:0 "Chairman"
  committee_republic_female:0 "Chairwoman"
  committee_republic:0 "Development Committee"
+ 
+ imperial_city_protector_male:0 "[CHARACTER.Custom('Protector')]"
+ imperial_city_protector_female:0 "[CHARACTER.Custom('Protector')]"
+ imperial_city_protectorate:0 "[CHARACTER.Custom('Protectorate')]"
 
  imperial_battlemage_female:0 "[CHARACTER.Custom('Battlemage')]"
  imperial_battlemage_male:0 "[CHARACTER.Custom('Battlemage')]"
@@ -657,6 +660,10 @@ count_republic_male_nordic_group:0 "Alderman"
 count_republic_female_nordic_group:0 "Alderwoman"
 county_republic_nordic_group:0 "Lendstead"
 
+duchy_republic_male_nordic_group:0 "Steadholder"
+duchy_republic_female_nordic_group:0 "Steadholder"
+duchy_republic_nordic_group:0 "Steadhold"
+
 barony_republic_male_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
 barony_republic_female_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
 
@@ -816,6 +823,9 @@ county_feudal_bosmeris_group:0 "Ward"
 duke_feudal_male_bosmeris_group:0 "Treethane"
 duke_feudal_female_bosmeris_group:0 "Treethane"
 duchy_feudal_bosmeris_group:0 "Treethanedom"
+duke_feudal_male_bosmeris_etarani:0 "Woodlord"
+duke_feudal_female_bosmeris_etarani:0 "Woodlady"
+duchy_feudal_bosmeris_etarani:0 "Principality"
 emperor_feudal_male_bosmeris_group:0 "Hart-King"
 emperor_feudal_female_bosmeris_group:0 "Hart-Queen"
 

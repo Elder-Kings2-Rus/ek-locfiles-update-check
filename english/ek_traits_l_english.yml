@@ -24,7 +24,7 @@
  
  trait_pirate:0 "Pirate"
  trait_pirate_desc:0 "This character is a Pirate. Arrrr matey!"
- trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] character is a Pirate. Arrrr matey!"
+ trait_pirate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Pirate. Arrrr matey!"
 
  trait_plunderer:0 "Plunderer"
  trait_plunderer_desc:0 "True power can only be achieved by seizing what is rightfully yours. And the whole world and its riches are rightfully yours."
@@ -36,6 +36,8 @@ trait_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is
 trait_reclusive_vampire:0 "Reclusive"
 trait_reclusive_vampire_desc:0 "This character often sequesters themselves away and neglects their responsibilities."
 trait_reclusive_vampire_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] often sequesters [ROOT.GetCharacter.GetHerselfHimself] away and neglects [ROOT.GetCharacter.GetHerHis] responsibilities." 
+reclusive_vampire_player_desc:0 "Secret Vampire"
+trait_vampire_player_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is secretly a vampire, an undead creature cursed to drink the blood of the living and to shun sunlight."
 
 trait_vampire_character:0 "Vampire"
 trait_vampire_character_desc:0 "This character is a vampire, an undead creature cursed to drink the blood of the living and to shun sunlight."
@@ -55,8 +57,8 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  
  trait_undead:0 "Undead"
  trait_undead_character:0 "Undead"
- trait_undead_character_desc:0 "This character is a SPOOKY Undead!!!"
- trait_undead_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a SPOOKY Undead!!!"
+ trait_undead_character_desc:0 "This character has lived beyond death, and now walks Nirn as a spooky undead."
+ trait_undead_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has somehow lived beyond death, and now walks Nirn as a spooky undead."
   
  trait_hagraven:0 "Hagraven"
 

@@ -31,5 +31,5 @@
  ek_stress_threshold.0020.t:0 "Preying"
  ek_stress_threshold.0020.desc:0 "Only the moons light [vampire_target_county.GetProvince.GetName] as I move sneakily around the dirty streets, searching for my next victim.\n\nJust as the last candle fizzles out, I notice one peasant family soundly sleeping in their unlocked cottage...\n\nBarely opening the frontdoor, I can see it, their delicious necks, inviting me for a bite."
  ek_stress_threshold.0021.t:0 "Ambush!"
- ek_stress_threshold.0021.desc:0 "As I leave the peasant's cottage, back into the streets of [vampire_target_county.GetProvince.GetName], I'm greeted by an armoured entouraged, all clad in silver armor.\n\nVampire hunters.\n\nI can still feel the family's blood dripping from my mouth as the knights recklessly storm my position, plunging their silver swords all over my body. This is it."
+ ek_stress_threshold.0021.desc:0 "As I leave the peasant's cottage, back into the streets of [vampire_target_county.GetProvince.GetName], I'm greeted by a group of knights, all clad in silver armor.\n\nVampire hunters.\n\nI can still feel the family's blood dripping from my mouth as they charge toward me. Their silver swords plunge deep into my body. This is it."
  ek_stress_threshold.0021.killed:0 "What a way to go..."

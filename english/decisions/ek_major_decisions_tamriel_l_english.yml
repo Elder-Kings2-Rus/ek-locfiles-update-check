@@ -148,7 +148,7 @@
  integrate_nibenay_decision_desc:0 "As the legitimate ruler of Eastern Nibenay, you can integrate more of its lands into your kingdom."
  integrate_nibenay_decision_tooltip:0 "Eastern Nibenay is mine!"
  integrate_nibenay_decision_confirm:0 "For Nibenay!"
- integrate_nibenay_decision_ce:0 "Every Duchy of the list below will [de_jure|E] drift into [GetTitleByKey('k_nibenay').GetNameNoTier]."
+ integrate_nibenay_decision_ce:0 "Every Duchy of the list fulfilling the requirements will [de_jure|E] drift into [GetTitleByKey('k_nibenay').GetNameNoTier]."
  
  reintegrate_nibenay_decision:0 "Reintegrate Eastern Nibenay"
  reintegrate_nibenay_decision_desc:0 "The lands between the east bank of the Niben River and the Vallus Mountains have historically been in the dominion of Bravil and Leyawiin since the First Empire. It's time they get back into the fold."

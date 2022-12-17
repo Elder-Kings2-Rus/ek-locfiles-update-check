@@ -216,6 +216,18 @@ staff_sanguine_decision_tooltip:0 "Summon a daedric servant of Sanguine to act o
 staff_sanguine_decision_confirm:0 "Let's get this party started!"
 staff_sanguine_selection_tooltip:0 "Use the Sanguine Rose's power"
 
+staff_everscamp_decision:0 "Identify the Staff"
+staff_everscamp_decision_desc:0 "Peruse ancient tomes in the hopes of finding out what this intricate inscription on the staff says and where it originated from."
+staff_everscamp_decision_tooltip:0 "Finally solve the puzzle of this Mysterious Staff!"
+staff_everscamp_decision_confirm:0 "Neht, Oht, Neht..."
+staff_everscamp_selection_tooltip:0 "Seht, Ekem..."
+
+remove_everscamp_decision:0 "Remove the Everscamps Curse"
+remove_everscamp_decision_desc:0 "If I want to get rid of this accursed staff and these smelly creatures, I must travel to the shrine of Sheogorath in Darkfathom Cave!"
+remove_everscamp_decision_tooltip:0 "Travel to Darkfathom and remove this curse!"
+remove_everscamp_decision_confirm:0 "I must be rid of them!"
+remove_everscamp_selection_tooltip:0 "And also this foul odor!"
+
 bittercup_decision:0 "A Bitter Bargain"
 bittercup_decision_desc:0 "Make a bargain with $clavicus_alt$ by drinking from the Bittercup."
 bittercup_selection_tooltip:0 "Drink from the Bittercup"
@@ -246,12 +258,23 @@ shadow_key_selection_tooltip:0 "Use the Shadowkey"
 shadow_key_decision_tooltip:0 "The Shadowkey will unlock your true potential, giving you an education rank upgrade and a massive boost to your lifestyle experience. However, it will be spent and return once more to the shadows."
 shadow_key_decision_confirm:0 "Unlock your Potential!"
 
+aok_decision:0 "Don the Amulet of Kings"
+aok_decision_tooltip:0 "Attempt to wear the Amulet of Kings and figure out if you are [GetTrait('dragonborn').GetName( Character.Self )]."
+aok_selection_tooltip:0 "Don the Amulet of Kings"
+aok_decision_desc:0 "The amulet can only be worn by certain individuals—those who could wear it were said to have the 'Dragon Blood' in their veins.\n\nThe specific requirements, however, have been a subject of debate, and they may simply have called for the attributes of a ruler or some divine mandate.\n\nIt is my time to attempt wearing the pendant of the Chim-El Adabal!"
+aok_decision_confirm:0 "May Akatosh's Will Be Done!"
+
 # Events
 
 spawn_razak_army_decision:0 "Razak's Army"
 spawn_razak_army_decision_desc:0 "Use Razak's Machine to gather an army of automaton soldiers!"
 spawn_razak_army_decision_tooltip:0 "An automaton army will rise from the Dwemer Ruins of Razak's Wheel to serve you."
 spawn_razak_army_decision_confirm:0 "Put Razak's Opus into use!"
+restore_nenalata_decision:0 "Restore the Capital of Nenalata"
+restore_nenalata_decision_desc:0 "Nenalata was once a mighty kingdom, the last of the Ayleid city-states to fall to the tyranny of the Alessian Order. Now we have a unique opportunity to excavate its ruins and restore it to glory as a capital worthy of a kingdom."
+restore_nenalata_decision_tooltip:0 "Unearth and restore the ancient capital of this kingdom"
+restore_nenalata_decision_confirm:0 "Begin the excavation of Nenalata!"
+
 
 # Courtier
 
@@ -263,8 +286,27 @@ hire_mage_decision_confirm:0 "Start the search"
 ek_court_position.0001.t:0 "Court Mage"
 ek_court_position.0001.desc:0 "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] court. As per my request, my servants have inquired after recommendations. Now they have assembled a few options to chose from."
 
+# Adoption
+adopt_child_decision:0 "Visit Orphanage"
+adopt_child_decision_tooltip:3 "A nearby town holds an orphanage inside its walls. You may visit the orphanage in the hopes of finding a suitable heir for you to adopt."
+adopt_child_decision_desc:1 "A nearby town holds an orphanage inside its walls. You may visit the orphanage in the hopes of finding a suitable heir for you to adopt."
+adopt_child_decision_effect_tooltip:4 "You will be presented with a group of children and may adopt one of them"
+adopt_child_decision_confirm:0 "Surely there's someone worthy..."
+
+
 #Dev stuff, keep like this
 debug_mode_toggle_decision:0 "debug_mode_toggle_decision"
 debug_mode_toggle_decision_tooltip:0 "debug_mode_toggle_decision_tooltip"
 debug_mode_toggle_decision_desc:0 "debug_mode_toggle_decision_desc"
 debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
+
+#Become Pirate On Game Start decision
+become_pirate_decision:0 "Change to Pirate Government!"
+become_pirate_decision_tooltip:0 "Become a Pirate!"
+become_pirate_decision_confirm:0 "Arrrr matey!"
+become_pirate_decision_desc:0 "@warning_icon! #X Allows you to become Pirate government once after gamestart! This decision will disapear after one ingame year! #!"
+
+stop_being_pirate_government_decision:0 "Abandon Piracy?"
+stop_being_pirate_government_decision_desc:0 "Being a Pirate might be lucrative but it lacks a certain legitimacy and authority more regular nobility holds, perhaps it is time to abandon our current governance and adopt a more centralized system? "
+stop_being_pirate_government_decision_confirm:0 "The time of Pirates is over."
+stop_being_pirate_government_decision_tooltip:0 "Perhaps its time for change."

@@ -4,9 +4,9 @@
  #heritage_aldmeri_name:0 "Aldmeri"
  heritage_aldmeri_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ) ), 'Aldmeri', Localize('no') )]"
 
- #heritage_aldmeri_desc:0 "(PLACEHOLDER) The Aldmer (meaning "First Folk" or "Elder Folk") were the original Merethic Era proto-mer who settled Summerset Isle and most of mainland Tamriel."
+
  heritage_aldmeri_collective_noun:0 "Aldmer"
- heritage_aldmeri_desc:0 "wow much desc"
+ heritage_aldmeri_desc:0 "The Aldmer are special amongst children of the Ehlnofey, always striving to reclaim the splendour of lost times. Settling Summerset Isles during the Merethic Era, they gradually spread across the archipelago starting with Firsthold on Auridon. Many dissidents arose from their ranks to set sail on the mainland. The Corelanya sought their fate in nearby Hegathe while the Chimer journeyed as far east as Resdayn. Later even, the Direnni clan moved to Balfiera.\n\nSummerset's remaining population—now called Altmer—developed a highly stratified society. Apraxic outcasts suffer banishment for breaking social norms. The Altmer are very self-centered, with Auridon being more amenable to outsiders while Alinor is their closed-off heartland. In contrast, High Rock's Balfieri are more open-minded, even connecting with outside nobility through marriage: something utterly abhorrent in ancestral Summerset."
 
  #heritage_ayleid_name:0 "Ayleid"
  heritage_ayleid_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Ayleid', Localize('no') )]"
@@ -38,6 +38,11 @@
  heritage_dunmeri_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Dunmeri', Localize('no') )]"
  heritage_dunmeri_collective_noun:0 "Dunmer"
  heritage_dunmeri_desc:0 "The ash-skinned, red-eyed Dunmer hail from Morrowind, a grim land in the northwest of Tamriel. Their ancestors, -the $chimer_collective_noun$- were cursed following the Battle of Red Mountain. Since then, most of the Dunmer have lived under the Great House Council, overseen by the Tribunal Temple. Yet, the Ashlanders cling to the old Velothi pantheon and denounce the Almsivi as false gods and betrayers.\n\nDuring the Second Era, Morrowind is turned inwards and hasn't felt the collapse of the Potentate as strongly as others. The Great Houses stay strong with the backing of the Living Gods but their designs are mysterious and minor houses could upset the status quo if they ride the winds of change."
+
+ #heritage_maormeri_name:0 "Maormeri"
+ heritage_maormeri_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Maormeri', Localize('no') )]"
+ heritage_maormeri_collective_noun:0 "Maormer"
+ heritage_maormeri_desc:0 "The Maormer are the descendants of the Aldmeri insurrectionists who were banished from Aldmeris to Pyandonea for the crime of change-seeking. They are commonly believed to be led by the god-king Orgnum, but far from all Maormer recognize his spiritual or temporal primacy. Indeed, many of those exiles had nothing to do with Orgnum's rebellion; the Aldmer lumped all their dissidents together and sent them off beyond the veil of mist in the south.\nToday, Pyandonea lives in flux, divided between the fane-dwelling Orgnumic mainlanders and the heterodox islanders who cling still to their baroque Aldmeri thought. Thus the home of the Maormer is never at peace: the islands clash against the mainland, and the mainland strives for Orgnum's fickle favor, for theirs is a reclusive master."
 
  #heritage_khajiiti_name:0 "Khajiiti"
  heritage_khajiiti_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_KHAJIIT') ) ), 'Khajiiti', Localize('no') )]"
@@ -92,7 +97,7 @@ heritage_cyrodiilic_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 
  #heritage_yokudan_name:0 "Yokudan"
 heritage_yokudan_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Yokudan', Localize('no') )]"
  heritage_yokudan_collective_noun:0 "Yokudans"
- heritage_yokudan_desc:0 "The Yokudans are dark-skinned, wiry-haired humans native to the western continent of Yokuda, across the Eltheric Ocean.A rogue group of Ansei used forbidden Sword-Singing techniques to sink Yokuda beneath the waves in the early First Era. This event forced many of them into a bloody and ruthless migration to Tamriel, in the lands that are now called Hammerfell. Corruption of the name of their 'warrior waves', the Ra Gada, led to the name by which all Yoku in Tamriels are known, Redguards.\n\nCurved. Swords."
+ heritage_yokudan_desc:0 "The Yokudans are dark-skinned, wiry-haired humans native to the western continent of Yokuda, across the Eltheric Ocean. A rogue group of Ansei used forbidden Sword-Singing techniques to sink Yokuda beneath the waves in the Early First Era. This event forced many of them into a bloody and ruthless migration to Tamriel, in the lands that are now called Hammerfell. Yokudans from Tamriel are known as Redguards, a term coined after the infamous Ra Gada or 'warrior waves'."
 
  #heritage_orsimeri_name:0 "Orsimeri"
 heritage_orsimeri_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Orsimeri', Localize('no') )]"
