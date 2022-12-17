@@ -9,4 +9,4 @@
  become_necromancer_decision_tooltip:0 "Take on the dark arts."
  become_necromancer_decision_confirm:0 "Surely they won't notice a few empty graves?"
  
- doctrine_necromancy_accepted_custom_desc:0 "Has the Necromancy [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName] doctrine"
+ doctrine_necromancy_accepted_custom_desc:0 "Your [faith|E] has the [GetFaithDoctrine('tenet_necromancy_worship').GetBaseName] tenet"
