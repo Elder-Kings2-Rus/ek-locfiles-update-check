@@ -42,4 +42,4 @@
  CRISIS_FACTION_DEMAND_UNDEAD_ACCEPT:0 "Retreating might be the only option..."
  CRISIS_FACTION_DEMAND_UNDEAD_REFUSE:0 "Burn those abominations!"
  CRISIS_UNDEAD_WAR_NAME:0 "Undead Swarm"
- crisis_undead_war_defeat_desc:0 "The [crisis_undead_faction|E] is disbanded and [attacker.GetShortUIName] is imprisoned. All undead-occupied [counties|E] have their [county_opinion|E] increased."
+ crisis_undead_war_defeat_desc:0 "The [undead_faction|E] is disbanded and [attacker.GetShortUIName] is imprisoned. All undead-occupied [counties|E] have their [county_opinion|E] increased."

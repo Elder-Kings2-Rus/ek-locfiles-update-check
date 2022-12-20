@@ -196,6 +196,11 @@
  learn_liturgical_language_decision_confirm:0 "I will master [ROOT.Char.Custom('GetLiturgicalLanguage')]!"
  learn_liturgical_language_decision_tooltip:0 "Start a [scheme|E] to master your [faith|E]'s [liturgical_language|E]"
 
+ champion_conversion_decision:0 "Devote yourself to your Prince"
+ champion_conversion_decision_desc:0 "While you are your Prince's champion, you do not openly follow a faith worthy of it. This can change now."
+ champion_conversion_decision_confirm:0 "I'm now devoted to you, my Prince!"
+ champion_conversion_decision_tooltip:0 "Change your [faith|E] to better match your status as Champion"
+
  sanguine_deal_decision:0 "Seek the Prince of Debauchery"
  sanguine_deal_decision_desc:0 "The curse imposed on you by Sanguine bears a heavy burden on your ability to rule. Much so that you decide to spare no effort to seek him out and renegotiate your end of the bargain."
  sanguine_deal_decision_tooltip:0 "Spend [gold|E], [piety|E] and [prestige|E] to find Sanguine again and make a bargain."
@@ -288,8 +293,10 @@ ek_court_position.0001.desc:0 "This world is full of dangers, even to a [ROOT.Ch
 
 # Adoption
 adopt_child_decision:0 "Visit Orphanage"
+tribal_adopt_child_decision_name:0 "Adopt Orphaned Child"
 adopt_child_decision_tooltip:3 "A nearby town holds an orphanage inside its walls. You may visit the orphanage in the hopes of finding a suitable heir for you to adopt."
 adopt_child_decision_desc:1 "A nearby town holds an orphanage inside its walls. You may visit the orphanage in the hopes of finding a suitable heir for you to adopt."
+tribal_adopt_child_decision_desc:1 "The tribe has many orphaned children. You may visit their caretaker in the hopes of finding a suitable heir for you to adopt."
 adopt_child_decision_effect_tooltip:4 "You will be presented with a group of children and may adopt one of them"
 adopt_child_decision_confirm:0 "Surely there's someone worthy..."
 

@@ -1,6 +1,6 @@
 ﻿l_english:
  single_combat.0001.unbounded_flames:1 "Let's see if you like being engulfed in #EMP Unbounded Flames#!!"
- single_combat.0001.telekinesis:1 "My #EMP Telekinesis# will take you off your feet!"
+ single_combat.0001.telekinesis:1 "My #EMP Telekinesis#! will take you off your feet!"
  single_combat.0001.crystallized_shield:1 "My #EMP Crystallized Shield#! will not let me down!"
  single_combat.0001.force_shock:1 "Go forth, my arcane powers!"
  single_combat.0001.storm_wall:1 "My magical aptitude allows me to raise a #EMP Wall of Storms#!!"
@@ -23,5 +23,7 @@
  single_combat.0001.tt.unbounded_flames:0 "#BOL Unbounded Flames:#! with great magickal might, you create a stream of fireballs that raise a huge wall of fire that lingers, burning your opponent"
  single_combat.0001.tt.force_shock:0 "#BOL Force Shock:#! you wave your [myself.Custom('signature_weapon')], focusing on the arcane elements and summoning their power, shooting a fused spark of the three arcane elements"
  single_combat.0001.tt.storm_wall:0 "#BOL Storm Wall:#! use your magic abilities to create a Wall of Storms between you and your opponent"
+ single_combat.0001.tt.telekinesis:0 "#BOL Telekinesis:#! use your magic abilities to move your opponent with great force"
+ single_combat.0001.tt.crystallized_shield:0 "#BOL Crystallized Shield:#! use your magic abilities to create an impenetrable ice shield"
  single_combat.0001.tt.bat_swarm:0 "#BOL Bat Swarm:#! use your vampiric abilities to summon a Bat Swarm to attack your opponent"
  
