@@ -96,8 +96,8 @@
  repair_bridges_leyawiin_decision_enables_bridges_leyawiin_01_ct:0 "The $building_type_bridges_leyawiin_01$ building will be enabled"
  repair_bridges_leyawiin_decision_disables_buildings_imperial_isle_ct:0 "The $building_type_imperial_city_harbor_01$ and $building_type_port_hestra_01$ buildings will be disabled, and their effect negated"
  repair_bridges_leyawiin_decision_disables_port_buildings_rumare_ct:0 "The Tradeport building line will be inaccessible to coastal counties along the Rumare"
- repair_bridges_leyawiin_decision_confirm: "Destroy the bridges!"
- repair_bridges_leyawiin_decision_tooltip: "The stranglehold Leyawiin has over trade in the Rumare is unnaceptable."
+ repair_bridges_leyawiin_decision_confirm: "Rebuild the bridges!"
+ repair_bridges_leyawiin_decision_tooltip: "Leyawiin will again control the Niben."
  
  ### Orsinium
  create_orsinium_decision:0 "Reestablish Orsinium"

@@ -280,11 +280,11 @@ title_county_city:0 "Metropolis"
  duchy_pirate_free_port:0 "Free Port"
  
   #Default Academy tiers
- baron_academy_male:0 "Master"
- baron_academy_female:0 "Mistress"
- barony_academy:0 "School"
- count_academy_male:0 "Headmaster"
- count_academy_female:0 "Headmistress"
+ baron_academy_male:0 "[CHARACTER.Custom('ArchmageTitle')]"
+ baron_academy_female:0 "[CHARACTER.Custom('ArchmageTitle')]"
+ barony_academy:0 "[CHARACTER.Custom('AcademyRealm')]"
+ count_academy_male:0 "[CHARACTER.Custom('ArchmageTitle')]"
+ count_academy_female:0 "[CHARACTER.Custom('ArchmageTitle')]"
  county_academy:0 "Academy"
  duke_academy_male:0 "Proctor"
  duke_academy_female:0 "Proctor"
@@ -295,6 +295,17 @@ title_county_city:0 "Metropolis"
  emperor_academy_male:0 "High Rector"
  emperor_academy_female:0 "High Rectress"
  empire_academy:0 "Academic Realm"
+ 
+ archmage_title:0 "Arch-Mage"
+ mage_academy:0 "College"
+ 
+ academy_title_consort_female:0 "Mistress"
+ academy_title_consort_male:0 "Master"
+ 
+ school_headmaster:0 "Headmaster"
+ school_headmistress:0 "Headmistress"
+ school_academy:0 "School"
+ 
 
  #Default Republic tiers
  baron_republic_male:0 "Mayor"
@@ -433,22 +444,22 @@ title_county_city:0 "Metropolis"
 #Theocracy titles, religious localization.
 
  #Aldmeri Religion
- baron_theocracy_male_aldmer_religion:0 "Monastic"
- baron_theocracy_female_aldmer_religion:0 "Monastic"
- count_theocracy_male_aldmer_religion:0 "Aldarch"
- count_theocracy_female_aldmer_religion:0 "Aldarch"
- duke_theocracy_male_aldmer_religion:0 "Curate"
- duke_theocracy_female_aldmer_religion:0 "Curatess"
- duchy_theocracy_aldmer_religion:0 "Chantry"
- king_theocracy_male_aldmer_religion:0 "Arch-Curate"
- king_theocracy_female_aldmer_religion:0 "Arch-Curatess"
- kingdom_theocracy_aldmer_religion:0 "Arch-Chantry"
- emperor_theocracy_male_aldmer_religion:0 "Ascendant"
- emperor_theocracy_female_aldmer_religion:0 "Ascendant"
- empire_theocracy_aldmer_religion:0 "Ascendancy"
- sapiarch_theocracy_male_aldmer_religion:0 "Sapiarch"
- sapiarch_theocracy_female_aldmer_religion:0 "Sapiarch"
- sapiarchy_theocracy_aldmer_religion:0 "Sapiarchy"
+ baron_theocracy_male_aldmeri_religion:0 "Monastic"
+ baron_theocracy_female_aldmeri_religion:0 "Monastic"
+ count_theocracy_male_aldmeri_religion:0 "Aldarch"
+ count_theocracy_female_aldmeri_religion:0 "Aldarch"
+ duke_theocracy_male_aldmeri_religion:0 "Curate"
+ duke_theocracy_female_aldmeri_religion:0 "Curatess"
+ duchy_theocracy_aldmeri_religion:0 "Chantry"
+ king_theocracy_male_aldmeri_religion:0 "Arch-Curate"
+ king_theocracy_female_aldmeri_religion:0 "Arch-Curatess"
+ kingdom_theocracy_aldmeri_religion:0 "Arch-Chantry"
+ emperor_theocracy_male_aldmeri_religion:0 "Ascendant"
+ emperor_theocracy_female_aldmeri_religion:0 "Ascendant"
+ empire_theocracy_aldmeri_religion:0 "Ascendancy"
+ sapiarch_theocracy_male_aldmeri_religion:0 "Sapiarch"
+ sapiarch_theocracy_female_aldmeri_religion:0 "Sapiarch"
+ sapiarchy_theocracy_aldmeri_religion:0 "Sapiarchy"
  ceremoniarch_male:0 "Ceremoniarch"
  ceremoniarch_female:0 "Ceremoniarch"
  adamant_male:0 "High Adamant"
@@ -559,9 +570,6 @@ title_county_city:0 "Metropolis"
  emperor_theocracy_male_tribunal_faith:0 "Alma Rula"
  emperor_theocracy_female_tribunal_faith:0 "Alma Rula"
  empire_theocracy_tribunal_faith:0 "Realm"
- 
- #Vampire Religion
- scion_religious_head_title:0 "Blood Matron"
 
 ################################################
 #
@@ -582,13 +590,12 @@ count_republic_female_aldmeris_group:0 "Canonreeve"
 duke_republic_male_aldmeris_group:0 "High Reeve"
 duke_republic_female_aldmeris_group:0 "High Reeve"
 
+barony_feudal_aldmeris_group:0 "Castle"
 baron_feudal_male_aldmeris_group:0 "Cerum"
 baron_feudal_female_aldmeris_group:0 "Ceruval"
 count_feudal_male_aldmeris_group:0 "Optimate"
 count_feudal_female_aldmeris_group:0 "Optimate"
-count_feudal_male_balfieri:0 "Castellan"
-count_feudal_female_balfieri:0 "Castellan"
-county_feudal_balfieri:0 "Castellany"
+county_feudal_aldmeris_group:0 "Optimal"
 duke_feudal_male_aldmeris_group:0 "Kinlord"
 duke_feudal_female_aldmeris_group:0 "Kinlady"
 duchy_feudal_aldmeris_group:0 "Kinhold"
@@ -620,6 +627,15 @@ duke_republic_male_chimeris_group:0 "Ilkhan"
 duke_republic_female_chimeris_group:0 "Ilkhatun"
 
 #Breton Group
+
+count_feudal_male_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
+count_feudal_female_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
+county_feudal_balfieri:0 "[CHARACTER.Custom('DirenniRealm')]"
+
+title_count_feudal_male_balfieri:0 "Castellan"
+title_count_feudal_female_balfieri:0 "Castellan"
+title_county_feudal_balfieri:0 "Castellany"
+
 count_feudal_male_earl:0 "Earl"
 count_feudal_female_earl:0 "Earl"
 county_feudal_earldom:0 "Earldom"
@@ -742,6 +758,7 @@ king_feudal_male_goblinken:0 "Chief-King"
 king_feudal_female_goblinken:0 "Chief-Queen"
 
 #Reachfolk
+barony_feudal_reachfolk:0 "Dhun"
 duke_feudal_independent_male_reachfolk:0 "Chief-of-Chiefs"
 duke_feudal_independent_female_reachfolk:0 "Chief-of-Chiefs"
 king_feudal_male_reachfolk:0 "Ard"
@@ -1017,9 +1034,12 @@ emperor_feudal_male_lilmothiit:0 "Harbinger"
 emperor_feudal_female_lilmothiit:0 "Harbinger"
 empire_feudal_lilmothiit:0 "Earth"
 
-baron_republic_male_lilmothiit:0 "Overseer"
-baron_republic_female_lilmothiit:0 "Overseer"
-barony_republic_lilmothiit:0 "Stead"
+baron_republic_male_lilmothiit:0 "Lictor"
+baron_republic_female_lilmothiit:0 "Lictor"
+barony_republic_lilmothiit:0 "Seat"
+
+count_republic_male_lilmothiit:0 "Censor"
+count_republic_female_lilmothiit:0 "Censor"
 
 #Ilniviri Group
 baron_feudal_male_ilniviri:0 "Master"

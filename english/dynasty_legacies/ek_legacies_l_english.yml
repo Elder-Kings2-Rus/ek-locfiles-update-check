@@ -47,6 +47,6 @@
  CAN_EDUCATE_MAGICAL_ARTS_NO_INNOVATION_PERK_BONUS:0 "[children|E] can receive a #V $trait_education_magical_ability$#! trait if their [guardian|E] has a #V $trait_arcana_good$#! or #V $trait_education_magical_ability$#! trait"
  MAGICAL_ARTS_EDUCATION_RESULT_BONUS_WITH_INNOVATION_PERK_BONUS:0 "#weak Innovations unlocking similar abilities will instead lead to better results#!"
  magicka_legacy_4_name:0 "Sorcerous Rule"
- UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS:0 "Unlocks the #V $court_magical$#! [court_type|E]\n[court_grandeur|E] bonus when in a #V $court_magical$#!: #P +5#!"
+ UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS:0 "Unlocks the #V $court_magical$#! [court_type|E]\n[court_grandeur|E] bonus when in a #V $court_magical$#!: #P +5#!\n$culture_parameter_magic_elective_enabled$\n As a Vassal, you can request Arcana [obligations|E] from your Liege"
  magicka_legacy_5_name:0 "Perennial Rites"
  ADDITIONAL_RITUAL_PERK_BONUS:0 "Allows one additional Permanent Ritual"

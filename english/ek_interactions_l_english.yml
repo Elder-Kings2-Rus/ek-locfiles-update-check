@@ -10,6 +10,9 @@
  extract_blood_price_effect_imprisonment_reason_tooltip:0 "As you have an imprisonment reason against [prisoner.GetFirstName], the blood you will extract will wound [prisoner.GetHerHim]."
  extract_blood_price_effect_execution_reason_tooltip:0 "As you have an execution reason against [prisoner.GetFirstName], you will extract a heavy price, maiming [prisoner.GetHerHim]."
  extract_blood_price_effect_survival_release_tooltip:0 "If [prisoner.GetFirstName] survives [prisoner.GetSheHe] will be liberated from prison."
+
+ ###Disrupt Arcana Interaction
+ recently_disrupted:0 "Recently Disrupted"
  
  make_clan_parent_interaction:0 "make_clan_parent_interaction"
  make_clan_parent_interaction_desc:0 "[recipient.GetFirstName] has seen much of the world during [recipient.GetHerHis] life, and [recipient.GetHerHis] wisdom will guide us..."
@@ -49,6 +52,13 @@
  prowess_claim_interaction:0 "Claim Land via Prowess"
  prowess_claim_interaction_desc:0 "[claim|E] a [title|E] held by [recipient.GetShortUINameNoTooltip], using your superior [prowess|E] and [prestige|E]."
  
+ arcana_claim_interaction:0 "Claim Land via Arcana"
+ arcana_claim_interaction_desc:0 "[claim|E] a [title|E] held by [recipient.GetShortUINameNoTooltip], using your superior [arcana|E] and [prestige|E]."
+
+
+ disrupt_arcana_interaction:0 "Disrupt"
+ disrupt_arcana_interaction_desc:0 "Make [recipient.GetShortUINameNoTooltip]'s [arcana|E] Affinity closer to [GetTrait('arcana_bad_3').GetName( GetPlayer )]"
+ 
  no_obligations:0 "No Obligations"
  no_obligations_tt:0 "[feudal_contract|E] starts with [GetVassalContractType( 'vassal_contribution_group' ).GetObligationName( 'vassal_contribution_none' )]"
  CONTRACT_NO_OBLIGATIONS_REASON:0 "No Obligations: $VALUE|=+0$"
@@ -67,9 +77,12 @@
  cultural_religious_privilege:0 "Cultural and Religious Privilege"
  CONTRACT_CULTURAL_RELIGIOUS_PRIVILEGE_REASON:0 "Cultural and Religious Privilege: $VALUE|=+0$"
  cultural_protection_tt:0 "[feudal_contract|E] starts with [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
- 
+ great_house_vassalage_reason:0 "[recipient.GetHerHis|U] [culture|E] does not wish to be part of a Great House: $VALUE|+=0$"
  EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "I be trained into the arts of Magicka, and receive a #V Student of Magicka#! [trait|E]"
  EDUCATE_CHILD_OPTION_TRAIN_ARCANA_EFFECT:1 "Will be trained into the arts of Magicka, and receive a #V Student of Magicka#! [trait|E]"
+ 
+ EDUCATE_ME_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "I am studying the [learning|E] Education and will receive a better #V Student of Magicka#! [trait|E]"
+ EDUCATE_CHILD_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Is studying the [learning|E] Education and will receive a better #V Student of Magicka#! [trait|E]"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a [tradition|E] such as #V $tradition_sorcerer_kings_name$#!, or the child's [dynasty|E] has the #V $magicka_legacy_3_name$#! [dynasty_perk|E], you need to find a Tutor with a #V $trait_education_magical_ability$#! or #V $trait_arcana_good$#! [trait|E]"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_2:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a the #V $innovation_schools_of_magic$#! [innovation|E], you need to find a Tutor with a #V $trait_education_magical_ability$#! or #V $trait_arcana_good$#! [trait|E]"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a the #V $innovation_magical_studies$#! [innovation|E], you need to find a Tutor with a #V $trait_arcana_good$#! [trait|E]"
@@ -101,3 +114,17 @@
  wabbajack_lichified:0 "[recipient.GetShortUINameNoTooltip] got turned into a lich!"
  wabbajack_goblinized:0 "[recipient.GetShortUINameNoTooltip] got turned into a goblin!"
  wabbajack_giantified:0 "[recipient.GetShortUINameNoTooltip] got turned into a giant!"
+
+ send_mage_to_wander:0 "Send Mage to Wander"
+ send_mage_to_wander_interaction_desc:0 "[recipient.GetFirstName] has some innate magical abilities, but no practical education. Let them wander and practice their skills!"
+ send_mage_to_wander_five_years_tt:0 "Send [recipient.GetShortUINameNoTooltip] to become a [wanderer|E] for 5 years to improve their [magic|E] abilities."
+ send_mage_to_wander_return_title:0 "Wanderer Returns"
+ send_mage_to_wander_return_desc:0 "[recipient.GetFullName] has returned to your court after wandering to improve their [magic|E] abilities."
+ sent_to_wander_already:0 "This character has already been sent to wander once before"
+
+ send_knight_to_wander:0 "Send Knight to Wander"
+ send_knight_to_wander_interaction_desc:0 "[recipient.GetFirstName] is a young squire, but have yet to embark on a quest on their own. Let them wander and seek their fortune!"
+ send_knight_to_wander_five_years_tt:0 "Send [recipient.GetShortUINameNoTooltip] to become a [wanderer|E] for 5 years to seek fame and improve their [martial|E] abilities."
+ send_knight_to_wander_return_title:0 "Wanderer Returns"
+ send_knight_to_wander_return_desc:0 "[recipient.GetFullName] has returned to your court after wandering to seek fame and improve their [martial|E] abilities."
+ innovation_knightly_orders_wander:0 "Young courtiers of this [culture|E] with a Students of Knighthood [trait|E] can be sent to become [wanderers|E] to seek glory and improve their skills."

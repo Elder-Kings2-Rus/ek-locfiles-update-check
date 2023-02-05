@@ -120,6 +120,8 @@
   e_aldmeri_dominion:0 "Aldmeri Dominion"
   d_thalmor:0 "Bureau of Aldmeri Propriety"
   d_magnus_watchers:0 "Magnus' Watchers"
+ # Vvardenfell
+ e_vvardenfell:0 "Vvardenfell"
  ## Great Houses
  k_indoril:0 "House Indoril"
  k_redoran:0 "House Redoran"
@@ -144,3 +146,10 @@
  d_abbey_zenithar_article:0 "the "
  d_abbey_shezarr:0 "Abbey of the Missing Sibling"
  d_abbey_shezarr_article:0 "the "
+
+## Map mode duchies
+d_map_base_color:0 ""
+d_map_has_special_building:0 ""
+d_map_has_special_building_slot:0 ""
+d_map_holy_site:0 ""
+d_map_holy_site_own:0 ""

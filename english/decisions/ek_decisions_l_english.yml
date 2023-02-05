@@ -8,6 +8,10 @@
  stress_loss_vampire_decision_desc:0 "As a vampire, I can reduce my stress and nourish myself by drinking blood from an unwilling victim."
  stress_loss_vampire_decision_tooltip:0 "Let me prey on the innocent."
  stress_loss_vampire_decision_confirm:1 "Who shall be my next victim?"
+ stress_loss_lycan_decision:0 "Hunt as a Beast"
+ stress_loss_lycan_decision_desc:0 "As a werebeast, I can reduce my stress and nourish myself by devouring the flesh of an unwilling victim."
+ stress_loss_lycan_decision_tooltip:0 "Let me prey on the innocent."
+ stress_loss_lycan_decision_confirm:1 "Who shall be my next victim?"
  
  # Nord pantheon or Atmoran to Dragon Cult conversion decision
  convert_dragon_cult_decision:0 "Convert to the Dragon Cult"
@@ -279,6 +283,13 @@ restore_nenalata_decision:0 "Restore the Capital of Nenalata"
 restore_nenalata_decision_desc:0 "Nenalata was once a mighty kingdom, the last of the Ayleid city-states to fall to the tyranny of the Alessian Order. Now we have a unique opportunity to excavate its ruins and restore it to glory as a capital worthy of a kingdom."
 restore_nenalata_decision_tooltip:0 "Unearth and restore the ancient capital of this kingdom"
 restore_nenalata_decision_confirm:0 "Begin the excavation of Nenalata!"
+recruit_shadowscale_decision:0 "Request a Shadowscale"
+recruit_shadowscale_decision_tooltip:0 "Seek a Shadowscale to join your [court|E] as your [GetCourtPositionType('shadowscale_court_position').GetName()]"
+recruit_shadowscale_decision_confirm:0 "Dread Father, send me your servant!"
+recruit_shadowscale_decision_desc:0 "The Shadowscales are an enigmatic order found in Black Marsh, made up of People-of-the-Root hatched under the sign of the Shadow and trained from birth in the art of stealth and substerfuge. As a respected Saxhleel ruler, I may recruit one into my service."
+recruit_shadowscale_decision_trigger:0 "You have not spurned the Shadowscale traditions"
+recruit_shadowscale_decision_effect:0 "A Shadowscale will shortly present themselves and join your [court|E]"
+
 
 
 # Courtier

@@ -37,7 +37,9 @@
  ek_hunt.1004.a:0 "Come on! You monster!"
  ek_hunt.1004.a.success:0 "You defeat the Were[ROOT.Char.Custom('LocalAnimal')]"
  ek_hunt.1004.a.failure:0 "The Were[ROOT.Char.Custom('LocalAnimal')] defeats you"
- ek_hunt.1005.t:0 "A Strange Condition"
- ek_hunt.1005.desc:0 "For several nights now, I've been plagued with vivid nightmares about brutality, carnage and wild bloodlust. I wake up most days starving with strange injuries that I can't seem to recall how they came to be. My hair is also growing more quickly than before, and in stranger places than before.\n\nEvery time I wake up feeling satisfied and full, I hear several accounts of a big beast roaming through the land, killing and devouring every living thing that it comes across.\n\nCan it be? Can it be... Me?"
+ ek_hunt.1005.t:0 "Bad Blood"
+ ek_hunt.1005.desc:0 "As the sun went down on the [ROOT.Char.Custom('TerrainType')], me and my group got lost while chasing a small group of [ROOT.Char.Custom('LocalAnimalMultiple')]. I heard a high-pitched screech and suddenly I was alone with the thing.\n\nIts eyes were bloodshot and crazied and it was covered in blood. I remembered the bedtime stories I was told as a little [ROOT.Char.Custom('GirlBoy')], where regular people would be turned by vampires into feral creatures known as bloodfiends. The thing was staring directly at me.\n\nI had to act, quickly."
  ek_hunt.1005.a:0 "[ROOT.Char.GetFaith.HighGodName|U] have mercy on me!"
+ ek_hunt.1005.a.success:0 "You defeat the bloodfiend"
+ ek_hunt.1005.a.failure:0 "The bloodfiend defeats you"
  

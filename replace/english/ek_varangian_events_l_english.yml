@@ -55,7 +55,7 @@
  lover_varangian_lover_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUINamePossessive] served in the Imperial Legion together, and grew #EMP very#! close."
 
  single_combat.0001.stoic_veteran.other_varangian:0 "Shame to [my_foe.Custom('SignatureWeaponKillType')] a loyal Guards[my_foe.GetWomanMan], [my_foe.Custom('SisterBrother')]."
- single_combat.0001.tt.stoic_veteran:0 "#BOL Stoic Veteran:#! using your Varangian experience, you hew at [my_foe.GetFirstNameNoTooltip]"
+ single_combat.0001.tt.stoic_veteran:0 "#BOL Stoic Veteran:#! using your Legion experience, you hew at [my_foe.GetFirstNameNoTooltip]"
  single_combat.0001.desc.my_feedback.stoic_veteran:0 "The Imperial Legion doesn't encourage laxity. It takes discipline and a firm arm to excel, and with every blow, I show [my_foe.GetFirstNameNoTooltip] how the a Legionary fight."
  single_combat.0001.desc.opponent_response.stoic_veteran:0 "[my_foe.GetFirstNamePossessiveNoTooltip] time in the Imperial Legion has left [my_foe.GetHerHim] stoic, brutal, and deadly with [my_foe.Custom('SignatureWeaponArticle')] [my_foe.Custom('signature_weapon')], delivering [my_foe.Custom('SignatureWeaponAttemptedHeavy')] after [my_foe.Custom('SignatureWeaponAttemptedHeavy')] to my torso."
  single_combat.0031.desc.sc_attacker.stoic_veteran:0 "Most flee at the sign of a heavily-armed Legionary. My opponent, to [sc_victor.GetHerHis] credit, doesn't seem phased by my intimidating appearance, and my stoic hewing is met by with determined parry after determined parry.\n\n"

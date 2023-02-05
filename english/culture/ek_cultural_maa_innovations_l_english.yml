@@ -5,7 +5,7 @@
  
  ### Military
  # Akaviri
- innovation_lacquered_goldscale:0 "Lacquered Golscale"
+ innovation_lacquered_goldscale:0 "Lacquered Goldscale"
  innovation_lacquered_goldscale_desc:0 "Fashioned according to the Serpentine Ways of Making, the impressive lamellar armors of the Tsaesci invaders, our ancestors, were created for the specific purpose of protecting their boldest warriors from dragonfire itself."
  # Aldmeris
  innovation_refined_moonstone_plate:0 "Refined Moonstone Plate"
@@ -21,25 +21,25 @@
  innovation_black_marsh_materials_desc:0 "Flint and bone, hackwing feathers and volcanic glass, bog iron and brass, all these and more can be found in Black Marsh. Perhaps the armors we crete from such disparate materials cannot rival steel plate, but wherever our warrios fight, it is Black Marsh itself that armors them."
  # Ayleidon
  innovation_welkynd_stone_foci:0 "Welkynd Stone Foci"
- innovation_welkynd_stone_foci_desc:0 "Meteoric glass that holds pure magicka from Aetherius, the cultivation of which remains our solve provenance, can be cut into welkynd and yarla stones that provide manifold enchantments to our halls, and also serve as conduits for impressive magic feats."
+ innovation_welkynd_stone_foci_desc:0 "Meteoric glass that holds pure magicka from Aetherius, the cultivation of which remains our sole provenance, can be cut into welkynd and yarla stones that provide manifold enchantments to our halls, and also serve as conduits for impressive magic feats."
  # Bosmeris
  innovation_bone_sinew_cuirboulli:0 "Bone-Sinew Cuirbouilli"
  innovation_bone_sinew_cuirboulli_desc:0 ""
  # Breton
  innovation_adamantine_plate_forging:0 "Adamantine Plate Forging"
  innovation_adamantine_plate_forging_desc:0 "Adamantine is a lustrous metal not unlike silver that is particularly sturdy and resistant, but heavy and cumbersome. Allegedly the same metal as that which makes up the Adamantine Tower, it is the pride and glory of every true Breton knight to own an Adamantine suit."
- innovation_molybdenum_polearms_expertise:0 "Molybednum Polearms Expertise"
- innovation_molybdenum_polearms_expertise_desc:0 "The properties of the versatile Molybednum metal allows for easy forging of long and otherwise brittle weapons."
+ innovation_molybdenum_polearms_expertise:0 "molybdenum Polearms Expertise"
+ innovation_molybdenum_polearms_expertise_desc:0 "The properties of the versatile molybdenum metal allows for easy forging of long and otherwise brittle weapons."
  innovation_breton_hills_gladiators:0 "Breton Hills Gladiators"
  innovation_breton_hills_gladiators_desc:0 ""
  innovation_yoku_braided_stirrups:0 "Yoku Braided Stirrups"
  innovation_yoku_braided_stirrups_desc:0 ""
  # Chimeris
  # Dunmeris
- innovation_heavy_bonemold_casts:0 "Heavy Bonemold Casts"
- innovation_heavy_bonemold_casts_desc:0 "By using resin glues and sophisticated casting techniques, we can create heavy and costly bonemold armors in the new Gah-Julan and Armun-An styles that will be perfect for the aristocratic warriors of the Great Houses."
- innovation_netch_leather_protection:0 "Netch Leather Protection"
- innovation_netch_leather_protection_desc:0 "Cured and riveted netch leather is light and durable enough to be worn in sufficient layers and quantities to protect the skin from even the ash storms, allowing our warriors ease of maneuver where others struggle with nature."
+ #innovation_heavy_bonemold_casts:0 "Heavy Bonemold Casts"
+ #innovation_heavy_bonemold_casts_desc:0 "By using resin glues and sophisticated casting techniques, we can create heavy and costly bonemold armors in the new Gah-Julan and Armun-An styles that will be perfect for the aristocratic warriors of the Great Houses."
+ #innovation_netch_leather_protection:0 "Netch Leather Protection"
+ #innovation_netch_leather_protection_desc:0 "Cured and riveted netch leather is light and durable enough to be worn in sufficient layers and quantities to protect the skin from even the ash storms, #allowing our warriors ease of maneuver where others struggle with nature."
  innovation_guar:0 "Guar Breeding"
  innovation_guar_desc:0 "Guars are the primary domesticated herd animals of Morrowind and Black Marsh, and are often raised as pack animals, beasts of burden and providers of hide, eggs and meat. Their more aggresive cousins, the Kagouti, are used as war mounts."
  # Goblin-ken
@@ -56,8 +56,6 @@
  # Nedic
  innovation_bloodforged_arms:0 "Bloodforged Arms"
  innovation_bloodforged_arms_desc:0 ""
- innovation_nirnblooded_metals:0 "Nirnblooded Metals"
- innovation_nirnblooded_metals_desc:0 ""
  # Nord
  innovation_nordic_steelcarving:0 "Nordic Steelcarving"
  innovation_nordic_steelcarving_desc:0 ""
@@ -71,16 +69,17 @@
  # Yoku
  innovation_shehai_sword_lore:0 "Shehai Sword Lore"
  innovation_shehai_sword_lore_desc:0 "Even if the art of Sword-Singing has been lost in the recent centuries, our warriors still follow the Way of the Sword, and honour this long tradition that guided us through the ages."
+ way_of_the_sword_available:0 "Can recruit [GetMaA('yokudan_way_of_the_sword').GetName] (if you have [GetCultureTradition('tradition_yokudan_core').GetName|V]) or [GetMaA('redguard_way_of_the_sword').GetName] otherwise as [men_at_arms|E]"
  innovation_corsair_traditions:0 "Corsair Traditions"
  innovation_corsair_traditions_desc:0 "Strong fleets of privateers and pirates have roamed the Abecean Sea for centuries, raiding towns and seizing ships. While not conventional, they could be a powerful addition to any armies looking to fight both at sea and on open land."
  # Riekling
- innovation_bristleback:0 "Bristleback Breeding"
- innovation_bristleback_desc:0 "It is customary for the Rieklings to breed the bristleback boars into war mounts, taking advantage of their amazing ability to reflect magical effects used against them."
+ #innovation_bristleback:0 "Bristleback Breeding"
+ #innovation_bristleback_desc:0 "It is customary for the Rieklings to breed the bristleback boars into war mounts, taking advantage of their amazing ability to reflect magical effects used against them."
  innovation_scavenging:0 "Scavenging"
  innovation_scavenging_desc:0 "To the outsiders and invaders, Rieklings seem to be little more than beasts with little culture of their own but it's part of their culture and society to take everything they can from the weak, rather than produce for themselves."
  # Goblin-ken
- innovation_durzog:0 "Durzog Breeding"
- innovation_durzog_desc:0 "Goblinken have raised durzogs for war, company and for hunting down their victims for millenia. The sludgepuppies are also bred for their hides to make armor, livers for cuisine, meat for alchemical properties and even guts for bowstrings."
+ #innovation_durzog:0 "Durzog Breeding"
+ #innovation_durzog_desc:0 "Goblinken have raised durzogs for war, company and for hunting down their victims for millenia. The sludgepuppies are also bred for their hides to make armor, livers for cuisine, meat for alchemical properties and even guts for bowstrings."
  innovation_primal_tradition:0 "Primal Tradition" 
  innovation_primal_tradition_desc:0 "Contrary to popular belief, goblinken are very traditionally-inclined, with some pieces of goblinken design outfits dating back to the First Era. However, it is debated whether if they inherited this style from previous generations, looted it from ancient ruins, scavenged it from other civilizations, or forged it themselves." 
  

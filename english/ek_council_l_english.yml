@@ -16,16 +16,16 @@
  councillor_court_chaplain_yokudan_religion_empire_female_possessive:0 "Calipha's"
  
  #Aldmer Religion
- councillor_court_chaplain_aldmer_religion_duchy:0 "Aldarch"
- councillor_court_chaplain_aldmer_religion_duchy_possessive:0 "Aldarch's"
- councillor_court_chaplain_aldmer_religion_kingdom:0 "Curate"
- councillor_court_chaplain_aldmer_religion_kingdom_possessive:0 "Curate's"
- councillor_court_chaplain_aldmer_religion_kingdom_female:0 "Curate"
- councillor_court_chaplain_aldmer_religion_kingdom_female_possessive:0 "Curate's"
- councillor_court_chaplain_aldmer_religion_empire:0 "Arch-Curate"
- councillor_court_chaplain_aldmer_religion_empire_possessive:0 "Arch-Curate's"
- councillor_court_chaplain_aldmer_religion_empire_female:0 "Arch-Curate"
- councillor_court_chaplain_aldmer_religion_empire_female_possessive:0 "Arch-Curate's"
+ councillor_court_chaplain_aldmeri_religion_duchy:0 "Aldarch"
+ councillor_court_chaplain_aldmeri_religion_duchy_possessive:0 "Aldarch's"
+ councillor_court_chaplain_aldmeri_religion_kingdom:0 "Curate"
+ councillor_court_chaplain_aldmeri_religion_kingdom_possessive:0 "Curate's"
+ councillor_court_chaplain_aldmeri_religion_kingdom_female:0 "Curate"
+ councillor_court_chaplain_aldmeri_religion_kingdom_female_possessive:0 "Curate's"
+ councillor_court_chaplain_aldmeri_religion_empire:0 "Arch-Curate"
+ councillor_court_chaplain_aldmeri_religion_empire_possessive:0 "Arch-Curate's"
+ councillor_court_chaplain_aldmeri_religion_empire_female:0 "Arch-Curate"
+ councillor_court_chaplain_aldmeri_religion_empire_female_possessive:0 "Arch-Curate's"
  
  #Druids
  councillor_court_chaplain_druid_circles_county:0 "Druid"
@@ -62,7 +62,7 @@
  councillor_court_chaplain_greenpact_duchy:0 "Green Keeper"
  councillor_court_chaplain_greenpact_duchy_possessive:0 "Green Keeper's"
  councillor_court_chaplain_greenpact_kingdom:0 "Green Keeper"
- councillor_court_chaplain_greenpact_kingdom_possessive:0 "Green Keeper'"
+ councillor_court_chaplain_greenpact_kingdom_possessive:0 "Green Keeper's"
  councillor_court_chaplain_greenpact_empire:0 "Green Keeper"
  councillor_court_chaplain_greenpact_empire_possessive:0 "Green Keeper's"
  

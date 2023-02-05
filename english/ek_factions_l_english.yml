@@ -43,3 +43,6 @@
  CRISIS_FACTION_DEMAND_UNDEAD_REFUSE:0 "Burn those abominations!"
  CRISIS_UNDEAD_WAR_NAME:0 "Undead Swarm"
  crisis_undead_war_defeat_desc:0 "The [undead_faction|E] is disbanded and [attacker.GetShortUIName] is imprisoned. All undead-occupied [counties|E] have their [county_opinion|E] increased."
+
+# Misc faction effects
+ FACTION_POWER_REBELLIOUS_VASSALS:0 "Rebellious Vassals: #V $VALUE|0$#!"

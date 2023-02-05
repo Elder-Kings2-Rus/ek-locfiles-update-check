@@ -48,12 +48,12 @@
  game_concept_locals:0 "Locals"
  game_concept_local_culture_desc:0 "As each culture is tied to one or several [nativity_regions|E], each province has a set of cultures that are considered native to there. These are its local cultures, and rulers that are of the same [heritage|E] as one of these local cultures can spread them instead of their own [culture|E].\n\nThis ensures that through the centuries each province keeps a distinct cultural identity, instead of slowly becoming a cultural monolith."
  
- game_concept_nomad_culture:0 "Nomad Culture"
- game_concept_nomadic_culture:0 "Nomadic Culture"
- game_concept_nomad:0 "Nomad"
- game_concept_nomads:0 "Nomads"
- game_concept_nomadic:0 "Nomadic"
- game_concept_nomad_culture_desc:0 "Some people have refused to, or been prevented from, settling in one place, instead making themselves at home in various areas of Tamriel. These nomadic cultures can be spread in [nativity_regions|E] they are not part of, although at a slower pace than if they were considered natives of here.\n\nDue to their unwillingess to settle in one place, they can more easily be replaced by other cultures.\n\nRulers of nomadic cultures can use special [casus_bellis|E] to migrate into nearby provinces."
+ game_concept_nomad_culture:0 "Migratory Culture"
+ game_concept_nomadic_culture:0 "Migratory Culture"
+ game_concept_nomad:0 "Migratory"
+ game_concept_nomads:0 "Migrant"
+ game_concept_nomadic:0 "Migratory"
+ game_concept_nomad_culture_desc:0 "Some people have refused to, or been prevented from, settling in one place, instead making themselves at home in various areas of Tamriel. These migratory cultures can be spread in [nativity_regions|E] they are not part of, although at a slower pace than if they were considered natives of here.\n\nDue to their unwillingness to settle in one place, they can more easily be replaced by other cultures.\n\nRulers of migratory cultures can use special [casus_bellis|E] to migrate into nearby provinces."
 
  game_concept_meritocratic:0 "Meritocratic"
  game_concept_meritocratic_desc:0 "Under the $game_concept_meritocratic$ [succession_law|E], each [county|E] decides if it follows the former ruler's [heir|E], or if they elect one of their own to rule them. The county having a high [county_opinion|E] will help secure it during succession."
@@ -166,7 +166,8 @@
  game_concept_daedric_allowed_desc:0 "Some faiths view the Daedric Princes with a neutral eye, neither forbidding nor encouraging their worship of a specific Prince. Their followers are free to commune with the Prince, but cannot take them as a [patron_deity|E].\n\nThey have access to most [daedric_boons|E] and [daedric_sacrifices|E] available to the Daedric Prince.\n\nThe other status are: [daedric_focused|E], [daedric_pantheon|E], [daedric_secret|E]."
  
  game_concept_daedric_secret:0 "Secret"
- game_concept_daedric_secret_desc:0 "Not everyone sees the Daedric Prince in a good light. For some, their worship is considered dangerous, heretical, or even worthy of persecution. Some brave, or misguided, souls might still devote themselves to a Prince, no matter the danger or the cost.\n\nThey have access to a small selection of [daedric_boons|E] and [daedric_sacrifices|E] available to the Daedric Prince.\n\nThe [daedric_boons|E] tend to cost more [daedric_ardor|E], and the [daedric_sacrifices|E] tend to be less effective in giving [daedric_ardor|E].\n\nThe other status are: [daedric_focused|E], [daedric_pantheon|E], [daedric_allowed|E]."
+ #game_concept_daedric_secret_desc:0 "Not everyone sees the Daedric Prince in a good light. For some, their worship is considered dangerous, heretical, or even worthy of persecution. Some brave, or misguided, souls might still devote themselves to a Prince, no matter the danger or the cost.\n\nThey have access to a small selection of [daedric_boons|E] and [daedric_sacrifices|E] available to the Daedric Prince.\n\nThe [daedric_boons|E] tend to cost more [daedric_ardor|E], and the [daedric_sacrifices|E] tend to be less effective in giving [daedric_ardor|E].\n\nThe other status are: [daedric_focused|E], [daedric_pantheon|E], [daedric_allowed|E]." NOTE: commented out this for now as it either shows up broken ingame or is inaccurate. Added placeholder below:
+ game_concept_daedric_secret_desc:0 "Not everyone sees the Daedric Prince in a good light. For some, their worship is considered dangerous, heretical, or even worthy of persecution. Some brave, or misguided, souls might still devote themselves to a Prince, no matter the danger or the cost."
  
  game_concept_task_1_desc:0 "As you are now in control of Cyrodiil, both the Elder Council and your own ambitions can be fulfilled. The Elder Council has agreed to grant you special powers and authority over Cyrodiil, but it #N requires constant reassurance#!, as it is expected of you to hand back the Ruby Throne and let the High Chancellor rule, until a proper Dragonborn Emperor can be found."
  task_start:0 "#P Starting the task#!"
@@ -196,7 +197,7 @@
  game_concept_optional_task_1:0 "A Militant Faith"
  game_concept_optional_task_1_desc:0 "For centuries the Imperial Cult has tolerated smaller faiths to be an integral part of Cyrodiil, including folk-beliefs and hero cults. It has also delegated most of its authority over the other provinces of Tamriel to regional chapels. It might however be time for the Imperial Cult to evolve, as old and new enemies of the faith will certainly join forces, as Tamriel falls into chaos...\n\n$task_start$: To start this task, you must have founded a Holy Order\n$task_fulfill$: To fullfill this task, you must enact the 'A Militant Faith' decision and reform the Imperial Cult"
  game_concept_optional_task_2:0 "A Cyrodiilic Hero"
- game_concept_optional_task_2_desc:0 "The people of Cyrodiil keep in their heart and prayers various heroes, including the Slave-Queen Alessia or the Dragonborn Emperor Reman.\nWhile you cannot claim to be as great as these millenia-old heroes, your actions in Cyrodiil might lead the common folk of Cyrodiil to keep you in their prayers in the ages to come.\n\n$task_start$: To start this task, you must be considered a [GetTrait('paragon').GetName(GetNullCharacter)]\n$task_fulfill$: To fulfill this task, you must be considered [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] and a [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L]"
+ game_concept_optional_task_2_desc:0 "The people of Cyrodiil keep in their heart and prayers various heroes, including the Slave-Queen Alessia or the Dragonborn Emperor Reman.\nWhile you cannot claim to be as great as these millenia-old heroes, your actions in Cyrodiil might lead the common folk of Cyrodiil to keep you in their prayers in the ages to come.\n\n$task_start$: To start this task, you must be considered a [GetTrait('paragon').GetName(GetNullCharacter)]\n$task_fulfill$: To fulfill this task, you must be considered [GetModifier( 'prestige_level_5' ).GetNameWithTooltip|L] and a [GetModifier( 'piety_level_5' ).GetNameWithTooltip|L]. This will trigger an event."
  game_concept_optional_task_3:0 "A Renewed Imperial Legion"
  game_concept_optional_task_3_desc:0 "The days of the strong and honourable Imperial Legions are over. These brave warriors, devoted to the Empire and their Emperor, have been corrupted by the Akaviri menace.\nIf the Imperial Legion is to once again protect Cyrodiil and Tamriel, it must be rebuilt under my command.\n\n$task_start$: To start this task, you must win the war against the Potentate\n$task_fulfill$: To fulfill this task, you must have at least #V 1000 $armored_legionaires$ #!, at least #V 300#! [light_cavalry|E], at least #V 10 [knights|E]#! with #V 12 [prowess|E] or above#!, and enact the '$attrebus_rebuild_imperial_legion_decision$' decision\n\nThis task will lead to an #P increase#! of your personal power and legitimacy"
  game_concept_optional_task_4:0 "Secure the Succession"
@@ -226,11 +227,11 @@
  game_concept_enc_missing_god_desc:0 "The Missing God is a blanket term referring to the deity variously known as Shor, Sheor, Shezarr or Lorkhan. So named because he features prominently in most cosmogonies as a casualty of creation, killed by the other gods in their anger at his trickery.\n\nHe convinced his fellow gods to join him in his project to construct a new plane. Halfway through, the Architect Magnus learned the truth of the Missing God's designs and departed, leading an exodus of gods remembered as the Magna-Ge.\n\nThe remaining gods who chose to complete the project and lost most of their powers in the process became the Aedra, the Earthbones and Ehlnofey, the latter of which would eventually become the mortal races.\n\nWhether you revere or abhor him, most agree the Missing God played a pivotal role in enabling the existence of the mortal plane, and as such life as we know it. Opinions diverge whereas the existence of mortal life is a blessing — a position held by most beliefs sympathetic or neutral towards him — or a curse — the stance of most faiths that actively see Mundus as a barrier to immortality and a fall from grace."
  
  game_concept_tsaescence:0 "Tsaescence"
- game_concept_tsaescence_desc:0 "Tsaescence, or name-biting, is a philosophical endeavour concerned with the loss and acquisition of identity. [rulers|E] belonging to a [faith|E] with the [GetFaithDoctrine('tenet_tsaescence').GetBaseName] [core_tenet|E] can consume prisoners in order to get a chance to inherit one of their captive's [traits|E] or to increase a [skill|E], as well as prolonging their lifespan."
+ game_concept_tsaescence_desc:0 "Tsaescence, or name-biting, is a philosophical endeavour concerned with the loss and acquisition of identity. [rulers|E] belonging to a [faith|E] with the [GetFaithDoctrine('tenet_tsaescence').GetBaseName] [core_tenet|E] can consume prisoners in order to get a chance to inherit one of their captive's [traits|E] or to increase a [skill|E], as well as prolonging their [enc_lifespan|E]."
  
  game_concept_enc_lifespan:0 "Lifespan"
  game_concept_enc_longlived:0 "Longlived"
- game_concept_enc_lifespan_desc:0 "The Lifespan traits represent both natural and magicka-related prolonged lifespans. Only the natural lifespan - that is, the lifespan the character had at birth - can be inherited. Magically-altered lifespans are not passed on to children\n\nLifespan represents how long a character lives, how quickly they age, and how long they are fertile. Aging is represented via character modifiers, which can be viewed by hovering over a characters health."
+ game_concept_enc_lifespan_desc:0 "The Lifespan traits represent both natural and magicka-related prolonged lifespans. Only the natural lifespan - that is, the lifespan the character had at birth - can be inherited. Magically-altered lifespans are not passed on to children. \n\nLifespan represents how long a character lives, how quickly they age, and how long they are fertile. Aging is represented via character [ek_age_modifiers|E], which can be viewed by hovering over a characters health."
   
  game_concept_aldmeris:0 "Aldmeris"
  game_concept_aldmeris_desc:0 "Aldmeris is the mythical homeland of the Aldmer from which it is said all Mer decend."
@@ -256,6 +257,9 @@
  game_concept_important_character:0 "Important Character" #none of the existing one seem to give it without adding titles
  game_concept_important_character_desc:0 "A historical figure of note or renown"
 
+ game_concept_bandit_faction:0 "$FACTION_BANDIT_NAME$"
+ game_concept_bandit_faction_desc:2 "The $game_concept_bandit_faction$ is populated by [counties|E] overrun by bandits and other ne'er-do-wells. Successful Bandit Uprisings will take land from your [realm|E] for their own."
+
  game_concept_goblin_faction:0 "$FACTION_GOBLIN_NAME$"
  game_concept_goblin_faction_desc:2 "The $game_concept_goblin_faction$ is populated by [counties|E] overrun by the local goblinken population. Successful Goblin Uprisings will take land from your [realm|E] for their own."
 
@@ -266,4 +270,14 @@
  game_concept_praxis_desc:0 "Praxis is the measurement of a character's conformity to the strict standards of 'The Path to Alaxon' - an Altmeri philsophy emphasising the search for perfection. \n\nConforming to these social expectations ensures harmony within realm. Those who stray from the path may have an easier personal life - but risk social ostracism. \n\nA ruler will be judged for their Praxis by their behaviour at public events such as attending a [feast|E] or [holding_court|E]."
 
  game_concept_praxis_government:0 "Ceremoniarchy"
- game_concept_praxis__governmentdesc:0 "Ceremoniarchy is a complicated system of rites and customs centering around the pursuit of Aldmeris. While similar in many respects to other feudal monarchies, with subjects providing their liege with [soldiers|E] and [taxes|E], there is also an expectation that all members of society conform to the rigid social roles and stratification laid out by Altmeri philsophy."
+ game_concept_praxis_government_desc:0 "Ceremoniarchy is a complicated system of rites and customs centering around the pursuit of Aldmeris. While similar in many respects to other feudal monarchies, with subjects providing their liege with [soldiers|E] and [taxes|E], there is also an expectation that all members of society conform to the rigid social roles and stratification laid out by Altmeri philsophy."
+
+ game_concept_great_house_value:0 "House Values"
+ game_concept_great_house_value_desc:0 "Traditionally, each Great House has been associated with certain values, such that candidates vying for House leadership should display certain educations or personal skillsets.\n\nThe House Values are as such:\n- Dres: [martial_i][martial|E] and [stewardship_i][stewardship|E]\n- Hlaalu: [diplomacy_i][diplomacy|E] and [stewardship_i][stewardship|E]\n- Indoril: [diplomacy_i][diplomacy|E] and [learning_i][learning|E]\n- Redoran: [martial_i][martial|E] and [learning_i][learning|E]\n- Telvanni: [intrigue_i][intrigue|E] and [arcana_i][arcana|E]"
+ 
+ game_concept_ek_age_modifiers:0 "Aging Modifiers"
+ game_concept_ek_age_modifier:0 "Aging Modifier"
+ game_concept_ek_age_modifiers_aging:0 "Aging"
+ game_concept_ek_age_modifiers_advanced:0 "Advanced Age"
+ game_concept_ek_age_modifiers_borrowed:0 "Borrowed Time"
+ game_concept_ek_age_modifiers_desc:0 "Aging modifiers represent a character's declining health as they age. The number next to the modifier indicates the equivalent to the current modifier in human years."

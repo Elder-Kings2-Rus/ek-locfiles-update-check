@@ -16,6 +16,7 @@
     vassal_contribution_none_short:0 "No Contribution"
     vassal_contribution_none_desc:0 "#emphasis The [vassal|E] does not have to contribute any tax or levy to their [liege|E].#!\n\n#flavor The vassal is free of any burden towards their liege, enjoying great privileges. This may push vassals towards strenghtening their realm, and could help ambitious vassals in the long term.#!"
  vassal_contribution_prowess:0 "Contribution Based on Prowess"
+ vassal_contribution_tied_prowess_name:0 "Vassal Contribution Based on Prowess"
     vassal_contribution_prowess_short:0 "Based on Prowess"
     vassal_contribution_prowess_desc:0 "#emphasis The amount of taxes and levies the [vassal|E] is expected to send to their [liege|E] is tied to the Liege's [prowess|E].#!\n\n#flavor The vassal will only respect and recognize a strong liege. Should the liege grow old or physically weak, the vassal will keep most of the taxes and levies they would otherwise send. A weak liege means a weak realm.#!"
  vassal_contribution_opinion:0 "Contribution Based on Opinion"
