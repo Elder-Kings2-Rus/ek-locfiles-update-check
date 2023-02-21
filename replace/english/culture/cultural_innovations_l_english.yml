@@ -11,3 +11,6 @@
  unlock_late_medieval_economic_buildings:0 "Unlocks all $culture_era_late_medieval$ Era [economic_buildings|E]"
  unlock_late_medieval_military_buildings:0 "Unlocks all $culture_era_late_medieval$ Era [military_buildings|E]"
  unlock_late_medieval_fortification_buildings:0 "Unlocks all $culture_era_late_medieval$ Era [fortification_buildings|E]"
+
+ innovation_plate_armor:0 "Trip Hammers"
+ innovation_plate_armor_desc:0 "Steady improvements in engineering have allowed us to partially automate the production of arms and armor with the use of sophisticated trip hammers. With this development, we will be able to produce much higher quantities of suits of full-body armor to protect our troops in battle. "

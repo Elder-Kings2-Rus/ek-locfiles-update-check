@@ -51,23 +51,12 @@
 
 ## LEGACY PARAMETERS
  culture_parameter_unlock_pillage_legacy:0 "A [dynast|E] of this [culture|E] can use the #V $fp1_pillage_legacy_track_name$#! [dynasty_perk|E]"
- culture_parameter_unlock_urbanism_legacy:0 "A [dynast|E] of this [culture|E] can use the #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|E]"
+ culture_parameter_unlock_urbanism_legacy:0 "A [dynast|E] of this [culture|E] can use the #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|E] if the #V Fate of Iberia#! DLC is #P Active#!"
 
 ## MAA PARAMETERS
 # Innovation parameters
- culture_parameter_unlock_innovation_nordic_steelcarving:0 "Unlocks the $innovation_nordic_steelcarving$ [innovation|E] which allows the recruiting of [GetMaA('huscarl').GetName] [men_at_arms|E]" 
- culture_parameter_unlock_innovation_stalhrim_reinforced_furs:0 "Unlocks the $innovation_stalhrim_reinforced_furs$ [innovation|E] which allows the recruiting of [GetMaA('skaal_hunter').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_orichalc_master_smiths:0 "Unlocks the $innovation_orichalc_master_smiths$ [innovation|E] which allows the recruiting of [GetMaA('orc_marauders').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_colovian_steel_lorica:0 "Unlocks the $innovation_colovian_steel_lorica$ [innovation|E] which allows the recruiting of [GetMaA('armored_legionaires').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_shehai_sword_lore:0 "Unlocks the $innovation_shehai_sword_lore$ [innovation|E] which allows the recruiting of [GetMaA('yokudan_way_of_the_sword').GetName] or [GetMaA('redguard_way_of_the_sword').GetName] [men_at_arms|E]depending on your [traditions|E]."
  culture_parameter_swordmaster_era_improvement:1 "The [GetMaA('yokudan_way_of_the_sword').GetName] [men_at_arms|E] get increasingly better every [era|E]"
- culture_parameter_unlock_innovation_corsair_traditions:0 "Unlocks the $innovation_corsair_traditions$ [innovation|E] which allows the recruiting of [GetMaA('abecean_pirates').GetName] [men_at_arms|E]" 
- culture_parameter_unlock_innovation_yoku_braided_stirrups:0 "Unlocks the $innovation_yoku_braided_stirrups$ [innovation|E] which allows the recruiting of [GetMaA('light_grazing_horde').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_adamantine_plate_forging:0 "Unlocks the $innovation_adamantine_plate_forging$ [innovation|E] which allows the recruiting of [GetMaA('breton_hedge_knights').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_molybdenum_polearms_expertise:0 "Unlocks the $innovation_molybdenum_polearms_expertise$ [innovation|E] which allows the recruiting of [GetMaA('breton_pikemen_companies').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_breton_hills_gladiators:0 "Unlocks the $innovation_breton_hills_gladiators$ [innovation|E] which allows the recruiting of [GetMaA('breton_highlanders').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_bone_sinew_cuirboulli:0 "Unlocks the $innovation_bone_sinew_cuirboulli$ [innovation|E] which allows the recruiting of [GetMaA('bosmer_stalkers').GetName] [men_at_arms|E]"
- culture_parameter_unlock_innovation_bloodforged_arms:0 "Unlocks the $innovation_bloodforged_arms$ [innovation|E] which allows the recruiting of [GetMaA('witch_knight').GetName] [men_at_arms|E]"
+ culture_parameter_unlock_innovation_corsair_traditions:0 "Unlocks the $innovation_corsair_traditions$ [innovation|E] which allows the recruiting of [GetMaA('abecean_pirates').GetName] [men_at_arms|E]"
 
 # Tradition parameters
  culture_parameter_unlock_maa_nedic_headhunters:0 "Can recruit [GetMaA('south_nedic_headhunters').GetName], [GetMaA('central_nedic_headhunters').GetName] or [GetMaA('north_nedic_headhunters').GetName] as [men_at_arms|E] depending on the branch of the Nedic [heritage|E] they belong to."
@@ -78,6 +67,18 @@
  culture_parameter_unlock_maa_deathlands_slayers:0 "Can recruit [GetMaA('deathlands_slayers').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_goblinken_mounts:0 "Can recruit [GetMaA('durzog_riders').GetName] or [GetMaA('bristleback_riders').GetName] as [men_at_arms|E] depending on which Goblinken [culture|E] they belong to."
  culture_parameter_unlock_maa_ice_shamans:0 "Can recruit [GetMaA('ice_shamans').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_huscarl:0 "Can recruit [GetMaA('huscarl').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_skaal_hunter:0 "Can recruit [GetMaA('skaal_hunter').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_orc_marauders:0 "Can recruit [GetMaA('orc_marauders').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_yokudan_way_of_the_sword:0 "Can recruit [GetMaA('yokudan_way_of_the_sword').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_redguard_way_of_the_sword:0 "Can recruit [GetMaA('redguard_way_of_the_sword').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_light_grazing_horde:0 "Can recruit [GetMaA('light_grazing_horde').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_armored_legionaires:0 "Can recruit [GetMaA('armored_legionaires').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_breton_hedge_knights:0 "Can recruit [GetMaA('breton_hedge_knights').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_breton_pikemen_companies:0 "Can recruit [GetMaA('breton_pikemen_companies').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_breton_highlanders:0 "Can recruit [GetMaA('breton_highlanders').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_bosmer_stalkers:0 "Can recruit [GetMaA('bosmer_stalkers').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_saxhleel_reel_ka:0 "Can recruit [GetMaA('saxhleel_reel_ka').GetName] as [men_at_arms|E]"
 
 ## CULTURAL RELATIONS PARAMETERS
  culture_parameter_dislikes_marrying_outside_of_heritage:0 "[marriage|E] Acceptance towards cultures of a different [heritage|E]: #N -100#!"
@@ -121,13 +122,13 @@
  culture_parameter_better_hunting_buildings:0 "The #V $building_type_hunting_grounds_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
  culture_parameter_better_pasture_buildings:0 "The #V $building_type_pastures_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
  culture_parameter_better_barrack_buildings:0 "The #V $building_type_barracks_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
- culture_parameter_fortified_cities:0 "The #V $building_type_guild_halls_01$#! line of [buildings|E] provide [fort_level_i][fort_level|E] in [counties|E] of this [culture|E]"
+ culture_parameter_fortified_cities:0 "The #V $building_type_guild_halls_01$#! line of [buildings|E] provide [fort_level_i][fort_level|E] and [garrison|E] in [counties|E] of this [culture|E]"
  culture_parameter_development_gain_on_building_complete_in_swamp:2 "Gain #V 25#! [development_growth|E] when a [building|E] is constructed #weak (up to once a year)#! in [holdings|E] with either #V Black Marsh#! or #V Wetlands#! [terrain|E]"
  culture_parameter_next_level_economic_buildings:0 "Economic [building|E] lines, such as #V $building_type_pastures_01$#! and #V $building_type_cereal_fields_01$#!, can be constructed one [era|E] early"
  culture_parameter_piety_gain_on_building_complete_in_swamp:1 "Gain [piety_i][piety|E] when completing [buildings|E] in [holdings|E] with either #V Wetlands#! or #V Black Marsh#! [terrain|E]"
  culture_parameter_better_tax_assessor_buildings:1 "The #V $building_type_tax_assessor_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
- culture_parameter_fortified_temples:0 "The #V $building_type_monastic_schools_01$#! line of [buildings|E] provide [fort_level_i][fort_level|E] in [counties|E] of this [culture|E]"
- culture_parameter_garrisoned_temples:0 "[temple|E] [holdings|E] have +10% [garrison|E], but provide -10% [tax|E] income in [counties|E] of this [culture|E]"
+ culture_parameter_fortified_temples:0 "The #V $building_type_monastic_schools_01$#! line of [buildings|E] provide [fort_level_i][fort_level|E] and [garrison|E] in [counties|E] of this [culture|E]"
+ culture_parameter_garrisoned_temples:0 "[temple|E] [holdings|E] have #P +10%#! [garrison|E], but provide #N -10%#! [tax|E] income in [counties|E] of this [culture|E]"
  culture_parameter_coastal_holding_fortifications:0 "Coastal [holdings|E] in [counties|E] of this [culture|E] gain [fort_level_i][fort_level|E], provide additional Defender [advantage|E] and takes longer to [raid|E]"
  culture_parameter_coastal_levies:0 "Coastal [holdings|E] in [counties|E] of this [culture|E] provide #P +10%#! [soldier_i][levies|E]"
  culture_parameter_pastures_prestige:0 "The #V $building_type_pastures_01$#! line of [buildings|E] give [prestige_i][prestige|E] in [counties|E] of this [culture|E]"
@@ -189,6 +190,7 @@
  culture_parameter_witch_trait_more_common:0 "[GetTrait('witch').GetName( GetNullCharacter )] is more common"
  culture_parameter_organizer_trait_better:0 "The [GetTrait('organizer').GetName( GetNullCharacter )] [trait|E] has additional bonuses"
  culture_parameter_bonuses_from_theologian_trait:0 "Characters with the [GetTrait('theologian').GetName( GetNullCharacter )] [trait|E] will be able to raise more [levies|E] and [taxes|E]"
+ culture_parameter_fairness_valued:0 "[GetTrait('just').GetName( GetNullCharacter )] [characters|E] are admired whilst [GetTrait('arbitrary').GetName( GetNullCharacter )] and [GetTrait('sadistic').GetName( GetNullCharacter )] individuals are scorned"
 
 ##CHILD PERSONALITY AND EDUCATION PARAMETERS
  culture_parameter_curious_trait_more_common:0  "[children|E] are more likely to get the [GetTrait('curious').GetName( GetNullCharacter )] [trait|E]"
@@ -306,7 +308,7 @@
  tradition_sacred_marshes_name:0 "Sacred Marshes"
  tradition_sacred_marshes_desc:0 "This culture considers marshes to be sacred - their waters contain the divine cycles of life and death, growth and decay."
  tradition_marshlanders_name:0 "Marshlanders"
- tradition_marshlanders_desc:0 "This culture makes its home along the coasts of Black Marsh, where dark swamps and deep jungles otherwise makes life inhospitable, and they will fight to remain there."
+ tradition_marshlanders_desc:0 "This culture makes its home along the edges of Black Marsh, where dark swamps and deep jungles otherwise makes life inhospitable, but through stilted homes and drainage also this corner of Tamriel has been conquered."
  tradition_wetlanders_desc:1 "This culture has mastered the bogs and marshes. Though life is at times a battle against mold, they have learned to use the peat to their advantage."
  tradition_jungle_dwellers_desc:0 "This culture lives close to the jungle, and knows how to harvest its riches."
  tradition_moonsugar_plantations_name:0 "Moonsugar Plantations"
@@ -426,9 +428,9 @@
  tradition_parliament_of_bugs_trigger_desc:0 "Is either $chi_addun$ or a [culture|E] descended from $chi_addun$." 
  tradition_deshaan_agronomy_trigger_desc:0 "Is either $marduhn_oad$ or a [culture|E] descended from $marduhn_oad$." 
  tradition_red_mountain_might_trigger_desc:0 "Is either $ashlander$ or a [culture|E] descended from $ashlander$." 
- tradition_great_houses_trigger_desc:0 "Is $dunmeri$ [heritage|E] and does not have the [GetCultureTradition('tradition_red_mountain_might').GetName|V] [tradition|E]."
- tradition_ceremoniarchy_trigger_desc:0 "Is $Aldmeri$ or $Ayleid$ [heritage|E], [faith|E] has the [GetFaithDoctrine('tenet_divine_purity').GetBaseName] and [GetFaithDoctrine('doctrine_pantheon_aedra').GetBaseName] [doctrines|E], and does not have the [GetCultureTradition('tradition_remnant_kings').GetName|V], [GetCultureTradition('tradition_kings_in_exile').GetName|V] or [GetCultureTradition('tradition_heartland_high_elves').GetName|V] [traditions|E]"
- tradition_prescriptivism_trigger_desc:0 "Is $Aldmeri$ [heritage|E]"
+ tradition_great_houses_trigger_desc:0 "Is $Dunmeri$ [heritage|E] and does not have the [GetCultureTradition('tradition_red_mountain_might').GetName|V] [tradition|E]."
+ tradition_ceremoniarchy_trigger_desc:0 "Is $Aldmeri$ or $Ayleid$ [heritage|E], [faith|E] has the [GetFaithDoctrine('tenet_divine_purity').GetBaseName] and [GetFaithDoctrine('doctrine_pantheon_aedra').GetBaseName] [doctrines|E], and does not have the [GetCultureTradition('tradition_hereditary_hierarchy').GetName|V][GetCultureTradition('tradition_remnant_kings').GetName|V], [GetCultureTradition('tradition_kings_in_exile').GetName|V] or [GetCultureTradition('tradition_heartland_high_elves').GetName|V] [traditions|E]"
+ tradition_prescriptivism_trigger_desc:0 "Is $Aldmeri$ [heritage|E] and does not have the [GetCultureTradition('tradition_ruling_caste').GetName|V] [tradition|E]"
  tradition_remnant_kings_trigger_desc:0 "Is $Ayleid$ [heritage|E] and does not have the [GetCultureTradition('tradition_kings_in_exile').GetName|V], [GetCultureTradition('tradition_heartland_high_elves').GetName|V] or [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E]"
  tradition_kings_in_exile_trigger_desc:0 "Is $Ayleid$ [heritage|E] and does not have the [GetCultureTradition('tradition_remnant_kings').GetName|V], [GetCultureTradition('tradition_heartland_high_elves').GetName|V] or [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E]"
  tradition_heartland_high_elves_trigger_desc:0 "Is $Ayleid$ [heritage|E] and does not have the [GetCultureTradition('tradition_kings_in_exile').GetName|V], [GetCultureTradition('tradition_remnant_kings').GetName|V] or [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E]"
@@ -439,6 +441,7 @@
  tradition_soulbound_defenders_trigger_desc:0 "Is $North Nedic$ or $Central Nedic$ [heritage|E]"
  tradition_goblinken_trigger_desc:0 "Is $Goblinken$ [heritage|E]"
  tradition_chimeri_trigger_desc:0 "Is $Chimeri$ [heritage|E]"
+ tradition_hereditary_hierarchy_trigger_desc:0 "Does not have the [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E]"
 
  tradition_roman_legacy_trigger_desc:0 "Is either of $colovian$, $nibenese$, or $heartlander$ [culture|E], descended from any of the former, or holds the Empires of Tamriel or Cyrodiil as a primary title."
 

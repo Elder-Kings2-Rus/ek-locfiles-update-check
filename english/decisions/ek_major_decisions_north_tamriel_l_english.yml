@@ -1,11 +1,12 @@
 ﻿l_english:
- form_reach_empire_decision:0 "Unite the Reach kingdoms"
+ form_reach_empire_decision:0 "Unite the Reach Kingdoms"
  form_reach_empire_decision_desc:0 "The disparate tribes of the Reach have never truly been unified. Most tribes are fiercely independent, and while some might claim to ruler over others - going as far as to take the title of 'Ard' - no one truly unified the Reach. But with a strong ruler, the Reach could become the dominant force of northern Tamriel."
  form_reach_empire_decision_tooltip:0 "You will create a new [empire|E] in the Reach."
  form_reach_empire_decision_confirm:0 "The Reach will finally be united!"
  form_reach_empire_effect_de_jure_tt:0 "The Kingdoms in the various regions of the Reach will become de Jure vassals of the Empire of the Reach"
  form_reach_empire_effect_de_jure_tt_a:0 "If held, the following [kingdoms|E] will become [de_jure|E] part of [reach_empire.GetNameNoTier]:\n[wrothgar.GetNameNoTier], [falkreath.GetNameNoTier], [solitude.GetNameNoTier]"
  form_reach_empire_effect_de_jure_tt_b:0 "All [duchies|E] in the various Reach regions become [de_jure|E] part of [reach_empire.GetNameNoTier], or remain part of their current [kingdom|E] if you hold that title"
+ unlock_witch_knight:0 "Unlocks the [GetMaA('witch_knight').GetName] [men_at_arms|E] for your [culture|E]"
  
  turn_reach_nord_hold_decision:0 "Make the Reach a Nord Hold"
  turn_reach_nord_hold_decision_desc:0 "The vast lands of the Reach have been in the hands of witch-men and savages for too long. If Skyrim is to prosper and become a powerful province, we must rein in the land around the river Karth, and make sure our people can settle there."
@@ -29,6 +30,7 @@
  western_skyrim_march_east_decision_confirm:0 "For Skyrim!"
  western_skyrim_march_east_decision.claim_eastern_skyrim.tt:0 "If you press your claim over the title of Eastern Skyrim via war, you will be crowned High King of Skyrim."
  western_skyrim_march_east_decision.no_eastern_skyrim.tt:0 "In the event that no one claims the eastern half of Skyrim, you will be able to use a [casus_belli|E] over its parts, at an increased cost."
+ western_skyrim_march_east_decision_requirements:0 "You [completely_control|E] all of Western Skyrim"
  
  eastern_skyrim_march_west_decision:0 "Prepare to March West"
  eastern_skyrim_march_west_decision_desc:0 "For too long Skyrim has been divided. We stand strong in the Old Jarldoms, and it is time for the West to submit, as it did for centuries."
@@ -37,6 +39,7 @@
  eastern_skyrim_march_west_decision_confirm:0 "For Skyrim!"
  eastern_skyrim_march_west_decision.claim_western_skyrim.tt:0 "If you press your claim over the title of Western Skyrim via war, you will be crowned High King of Skyrim."
  eastern_skyrim_march_west_decision.no_western_skyrim.tt:0 "In the event that no one claims the western half of Skyrim, you will be able to use a [casus_belli|E] over its parts, at an increased cost."
+ eastern_skyrim_march_west_decision_requirements:0 "You [completely_control|E] all of Eastern Skyrim"
  
  solstheim_claim_coast_decision:0 "Cross the Sea of Ghosts"
  solstheim_claim_coast_decision_desc:0 "The land of Solstheim has always been regarded as a strange and backwater place by our cousins in the mainland. But as we are finally united under one banner, it is time to claim our part of Skyrim."

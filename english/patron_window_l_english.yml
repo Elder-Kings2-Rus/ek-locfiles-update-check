@@ -6,7 +6,7 @@
  #patron_commune_tt:0 "Commune with [GetPlayer.Custom('GetPatronName')]"
  #patron_commune_tt:0 "Commune with [Localize(Concatenate(Concatenate('patron_', GetVariableSystem.Get('active_patron')), '_name'))]"
  patron_commune_tt:0 "Commune with [Localize(Concatenate(Concatenate('patron', ValueBreakdown.GetName), '_name'))]"
- NO_PATRONS:0 "This [faith|E] does not have any [patron_deity|E].\nFaiths only receive Patrons if they have the [GetFaithDoctrine('doctrine_main_pantheon_type_polytheism').GetBaseName] [doctrine|E], or if they have a Secondary Pantheon.\n\nThis Faith instead has the [GetFaithDoctrine('doctrine_main_pantheon_type_monolatrism').GetBaseName] or [GetFaithDoctrine('doctrine_main_pantheon_type_daedric_prince').GetBaseName] Doctrine, and its followers worship an Aspect of their deity."
+ NO_PATRONS:0 "This [faith|E] does not have any [patron_deities|E].\nFaiths only receive Patrons if they have the [GetFaithDoctrine('doctrine_main_pantheon_type_polytheism').GetBaseName] or [GetFaithDoctrine('doctrine_main_pantheon_type_daedric_prince').GetBaseName] [doctrines|E], or if they have a Secondary Pantheon.\n\nThis Faith instead has the [GetFaithDoctrine('doctrine_main_pantheon_type_monolatrism').GetBaseName] [doctrine|E], and its followers worship an Aspect of their deity."
  PATRON_MINOR_BOONS:0 "Minor Boons"
  PATRON_OFFERINGS:0 "Offerings"
  PATRON_MAJOR_BOONS:0 "Major Boons"
@@ -126,13 +126,13 @@
  patron_nocturnal_desc:0 "Mistress of Shadows"
  patron_nocturnal_long_desc:0 "[GetPlayer.Custom('GetObNocturnalDesc')]"
  patron_nocturnal_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_nocturnal')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_nocturnal')]\nArdor: [GetPlayer.MakeScope.Var('ardor_nocturnal').GetValue|+0]"
- desc_nocturnal:0 "Daedric Prince of Night and Darkness, Nocturnal rules over the Evergloam in Oblivion. She is typically depicted as a woman with two deep black ravens. She is recognized by many thieves as thier patron, bringing them luck via the souls of departed Nightingales."
+ desc_nocturnal:0 "Daedric Prince of Night and Darkness, Nocturnal rules over the Evergloam in Oblivion. She is typically depicted as a woman with two deep black ravens. She is recognized by many thieves as their patron, bringing them luck via the souls of departed Nightingales."
  
  patron_peryite_name:0 "[GetPlayer.Custom('GetObPeryiteName')]"
  patron_peryite_desc:0 "Bringer of Pestilence"
  patron_peryite_long_desc:0 "[GetPlayer.Custom('GetObPeryiteDesc')]"
  patron_peryite_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_peryite')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_peryite')]\nArdor: [GetPlayer.MakeScope.Var('ardor_peryite').GetValue|+0]"
- desc_peryite:0 "Daedric Prince of Natural Order, Peryite rules over the Pits in Oblivion. He is typically depicted as a six limbed dragon, dispite being one of the weaker Princes. Followers of Peryite consider diseases and other maladies to be a blessing from the Prince."
+ desc_peryite:0 "Daedric Prince of Natural Order, Peryite rules over the Pits in Oblivion. He is typically depicted as a six limbed dragon, despite being one of the weaker Princes. Followers of Peryite consider diseases and other maladies to be a blessing from the Prince."
  
  patron_sanguine_name:0 "[GetPlayer.Custom('GetObSanguineName')]"
  patron_sanguine_desc:0 "Lord of Dark Indulgence" #uesp didn't include an actual title, so made one up
@@ -150,9 +150,7 @@
  patron_vaermina_desc:0 "Weaver of the Panoply"
  patron_vaermina_long_desc:0 "[GetPlayer.Custom('GetObVaerminaDesc')]"
  patron_vaermina_summary:0 "Status: [GetPlayer.Custom('GetPatronStatus_vaermina')]\nWorship Type: [GetPlayer.Custom('GetPatronWorshipType_vaermina')]\nArdor: [GetPlayer.MakeScope.Var('ardor_vaermina').GetValue|+0]"
- desc_vaermina:0 "Daedric Prince of Dreams, Vaermina rules over Quagmire in Oblivion. He is typically depicted as an older woman wielding a staff, sometimes accompanied by a snake. Her followers are often alchemists, their most notable concoction being Vaermina's Torpor."
-
- #long_desc direct from uesp as placeholder, should be changed
+ desc_vaermina:0 "Daedric Prince of Dreams, Vaermina rules over Quagmire in Oblivion. She is typically depicted as an older woman wielding a staff, sometimes accompanied by a snake. Her followers are often alchemists, their most notable concoction being Vaermina's Torpor."
 
  desc_akatosh:0 "Chief among the gods, with mastery over the flow of time. Associated with dragons and the qualities of endurance and virtuous service."
  desc_alduin:0 "Alduin, the World-Eater, is the First-Born among dragons, worshipped as destroyer, renewer, and sometimes rightful master of the world. Known also as the Twilight God for his dominion over the end and beginning of time."
@@ -190,7 +188,7 @@
  desc_shezarr:0 "Shezarr, spirit of Human Undertaking, particularly against Aldmeri Aggression. Patron of the Imperial Battlemages, but since less popular due to the cosmopolitan nature of the Cult."
  desc_shor:0 "Shor, Dead God of the Underworld. Ruler of sovngarde and dead chief of the Gods. Long time warrior-king of the Nords before foreign gods brought about his demise, dooming him to Sovngarde."
  desc_sep:0 "Sep, the Second Serpent. Driven mad by the hunger of Satakal, Sep convinced the gods to create the mortal world as an easier alternative to the Walkabout. For this he was punished by Ruptga, but his mad hunger lives on among the stars."
- desc_lorkh:0 "Lorkh, spirit of Man. It was Lorkh who convinced Namira the Spirit Queen to allow him the creation of a realm for wayward spirits - the Mortal Realm, for which he sacrificed himself. Yet he walks among mortals and in times of great will again reveal himself."
+ desc_lorkh:0 "Lorkh, spirit of Man. It was Lorkh who convinced Namira the Spirit Queen to allow him the creation of a realm for wayward spirits - the Mortal Realm, for which he sacrificed himself. Yet he walks among mortals and in times of great need will again reveal himself."
  desc_lorkhaj:0 "Lorkhaj, the Moon Prince and Moon Beast. Considered both Sky Spirit and Dark Spirit, Lorkhaj was the final child of Fadomai, born in the Great Darkness. His Heart filled by the Great Darkness, he tricked his siblings when creating a place for the children of Nirni - trapping them there."
 
  desc_auriel:0 "[GetPlayer.Custom('GetAurielVerse')]"

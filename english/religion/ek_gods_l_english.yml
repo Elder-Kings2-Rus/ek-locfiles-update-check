@@ -1112,6 +1112,7 @@ god_amaranth_possessive_name:0 "Amaranth's"
  god_ghost_snake_name:0 "the Ghost Snake"
 	god_ghost_snake_name_possessive: "the Ghost Snake's"
  void_name:0 "the Void"
+  void_name_possessive:0 "the Void's"
  god_seth_name:0 "Seth"
   god_seth_name_possessive:0 "Seth's"
  
@@ -1151,7 +1152,7 @@ god_amaranth_possessive_name:0 "Amaranth's"
     
  #Dwemer
  god_reason_and_logic_name:0 "Reason and Logic"
-	god_reason_and_logic_name_possessive:0 "Reason and Logics'"
+	god_reason_and_logic_name_possessive:0 "Reason and Logic's"
  god_dwemernirn_name:0 "NIRN"
   god_dwemernirn_name_possessive:0 "NIRN's"
  god_rkhet_name:0 "RKHET"

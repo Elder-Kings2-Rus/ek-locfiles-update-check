@@ -78,7 +78,7 @@
  artifact_crown_verity_description:0 "A magical artifact created to test the worthiness of potential High Kings of Skyrim, the Crown of Verity is second only to the Jagged Crown. Mages from each Hold dedicated their efforts to its creation, embedding it with marvelous magic. Monolithic gems circle the ornament, whilst ancient glyphs shimmer across the metallic surface.\n\nThe Crown will simply refuse to sit atop the head of unworthy rulers. Despite the mysteriousness of it all, few political prospects come out unscathed from such a condemnation."
 
  artifact_mace_aevar_name:1 "Mace of Aevar Stone-Singer"
- artifact_mace_aevar_description:0 "According to legend, this prized Skaal artifact was used by the eponymous hero to amplify the Song of the Earth, returning the Gift of the Earth and making the land rich again for the Skaal. It is crafted out of stalhrim, a material as precious as ebony but endemic to Solstheim"
+ artifact_mace_aevar_description:0 "According to legend, this prized Skaal artifact was used by the eponymous hero to amplify the Song of the Earth, returning the Gift of the Earth and making the land rich again for the Skaal. It is crafted out of stalhrim, a material as precious as ebony but endemic to Solstheim."
 
  artifact_diadem_diagna_name:1 "Diadem of Diagna"
  artifact_diadem_diagna_description:0 "This orichalc-brass diadem, named after and consecrated to the Orichalc God of the Sideways Blade, is traditionally worn by those who lay claim to the High Kingdom of Hammerfell, and deign to sit on the Throne of Hegathe. Fabulous tales attribute its origins to a sacred tower from Yokuda, to an ancient Dwemeri crown, or to the alloyed combination of both."
@@ -140,21 +140,21 @@
  artifact_armor_dragonguard_description:0 "This armor was once wore by the Dragonguard, famed akaviri dragon hunters. It composed of laminar piece of metals bound between them by silk cords, splinted sleeves and boots as well as a fearsome war mask. \n Various ornamental crests can be worn on top of the helmet such as dragons, moons or flames" 
 
  artifact_staff_sanguine_name:1 "Sanguine Rose"
- artifact_staff_sanguine_description:0 "A Daedric artifact created by the Daedric Prince Sanguine. Each time the Rose is used it wilts a little, and when all the petals fall off, it loses its power. When this happens, a new rose blooms somewhere in Oblivion and is plucked by Sanguine to be given to another champion."
+ artifact_staff_sanguine_description:0 "A Daedric artifact created by the Daedric Prince Sanguine. Each time the Rose is used it wilts a little, and when all the petals fall off, it loses its power. When this happens, a new rose blooms somewhere in Oblivion and is plucked by Sanguine to be given to another champion.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_staff_everscamp_name:1 "Mysterious Staff"
- artifact_staff_everscamp_description:0 "A Daedric staff adorned with metallic Scamps at its tip and inscribed with Daedric lettering spelling out something mysterious. Its effects are unknown."
- artifact_staff_everscamp_true_description:0 "A Daedric staff adorned with metallic Scamps at its tip and inscribed with Daedric lettering spelling out the word "nonsense". It is primarily associated with Sheogorath, though there is evidence to suggest that Namira has a connection to it as well. The staff was created in Darkfathom Cave's shrine, which is located in Cyrodiil's Blackwoods. Its purpose is to be a hindrance to those being unfortunate enough to wield it. It summons "Everscamps", which like the name suggests, are scamps whose presence are permanent, as they will immediately rematerialize post-mortem. Additionally, the staff will slow down the speed of a wielder. Finally, the staff will compel its user to not dispose of it, and can only be rid of by taking it back to the shrine in Darkfathom Cave."
+ artifact_staff_everscamp_description:0 "A Daedric staff adorned with metallic Scamps at its tip and inscribed with Daedric lettering spelling out something mysterious. Its effects are unknown.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
+ artifact_staff_everscamp_true_description:0 "A Daedric staff adorned with metallic Scamps at its tip and inscribed with Daedric lettering spelling out the word "nonsense". It is primarily associated with Sheogorath, though there is evidence to suggest that Namira has a connection to it as well. The staff was created in Darkfathom Cave's shrine, which is located in Cyrodiil's Blackwoods. Its purpose is to be a hindrance to those being unfortunate enough to wield it. It summons "Everscamps", which like the name suggests, are scamps whose presence are permanent, as they will immediately rematerialize post-mortem. Additionally, the staff will slow down the speed of a wielder. Finally, the staff will compel its user to not dispose of it, and can only be rid of by taking it back to the shrine in Darkfathom Cave.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
  artifact_staff_everscamp_true_name:0 "Staff of the Everscamp"
 
  artifact_bow_shadows_name:1 "Bow of Shadows"
- artifact_bow_shadows_description:0 "A Daedric artifact forged by the Daedric Prince Nocturnal said to grant the user invisibility and increased speed."
+ artifact_bow_shadows_description:0 "A Daedric artifact forged by the Daedric Prince Nocturnal said to grant the user invisibility and increased speed.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_meridias_beacon_name:1 "Meridia's Beacon"
- artifact_meridias_beacon_description:0 "A magical magna-geode shaped stone associated with the Daedric Prince Meridia, who is known to speak to those in possession of the Beacon, and uses it to influence and compel the owner to obey the Lady of Infinite Energies."
+ artifact_meridias_beacon_description:0 "A magical magna-geode shaped stone associated with the Daedric Prince Meridia, who is known to speak to those in possession of the Beacon, and uses it to influence and compel the owner to obey the Lady of Infinite Energies.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_dawnbreaker_name:1 "Dawnbreaker"
- artifact_dawnbreaker_description:0 "A Daedric artifact created by the Daedric Prince Meridia, forged in a holy light that breaks upon the Prince's foes."
+ artifact_dawnbreaker_description:0 "A Daedric artifact created by the Daedric Prince Meridia, forged in a holy light that breaks upon the Prince's foes.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_ebony_blade_name:1 "Ebony Blade"
  artifact_ebony_blade_description:0 "A Daedric artifact created by the Daedric Prince Mephala, resembling an ebony katana, considered to be an artifact of great evil, having the ability to absorb the life essence of those that it strikes." ### PLACEHOLDER
@@ -172,29 +172,29 @@
  artifact_dragonsword_of_lainlyn_description:0 "No one is sure how the barony of Lainlyn in the middle of Hammerfell is related to dragons or how is this sword related to dragons, but many fear its power." # PLACEHOLDER
 
  artifact_goldbrand_name:1 "Goldbrand"
- artifact_goldbrand_description:0 "An ancient artifact created by the dragons of the North, which contains the power of the Daedric Prince Boethiah, and burns those that it strikes." # PLACEHOLDER
+ artifact_goldbrand_description:0 "An ancient artifact created by the dragons of the North, which contains the power of the Daedric Prince Boethiah, and burns those that it strikes.\n\n@warning_icon!#X This artifact will disappear upon succession.#" # PLACEHOLDER
 
  artifact_mace_molag_bal_name:1 "Mace of Molag Bal"
- artifact_mace_molag_bal_description:0 "A daedric artifact attributed to Molag Bal, the Lord of Domination and Enslavement. Its enchantment drains the stamina and magicka of its victims and transfers them to the bearer. It also has been known to have the ability to transfer an enemy's strength to its wielder or trap their soul. It has been said to be a good weapon of choice for vanquishing wizards." # PLACEHOLDER
+ artifact_mace_molag_bal_description:0 "A daedric artifact attributed to Molag Bal, the Lord of Domination and Enslavement. Its enchantment drains the stamina and magicka of its victims and transfers them to the bearer. It also has been known to have the ability to transfer an enemy's strength to its wielder or trap their soul. It has been said to be a good weapon of choice for vanquishing wizards.\n\n@warning_icon!#X This artifact will disappear upon succession.#" # PLACEHOLDER
 
  artifact_azuras_star_name:1 "Azura's Star"
- artifact_azuras_star_description:0 "A Daedric artifact created by the Daedric Prince Azura, prominently used as her symbol. In the right hands, Azura's Star acts as a reusable soul gem of almost unlimited capacity." # PLACEHOLDER
+ artifact_azuras_star_description:0 "A Daedric artifact created by the Daedric Prince Azura, prominently used as her symbol. In the right hands, Azura's Star acts as a reusable soul gem of almost unlimited capacity.\n\n@warning_icon!#X This artifact will disappear upon succession.#" # PLACEHOLDER
 
  artifact_bittercup_name:1 "Bittercup"
- artifact_bittercup_description:0 "An artifact sacred to Clavicus Vile, the Daedric Prince of Bargains, prized by the Daedra Lord's followers. Only the strongest and smartest of mortals are advised to make covenants with Prince Clavicus, and even then are warned against sipping from the Bittercup;some sweet things require a price heavy beyond any means." # PLACEHOLDER
+ artifact_bittercup_description:0 "An artifact sacred to Clavicus Vile, the Daedric Prince of Bargains, prized by the Daedra Lord's followers. Only the strongest and smartest of mortals are advised to make covenants with Prince Clavicus, and even then are warned against sipping from the Bittercup;some sweet things require a price heavy beyond any means.\n\n@warning_icon!#X This artifact will disappear upon succession.#" # PLACEHOLDER
  
  inspiration_artisan_type_alchemy_set:0 "an alchemy set"
  artifact_alchemy_set_name:1 "Exquisite Alchemy Set"
  artifact_alchemy_set_description:0 "A very exquisite alchemy set, fit for scientific and magical experiments of all capacities." # PLACEHOLDER
 
  artifact_dremora_armor_name:1 "Daedric Armor"
- artifact_dremora_armor_description:0 ""I can only tell you tales of how to make Daedric armor. I have never seen it myself, nor do I know anyone that has. The stories say that it should always be worked on at night... ideally under a new or full moon, and never during an eclipse. A red harvest moon is best. Ebony is the principle material, but at the right moment a daedra heart must be thrown into the fire."\n\n―Sven Two-Hammers"  # PLACEHOLDER
+ artifact_dremora_armor_description:0 ""I can only tell you tales of how to make Daedric armor. I have never seen it myself, nor do I know anyone that has. The stories say that it should always be worked on at night... ideally under a new or full moon, and never during an eclipse. A red harvest moon is best. Ebony is the principle material, but at the right moment a daedra heart must be thrown into the fire."\n\n―Sven Two-Hammers\n\n@warning_icon!#X This artifact will disappear upon succession.#"  # PLACEHOLDER
 
  artifact_masque_vile_name:1 "Masque of Clavicus Vile"
- artifact_masque_vile_description:0 "The Masque of Clavicus Vile is a helm which makes the wearer more popular wherever they might go by making them seem charming and trustworthy. Much like other Daedra and their artifacts, Clavicus seems to retain ultimate control of the Masque and may recall it without warning."
+ artifact_masque_vile_description:0 "The Masque of Clavicus Vile is a helm which makes the wearer more popular wherever they might go by making them seem charming and trustworthy. Much like other Daedra and their artifacts, Clavicus seems to retain ultimate control of the Masque and may recall it without warning.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_mehrunes_razor_name:1 "Mehrunes' Razor"
- artifact_mehrunes_razor_description:0 "A Daedric artifact created by the Daedric Prince Mehrunes Dagon, a powerful ebony dagger that has the ability to kill instantly, claiming the souls of those struck by the it in the name of the Prince of Ambition. It is emblazoned with Daedric script and absorbs nearby light." 
+ artifact_mehrunes_razor_description:0 "A Daedric artifact created by the Daedric Prince Mehrunes Dagon, a powerful ebony dagger that has the ability to kill instantly, claiming the souls of those struck by the it in the name of the Prince of Ambition. It is emblazoned with Daedric script and absorbs nearby light.\n\n@warning_icon!#X This artifact will disappear upon succession.#" 
 
  artifact_princes_woe_name:1 "Prince's Woe"
  artifact_princes_woe_description:0 "Mansel Sesnit slew many highborn scions on his road to power (and his bid to keep it) earning this nickname for his sword. He eventually discarded this material weapon once he became an Ansei but it became a treasured heirloom since then, the symbol of absolute power over the land among the Yokudan magnates. To wield this sword is to inherit the drive of an Elden Yokeda and the hope of an end to the Age of Strife."
@@ -203,52 +203,52 @@
  artifact_dagger_foal_description:0 "Legend has it that the nomadic tribes of Akos Kasaz once came upon a foal blessed by the Herd-Mother. Unwilling to let such a prize go, they warred until they cornered the now mature stallion who took a fatal blow to protect his rider. Overcome with grief, she made a keepsake dagger out of his hip bone that became a sacred item ever since. To honor this memory, upon coming of age, warriors will drink milk mixed with the blood drawn from their mount as a sacred oath to the one that may one day save their life."
 
  artifact_bb_filament_name:1 "Black Book: Filament and Filigree"
- artifact_bb_filament_description:0 "A part of a series of Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_filament_description:0 "A part of a series of Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_bb_twilight_name:1 "Black Book: The Hidden Twilight"
- artifact_bb_twilight_description:0 "A part of a series of Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_twilight_description:0 "A part of a series of Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_bb_sallow_name:1 "Black Book: The Sallow Regent"
- artifact_bb_sallow_description:0 "The first act of a play and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_sallow_description:0 "The first act of a play and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_bb_change_name:1 "Black Book: The Winds of Changes"
- artifact_bb_change_description:0 "A fragmented tome surrounding Jarl Elgryr the Unminded and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_change_description:0 "A fragmented tome surrounding Jarl Elgryr the Unminded and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_bb_untold_name:1 "Black Book: Untold Legends"
- artifact_bb_untold_description:0 "A fragmented tome surrounding the other lives of Ysgramor and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_untold_description:0 "A fragmented tome surrounding the other lives of Ysgramor and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_bb_waking_name:1 "Black Book: Waking Dreams"
- artifact_bb_waking_description:0 "A fragmented tome mentioning the mantling of a godhead and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist."
+ artifact_bb_waking_description:0 "A fragmented tome mentioning the mantling of a godhead and one of the Black Books, Daedric artifacts created by Hermaeus Mora, the Daedric Prince of Fate and Knowledge, that emanate a strange energy. Each book contains some manner of forbidden knowledge. Some books are from the ancient past; some are from the future. The thick tomes are bound in black covers, with a symbol representing Mora on the front, and emit a black mist.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_oghma_infinium_name:1 "Oghma Infinium"
- artifact_oghma_infinium_description:0 "An ancient tome of knowledge, and an artifact of great power, the Oghma Infinium was written by Xarxes, the scribe of Auri-El, who had been granted the knowledge within by Hermaeus Mora. The name of the tome comes from Oghma, the wife of Xarxes, whom he created from his favorite moments in history. The knowledge within the tome grants the reader access to the artifact's energy, which can be manipulated to achieve near miraculous abilities. Once the Oghma Infinium is used, it disappears from its owner's possession."
+ artifact_oghma_infinium_description:0 "An ancient tome of knowledge, and an artifact of great power, the Oghma Infinium was written by Xarxes, the scribe of Auri-El, who had been granted the knowledge within by Hermaeus Mora. The name of the tome comes from Oghma, the wife of Xarxes, whom he created from his favorite moments in history. The knowledge within the tome grants the reader access to the artifact's energy, which can be manipulated to achieve near miraculous abilities. Once the Oghma Infinium is used, it disappears from its owner's possession.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_skeleton_key_name:1 "Skeleton Key"
- artifact_skeleton_key_description:0 "A Daedric artifact of the Daedric Prince Nocturnal that can be used to unlock any lock. The two limitations placed on the Key by wizards who sought to protect their storehouses were that the Key could only be used once a day and it would never be the property of one thief for too long, eventually disappearing."
+ artifact_skeleton_key_description:0 "A Daedric artifact of the Daedric Prince Nocturnal that can be used to unlock any lock. The two limitations placed on the Key by wizards who sought to protect their storehouses were that the Key could only be used once a day and it would never be the property of one thief for too long, eventually disappearing.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_shadow_key_name:1 "Shadowkey"
- artifact_shadow_key_description:0 "A large key enchanted with Shadow Magic, with the ability to open Shadowgates across Mundus."
+ artifact_shadow_key_description:0 "A large key enchanted with Shadow Magic, with the ability to open Shadowgates across Mundus.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_ring_namira_name:1 "Ring of Namira"
- artifact_ring_namira_description:0 "A Daedric artifact bestowed by Namira upon those who do her bidding, the ring has been known to enable damage reflection, increase one's stamina or even heal their wounds if a corpse is eaten."
+ artifact_ring_namira_description:0 "A Daedric artifact bestowed by Namira upon those who do her bidding, the ring has been known to enable damage reflection, increase one's stamina or even heal their wounds if a corpse is eaten.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_saviors_hide_name:1 "Savior's Hide"
- artifact_saviors_hide_description:0 "A Daedric artifact commonly associated with Hircine. Legend has it that Hircine rewarded his peeled hide to the first and only mortal to have ever escaped his Hunting Grounds. This unknown mortal had the hide tailored into this magical Cuirass for his future adventures. It is said that the Cuirass makes the wearer resistant to magic."
+ artifact_saviors_hide_description:0 "A Daedric artifact commonly associated with Hircine. Legend has it that Hircine rewarded his peeled hide to the first and only mortal to have ever escaped his Hunting Grounds. This unknown mortal had the hide tailored into this magical Cuirass for his future adventures. It is said that the Cuirass makes the wearer resistant to magic.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_ring_hircine_name:1 "Ring of Hircine"
- artifact_ring_hircine_description:0 "A Daedric artifact created by the Daedric Prince Hircine, this metallic ring is engraved with a wolf's head. Its power temporarily bestows Lycanthropy to the wearer, and allows true lycanthropes to control their transformations."
+ artifact_ring_hircine_description:0 "A Daedric artifact created by the Daedric Prince Hircine, this metallic ring is engraved with a wolf's head. Its power temporarily bestows Lycanthropy to the wearer, and allows true lycanthropes to control their transformations.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_skull_corruption_name:1 "Skull of Corruption"
- artifact_skull_corruption_description:0 "Vaermina's signature artifact creates a duplicate of the victim to torment them until one of them are dead. Legends surrounding this staff, say that it has a mind of its own, and can feed on the memories of those around it."
+ artifact_skull_corruption_description:0 "Vaermina's signature artifact creates a duplicate of the victim to torment them until one of them are dead. Legends surrounding this staff, say that it has a mind of its own, and can feed on the memories of those around it.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_volendrung_name:1 "Volendrung"
- artifact_volendrung_description:0 "An ancient artifact created by the Dwarven Rourken clan, this Hammer of Might is known to manifest as a warhammer of Dwarven Metal. For unknown reasons, Volendrung became a Daedric artifact of Malacath. It earns its name with its capability to demolish even the walls of enemy keeps with ease. The hammer is prone to disappearing like its Dwarven creators, sometimes resurfacing in days, sometimes in eons."
+ artifact_volendrung_description:0 "An ancient artifact created by the Dwarven Rourken clan, this Hammer of Might is known to manifest as a warhammer of Dwarven Metal. For unknown reasons, Volendrung became a Daedric artifact of Malacath. It earns its name with its capability to demolish even the walls of enemy keeps with ease. The hammer is prone to disappearing like its Dwarven creators, sometimes resurfacing in days, sometimes in eons.\n\n@warning_icon!#X This artifact will disappear upon succession.#"
 
  artifact_scourge_name:1 "Scourge"
- artifact_scourge_description:0 "A legendary Daedric artifact forged from sacred ebony in the Fires (or Fountains) of Fickledire. It is associated with Malacath and is a fierce weapon, taking the form of a steel or ebony mace. Malacath dedicated it to mortals, and any Daedra who attempts to invoke its power will be banished to the Void." # PLACEHOLDER
+ artifact_scourge_description:0 "A legendary Daedric artifact forged from sacred ebony in the Fires (or Fountains) of Fickledire. It is associated with Malacath and is a fierce weapon, taking the form of a steel or ebony mace. Malacath dedicated it to mortals, and any Daedra who attempts to invoke its power will be banished to the Void.\n\n@warning_icon!#X This artifact will disappear upon succession.#" # PLACEHOLDER
 
  artifact_wabbajack_name:1 "Wabbajack"
- artifact_wabbajack_description:0 "A Daedric artifact created by the Daedric Prince Sheogorath that takes the appearance of a Daedric staff that is engraved with angry gaping faces at the top. As befits the Prince of Madness, the staff can produce effects such as damaging, healing, turning to stone, or instantly killing the target, among other equally insane possibilities. Sheogorath finds only a few worthy of Wabbajack's "absurdly sweet power"." # PLACEHOLDER
+ artifact_wabbajack_description:0 "A Daedric artifact created by the Daedric Prince Sheogorath that takes the appearance of a Daedric staff that is engraved with angry gaping faces at the top. As befits the Prince of Madness, the staff can produce effects such as damaging, healing, turning to stone, or instantly killing the target, among other equally insane possibilities. Sheogorath finds only a few worthy of Wabbajack's "absurdly sweet power".\n\n@warning_icon!#X This artifact will disappear upon succession.#" # PLACEHOLDER
 
  artifact_bow_ivory_name:1 "Ivory Bow"
  artifact_bow_ivory_description:0 "A bow made of ivory. I don't know what to tell you, it's gonna be very important a few centuries in the future because it was some boy's first bow." # PLACEHOLDER
@@ -423,16 +423,6 @@
 
  artifact_moonlight_blade_name:1 "Moonlight Blade"
  artifact_moonlight_blade_description:0 "A moon-shaped blade dedicated to Azurah, wielded in her name by the Order of the Hidden Moon.The Moonlight Blade is supposed to be held to a worthy champion, but betrayal by a spurned candidate led to the ruin of the Order. Now back into the world, this agent of purification is an elegant example of Hunt-Lord style weaponry. The curvature of the blade lends itself to unexpected parries and wicked slashes, even across a shield. The Bent Cats are not safe with this weapon roaming the world."
-
- artifact_keening_name:1 "Keening"
- artifact_keening_description:0 "The short blade Keening was created to flay and focus the power that the hammer Sunder produces. In song, its described as a dagger made of the sound of the shadow of the moons."
- keening_tt:0 "You must equip Wraithguard in order to equip Keening as an [inventory_artifact|E]"
-
- artifact_sunder_name:1 "Sunder"
- artifact_sunder_description:0 "Created to produce a specific amount of power from the Heart of Lorkhan, which, when struck by Sunder, would release godlike power. It is described as a hammer of divine mass."
-
- artifact_wraithguard_name:1 "Wraithguard"
- artifact_wraithguard_description:0 "Created to safely wield the weapon tools, Sunder and Keening, for wielding the weapons without the gauntlet will often lead to the instant death of the wielder. It's described a gauntlet made of a material comparable to brass. It is also known as the Wraith Mail."
 
  artifact_calderas_name:1 "Calderas"
  artifact_calderas_description:0 "But one brave hero held no fear\nDranoth Hleran, warrior brave\nWith Calderas, his mighty spear\nBut one resounding cry he gave\n\nHe raised his spear to the beast\nHe ran, evading every blow\nHis heart was set, his speed increased\nAs he charged the mighty foe" #PLACEHOLDER

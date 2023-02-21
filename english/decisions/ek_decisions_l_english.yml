@@ -211,6 +211,8 @@
  sanguine_deal_decision_confirm:0 "I can't take it anymore, please!"
  sanguine_deal_decision_effect_tt:0 "The Lord of Revelry hears your pleas."
 
+ initiate_consolamentum_decision_age_tt:0 "Has [ek_age_modifier|E] equivalent to #N 60 years#! for average humans"
+
 # Artifacts
 
 crown_verity_decision:0 "Judgement of Verity"
