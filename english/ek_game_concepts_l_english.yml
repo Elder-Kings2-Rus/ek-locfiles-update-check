@@ -210,11 +210,11 @@
  game_concept_enc_aedra_desc:0 "Meaning 'Ancestors' in the old Aldmeri tongue, the Aedra are the Gods who helped forge Mundus. They however lost most of their divine power in the process, and are as such bound to take a passive role now, instead of the Daedra who can be much more active. As part of the divine contract of creation, the Aedra are also thought to be killable. The Trickster God Lorkhan, and the Two Moons are thought to have been killed, with their dead body still obversable to this day.\n\nThe Aedra are worshipped through most of Tamriel, but their most known followers would probably be the worshippers of the [enc_divines|E]."
  
  game_concept_enc_alchemy:0 "Alchemy"
- game_concept_enc_alchemy_desc:0 "An art as old as time, alchemy is the process through which someone combines and mixes, boils, or distills several ingredients to form a poison, or a potion. This art was supposedely codified by Asliel Direnni, but most people in Tamriel already knew how boiling a plant could cure a fever, or what bones should one crush to produce a potent poison.\n\nAlchemical ingredients come in very various forms, such as plants or leaves, animal parts, undead remnants, and even Daedric summons. This makes alchemy a potentially very lucrative and very dangerous trade, as the most expensive ingredients produce the most powerful poisons and potions, but are also hidden in the most deadly places."
+ game_concept_enc_alchemy_desc:0 "An art as old as time, alchemy is the process through which someone combines and mixes, boils, or distills several ingredients to form a poison, or a potion. This art was supposedly codified by Asliel Direnni, but most people in Tamriel already knew how boiling a plant could cure a fever, or what bones should one crush to produce a potent poison.\n\nAlchemical ingredients come in very various forms, such as plants or leaves, animal parts, undead remnants, and even Daedric summons. This makes alchemy a potentially very lucrative and very dangerous trade, as the most expensive ingredients produce the most powerful poisons and potions, but are also hidden in the most deadly places."
  
  game_concept_enc_divines:0 "Divines"
  game_concept_enc_eight_divines:0 "Eight Divines"
- game_concept_enc_divines_desc:0 "The Eight Divines are the [enc_aedra|E] who maintained most of their divine power even as the creation of Mundus drained most of it. Their worship started under Alessia and her newly forged Empire, as the Elven gods and Nordic deities had to coexist in this new nation.\n\nAs part of the Covenant between Alessia and Akatosh, the Dragon-God of Time swore to protect Mundus from further Daedric influence as long as Alessia and her line championned the pantheon throughout Tamriel. Aside from Akatosh, the Eight Divines are made of Arkay, Dibella, Julianos, Kynareth, Mara, Stendarr, and Zenithar."
+ game_concept_enc_divines_desc:0 "The Eight Divines are the [enc_aedra|E] who maintained most of their divine power even as the creation of Mundus drained most of it. Their worship started under Alessia and her newly forged Empire, as the Elven gods and Nordic deities had to coexist in this new nation.\n\nAs part of the Covenant between Alessia and Akatosh, the Dragon-God of Time swore to protect Mundus from further Daedric influence as long as Alessia and her line championed the pantheon throughout Tamriel. Aside from Akatosh, the Eight Divines are made of Arkay, Dibella, Julianos, Kynareth, Mara, Stendarr, and Zenithar."
  
  game_concept_enc_magnus:0 "Magnus"
  game_concept_enc_sun:0 "Sun"
@@ -243,7 +243,7 @@
  game_concept_dawn_era_desc:0 "The Dawn Era was a period during which time followed an incomprehensible nonlinear path and the very laws of nature remained unset. It was followed by the [merethic_era|E]."
  
  game_concept_merethic_era:0 "Merethic Era"
- game_concept_merethic_era_desc:0 "The Merethic Era also known as the Era of Myths. It ended when Eplar Camoran united Valenwood and forged the First known Kingdom and ushered in the [first_era|E]."
+ game_concept_merethic_era_desc:0 "The Merethic Era also known as the Era of Myths. It ended when Eplear Camoran united Valenwood and forged the First known Kingdom and ushered in the [first_era|E]."
  
  game_concept_first_era:0 "First Era"
  game_concept_first_era_desc:0 "The First Era was preceded by the [merethic_era|E] and lasted for thirty centuries, ending with the assassination of Emperor Reman III and his heirs by the hands of the Morag Tong and leading to the rise of the First Akaviri Potentate."

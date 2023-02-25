@@ -634,3 +634,6 @@
  ek_wild_magic_event.0001.option3:0 "Very well."
  ek_wild_magic_event.0001.option4:0 "My strength waxes."
  ek_wild_magic_event.0001.option5:0 "I feel powerful!"
+
+ inspired_courtier_inspiration:0 "[inspired_courtier.GetShortUIName] gets an [inspiration|E]!"
+ adventurer_inspiration:0 "[adventurer.GetShortUIName] gets an [inspiration|E]!"

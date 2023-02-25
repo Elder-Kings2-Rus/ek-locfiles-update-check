@@ -798,7 +798,7 @@ empire_feudal_yokudan:0 "Empire"
 khan_male:0 "[CHARACTER.Custom('khan_male')]"
 khan_female:0 "[CHARACTER.Custom('khan_female')]"
 great_khan_male:0 "[CHARACTER.Custom('great_khan_male')]"
-great_khan_female:0 "[CHARACTER.Custom('great_khan_female')]"g
+great_khan_female:0 "[CHARACTER.Custom('great_khan_female')]"
 khanate_title:0 "[CHARACTER.Custom('khanate_title')]"
 ashkhan:0 "Ashkhan"
 snowkhan:0 "Snowkhan"

@@ -110,6 +110,7 @@
  culture_parameter_can_appoint_court_speaker:0 "Can appoint the [GetCourtPositionType('speaker_court_position').GetName()] [court_position|E]"
  court_position_tradition_gardening:0 "$tradition_life_menders_name$ [culture_tradition|E]"
  culture_parameter_characters_are_better_court_gardeners:0 "[characters|E] of this [culture|E] perform better when appointed to the #high $court_gardener_court_position$#! [court_position|E]"
+ culture_parameter_allows_jesters_tradition:0 "Can appoint the [GetCourtPositionType('court_jester_court_position').GetName()] [court_position|E]"
 
 ##LAW PARAMETERS
  culture_parameter_moot_elective_enabled:0 "Can enact the #high $moot_elective_succession_law$#! [succession_law|E]"
@@ -442,6 +443,7 @@
  tradition_goblinken_trigger_desc:0 "Is $Goblinken$ [heritage|E]"
  tradition_chimeri_trigger_desc:0 "Is $Chimeri$ [heritage|E]"
  tradition_hereditary_hierarchy_trigger_desc:0 "Does not have the [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E]"
+ has_feudal_like_government_trigger_desc:0 "Is not [GetGovernment('tribal_government').GetName]"
 
  tradition_roman_legacy_trigger_desc:0 "Is either of $colovian$, $nibenese$, or $heartlander$ [culture|E], descended from any of the former, or holds the Empires of Tamriel or Cyrodiil as a primary title."
 

@@ -17,7 +17,7 @@
  dynn_bascilius_motto:0 "Aetherius, heed my call"
  dynn_jirich_motto:0 "Champion Of The People"
  dynn_hassildor_motto:0 "Wardens Of The Weald"
- dynn_redoran_motto:0 "A Redoran is a warrior whose duty is first to the Tribunal, second to House Redoran, and third to family and clan"
+ dynn_redoran_motto:0 "Duty is first to the Tribunal, second to House Redoran, and third to family and clan"
  dynn_indoril_motto:0 "Justice knows no sleep: Indoril shall order, the Temple shall judge"
  dynn_hlaalu_motto:0 "To trade fairly and freely is to honor the Three"
  dynn_dres_motto:0 "To spread culture and truth to the benighted: this is our commitment and burden"
@@ -68,10 +68,6 @@
  dynn_shattershield_motto:0 "Nothing Lasts Forever"
  dynn_searaider_motto:0 "Less Talking, More Raiding!"
  dynn_yal_motto:0 "Remember the Fall of Orsinium"
- dynn_urshilaku_motto:0 "Nerevar Will Return"
- dynn_erabenimsun_motto:0 "Strength Above All Else"
- dynn_zainab_motto:0 "Growth Under Moon and Star"
- dynn_ahemmusa_motto:0 "We Who Follow The Winds"
  dynn_kvinchal_motto:0 "Triumphant In The Final Hour"
  dynn_larich_motto:0 "Wine Runs Red"
  dynn_fleccian_motto:0 "Lady Luck Lead Me!"
@@ -133,9 +129,6 @@
  dynn_fharun_motto:0 "Feel Not The Bite Of Our Winter, Nor The Edge Of The Wind."
  dynn_ancmirar_motto:0 "Beauty Like Never Seen"
  dynn_hinrorue_motto:0 "Warlords of the Mountain Lair"
- dynn_mabrigash_motto:0 "Upon the Coiled Path We Tread"
- dynn_vereansu_motto:0 "Honour Bound, Burning Revenge"
- dynn_ulath_motto:0 "Between Whispers and Memories"
  dynn_driladan_motto:0 "Shadows Crawl in Stone Cold Halls"
  dynn_blackroot_motto:0 "Feast On The Fallen"
  dynn_camoran_grahtwood_motto:0 "Safety in a Dangerous World"
@@ -145,6 +138,7 @@
  dynn_dresley_motto:0 "More than mere Nix-Hounds"
  dynn_tswift_motto:0 "The archer, the prey; who could stay?"
  dynn_copperton_motto:0 "Every day, once a day, give yourself a present"
+ dynn_fyr_motto:0 "Don't Waste Time on Boring People"
 
 #Placeholder Motto
  dynn_placeholder_motto:0 "Cool One-Liner To Be Added"
@@ -208,7 +202,17 @@
  dynn_aquila_motto:0 "True Sight Uncovers All"
 
 #Ashlander Mottos
+ dynn_ahemmusa_motto:0 "Favour the Cautious Heart"
+ dynn_erabenimsun_motto:0 "Weakness Has No Home Here"
+ dynn_urshilaku_motto:0 "Wisdom And Valor Above All Else"
+ dynn_zainab_motto:0 "Adapt to Survive"
  dynn_kagesh_motto:0 "Burn Like A Foyada"
+ dynn_mabrigash_motto:0 "Upon the Coiled Path We Tread"
+ dynn_vereansu_motto:0 "Honour Bound, Burning Revenge"
+ dynn_ulath_motto:0 "Between Whispers and Memories"
+ dynn_abalkala_motto:0 "Nerevar Will Return"
+ dynn_serranipu_motto:0 "Growth Under Moon and Star"
+ dynn_shashmassamsi_motto:0 "We Who Follow The Winds"
 
 #Ayleid Mottos
  dynn_dynar_motto:0 "Sacrifice Begets Eternity"

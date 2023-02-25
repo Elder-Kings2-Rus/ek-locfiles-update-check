@@ -67,10 +67,12 @@
  unlocks_other_maa_innovations:0 "Automatically unlocks other Khajiiti army innovations when the regular innovation is researched"
  replaces_innovation_basic_armor_forging:0 "#I This [innovation|E] replaces $innovation_basic_armor_forging$#!"
  innovation_unlocked_by_innovation_lunar_lattice:0 "Is unlocked with the $innovation_lunar_lattice$ [innovation|E]"
+
+ innovation_lunar_mysteries:0 "Lunar Mysteries"
+ innovation_lunar_mysteries_desc:0 "Not only does the Lunar Lattice determine our physcial form, it also opens a path to lost and eminent secrets. If we decipher the movements of the moons and follow their path we can reach deeper into the arcane and even share this knowledge with our children."
  
  innovation_alfiq:0 "Alfiq Training"
  innovation_alfiq_desc:0 "We are bound to the Moons, and our physiology is deeply tied to their form when we are born. The smallest of us, the Alfiq, are predisposed to the magical arts, and can support our warriors either in the backline, or by sitting in a shoulder harness worn by our largest warriors."
- innovation_unlocked_by_innovation_war_magic:0 "Is unlocked with the $innovation_war_magic$ [innovation|E]"
  
  innovation_pahmar:0 "Pahmar Training"
  innovation_pahmar_desc:0 "We are bound to the Moons, and our physiology is deeply tied to their form when we are born. The largest of the two-legged furstock, the Pahmar can easily wear even the heaviest armor and wield the biggest weapons. They will be great on the battlefield, charging the enemy frontline and paving the way for their smaller brethren."

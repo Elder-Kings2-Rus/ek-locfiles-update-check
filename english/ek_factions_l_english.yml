@@ -31,6 +31,7 @@
  CRISIS_GOBLIN_WAR_NAME:0 "Goblin Uprising"
  crisis_goblin_war_defeat_desc:0 "The [goblin_faction|E] is disbanded and [attacker.GetShortUIName] is imprisoned. All goblin-occupied [counties|E] have their [county_opinion|E] increased."
  FACTION_UNDEAD_NAME:0 "Undead Horde"
+ crisis_undead_faction:0 "Undead Horde"
  crisis_undead_faction_desc:0 "A nearby undead horde is overruning one of our [counties|E]!"
  crisis_undead_faction_short_effect_desc:0 "Wants to control certain [counties|E]"
  crisis_undead_faction_every_county:0 "Every county in the faction"

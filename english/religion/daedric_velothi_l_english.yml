@@ -163,16 +163,6 @@
  old_velothi_bishop_neuter:0 "oracle"
  old_velothi_bishop_neuter_plural:0 "oracle"
  old_velothi_bishop_alternate_plural:0 "oracles"
- 
- #Nerevarine Cult
- #nerevarine:1 "Nerevarine Cult"
- #nerevarine_adj:1 "Nerevarine Cult"
- #nerevarine_adherent:1 "Nerevarine Cultist" #Wip
- #nerevarine_adherent_plural:1 "Nerevarine Cultists" #WIP
- #nerevarine_desc:0 "Believing that the Tribunal betrayed Nerevar and killed him to ascend the Godhood, the Nerevarine Cultists reject the authority of the Three Living Gods. They also pass down several oral prophecies, including the return of Nerevar himself, sent by Azura in the form of an Incarnate, the Nerevarine, who would cast down the Tribunal, and free Morrowind and Vvardenfell from the influence of the ALMSIVI."
- #nerevarine_religious_symbol:0 "moon-and-star"
- #nerevarine_religious_text:0 "Wraithmail prophecies"
- #nerevarine_religious_head_title_name:0 "New Temple"
 
  #Sixth House
  sixth_house:1 "Sixth House"
