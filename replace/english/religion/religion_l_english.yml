@@ -12,3 +12,9 @@
  hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|V]"
  hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)34' )|V]"
  hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)67' )|V]"
+
+# Fixing vanilla buggy loc
+# EK EDIT: removed debug debug text for these parameters
+ doctrine_parameter_torturing_prisoners_grants_piety:0 "Torturing [prisoners|E] earn [piety|E] instead of costing [piety|E]"
+ doctrine_parameter_reduced_stress_from_torture:0 "Adherents are resistant to the negative effects of being tortured"
+ doctrine_parameter_self_mutilation_active:0 "Can [decide|E] to Perform Self-Mutilation, earning [piety|E] at the cost of getting the [GetTrait('wounded_1').GetName( GetPlayer )] [trait|E]"

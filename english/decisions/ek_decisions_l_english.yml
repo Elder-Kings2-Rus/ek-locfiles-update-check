@@ -48,12 +48,7 @@
  commune_with_loved_one_soulmate_tooltip:0 "I will attempt to summon the soul of the love of my life, to finally mourn them and tell them one last time how much I love and miss them.\n\nIt might not be without risk however, as the soul I will try to summon may want to be left alone..."
  
  # Religious
- witch_become_occultist_decision:0 "Become a [GetTrait('occultist').GetName( GetPlayer )]"
- witch_become_occultist_decision_desc:0 "I can feel the old powers of the earth coursing through my veins. But it is still largely untapped... There are tales of old rituals, forgotten spells, and cursed ceremonies that would allow the most powerful witches and warlocks to become so much more..."
- witch_become_occultist_decision_tooltip:0 "So much untapped power..."
- witch_become_occultist_decision_effect_tooltip:0 "@warning_icon! The rituals can be incredibly dangerous. Most who try do not survive the sudden burst of ancient and dark energies."
- witch_become_occultist_decision_confirm:0 "Start the rituals!"
- 
+
  take_vow_of_squalor_decision:0 "Take Vow of Squalor"
  take_vow_of_squalor_decision_tooltip:1 "You vow to live as the beggars and the sick do"
  take_vow_of_squalor_decision_desc:0 "$tenet_vows_of_squalor_desc$"
@@ -113,28 +108,6 @@
  province_shares_faith:0 "The [county|E] shares your [faith|E]"
  province_shares_religion:0 "The [county|E] shares your [religion|E]"
  
- council_of_the_eight_assume_leadership_decision:0 "Assume Leadership of the Council of the Eight"
- council_of_the_eight_assume_leadership_decision_desc:0 "For centuries the Council of the Eight was led by an outsider, with the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] faithfuls forced to follow their lead.\n\nBut by becoming the de facto leaders of the Council of the Eight, by taking control of most of my faith's holy sites and ensuring that we have more followers than the current Leader of the Council, I can ensure that the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] priesthood can become the central authority in the religious matter of my brothers and sisters in faith!"
- council_of_the_eight_assume_leadership_decision_tooltip:0 "The [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] will lead the Council of the Eight to glory!"
- council_of_the_eight_assume_leadership_decision_confirm:0 "Summon the Prelates and Primates!"
- council_of_the_eight_assume_leadership_decision_effect_1:0 "[current_hof.GetTitledFirstName] gets the [council_of_the_eight_title.GetName], and discards [current_hof.GetHerHis] current [head_of_faith|E] title.\nYour faith gains the [GetFaithDoctrine('special_faith_group_council_of_the_eight_leader').GetBaseName] doctrine, with the rights and responsabilities that it entails."
- council_of_the_eight_assume_leadership_decision_effect_2:0 "[former_hof.GetTitledFirstName] takes [former_hof.GetHerHis] old [head_of_faith|E] title back, the [leader_council_eight_former_title.GetName].\nThe [leader_council_eight.GetName] faith gains the [GetFaithDoctrine('special_faith_group_council_of_the_eight_member').GetBaseName] doctrine."
- has_3_holy_site_your_faith:0 "Is a [holy_site|E] of your [faith|E] (need 3)"
- faith_has_more_county_followers_leader_council:0 "Your [faith|E] is present in more [counties|E] than the one currently presiding the Council of the Eight:"
- 
- council_of_the_eight_join_council_decision:0 "Join the Council of the Eight"
- council_of_the_eight_join_council_decision_desc:0 "The faiths revering the Divines are led by the Council of the Eight, presided over by the Arch-Primate. They currently do not see us as rightful members, and while our common worship of the Divines should unite us, the political divide might hurt us more in the long run.\nNow that we are a sizeable faith, we should petition the Arch-Primate for a seat within the Council of the Eight."
- coe_no_hof_need_holy_site:0 "As you have no [head_of_faith|E], you need to hold at least 1 [holy_site|E] of your faith"
- council_of_the_eight_join_council_decision_tooltip:0 "Petition the Arch-Primate for a seat within the Council of the Eight."
- council_of_the_eight_join_council_decision_confirm:0 "Draft the letter!"
- council_of_the_eight_join_council_decision_effect_1:0 "The Arch-Primate might demand that we conform our faith to their religious doctrines, if we differ from theirs."
- council_of_the_eight_join_council_decision_effect_2:0 "Most faiths within the Council are led by an Arch-Prelate and a Chapel. As our faith does not have a Temporal Religous Head, the Arch-Primate will certainly demand that we put our religious authority into the hand of a new Arch-Prelate."
- 
- council_of_the_eight_centralize_decision:0 "Centralize the Council of the Eight"
- council_of_the_eight_centralize_decision_desc:0 "EK WIP PH"
- council_of_the_eight_centralize_decision_confirm:0 "EK WIP PH"
- high_enough_ration_land_held_coe_leader_total_land_held_coe:0 "The [Faith.GetName] controls at least #V $VALUE|0$%#! of all the land controlled by the Council of the Eight\n#weak Current value: #V [Faith.MakeScope.ScriptValue('ration_land_held_coe_leader_total_land_held_coe')|1]%#!#!"
- 
  bury_in_cath_bedraud_decision:0 "Bury Your [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)|U] in Cath Bedraud"
  bury_in_cath_bedraud_decision_tooltip:0 "Put your ancestor to rest and gain [dynasty_prestige|E] and [vassal|E] [opinion|E]"
  bury_in_cath_bedraud_decision_desc:0 "#F [ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has passed away. For generations the cemetary of Cath Bedraud has seen royalty and heroes of High Rock resting here after death. I shall bury [ROOT.Var('ancestor_to_bury').Char.GetHerHim] here, and let [ROOT.Var('ancestor_to_bury').Char.GetHerHim] rest.#!"
@@ -186,7 +159,7 @@
  
  recruit_priest_liturgical_language_decision:0 "Request a new Realm Priest"
  recruit_priest_liturgical_language_decision_daedric:0 "The [ROOT.Char.GetFaith.GetAdjective] priesthood is required to speak the Daedric tongue, but unfortunately no-one in my court knows the language of Oblivion. Luckily, I can summon a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the gap."
- recruit_priest_liturgical_language_decision_dragon:0 "The [ROOT.Char.GetFaith.GetAdjective] priesthood is required to speak the Draconic tongue, but unfortunately no-one in my court knows Dovahzuul, the language of the Dragons. Luckily, I can summon a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the gap."
+ recruit_priest_liturgical_language_decision_dragon:0 "The [ROOT.Char.GetFaith.GetAdjective] priesthood is required to speak the Draconic tongue, but unfortunately no-one in my court knows Dovahzul, the language of the Dragons. Luckily, I can summon a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the gap."
  recruit_priest_liturgical_language_decision.tt:0 "A priest, able to speak your Faith's [liturgical_language|E], will be summoned to your court"
  recruit_priest_liturgical_language_decision_confirm:0 "Summon the [ROOT.Char.GetFaith.PriestNeuter]!"
  recruit_priest_liturgical_language_decision_tooltip:0 "Recruit a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the void in your court"
@@ -312,6 +285,11 @@ adopt_child_decision_desc:1 "A nearby town holds an orphanage inside its walls. 
 tribal_adopt_child_decision_desc:1 "The tribe has many orphaned children. You may visit their caretaker in the hopes of finding a suitable heir for you to adopt."
 adopt_child_decision_effect_tooltip:4 "You will be presented with a group of children and may adopt one of them"
 adopt_child_decision_confirm:0 "Surely there's someone worthy..."
+adopt_child_requirement_1:0 "You are close to death"
+adopt_child_requirement_2:0 "You cannot have children"
+adopt_child_requirement_3:0 "You are unable to have children with your [spouse|E] or a [concubine|E]"
+adopt_child_requirement_4:0 "A [city|E] within your [domain|E] must contain an #V $building_type_orphanage_01$#! building"
+adopt_child_requirement_5:0 "You do not have a [player_heir|E]"
 
 
 #Dev stuff, keep like this
@@ -324,7 +302,7 @@ debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
 become_pirate_decision:0 "Change to Pirate Government!"
 become_pirate_decision_tooltip:0 "Become a Pirate!"
 become_pirate_decision_confirm:0 "Arrrr matey!"
-become_pirate_decision_desc:0 "@warning_icon! #X Allows you to become Pirate government once after gamestart! This decision will disapear after one ingame year! #!"
+become_pirate_decision_desc:0 "@warning_icon! #X Allows you to become Pirate government once after game start! This decision will disappear after one in-game year! #!"
 
 stop_being_pirate_government_decision:0 "Abandon Piracy?"
 stop_being_pirate_government_decision_desc:0 "Being a Pirate might be lucrative but it lacks a certain legitimacy and authority more regular nobility holds, perhaps it is time to abandon our current governance and adopt a more centralized system? "

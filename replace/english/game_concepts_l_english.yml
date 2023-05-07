@@ -19,11 +19,13 @@
  game_concept_faith_astray_desc:0 "This [faith|E] differs in a way that is not particularly significant.\nIntermarriage may still happen.\n\n#S Effects at minimum Hostility to be considered Astray:\n#![GetHostilityDescription( '(int32)1' )]\n\n#S Effects at maximum Hostility to be considered Astray:\n#![GetHostilityDescription( '(int32)33' )]"
 
  game_concept_faith_hostile:0 "Hostile"
- game_concept_faith_hostile_desc:0 "This [faith|E] deviates significantly.\nIntermarriage may still happen, [holy_wars|E] can be waged.\n\n#S Effects at minimum Hostility to be considered Hostile:\n#![GetHostilityDescription( '(int32)34' )]\n\n#S Effects at minimum Hostility to be considered Hostile:\n#![GetHostilityDescription( '(int32)66' )]"
+ game_concept_faith_hostile_desc:0 "This [faith|E] deviates significantly.\nIntermarriage may still happen.\n\n#S Effects at minimum Hostility to be considered Hostile:\n#![GetHostilityDescription( '(int32)34' )]\n\n#S Effects at maximum Hostility to be considered Hostile:\n#![GetHostilityDescription( '(int32)66' )]"
 
  game_concept_faith_evil:0 "Evil"
  game_concept_faith_evil_desc:0 "This [faith|E] is considered anathema.\nIntermarriage rarely happens, [holy_wars|E] can be waged.\n\n#S Effects at minimum Hostility to be considered Evil:\n#![GetHostilityDescription( '(int32)67' )]\n\n#S Effects at maximum Hostility to be considered Hostile:\n#![GetHostilityDescription( '(int32)100' )]"
 
+ game_concept_faith_hostility:0 "Faith Hostility"
+ game_concept_faith_hostility_desc:1 "All [faiths|E] have a relation towards each other $game_concept_faith$ that is determined by how closely related they are.\nBase [faith_hostility|E] is #P 50#!. \n\nThis is then affected by the following factors:\n• If they share a [pantheon|E]\n• If they are syncretic through a Secondary [pantheon|E]\n• Their view on Witchcraft, Lycanthropy, Vampirism and Necromancy\n• Their view on the [enc_missing_god|E]\n• Their view on the Daedra\n• Some Tenets\n• If the Faith has Special [doctrines|E]\n\nIf two Faiths are very far apart, they might be able to [holy_war|E] each other.\n\nThe following relations exist: [faith_righteous|L] ([faith_hostility|E] 0), [faith_astray|L] ([faith_hostility|E] 1-33), [faith_hostile|L] ([faith_hostility|E] 34-66), and [faith_evil|L] ([faith_hostility|E] 67-100)."
 
 # Culture Era replacements
  game_concept_tribal_desc:0 "Tribal realms have stunted county [development|E], cannot advance past $culture_era_tribal$ [innovations|E], cannot construct new [holdings|E], and are usually unable to change their [succession_law|E].\n\nHowever, they can make use of [prestige|E] rather than [gold|E] to build their realms and hire [men_at_arms|E], and have access to more [casus_belli|E] compared to [feudal|E] Realms. Non-Tribal armies suffer a [supply_limit|E] penalty in hostile Tribal territory."

@@ -40,14 +40,14 @@
     cultural_rights_none:0 "Culturally Unprotected"
     cultural_rights_none_short:0 "Unprotected"
     cultural_rights_protected:0 "Culturally Protected"
-    cultural_rights_protected_desc:2 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] can not use [promote_culture|E] in the [vassals|E]' lands, except to spread the vassal's [culture|E]\n\n#flavor The [vassal|E] is granted a special protected status, with the realm officially recognizing their right to practice their own [culture|E]. Special land grants and status in their own territory allows the vassal's culture to easily be spread in the vassal's lands.#!"
+    cultural_rights_protected_desc:2 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] can not use [promote_culture|E] in the [vassals|E]' lands, except to spread the vassal's [culture|E]. The [liege|E] can not freely [revoke|E] from, [imprison|E] or [execute|E] a [pariah|E] or [daedric_race|E] vassal.\n\n#flavor The [vassal|E] is granted a special protected status, with the realm officially recognizing their right to practice their own [culture|E]. Special land grants and status in their own territory allows the vassal's culture to easily be spread in the vassal's lands.#!"
     cultural_rights_protected_short:0 "Protected"
   minor_tributes_rights:0 "Minor Tributes"
     minor_tributes_rights_default:0 "No Minor Tributes"
     minor_tributes_rights_default_shorts:0 "None"
     minor_tributes_rights_enforced:0 "Minor Tributes Enforced"
     minor_tributes_rights_enforced_short:0 "Enforced"
-    minor_tributes_rights_enforced_desc:0 "#flavor The [vassal|E] is expected to regulary send minor trinkets to their Liege, funneling some of their [prestige|E] to their suzerain.#!"
+    minor_tributes_rights_enforced_desc:0 "#flavor The [vassal|E] is expected to regularly send minor trinkets to their Liege, funneling some of their [prestige|E] to their suzerain.#!"
  
  ### Governments
  # Used when reforming your government

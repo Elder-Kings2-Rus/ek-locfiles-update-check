@@ -10,7 +10,16 @@
  disorganized_military_reform_military_decision:0 "Reform the [ROOT.Char.GetCulture.GetNameNoTooltip] Military"
  disorganized_military_reform_military_decision_desc:0 "Most of our kind does not believe in elite soldiers and professional warriors, preferring to overwhelm the battlefield with bodies.\n\nBut most of our kind does not understand anything about war. It is time to reorganize our way of waging war from the ground up, and finally form a proper army, capable of clashing with the rest of Tamriel."
  disorganized_military_reform_military_decision_tooltip:0 "Reform the military, and become equal to the great powers of Tamriel!"
- disorganized_military_reform_military_decision_confirm:0 "Tamriel will fear the might of the [ROOT.Char.GetCulture.GetNameNoTooltip]!"
+ disorganized_military_reform_military_decision_confirm:0 "Tamriel will fear the might of the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
+ has_military_lifestyle_traits:0 "You have at least #V 2#! of the following [traits|E]: [GetTrait('strategist').GetName(GetNullCharacter)], [GetTrait('overseer').GetName(GetNullCharacter)], [GetTrait('gallant').GetName(GetNullCharacter)]"
+
+ cast_off_pariah_status_decision:0 "Cast off Pariah Status"
+ cast_off_pariah_status_decision_desc:0 "For too long have our people been treated as mere beasts by "civilised" society. But what makes our cities, our homes, less worthy than theirs? Our culture is as old as any, and our traditions as great.\n\nBut our people have lived among our persecutors long enough that they will soon have no choice but to acknowledge us. With my personal prestige behind us, we shall make it clear that we are as worthy as anybody else.\n\nToday, we gain recognition."
+ cast_off_pariah_status_decision_tooltip:0 "We are not monsters!"
+ cast_off_pariah_status_decision_confirm:0 "Tamriel will recognise us as equals!"
+ you_are_culture_head:0 "You are [culture_head|E] of your [culture|E]"
+ not_daedric_faith:0 "You do not follow a [GetReligionFamily('rf_daedra').GetName] [faith|E]"
+ not_disorganized_military:0 "Your [culture|E] does not have the #V Disorganized Military#! [innovation|E]"
 
  daedric_heir_decision:0 "Draw a Kin-Heir from Oblivion"
  daedric_heir_decision_desc:0 "We Dremora do not perceive the world as mortals do. We are not born as mortals are. We lack fathers or mothers. What we have are our kin and our clans. If I was to summon one of my kin to this realm, I would be able to strengthen our clan and sharpen our purpose here."

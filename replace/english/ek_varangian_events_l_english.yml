@@ -2,7 +2,8 @@
 
  trait_varangian:0 "Legionary"
  trait_varangian_desc:0 "This character has served in the Imperial Legion."
- trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has served in the Imperial Legion."
+ trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has served in the Imperial Legion. Such service is a rare chance for Pariahs to prove their worth and escape persecution."
+ TRAIT_FLAG_DESC_pariah_exemption:0 "[pariahs|E] are exempt from [pariah_discrimination|E]"
  
  murder_save.0010.t:0 "$murder_save_header$ Legionary"
  murder_save.0010.desc:0 "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\n\nThe assassin was stopped by one of those insipid Legionaries! I suppose the [target.GetTitleAsNameNoTooltip] got [target.GetHerHis] Legion after all..."

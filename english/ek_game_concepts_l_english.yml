@@ -16,13 +16,34 @@
  
  game_concept_abomination:0 "Abomination"
  game_concept_abominations:0 "Abominations"
- game_concept_abomination_desc:1 "'$game_concept_abomination$' are characters considered so opposite to a faith's [doctrines|E] or [core_tenets|E] that other faiths can use the $CLEANSE_ABOMINATIONS_DUCHY_NAME$ Casus Belli against them, if their Doctrines and Tenets permit it.\n\n * Faiths considering Necromancy Criminal will see Undead and Necromancers as Abominations.\n * Faiths considering Vampirism Criminal will see Vampires as Abominations.\n * Faiths considering Lycanthropy Criminal will see Lycanthropes as Abominations."
+ game_concept_abomination_desc:1 "'$game_concept_abomination$' are characters considered so opposite to a faith's [doctrines|E] or [core_tenets|E] that other faiths can use the $CLEANSE_ABOMINATIONS_DUCHY_NAME$ Casus Belli against them, if their Doctrines and Tenets permit it.\n\n • Faiths considering Necromancy Criminal will see Undead and Necromancers as Abominations.\n • Faiths considering Vampirism Criminal will see Vampires as Abominations.\n • Faiths considering Lycanthropy Criminal will see Lycanthropes as Abominations."
  
  game_concept_cleanse_abomination:0 "Cleanse Abomination"
  game_concept_cleanse_abomination_war:0 "Cleanse Abomination War"
  game_concept_abomination_cleansing:0 "Abomination Cleansing"
  game_concept_abomination_cleansing_war:0 "Abomination Cleansing War"
- game_concept_cleanse_abomination_desc:1 "'$game_concept_cleanse_abomination_war$' are a special type of [war|E] waged against [rulers|E] your [faith|E] consider [abominations|E].\n\nThey allow the attacker to seize all [counties|E] in the target [duchy|E] that are held by an [abomination|E]. Other in the target duchy are vassalized instead."
+ game_concept_cleanse_abomination_desc:1 "'$game_concept_cleanse_abomination_war$' are a special type of [war|E] waged against [rulers|E] your [faith|E] consider [abominations|E].\n\nThey allow the attacker to seize all [counties|E] in the target [duchy|E] that are held by an [abomination|E]. Others in the target duchy are vassalized instead."
+
+ game_concept_pariah:0 "Pariah"
+ game_concept_pariahs:0 "Pariahs"
+ game_concept_monster:0 "Monster"
+ game_concept_monsters:0 "Monsters"
+ game_concept_pariah_desc:1 "'$game_concept_pariahs$' are characters considered to be monsters, and not civilised people on par with other races in the eyes of most people of Tamriel. This is signified by their [cultures|E] having the #V Pariah Folk#! [innovation|E]. Characters of these cultures may be targeted by others without this [innovation|E] using the $EXPEL_MONSTERS_DUCHY_NAME$ [casus_belli|E], may be freely [imprisoned|E], [executed|E] or [revoked|E] from, and characters of other cultures will be less likely to accept offers of [marriage|E]. The #V Pariah Folk#! [innovation|E] may however be removed using the #V Cast off Pariah Status#! [decision|E] - though it may also be regained given certain circumstances."
+
+ game_concept_expel_monsters:0 "Expel Monsters"
+ game_concept_expel_monsters_war:0 "Expel Monsters War"
+ game_concept_expel_monsters_desc:1 "'$game_concept_expel_monsters$' are a special type of [war|E] waged against [rulers|E] your [culture|E] consider [pariahs|E].\n\nThey allow the attacker to seize all [counties|E] in the target [duchy|E] that are held by a [pariah|E]. Others in the target duchy are vassalized instead."
+
+ game_concept_pariah_discrimination:0 "Discrimination"
+ game_concept_pariah_discriminate:0 "Discriminate"
+ game_concept_pariah_discrimination_desc:0 "'Discrimination' is a catch-all term for hostile character [interactions|E] used against a [pariah|E]. In this context, it refers to the ability of non-Pariahs to [imprison|E], [execute|E] and [revoke|E] from this character due to them belonging to a Pariah culture."
+
+ game_concept_daedric_race:0 "Daedra"
+ game_concept_demon_race:0 "Demon"
+ game_concept_daedric_race_desc:0 "'$game_concept_daedric_race$' are characters who are not of this world - they originate from the Planes of Oblivion. This is signified by their [cultures|E] having the #V Daedric Race#! [innovation|E]. Characters of these cultures may be targeted by others without this [innovation|E] who do not follow a [GetReligionFamily('rf_daedra').GetName] [faith|E] using the $BANISH_DEMON_DUCHY_NAME$ [casus_belli|E], and may be freely [imprisoned|E], [executed|E] or [revoked|E] from."
+ game_concept_banish_demon:0 "Banish Demon"
+ game_concept_banish_demon_war:0 "Banish Demon War"
+ game_concept_banish_demon_desc:0 "'$game_concept_banish_demon$' are a special type of [war|E] waged against [rulers|E] who are [daedric_race|E] when you do not follow a [GetReligionFamily('rf_daedra').GetName] [faith|E].\n\nThey allow the attacker to seize all [counties|E] in the target [duchy|E] that are held by a [daedric_race|E]. Others in the target duchy are vassalized instead."
  
  game_concept_pantheon:0 "Pantheon"
  game_concept_patron:0 "Patron"
@@ -31,7 +52,12 @@
  game_concept_patron_deities:0 "Patron Deities"
  game_concept_personal_deity:0 "Personal Deity"
  game_concept_personal_deities:0 "Personal Deities"
- game_concept_pantheon_desc: "Most faiths revere a wide array of deities, composing its Pantheon. Non-Cynical members of the faith can choose between several Patron Deities to worship, each giving a specific bonus and potentially unlocking decisions and events.\n\nWhile taking an Aedric or Aurbic deity as your patron will mostly give a passive change, choosing to dedicate yourself to a Daedra allows you to claim their artifact and to request boons.\n\n[faiths|E] sharing the same Pantheon tend to be much less hostile towards one another, compared to faiths with a Pantheon considered foreign."
+ game_concept_pantheon_desc: "Most faiths revere a wide array of deities, composing its Pantheon. Members of the faith can choose between several Patron Deities to worship, each giving a specific bonus and potentially unlocking decisions and events.\n\n[faiths|E] sharing the same Pantheon tend to be much less hostile towards one another, compared to faiths with a Pantheon considered foreign.\n\nFaiths can be made syncretic towards one another through the use of a [secondary_pantheon|E], where the faith gains up to three Patron Deities from the other Pantheon and both faiths get reduced [faith_hostility|E] towards one another."
+
+ game_concept_pantheon_secondary:0 "Secondary Pantheon"
+ game_concept_secondary_pantheon:0 "Secondary Pantheon"
+ game_concept_secondary:0 "Secondary"
+ game_concept_pantheon_secondary_desc:0 "A Secondary Pantheon allows a faith to gain up to three Patrons from another [pantheon|E] than their Main Pantheon. This represents a certain degree of syncretism or outside influence. Having a Secondary Pantheon reduces [faith_hostility|E] with any [faith|E] with the Main Pantheon equivalent."
  
  game_concept_liturgical_language:0 "Liturgical Language"
  game_concept_liturgical_language_desc:0 "While most [faiths|E] prefer to use the [language|E] of their faithful to perform religious rites and sacrements, a few of them prefer to use forgotten or otherworldly tongues, which is known as their Liturgical Language.\n\nThe [clergy|E] of this Faith is expected to know this Language, and those who aren't part of it but know the Liturgical Language receive a [piety|E] and [clergy|E] [opinion|E] bonus.\n\n#F The deep tongue of Oblivion and the language used by the Dragons are some of these Liturgical Languages.#!"
@@ -54,6 +80,11 @@
  game_concept_nomads:0 "Migrant"
  game_concept_nomadic:0 "Migratory"
  game_concept_nomad_culture_desc:0 "Some people have refused to, or been prevented from, settling in one place, instead making themselves at home in various areas of Tamriel. These migratory cultures can be spread in [nativity_regions|E] they are not part of, although at a slower pace than if they were considered natives of here.\n\nDue to their unwillingness to settle in one place, they can more easily be replaced by other cultures.\n\nRulers of migratory cultures can use special [casus_bellis|E] to migrate into nearby provinces."
+
+ game_concept_culture_revival:0 "Culture Revival"
+ game_concept_culture_revived:0 "Revived"
+ game_concept_culture_revival_desc:0 "Cultures that are considered dead, marked by the #V Dead Culture#! Innovation, may be revived under certain conditions. When revived they will be able to act like any other culture and regain the ability to Culture Convert provinces. For a culture to be able to be revived, the following is required:\n\n• There must exist another culture of the same [heritage|E] that is #italic not#! dead\n• The dead culture must have a [nativity_region|E]\n• A Ruler of the same [heritage|E] must completely control the [nativity_region|E] of the dead culture\n\nIf these requirements cannot be fulfilled, the dead culture cannot be revived."
+
 
  game_concept_meritocratic:0 "Meritocratic"
  game_concept_meritocratic_desc:0 "Under the $game_concept_meritocratic$ [succession_law|E], each [county|E] decides if it follows the former ruler's [heir|E], or if they elect one of their own to rule them. The county having a high [county_opinion|E] will help secure it during succession."
@@ -89,40 +120,12 @@
  game_concept_ceremoniarchic:0 "Ceremoniarchic"
  game_concept_praxis_government:0 "Ceremoniarchic Government"
  game_concept_ceremoniarchy_desc:0 "In a Ceremoniarchy, rulers are expected to rule in accordance to the ancient rites developped over time by their divine Ancestors. A ruler has to manage their [praxis|E] and ensure that the traditions are respected - some rulers however might want to set tradition aside and adapt to this changing world...\n#weak Only rulers whose faith has the [GetFaithDoctrine('tenet_legalism').GetBaseName] and the [GetFaithDoctrine('tenet_divine_purity').GetBaseName] [core_tenets|E] can adopt the Ceremoniarchy.#!"
- 
- game_concept_magocracy:0 "Magocracy"
- game_concept_magocracy_government:0 "Magocracy Government"
- game_concept_magocratic:0 "Magocratic"
- game_concept_magocracy_desc:0 "Magocracies are centered around powerful mages, in both the [ruler|E] and the [mages|E] [regiments|E]. [arcana|E] plays a critical role in determining a Magus' power. Magocracies can hold both [castle|E] and [academy|E] [holdings|E]."
 
  game_concept_might_makes_right:0 "Might Makes Right"
  game_concept_might_makes_right_desc:0 "Some of the actions locked behind an [innovation|E] - such as [laws|E] and [casus_bellis|E] - can be accessed and used by [rulers|E] if they have a high enough [prestige_level|E].\n\nSome faiths allow the use of [piety_level|E] and [piety|E], either as an optional or an additional requirement."
  
  game_concept_expected_prestige_level:0 "Expected Level of Fame"
- game_concept_expected_prestige_level_desc:0 "[tribal|E] [rulers|E] are only accepted and respected if their name is known and feared far and wide. Each [rank|E] has a [prestige_level|E] they are expected to have.\n\nFailing to meet this [prestige_level|E] incurs #N heavy penalties#! in [vassal|E] [opinion|E], [domain_limit|E], [vassal_limit|E], [control|E] growth, [county_opinion|E], [knight_effectiveness|E], and [men_at_arms|E] maintenance.\nExceeding this [prestige_level|E] #P gives bonuses#! in the same areas.\n\nThe expected [prestige_level|E] goes as follows:\n* [count|E]: [GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L]\n* [duke|E]: [GetModifier( 'prestige_level_2' ).GetNameWithTooltip|L]\n* [king|E]: [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]\n* [emperor|E]: [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n\n#weak The #V $a_life_of_glory_perk_name$#! [perk|E] decreases the Expected Level of Fame of [tribal|E] [rulers|E] by one [prestige_level|E].!"
- 
- game_concept_coe:0 "Council of the Eight"
- game_concept_coe_desc:0 "While each [faith|E] worshipping the Divines is considered independent, they are still bound together via the Council of the Eight, the organization overseeing the worship of the Divines in Tamriel.\nActing as a religious council and a religious authority, the Council of the Eight convenes every few years to promote inter-faith exchanges and to solve potential religious conflicts.\nThe Council of the Eight is made up of the [coe_leader|E] and the [coe_members|E], and each has their role to play.\nFaiths that are part of the Council of the Eight are subjected to its doctrines, and can be expected to align themselves with the rest of the Council of the Eight, facing potential exclusion if they refuse.\n\nWhile at start, only a few [coe_chapels|E] exist, new ones can be accepted into the Council of the Eight should a new faith worshipping the Divines emerge in a province."
- 
- game_concept_coe_chapel:0 "Chapel"
- game_concept_coe_chapels:0 "Chapels"
- game_concept_coe_chapel_desc:0 "A Chapel is a [faith|E] that is part of the [coe|E].\n\nThese [faiths|E], worshipping the Divines, are presided over by the Arch-Primate, the [spiritual_head_of_faith|E] of the Faith leading the Council of the Eight, the [coe_leader_coe|E].\n\nEach Chapel has jurisdiction over a Province, and in general Faiths within the Council of the Eight avoid stepping on each other toes.\n\nA Faith can become a new Chapel should they worship the Divines, be centered in a Province without an already-existing Chapel, and have good relations with the Arch-Primate.\n\n#weak Note: Faiths seeking to join the Council of the Eight might be expected to change some of their doctrines to be more in line with the Council doctrines.#!"
- 
- game_concept_coe_member:0 "Member"
- game_concept_coe_members:0 "Members"
- game_concept_coe_member_coe:0 "Member of the Council of the Eight"
- game_concept_coe_members_coe:0 "Members of the Council of the Eight"
- game_concept_coe_member_desc:0 "A Member of the [coe|E] is a [coe_chapel|E] that is not currently the [coe_leader_coe|E].\n\nWhile their influence can be somewhat limited, as they are expected to follow the rules laid out by the Arch-Primate, the [spiritual_head_of_faith|E] of the Leader of the Council of the Eight, they can still take part in the Religious Councils which are held every few years to discuss on-going matters and promote inter-faith dialogue.\n\nA Member can be expelled or leave the Council of the Eight if the disagreements between the Member and the Leader are too serious.\n\nThe [fervor_equilibrium|E] of each Member is partly based on the Leader's Fervor Equilibrium."
- 
- game_concept_coe_leader:0 "Leader"
- game_concept_coe_leader_coe:0 "Leader of the Council of the Eight"
- game_concept_coe_leader_desc:0 "The Leader of the Council of the Eight is, generally, the [coe_chapel|E] with the highest number of provinces.\n\nThis Faith is considered the central authority in all religious affairs about the Divines, and leads Religious Councils as well as arbitrates any inter-[coe_member|E] conflict.\n\nThe Leader of the Council of the Eight gets a [fervor_equilibrium|E] boost the more Members the Council of the Eight holds.\n\nAny Member with a [spiritual_head_of_faith|E] and a higher number of provinces than the current Leader can replace them and become the new de facto authority within the Council.\n\n#weak Note: The [head_of_faith|E] of the Leader is considered the [de_jure|E] [liege|E] of every Member [head_of_faith|E]#!"
- 
- game_concept_coe_leader_size:0 "Size of the Leader"
- game_concept_coe_leader_size_desc:0 "The size of the [coe_leader_coe|E] corresponds to the number of counties following the Leader's faith.\n\nHow much land the Leader holds compared to the other [coe_chapels|E] is a part of what constitues the Leader's Influence, along with its [fervor|E]."
- 
- game_concept_coe_leader_fervor:0 "Fervor of the Leader"
- game_concept_coe_leader_fervor_desc:0 "The [fervor|E] of the [coe_leader_coe|E] impacts its Influence. A High Fervor will strengthen the Leader and increase its power in the Council of the Eight."
+ game_concept_expected_prestige_level_desc:0 "[tribal|E] [rulers|E] are only accepted and respected if their name is known and feared far and wide. Each [rank|E] has a [prestige_level|E] they are expected to have.\n\nFailing to meet this [prestige_level|E] incurs #N heavy penalties#! in [vassal|E] [opinion|E], [domain_limit|E], [vassal_limit|E], [control|E] growth, [county_opinion|E], [knight_effectiveness|E], and [men_at_arms|E] maintenance.\nExceeding this [prestige_level|E] #P gives bonuses#! in the same areas.\n\nThe expected [prestige_level|E] goes as follows:\n• [count|E]: [GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L]\n• [duke|E]: [GetModifier( 'prestige_level_2' ).GetNameWithTooltip|L]\n• [king|E]: [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]\n• [emperor|E]: [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n\n#weak The #V $a_life_of_glory_perk_name$#! [perk|E] decreases the Expected Level of Fame of [tribal|E] [rulers|E] by one [prestige_level|E].!"
  
  game_concept_almsivi_power:0 "Power of the ALMSIVI"
  game_concept_almsivi_power_power:0 "Power"
@@ -176,7 +179,7 @@
  
  game_concept_required_task:0 "Required Task"
  game_concept_required_tasks:0 "Required Tasks"
- game_concept_required_task_desc:0 "$game_concept_task_1_desc$\n\nTo buy time, you can fulfill some of the tasks the Elder Council charged you with, which will placate them for a while and could allow you to serve your own ambitions on the side. Each fulfilled task grants you #P 5 additional years#! of rule.\n\nThese tasks are:\n * [required_task_1|E]\n * [required_task_2|E]\n * [required_task_3|E]"
+ game_concept_required_task_desc:0 "$game_concept_task_1_desc$\n\nTo buy time, you can fulfill some of the tasks the Elder Council charged you with, which will placate them for a while and could allow you to serve your own ambitions on the side. Each fulfilled task grants you #P 5 additional years#! of rule.\n\nThese tasks are:\n • [required_task_1|E]\n • [required_task_2|E]\n • [required_task_3|E]"
  game_concept_required_task_1:0 "The Tsaesci Remnants of Cyrodiil"
  game_concept_required_task_1_desc:0 "Your war against the Potentate was fueled in part with a desire to end the Tsaesci influence over Cyrodiil and Tamriel.\nThe Elder Council agrees with you, and will support any effort to remove the Tsaesci from Cyrodiil, fearing that another Akaviri ruler could try and become a the new Potentate.\n\n$task_start$: To start this task, you must enact the 'Draft the Tsaesci Act' decision\n$task_fulfill$: To fulfill this task, no Tsaesci lord must hold land in Cyrodiil"
  game_concept_required_task_2:0 "The Debt of a Warlord"
@@ -192,7 +195,7 @@
  
  game_concept_optional_task:0 "Optional Task"
  game_concept_optional_tasks:0 "Optional Tasks"
- game_concept_optional_task_desc:0 "$game_concept_task_1_desc$\n\nYou now have the power to fulfill your own ambitions, provided you also placate the Elder Council to buy you time and resources.\n\nSome of these tasks are:\n * [optional_task_1|E]\n * [optional_task_2|E]\n * [optional_task_3|E]"
+ game_concept_optional_task_desc:0 "$game_concept_task_1_desc$\n\nYou now have the power to fulfill your own ambitions, provided you also placate the Elder Council to buy you time and resources.\n\nSome of these tasks are:\n • [optional_task_1|E]\n • [optional_task_2|E]\n • [optional_task_3|E]"
  
  game_concept_optional_task_1:0 "A Militant Faith"
  game_concept_optional_task_1_desc:0 "For centuries the Imperial Cult has tolerated smaller faiths to be an integral part of Cyrodiil, including folk-beliefs and hero cults. It has also delegated most of its authority over the other provinces of Tamriel to regional chapels. It might however be time for the Imperial Cult to evolve, as old and new enemies of the faith will certainly join forces, as Tamriel falls into chaos...\n\n$task_start$: To start this task, you must have founded a Holy Order\n$task_fulfill$: To fullfill this task, you must enact the 'A Militant Faith' decision and reform the Imperial Cult"
@@ -224,7 +227,12 @@
  game_concept_enc_lorkhan:0 "Lorkhan"
  game_concept_enc_shezarr:0 "Shezarr"
  game_concept_enc_shor:0 "Shor"
- game_concept_enc_missing_god_desc:0 "The Missing God is a blanket term referring to the deity variously known as Shor, Sheor, Shezarr or Lorkhan. So named because he features prominently in most cosmogonies as a casualty of creation, killed by the other gods in their anger at his trickery.\n\nHe convinced his fellow gods to join him in his project to construct a new plane. Halfway through, the Architect Magnus learned the truth of the Missing God's designs and departed, leading an exodus of gods remembered as the Magna-Ge.\n\nThe remaining gods who chose to complete the project and lost most of their powers in the process became the Aedra, the Earthbones and Ehlnofey, the latter of which would eventually become the mortal races.\n\nWhether you revere or abhor him, most agree the Missing God played a pivotal role in enabling the existence of the mortal plane, and as such life as we know it. Opinions diverge whereas the existence of mortal life is a blessing — a position held by most beliefs sympathetic or neutral towards him — or a curse — the stance of most faiths that actively see Mundus as a barrier to immortality and a fall from grace."
+ game_concept_enc_sheor:0 "Sheor"
+ game_concept_enc_sep:0 "Sep"
+ game_concept_enc_lorkhaj:0 "Lorkhaj"
+ game_concept_enc_lorkh:0 "Lorkh"
+ game_concept_enc_tseol:0 "Tseol"
+ game_concept_enc_missing_god_desc:0 "The Missing God is a blanket term referring to the deity variously known as Lorkhan, Shezarr, Shor, Sheor, Sep, Lorkhaj, Lorkh or Tseol. So named because he features prominently in most cosmogonies as a casualty of creation, killed by the other gods in their anger at his trickery.\n\nHe convinced his fellow gods to join him in his project to construct a new plane. Halfway through, the Architect Magnus learned the truth of the Missing God's designs and departed, leading an exodus of gods remembered as the Magna-Ge.\n\nThe remaining gods who chose to complete the project and lost most of their powers in the process became the Aedra, the Earthbones and Ehlnofey, the latter of which would eventually become the mortal races.\n\nWhether you revere or abhor him, most agree the Missing God played a pivotal role in enabling the existence of the mortal plane, and as such life as we know it. Opinions diverge whereas the existence of mortal life is a blessing — a position held by most beliefs sympathetic or neutral towards him — or a curse — the stance of most faiths that actively see Mundus as a barrier to immortality and a fall from grace."
  
  game_concept_tsaescence:0 "Tsaescence"
  game_concept_tsaescence_desc:0 "Tsaescence, or name-biting, is a philosophical endeavour concerned with the loss and acquisition of identity. [rulers|E] belonging to a [faith|E] with the [GetFaithDoctrine('tenet_tsaescence').GetBaseName] [core_tenet|E] can consume prisoners in order to get a chance to inherit one of their captive's [traits|E] or to increase a [skill|E], as well as prolonging their [enc_lifespan|E]."

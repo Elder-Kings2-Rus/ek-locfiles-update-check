@@ -85,7 +85,7 @@
  old_gods_adj:1 "Old Gods"
  old_gods_adherent:1 "Old God Follower"
  old_gods_adherent_plural:1 "Old God Followers"
- old_gods_desc:0 "Much like their lineage, the faith of the Reachfolk is a syncretic mixture derived from the many peoples who inhabit the Reach. The Reachfolk have no defined pantheon, instead worshipping a variety of Daedra, Aedra, and totemic animal spirits. The most popular of the 'Old Gods' are Hircine, Dibella, and Peryite. The worship of the Old Gods has few defined rituals or practices and most Reach clans have their own unique priest class, traditions, and beliefs. Hedge magick and sacrifice play a key role in many rituals, which led to the inhabitants of the Reach being derided as the 'Witchmen.'"
+ old_gods_desc:0 "Much like their lineage, the faith of the Reachfolk is a syncretic mixture derived from the many peoples who inhabit the Reach. The Reachfolk have no defined pantheon, instead worshipping a variety of Daedra, Aedra, and totemic animal spirits. The most important of the 'Old Gods' are Hircine and Namira as lords of the World of Flesh and the World of Spirit. The worship of the Old Gods has few defined rituals or practices and most Reach clans have their own unique priest class, traditions, and beliefs. Hedge magick and sacrifice play a key role in many rituals, which led to the inhabitants of the Reach being derided as the 'Witchmen.'"
  
  dwemer_idolatry:1 "Dwemer Idolatry"
  dwemer_idolatry_adj:1 "Dwemer Idolatry"

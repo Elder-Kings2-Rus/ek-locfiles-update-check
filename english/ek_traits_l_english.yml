@@ -63,9 +63,6 @@ trait_lycan_character:0 "Lycanthrope"
 trait_lycan_character_desc:0 "This character is a lycanthrope, a creature cursed to shift forms under the influence of Nirn's moons."
 trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a lycanthrope, a creature cursed to shift forms under the influence of Nirn's moons." #character_character
 
- trait_occultist:0 "Occultist"
- trait_occultist_desc:0 "A powerful witch, this character performed an old and dark ritual to trade some of their humanity in exchange for forgotten powers."
- trait_occultist_character_desc:0 "A powerful witch, [ROOT.GetCharacter.GetFirstNameNoTooltip] performed an old and dark ritual to trade some of [ROOT.GetCharacter.GetHerHis] humanity in exchange for forgotten powers."
 
  trait_lich_character:0 "Lich"
  trait_lich_character_desc:0 "This character has gone into death and wrestled it to its knees with dark magicks and forbidden rituals, attaining lichdom and becoming undead."
@@ -137,6 +134,16 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_disrupted:0 "Disrupted"
  trait_disrupted_desc:0 "This character's magical senses have been purposefully crippled."
  trait_disrupted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s magical senses have been purposefully crippled."
+
+trait_experimentalist:0 "Experimentalist"
+trait_experimentalist_desc:0 "This character enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+trait_experimentalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+
+trait_experimentalist_necromancer:0 "Experimentalist"
+trait_experimentalist_necromancer_desc:0 "This character enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+experimentalist_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+experimentalist_necromancer_player_desc:0 "Secret Necromancer"
+trait_experimentalist_necromancer_player_desc:0 "This character is secretly a necromancer. Though the true nature of [ROOT.GetCharacter.GetHerHis] dark doings is still hidden from the world."
 
  trait_dragonborn:0 "Dragonborn"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is born with the blood and soul of a Dragon. Dragonborns are known to be favoured by the Gods."
@@ -291,6 +298,18 @@ trait_lycan_character_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
  trait_champion_malacath:0 "Champion of $malacath$"
  trait_champion_malacath_desc:0 "This character is the appointed champion of $malacath$, the $malacath_alt$."
  trait_champion_malacath_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $malacath$, the $malacath_alt$."
+
+ trait_champion_mephala:0 "Champion of $mephala$"
+ trait_champion_mephala_desc:0 "This character is the appointed champion of $mephala$, the $mephala_alt$."
+ trait_champion_mephala_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $mephala$, the $mephala_alt$."
+
+ trait_champion_peryite:0 "Champion of $peryite$"
+ trait_champion_peryite_desc:0 "This character is the appointed champion of $peryite$, the $peryite_alt$."
+ trait_champion_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $peryite$, the $peryite_alt$."
+
+ trait_champion_nocturnal:0 "Champion of $nocturnal$"
+ trait_champion_nocturnal_desc:0 "This character is the appointed champion of $nocturnal$, the $nocturnal_alt$."
+ trait_champion_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the appointed champion of $nocturnal$, the $nocturnal_alt$."
 
  # Coping mechanisms
  trait_skooma_drinker:0 "Skooma Drinker"

@@ -258,6 +258,17 @@
  
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_female_common_war_01:0 "Altmer Moonstone Armor"
  
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_01_common:0 "Altmer Common Clothing 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_02_common:0 "Altmer Common Clothing 2"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_01_low:0 "Altmer Low Nobility Clothing 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_02_low:0 "Altmer Low Nobility Clothing 2"
+ 
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_01_high:0 "Altmer High Nobility Clothing 1"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_altmer_02_high:0 "Altmer High Nobility Clothing 2"
+ 
+ 
+ ### Cloaks ###
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_low:0 "Altmer Low Nobility Neckguard"
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_02_low:0 "Altmer Low Nobility Cape"
  PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_01_high:0 "Altmer High Nobility Neckguard"

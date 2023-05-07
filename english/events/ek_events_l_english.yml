@@ -15,11 +15,12 @@
  ek_playdate.0001.d:0 "I've heard of an experiment involving parts of a dead rat."
 
  ek_playdate.0002.t:0 "Brave Little Scrib"
- ek_playdate.0002.scrib_friend_desc:0 "[scrib_friend.GetFirstNameNoTooltip] loves to sing a large variety of songs, but rarely do any spark such joy as the Brave Little Scrib song.\n\n"Play, play! Life's an adventure!\nRun, run! As fast as you dare!\nSing, sing! Imagine the pleasure!\nEverything's fun ... when you don't have a care!"\n\n[scrib_friend.GetSheHe] sings with joy while does a little dance and beckons me to join [scrib_friend.GetHerHim]."
- ek_playdate.0002.desc:0 "While I'm playing with the other guests, I hear someone singing a quite joyful song.\n\n"Play, play! Life's an adventure!\nRun, run! As fast as you dare!\nSing, sing! Imagine the pleasure!\nEverything's fun ... when you don't have a care!"\n\nMost of the other children gather around the singer and start singing along and dancing."
+ ek_playdate.0002.scrib_friend_desc:0 "[scrib_friend.GetFirstNameNoTooltip] is quite the musical enthusiast, with a diverse range of songs in [scrib_friend.GetHerHis] repertoire. However, there's one particular song that never fails to bring a smile to [scrib_friend.GetHerHis] face - a popular tune about a brave little scrib.\n\nWhenever [scrib_friend.GetFirstNameNoTooltip] decides to perform this special song, [scrib_friend.GetSheHe] sings it with such enthusiasm and passion that it's hard not to feel the joy radiating from [scrib_friend.GetHerHis] voice. It's almost as if [scrib_friend.GetSheHe] becomes one with the music, and as [scrib_friend.GetSheHe] sings, [scrib_friend.GetSheHe] can't help but do a little dance to the rhythm of the melody.\n\nI've been fortunate enough to witness [scrib_friend.GetFirstNameNoTooltip]'s musical talents on many occasions, and each time [scrib_friend.GetSheHe] invites me to join in the fun. It's hard to resist [scrib_friend.GetHerHis] contagious energy, and soon enough, I find myself tapping my feet and singing along too."
+ ek_playdate.0002.desc:0 "As I'm busy playing with the other guests, I hear the sound of a familiar tune being sung by someone nearby. It's a joyful song about a little scrib who showed immense courage in the face of adversity.\n\nCurious about the source of the singing, I make my way towards the crowd that has gathered around the singer. As I approach, I notice that most of the children have abandoned their games to join in the singing and dancing.\n\nThe singer's voice is sweet and lively, and it's easy to see why the song has captured the attention of the young audience. The lyrics paint a vivid picture of a tiny scrib overcoming great obstacles and inspiring others to do the same.\n\nAs the song reaches its crescendo, the children's voices rise in unison, and their feet start to move to the rhythm of the beat. It's a joyous moment, filled with laughter and energy, and I can't help but be swept up in the contagious enthusiasm of the group.\n\nLooking around, I see that the adults are also joining in the fun, tapping their feet and clapping along to the music. It's heartening to see how a simple song about a brave little scrib can bring together people of all ages and backgrounds."
  ek_playdate.0002.a:0 "Life's an adventure!"
  ek_playdate.0002.b:0 "[scrib_friend.GetFirstNameNoTooltip], wait for me!"
  ek_playdate.0002.c:0 "Who cares?"
+ ek_playdate.0002.d:0 "I think I know where I can get a scrib friend!"
 
  ek_court.0001.t:0 "$hold_court_header$ Animal Waste Policy"
  ek_court.0001.desc:0 "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('gardener'))]" [gardener.GetTitledFirstName] approaches the throne with a glint in [gardener.GetHerHis] eye. "My [ROOT.Char.GetTitleAsName]," [gardener.GetSheHe] begins, "this incessant stomping of beasts in the gardens must cease, nevermind the #EMP foul droppings#! they leave behind! They are ruining everything I do!"\n\nI ponder about what I've been told for a moment. While cattle, domestic animals and such can destroy a beautiful garden, some of my subjects enjoy taking their companions for a stroll."
@@ -86,6 +87,7 @@
  ek_court.0003.desc46:0 ""M'aiq is told that Pelinal was once called Hans the Fox. M'aiq, too, was once a fox - but very briefly, for he missed the sound of his purrs.""
  ek_court.0003.desc47:0 ""M'aiq cannot quite tell the difference between the sour-faced Dunmer and Dremora. It seems neither could some conjurers, back in the old days."" 
  ek_court.0003.desc48:0 ""M'aiq does not see the point of being a vampire.  M'aiq's legacy already lives forever.""
+ ek_court.0003.desc49:0 ""Many people accuse M'aiq of worshipping Boethra, even Boethra herself. M'aiq does not understand why. Perhaps she is lying.""
  ek_court.0003.a:0 "That was... interesting."
 
  ek_court.0004.t:0 "$hold_court_header$ Last of His Kind"
@@ -382,6 +384,73 @@
  ek_daedric_artifacts.0042.a:0 "[spellsword.GetHerHis|U] loss, my gain."
  ek_daedric_artifacts.0042.b:0 "This seems too suspicious."
 
+ ek_daedric_artifacts.0047.t:0 "Champion of Dreams"
+ ek_daedric_artifacts.0047.desc:0 "Heralds bring us word of a new champion of the $vaermina_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [vaerminas_champion.GetHerHis] badge of office, a nightmarish staff that can make aggressive doubles of anyone, [vaerminas_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0047.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0047.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0048.t:0 "Champion of Debauchery"
+ ek_daedric_artifacts.0048.desc:0 "Heralds bring us word of a new champion of the $sanguine_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [sanguines_champion.GetHerHis] badge of office, a devilishly beautiful staff rose that can summon a powerful dremora at will, [sanguines_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0048.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0048.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0049.t:0 "Champion of the Hunt"
+ ek_daedric_artifacts.0049.desc:0 "Heralds bring us word of a new champion of the $hircine_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [hircines_champion.GetHerHis] badge of office, a fearsome hide armor given by the Hunter himself, [hircines_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0049.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0049.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0050.t:0 "Champion of the Infinite Lights"
+ ek_daedric_artifacts.0050.desc:0 "Heralds bring us word of a new champion of the $meridia_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [meridias_champion.GetHerHis] badge of office, an awe inspiring sword that shines bright like the stars, [meridias_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0050.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0050.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0051.t:0 "Champion of Plots"
+ ek_daedric_artifacts.0051.desc:0 "Heralds bring us word of a new champion of the $boethiah_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [boethiahs_champion.GetHerHis] badge of office, a suit of armor dark as night that shines with a malicious glow, [boethiahs_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0051.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0051.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0052.t:0 "Stone-Fire Champion"
+ ek_daedric_artifacts.0052.desc:0 "Heralds bring us word of a new champion of the $molag_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [molags_champion.GetHerHis] badge of office, a terrible mace, rumoured to drain the strength of its foes, [molags_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0052.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0052.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0053.t:0 "Champion of Dawn and Dusk"
+ ek_daedric_artifacts.0053.desc:0 "Heralds bring us word of a new champion of the $azura_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [azuras_champion.GetHerHis] badge of office, a powerful artifact known for its ability to store the power of any soul, [azuras_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0053.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0053.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0054.t:0 "Champion of Trickery"
+ ek_daedric_artifacts.0054.desc:0 "Heralds bring us word of a new champion of the $clavicus_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [clavicus_champion.GetHerHis] badge of office, an otherworldly mask that can cause its bearer to charm anyone, [clavicus_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0054.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0054.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0055.t:0 "Champion of Ambition"
+ ek_daedric_artifacts.0055.desc:0 "Heralds bring us word of a new champion of the $mehrunes_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [mehrunes_champion.GetHerHis] badge of office, a fearsome dagger that kills anyone it touches, [mehrunes_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0055.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0055.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0056.t:0 "Champion of Knowledge"
+ ek_daedric_artifacts.0056.desc:0 "Heralds bring us word of a new champion of the $hermaeus_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [hermaeus_champion.GetHerHis] badge of office, a book said to contain every bit of knowledge and information that ever existed, [hermaeus_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0056.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0056.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0057.t:0 "Champion of Darkness"
+ ek_daedric_artifacts.0057.desc:0 "Heralds bring us word of a new champion of the $namira_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [namiras_champion.GetHerHis] badge of office, a powerful ring rumoured to give powers to those who engage in cannibalism, [namiras_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0057.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0057.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0058.t:0 "Champion of Madness"
+ ek_daedric_artifacts.0058.desc:0 "Heralds bring us word of a new champion of the $sheogorath_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [sheogoraths_champion.GetHerHis] badge of office, a mysterious staff that is rumoured to transform any target into anything else, [sheogoraths_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0058.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0058.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ ek_daedric_artifacts.0059.t:0 "Champion of the Pariah"
+ ek_daedric_artifacts.0059.desc:0 "Heralds bring us word of a new champion of the $malacath_alt$, self-proclaimed bringer of the will of the Prince to this world.\n\nBearing [malacaths_champion.GetHerHis] badge of office, a mighty mace rumoured to be able to banish any Daedra to the Void with a single blow, [malacaths_champion.GetSheHe] is sure to cause trouble..."
+ ek_daedric_artifacts.0059.a.distant:0 "This will all blow over soon enough."
+ ek_daedric_artifacts.0059.a.neighbor:0 "We must prepare ourselves. There is hardship ahead."
+
+ 
+ 
  ek_orphanage.0001.t:0 "Consider Adoption" 
  ek_orphanage.0001.tribal_desc:0 "When I enter their caretaker's abode, [caretaker.GetFirstName] welcomes me, visibly delighted and started talking about the children.\n\n[caretaker.GetSheHe|U] introduces me to older and younger orphans, all waiting for a new loving home. They were clearly dressed and tidied up for welcoming me to their foster home. I could see the anxiety in their eyes. One of them would become my heir, if everything worked out right for them.\n\nSuddenly, I saw a small figure hidden behind some furniture, staring at me. When I stared back, [special_option.GetSheHe] averted [special_option.GetHerHis] gaze, embarrassed. "Don't mind [special_option.GetHerHim]. That's [special_option.GetFirstName], our special resident. Lost [special_option.GetHerHis] hopes of being adopted a long time ago.""
  ek_orphanage.0001.desc:0 "When I enter the orphanage, [caretaker.GetFirstName], the caretaker, welcomes me, visibly delighted and started talking about the children.\n\n[caretaker.GetSheHe|U] introduces me to older and younger orphans, all waiting for a new loving home. They were clearly dressed and tidied up for welcoming me to the orphanage. I could see the anxiety in their eyes. One of them would become my heir, if everything worked out right for them.\n\nSuddenly, I saw a small figure hidden behind some furniture, staring at me. When I stared back, [special_option.GetSheHe] averted [special_option.GetHerHis] gaze, embarrassed. "Don't mind [special_option.GetHerHim]. That's [special_option.GetFirstName], our special resident. Lost [special_option.GetHerHis] hopes of being adopted a long time ago.""

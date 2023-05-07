@@ -1,6 +1,5 @@
 ﻿l_english:
- EXECUTION_ENTHRALL:0 "Sacrifice and Enthrall"
- enthrall_as_execution_tooltip:0 "As you sacrifice [recipient.GetHerHim] and raise [recipient.GetHerHis] corpse to be your loyal servant:"
+ EXECUTION_ENTHRALL:0 "Turn into Undead Thrall"
  
  extract_blood_price_interaction:0 "Extract the Blood Price"
  extract_blood_price_interaction_desc:0 "[prisoner.GetFirstNameNoTooltip] can not be paid with gold or time. Only blood will satisfy us."
@@ -14,9 +13,9 @@
  ###Disrupt Arcana Interaction
  recently_disrupted:0 "Recently Disrupted"
  
- make_clan_parent_interaction:0 "make_clan_parent_interaction"
+ make_clan_parent_interaction:0 "Make Clan-Mother"
  make_clan_parent_interaction_desc:0 "[recipient.GetFirstName] has seen much of the world during [recipient.GetHerHis] life, and [recipient.GetHerHis] wisdom will guide us..."
- make_clan_parent_interaction_one_clan_parent_per_court_tt:0 "#R As long as [recipient.GetFirstName] is alive, you won't be able to declare any other courtier a Clan-Mother or Clan-Father!#!"
+ make_clan_parent_interaction_one_clan_parent_per_court_tt:0 "As long as [recipient.GetFirstName] is alive, you won't be able to declare any other [courtier|E] a Clan-Mother!"
  
  challenge_to_single_combat_interaction.on_decline_low_learning.tt:0 "As [actor.GetShortUINamePossessive] [learning|E] is too low #N (below 10)#! [recipient.GetShortUIName] can refuse the duel without penalty!"
  ek_perk_interaction.0100.t:0 "The [recipient.GetCulture.GetName] Dueling Traditions"
@@ -54,6 +53,7 @@
  
  arcana_claim_interaction:0 "Claim Land via Arcana"
  arcana_claim_interaction_desc:0 "[claim|E] a [title|E] held by [recipient.GetShortUINameNoTooltip], using your superior [arcana|E] and [prestige|E]."
+ arcana_claim_tier_trigger:0 "Cannot claim a [barony|E], [kingdom|E] or [empire|E] tier [title|E]"
 
 
  disrupt_arcana_interaction:0 "Disrupt"
@@ -90,6 +90,10 @@
 
  consume_interaction:0 "Consume"
  consume_interaction_desc:0 "Consume [recipient.GetShortUINameNoTooltip] in the endeavor to increase [tsaescence|E]"
+
+ thralldom_interaction:0 "Turn into Thrall"
+ thralldom_interaction_desc:0 "You will kill [recipient.GetShortUINameNoTooltip] to raise his corpse under your command."
+ get_undead_thrall:0 "You will turn [recipient.GetShortUINameNoTooltip]'s corpse into a mindless but loyal thrall."
 
  skull_corruption_interaction:0 "Use the Skull of Corruption"
  skull_corruption_desc:0 "Use the Skull of Corruption on [recipient.GetShortUINameNoTooltip] to make [recipient.GetHerHim] battle a duplicate!"

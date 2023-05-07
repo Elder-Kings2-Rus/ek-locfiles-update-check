@@ -1,6 +1,6 @@
 ﻿l_english:
-    
-    #Goblin
+
+    #Goblin/Riekr
     dynn_Rockhand:0 "Rockhand" 
     dynn_Stonefriend:0 "Stonefriend" 
     dynn_Sandtusken:0 "Sandtusken" 
@@ -14,22 +14,22 @@
     dynn_Bonedweller:0 "Bonedweller" 
     dynn_Toad_Tongue:0 "Toad-Tongue"
     dynn_Sharpstick:0 "Sharpstick"
-    dynn_Hill_slayer:0 "Hill-Slayer"
-    dynn_Dust_eater:0 "Dust-Eater"
+    dynn_Hill_Slayer:0 "Hill-Slayer"
+    dynn_Dust_Eater:0 "Dust-Eater"
     dynn_Cragkin:0 "Cragkin"
     dynn_Toothmaul:0 "Toothmaul"
     dynn_Ratfarmer:0 "Ratfarmer"
     dynn_Skullbreaker:0 "Skullbreaker"
     dynn_Gut_Blade:0 "Gut-Blade"
     dynn_Nose_Biter:0 "Nose-Biter"
-    dynn_Dust-Chaser:0 "Dust-Chaser"
+    dynn_Dust_Chaser:0 "Dust-Chaser"
     dynn_Mud_Mover:0 "Mud-Mver"
     dynn_Bloody_Hand:0 "Bloody-Hand"
     dynn_Three_Feather:0 "Three-Feather"
     dynn_Dog_Eater:0 "Dog-Eater"
     dynn_Murkwater:0 "Murkwater"
 
-    #Riekr/Riekling
+    #Riekling
     dynn_Coldsnap:0 "Coldsnap"
     dynn_Ice_Biter:0 "Ice-Biter"
     dynn_Bonechill:0 "Bonechill"

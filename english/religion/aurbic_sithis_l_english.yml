@@ -78,11 +78,11 @@
  sithis_witchgodname_the_horned_god:0 "god_sithis_name$"
  sithis_witchgodname_the_horned_god_possessive:0 "god_sithis_name_possessive$"
 
- xanmeer:0 "Ixtaxh-thtithil-meht"
- xanmeer_adj:0 "Ixtaxh-thtithil-meht"
+ xanmeer:0 "Ixtaxh-Thtithil-Meht"
+ xanmeer_adj:0 "Ixtaxh-Thtithil-Meht"
  xanmeer_adherent:0 "Xanmeer-Builder"
  xanmeer_adherent_plural:0 "Xanmeer-Builders"
- xanmeer_desc:0 "In ancient times, Argonians feared and revered a version of Sithis called Ixtaxh-thtithil-meht (meaning 'The Exact-Egg-Cracker') as a god of Death who required endless sacrifices to keep him from ending the world. They feared change so much that in order to ensure they would be remembered eternally, they built huge stone temples in honour of him, known as Xanmeers, which still dot the landscape of Black Marsh all these centuries later."
+ xanmeer_desc:0 "In ancient times, Argonians feared and revered a version of Sithis called Ixtaxh-Thtithil-Meht (meaning 'The Exact-Egg-Cracker') as a god of Death who required endless sacrifices to keep him from ending the world. They feared change so much that in order to ensure they would be remembered eternally, they built huge stone temples in honour of him, known as Xanmeers, which still dot the landscape of Black Marsh all these centuries later."
  xanmeer_high_god_name:0 "$god_rajsithis_name$"
  xanmeer_high_god_name_2:0 "$xanmeer_high_god_name$" # Optional translation alt
  xanmeer_high_god_name_3:0 "$xanmeer_high_god_name$" # Optional translation alt
@@ -159,7 +159,7 @@
  coiled_path_adj:0 "Coiled Path"
  coiled_path_adherent:0 "Walker of the Coiled Path"
  coiled_path_adherent_plural:0 "Walkers of the Coiled Path"
- coiled_path_desc:0 "The Ghost Snake is a spirit worshipped by the Mabrigash tribe of Ashlanders, which dwells in their native swamps. Though interpretations vary, the Mabrigash themselves belief it to be an amalgamation of the tribe's female ancestors, who exist to test, advise and protect the living members against the harsh realities of the world."
+ coiled_path_desc:0 "The Ghost Snake is a spirit worshipped by the Mabrigash tribe of Ashlanders, which dwells in their native swamps. Though interpretations vary, the Mabrigash themselves believe it to be an amalgamation of the tribe's female ancestors, who exist to test, advise and protect the living members against the harsh realities of the world."
  coiled_path_high_god_name:0 "$god_ghost_snake_name$"
  coiled_path_high_god_name_2:0 "$coiled_path_high_god_name$" # Optional translation alt
  coiled_path_high_god_name_3:0 "$coiled_path_high_god_name$" # Optional translation alt

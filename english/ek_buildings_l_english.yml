@@ -115,6 +115,8 @@
  building_city_of_orsinium_02_desc:0 "Reclaimed by the Orcs after decades of foreign ownership, the Ruins of Orsinium are another symbol of the Orsimer way of life - beaten down, fighting against insurmountable odds, and yet triumphing.\n\nWork has already started, but it will need many more years and many more workers before it can be once again the proud home of the Pariah Folk."
  building_city_of_orsinium_03:0 "City of Orsinium"
  building_city_of_orsinium_03_desc:0 "Reclaimed by the Orcs after decades of foreign ownership, the Ruins of Orsinium are another symbol of the Orsimer way of life - beaten down, fighting against insurmountable odds, and yet triumphing.\n\nAfter years of work and defense agaist foreign raids or invasions, the City of Orsinium stands once more as the center of Orsimer civilization.\nHundreds or thousands of Orcs join it everyday, eager to defend it and help it grow."
+ ruined_orsinium_trigger_desc:0 "Orcs cannot make use of the pillaged Orsinium - you must rebuild it!"
+ rebuild_orsinium_trigger_desc:0 "You lack the [GetCultureTradition('tradition_denizens_lost_orsinium').GetName|V] [tradition|E]"
 
  building_type_dragonguard_sanctum_01:0 "Dragonguard Sanctum"
  building_type_dragonguard_sanctum_01_desc:0 "A ruined hold of the ancient Dragonguard, an organisation founded by Reman Cyrodiil from the Tsaesci warriors who had surrendered to him at Pale Pass after hearing his voice. Officially disbanded after the assassination of Reman III, this once great sanctuary now lies in ruins."

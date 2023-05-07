@@ -32,6 +32,8 @@
  k_archcanon_sotha_sil:0 "Sotha Sil"
  k_wilderking_court_article:0 "the "
  k_wilderking_court:0 "Wilderking's Court"
+ d_scaled_court_article:0 "the "
+ d_scaled_court:0 "Scaled Court"
  k_falinesti:0 "Falinesti"
  # History Titles
  AKAVIRI_POTENTATE:0 "Akaviri Potentate"

@@ -117,6 +117,7 @@
  form_orsinium_empire_decision_confirm:0 "For Greater Orsinium!"
  expanded_orsinium_cd:0 "You have expanded the Kingdom of Orsinium [de_jure|E] borders beyond it's initial [duchy|E]"
  orsinium_kingdom_requirement_cd: "You hold at least 4 [kingdom|E] titles"
+ form_orsinium_empire_decision_effect:0 "Every [kingdom|E] title you [completely_control|E] becomes part of Greater Orsinium"
  
  old_orsinium_capital_decision:0 "Occupy Old Orsinium"
  old_orsinium_capital_decision_desc:0 "The original Orsinium, built on the impugnable hills overlooking Shipwreck Bay, was razed countless times by the Breton hordes. It's high time that we reocuppy it as the rightful capital of the Pariah Folk."
@@ -135,6 +136,7 @@
  reintegrate_orsinium_decision_confirm:0 "Orsinium is no more!"
  reintegrate_orsinium_decision_cd:0 "Control Orsinium's capital [duchy|E]"
  no_orsimer_king_vassal_cd:0 "Orsinium isn't held by an Orsimer vassal"
+ mountain_orc_regains_pariah_status:0 "The [mountain_orc.GetName] culture regains their status as [pariah|E], signified by them regaining the #V Pariah Folk#! [innovation|E]"
  
  ### Nibenay
  establish_new_nibenay_kingdom_decision:0 "Found a New Kingdom in Eastern Nibenay"

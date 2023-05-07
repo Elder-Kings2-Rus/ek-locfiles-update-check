@@ -50,3 +50,4 @@
  UNLOCKS_MAGICAL_COURT_TYPE_PERK_BONUS:0 "Unlocks the #V $court_magical$#! [court_type|E]\n[court_grandeur|E] bonus when in a #V $court_magical$#!: #P +5#!\n$culture_parameter_magic_elective_enabled$\n As a Vassal, you can request Arcana [obligations|E] from your Liege"
  magicka_legacy_5_name:0 "Perennial Rites"
  ADDITIONAL_RITUAL_PERK_BONUS:0 "Allows one additional Permanent Ritual"
+ magicka_legacy_trigger:0 "\n#weak Picking this Legacy requires being able to use [magic|E]!#!"

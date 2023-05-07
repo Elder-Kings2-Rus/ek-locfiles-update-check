@@ -5,6 +5,7 @@
  language_altmeris_desc:0 "The proud Altmer and have a long history with their language, with it bequeathing both script and lexicon to “Tamrielic”. The Altmer are notorious grammar disciplinarians, teachers taking great care to drill into their students proper grammar, elocution and syntax. It is considered shameful to not be able to recite classics of Altmeri literature in the sanctioned way."
  
  language_falmeris_name:0 "Falmeris"
+ language_falmeris_desc:0 "Falmeris is as curious and elusive a language as the people that once spoke it, the long lost Snow Elves. Remaining inscriptions reveal a surprising resemblance to the Ayleidoon tongue, which is remarkable considering that little historical evidence connects the two Elven races. Stranger still, much of its vocabulary cannot be accounted for as either Ayleidoon or Aldmeri in origin."
  
  language_atmoran_name:0 "Atmoran"
  language_atmoran_desc:0 "Men native to Atmora spoke their own language prior to the colononization of Tamriel and the Dragon Wars. Nordic is different but ultimately descended from old Atmoran"
@@ -25,6 +26,7 @@
  language_cyrodiilic_desc:0 "Cyrodilic is spoken in the Heart of Tamriel but also everywhere where Imperial influence once extended. As a mother tongue, however, it is only in Cyrodiil proper and some heavily imperialized cultures that you will find it. Ayleidoon and Nordic amongst others have all bestowed something upon this Nedic language, a testament to the Cyrodiils history of cultural exchange."
  
  language_daedric_name:0 "Daedric"
+ language_daedric_desc:0 "Daedra communicate, as all sapient beings do, and that transmundane and nymic force that they employ to do so is perceived by mortal beings as a language. Convoluted and esoteric as the Daedric language is, those mages, madmen and monastics that learn it can nevertheless only hint at the burning secrets contained in each word, metaphors reduced to mere incantations as they are made manifest in mortal diction."
  
  language_dunmeris_name:0 "Dunmeris"
  language_dunmeris_desc:0 "High Velothi culture underwent a period of decline with urban settlement receding and the Chimer devolving into all out tribalism. The War of the First Council united them once more and following the Battle of Red Mountain, the Tribunal kept what was now the Dunmer together. This fostered a dialect continuum that has an acrolect for diplomacy, education, literature and trade, the so-called Dunmeris."
@@ -76,7 +78,7 @@
 
  language_old_bretic_name:0 "Old Bretic"
  
- language_old_cyrod_name:0 "Old Cyrod"
+ language_old_cyrod_name:0 "Ald Cyrod"
  language_old_cyrod_desc:0 "The most pristine of the Nedic tongues in Cyrodiil, the isolated and marginal communities of Old Cyrodilic speakers have been left on the periphery of Ayleid then Imperial civilization. This enabled them to keep a speech relatively free of outside influence."
  
  language_orma_name:0 "Orma"
@@ -124,6 +126,7 @@
  language_tamrielic_yoku_desc:0 "The Yoku spoken in Hammerfell can be qualified as 'Tamrielic'. It has substantial influence from Cyrodilic as one can guess but also from Altmer and even Nedic sources but ultimately Yokudan in character. Forebears tend to fully embrace it whilst Crowns make a point of learning Classical Yoku #italic 'to keep the old ways alive'#!."
  
  language_dovahzul_name:0 "Dovahzul"
+ language_dovahzul_desc:0 "Dovahzul is the language of dragons, though so much more than mere language: it possesses a richness of description that imbues each argument expressed in it with cosmic truth. Shouted into the world by a soul as entitled to dominating it as a dragon, it can speak miracles and catastrophes into being, a phenomenon known as the "thu'um" and long ago mastered by the ancient Nords."
  
  #language_maormeris_name:0 "Aldmeris"
  language_maormeris_name:0 "Maormeris"

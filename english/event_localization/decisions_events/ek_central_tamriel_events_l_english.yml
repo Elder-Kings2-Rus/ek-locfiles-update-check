@@ -34,12 +34,13 @@
  nenalata_restore.0001.option:0 "Nenalata will rise again!"
  nenalata_restore.0001.option.flavor:0 "Who knows what these excavations might reveal?"
  #Faith of Nenalata
- nenalata_restore.0002.t:0 "The Faith of Nenalata" #(TODO: rewrite this to fit Ten Ancestors faith?)
- nenalata_restore.0002.desc:0 "The excavation of Nenalata is now well underway, and several of the old city's halls have been cleared of rubble and again taken into use. After clearing out one wing of the underground complex with a particularly large amount of undead shambling about, what seems to be a chapel is discovered.\n\nMy scholars soon inform me that this shows the city was dedicated to the Daedric Prince Meridia! The chapel here is in remarkably good shape, and old scrolls with religious scripture were recovered from its archives. \n\nHaving now begun rebuilding the glory of our old capital city, should we also restore their faith?" 
- nenalata_restore.0002.option1:0 "We will again embrace the Bright One!"
- nenalata_restore.0002.option2:0 "I will serve the Lady of Light, but must do so in darkness."
- nenalata_restore.0002.option3:0 "No, but maybe valuable lore can be found here."
- nenalata_restore.0002.option4:0 "Nay, and we will seal off the chapel!"
+ nenalata_restore.0002.t:0 "The Faith of Nenalata"
+ nenalata_restore.0002.desc:0 "The excavation of Nenalata is now well underway, and several of the old city's halls have been cleared of rubble and again taken into use. After clearing out one wing of the underground complex with a particularly large amount of undead shambling about, what seems to be a chapel is discovered.\n\nMy scholars soon inform me that this shows the city was dedicated to the Daedric Prince Meridia, one of many Daedric Princes revered by the Saliache of old. The chapel here is in remarkably good shape, and old scrolls with religious scripture were recovered from its archives. \n\nHaving now begun rebuilding the glory of our old capital city, should we also reclaim their faith?" 
+ nenalata_restore.0002.option1:0 "The Ten Ancestors are to be restored to their rightful place!"
+ nenalata_restore.0002.option2:0 "We will embrace the Bright One!"
+ nenalata_restore.0002.option3:0 "I will serve the Lady of Light, but must do so in darkness."
+ nenalata_restore.0002.option4:0 "No, but maybe valuable lore can be found here."
+ nenalata_restore.0002.option5:0 "Nay, and we will seal off the chapel!"
  #A Visiting Collector
  nenalata_restore.0003.t:0 "A Visiting Collector"
  nenalata_restore.0003.desc:0 "Some months ago the restoration of this city's ancient throne room was finished. Today I stand in this throne room, and before me stands an Altmer scholar claiming to carry a great treasure.\n\n"My [ROOT.Char.GetLadyLord], when I heard of this restoration project I had to come see it for myself. You see, I am an expert on Ayleid history and a collector of sorts. And I have brought with me something you might desire."\n\nThe artifact has been studied by my scholars, and the collector's claim has been verified - it is indeed the ancient Crown of Nenalata, once borne by the Last King of the Ayleids himself!"

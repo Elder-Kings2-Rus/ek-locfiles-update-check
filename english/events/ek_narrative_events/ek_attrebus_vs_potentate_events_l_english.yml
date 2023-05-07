@@ -22,7 +22,7 @@
  ek_attrebus_potentate.0003.desc.potentate_banished:0 "It seems some of these lords are expecting to share a similar fate as their Potentate, and have arranged for quick transportation of their family and retinue to an other province."
  ek_attrebus_potentate.0003.desc.potentate_dead:0 "With the former Potentate dead, it seems the Akaviri lords do not know what to expect from you..."
  ek_attrebus_potentate.0003.a:0 "They will leave Cyrodiil, lest they wish to share a similar fate as [potentate.GetFirstName]!"
- tsaesci_rulers_leave_criminal_tooltip:0 "All Tsaesci rulers in Cyrodiil will have a choice:\nLeave the province in exile, or be branded as criminals.\n *Direct vassals are #G very likely#! to leave\n *Indirect vassals will #G probably#! leave\n *Independent rulers or vassals of another realm will #R probably#! stay"
+ tsaesci_rulers_leave_criminal_tooltip:0 "All Tsaesci rulers in Cyrodiil will have a choice:\nLeave the province in exile, or be branded as criminals.\n • Direct vassals are #G very likely#! to leave\n • Indirect vassals will #G probably#! leave\n • Independent rulers or vassals of another realm will #R probably#! stay"
  tsaesci_rulers_leave_development_culture_convert_tooltip:0 "Any Tsaesci county will suffer a loss of [development|E], but will be easier to convert culturally"
  tsaesci_rulers_leave_future_counties_ban_tooltip:0 "Any future counties you hold with a significant Tsaesci population will see the Akaviri driven out"
  tsaesci_rulers_leave_elder_council_tooltip:0 "The Elder Council is worried about the economical impact of such a rash action"
