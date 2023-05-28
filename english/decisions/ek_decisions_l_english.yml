@@ -186,6 +186,14 @@
 
  initiate_consolamentum_decision_age_tt:0 "Has [ek_age_modifier|E] equivalent to #N 60 years#! for average humans"
 
+ join_cote_decision:0 "Join the Council of the Eight"
+ join_cote_decision_desc:0 "The Divines long ago invested spiritual authority in Alessia the Paravant, and thus Cyrodiil has maintained a status as "first among equals" in spiritual matters. The Council of the Eight exists to enshrine this position in law, and at the same time grant regional chapels a seat at the table and a voice in the Arch-Primate's ear.\n\nAs the de facto worldly leader of my faith, I certainly have a say in its future, and perhaps our priesthood stands to gain more from joining the Council than our believers stand to lose from submitting to its authority."
+ join_cote_decision_tt:0 "Tie your faith to the Temple in Cyrodiil"
+ join_cote_decision_confirm:0 "Unity - for the Divines!"
+ gain_doctrine_spiritual_head:0 "Your [faith|E] gains the [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName] [head_of_faith|E] Doctrine"
+ join_cote_decision_faith_hostility:0 "Your [faith|E] gets #P -5#! [faith_hostility|E] with faiths with the Council of the Eight as [head_of_faith|E]"
+ faith_not_considered_evil:0 "Your [faith|E] is not considered [faith_evil|E] by the Arch-Primate"
+
 # Artifacts
 
 crown_verity_decision:0 "Judgement of Verity"

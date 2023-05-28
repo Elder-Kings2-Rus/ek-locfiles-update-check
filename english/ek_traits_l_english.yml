@@ -141,9 +141,9 @@ trait_experimentalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip
 
 trait_experimentalist_necromancer:0 "Experimentalist"
 trait_experimentalist_necromancer_desc:0 "This character enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
-experimentalist_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
-experimentalist_necromancer_player_desc:0 "Secret Necromancer"
-trait_experimentalist_necromancer_player_desc:0 "This character is secretly a necromancer. Though the true nature of [ROOT.GetCharacter.GetHerHis] dark doings is still hidden from the world."
+trait_experimentalist_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] enjoys to perform all kinds of magical experiments and tends to forget [ROOT.GetCharacter.GetHerHis] mundane sorrows while doing so."
+trait_experimentalist_necromancer_player:0 "Secret Necromancer"
+trait_experimentalist_necromancer_player_desc:0 "This character is secretly a necromancer, though the true nature of [ROOT.GetCharacter.GetHerHis] dark doings is still hidden from the world."
 
  trait_dragonborn:0 "Dragonborn"
  trait_dragonborn_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is born with the blood and soul of a Dragon. Dragonborns are known to be favoured by the Gods."

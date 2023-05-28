@@ -423,6 +423,7 @@
  not_courtly_or_communal_desc:0 "The [culture|E] does not have the $ethos_courtly_name$ or $ethos_communal_name$ [ethos|E]"
  magic_rulers_desc:0 "The [culture|E] does not have #V 3#! or more [rulers|E] with the [GetTrait('arcana_good_1').GetName( GetNullCharacter )], [GetTrait('arcana_good_2').GetName( GetNullCharacter )], or [GetTrait('arcana_good_3').GetName( GetNullCharacter )] [trait|E]"
  not_stoic_egalitarian_or_spiritual_desc:0 "The [culture|E] does not have the $ethos_stoic_name$, $ethos_egalitarian_name$ or $ethos_spiritual_name$ [ethos|E]"
+ lack_breton_heritage_or_language_penalty_desc:0 "You do not have #V $Breton$#! [heritage|E] or know the Bretic language"
 
  
  ###TRADITION MISC
@@ -476,12 +477,13 @@
  tradition_soulbound_defenders_trigger_desc:0 "Is #V $North Nedic$#! #italic or#! #V $Central Nedic$#! [heritage|E]"
  tradition_goblinken_trigger_desc:0 "Is #V $Goblinken$#! [heritage|E]"
  tradition_chimeri_trigger_desc:0 "Is #V $Chimeri$#! [heritage|E]"
- tradition_hereditary_hierarchy_trigger_desc:0 "Does not have the [GetCultureTradition('tradition_ceremoniarchy').GetName|V] [tradition|E]"
+ tradition_hereditary_hierarchy_trigger_desc:0 "You must have a[feudal_like_government|E]"
  has_feudal_like_government_trigger_desc:0 "Is not [GetGovernment('tribal_government').GetName]"
- tradition_falmer_trigger_desc:0 "Is either $falmer$ [culture|E] or a [culture|E] descended from $falmer$"
- tradition_falmer_betrayed_trigger_desc:0 "Is either $falmer_betrayed$ [culture|E] or a [culture|E] descended from $falmer_betrayed$"
- tradition_dwemer_trigger_desc:0 "Is either $dwemer$ [culture|E] or a [culture|E] descended from $dwemer$"
+ tradition_falmer_trigger_desc:0 "Is #V $Falmeri$#! [heritage|E] and either $falmer$ [culture|E] or a [culture|E] descended from $falmer$, and does not have the [GetCultureTradition('tradition_chaurus_husbandry').GetName|V] or [GetCultureTradition('tradition_pale_shamans').GetName|V] [traditions|E]"
+ tradition_falmer_betrayed_trigger_desc:0 "Is #V $Falmeri$#! [heritage|E] and either $falmer_betrayed$ [culture|E] or a [culture|E] descended from $falmer_betrayed$, and does not have the [GetCultureTradition('tradition_knight_paladins').GetName|V] [tradition|E]"
+ tradition_dwemer_trigger_desc:0 "Is #V $Dwemeri$#! [heritage|E] and either $dwemer$ [culture|E] or a [culture|E] descended from $dwemer$"
  tradition_female_only_inheritance_requirements_ek:0 "You must have a [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] [faith|E]"
+ tradition_orc_heritage_trigger:0 "Is #V $Orsimeri$#! [heritage|E]"
 
  tradition_roman_legacy_trigger_desc:0 "Is either of #V $colovian$#!, #V $nibenese$#!, or #V $heartlander$#! [culture|E], descended from any of the former, #italic or#! holds the Empires of Tamriel or Cyrodiil as a primary title."
 

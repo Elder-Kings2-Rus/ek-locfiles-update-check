@@ -83,7 +83,7 @@
 
  game_concept_culture_revival:0 "Culture Revival"
  game_concept_culture_revived:0 "Revived"
- game_concept_culture_revival_desc:0 "Cultures that are considered dead, marked by the #V Dead Culture#! Innovation, may be revived under certain conditions. When revived they will be able to act like any other culture and regain the ability to Culture Convert provinces. For a culture to be able to be revived, the following is required:\n\n• There must exist another culture of the same [heritage|E] that is #italic not#! dead\n• The dead culture must have a [nativity_region|E]\n• A Ruler of the same [heritage|E] must completely control the [nativity_region|E] of the dead culture\n\nIf these requirements cannot be fulfilled, the dead culture cannot be revived."
+ game_concept_culture_revival_desc:0 "Cultures that are considered dead, marked by the #V Dead Culture#! Innovation, may be revived under certain conditions. When revived they will be able to act like any other culture and regain the ability to Culture Convert provinces. For a culture to be able to be revived, the following is required:\n\n• There must exist another culture of the same [heritage|E] that is #italic not#! dead\n• The dead culture must have a [nativity_region|E]\n• A Ruler of the same [heritage|E] must completely control the [nativity_region|E] of the dead culture\n\nIf these requirements cannot be fulfilled, the dead culture cannot be revived.\n\nCultures with the #V Extinct Race#! Innovation may however never be revived."
 
 
  game_concept_meritocratic:0 "Meritocratic"

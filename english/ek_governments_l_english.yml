@@ -64,10 +64,10 @@
  ### Feudalism
  no_powerful_vassal_with_negative_opinion_ca:0 "You have one or more [powerful_vassals|E] who have a negative opinion of you and are blocking all [crown_authority|E] changes"
  FEUDAL_COUNCIL_CHOICES_GUI:0 "Under [feudalism|E], the [crown_authority|E] decides who can join the Council.\n#V Current level#!: [GetPlayer.Custom('GetFeudalismCouncillors')]"
- feudalism_ca_0_vassals_council:0 "Only [powerful_vassals|E] can be [councillors|E]. Should there not be enough, regular Vassals and eventually Courtiers can be appointed."
- feudalism_ca_1_vassals_council:0 "Any [vassal|E] can be [councillor|E]. Should there not be enough, Courtiers can be appointed."
- feudalism_ca_2_vassals_council:0 "[vassals|E] and [courtiers|E] can be [councillors|E]."
- feudalism_ca_3_vassals_council:0 "[vassals|E] and [courtiers|E] can be [councillors|E]."
+ feudalism_ca_0_vassals_council:0 "Only [powerful_vassals|E] can be [councillors|E]. Should there not be enough capable adults, regular [vassals|E] and eventually [courtiers|E] can be appointed."
+ feudalism_ca_1_vassals_council:0 "Any [vassal|E] can be [councillor|E]. Should there not be enough capable adults, [courtiers|E] can be appointed."
+ feudalism_ca_2_vassals_council:0 "Both [vassals|E] and [courtiers|E] can be [councillors|E]."
+ feudalism_ca_3_vassals_council:0 "Both [vassals|E] and [courtiers|E] can be [councillors|E]."
  ### Autocracy
  autocracy_government:0 "Autocracy"
     autocracy_government_adjective:0 "Autocratic"
@@ -160,6 +160,8 @@ landed_order_government_adjective:0 "Military Order"
 landed_order_government_realm:0 "Military Order"
 landed_order_government_desc:0 "Military Orders are Paramilitary Organisations either independent or vassals of a Realm."
 NOT_GAME_OVER_CANNOT_PLAY_LANDED_ORDER:0 "Cannot play as Military Order"
+NOT_GAME_OVER_CANNOT_PLAY_MINDLESS_CHARACTER:0 "Cannot play as a mindless character"
+NOT_GAME_OVER_CANNOT_PLAY_SUMMONED_CHARACTER:0 "Cannot play as a summoned character"
 ### Praxis PLACEHOLDER - feel free to change.
 praxis_government:0 "Ceremoniarchy"
 praxis_government_adjective:0 "Praxic"

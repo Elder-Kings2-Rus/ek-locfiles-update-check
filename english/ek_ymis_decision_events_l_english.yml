@@ -11,7 +11,7 @@
  ek_ymis_decision_events.0001d.tt:0 "You will try to unravel the mysteries of necromancy all by yourself. It may take you longer to reach your goal."
  ek_ymis_decision_events.0001e:0 "Do it in secrecy."
  ek_ymis_decision_events.0001e.tt:0 "You will hide your true doings from the world while studying this dark art. It may take you longer to reach your goal."
- ek_ymis_decision_events.0001f:0 "This is too much for now."
+ ek_ymis_decision_events.0001f:0 "This sounds like too much for now."
  ek_ymis_decision_events.0001f.tt:0 "You will abandon this dark path but it will stay open for a later attempt."
 
  abandon_necromancy_studies.tt:0 "You will abandon your studies at necromancy."
@@ -32,11 +32,8 @@
  ek_ymis_decision_events.0005.t:0 "Become a Necromancer in Secret"
  ek_ymis_decision_events.0005.desc:0 "Although [ROOT.Char.GetFaith.DeathDeityName] prohibits it, I feel strongly gravitated to the dark art of necromancy and the power it possesses. To have control over life and death and to surpass the limitations of our physical existence here in Mundus - this surely is a goal worth pursuing.\n\nHowever, I must be mindful of the possible consequences. Not only does it put my place in [ROOT.Char.GetFaith.PositiveAfterLife] and others at risk, I also need to learn and practice this magic hidden from prying eyes. This will make the journey even more difficult, but if I can successfully wield my newfound power and reveal it to the world one day, all the struggle will be worth it."
  ek_ymis_decision_events.0005a:0 "I should spend some more time with [scope:necromancy:tutor.GetName]."
- ek_ymis_decision_events.0005a.tt:0 "I will study on my own."
- ek_ymis_decision_events.0005b:0 "I will continue on my own."
- ek_ymis_decision_events.0005b.tt:0 "I will continue on my own."
- ek_ymis_decision_events.0005c:0 "Put an end to this."
- ek_ymis_decision_events.0005c.tt:0 "Put an end to this."
+ ek_ymis_decision_events.0005b:0 "I will pursue this goal."
+ ek_ymis_decision_events.0005c:0 "It's not worth the risk."
 
  ek_ymis_decision_events.0007.t:0 "Learning Necromancy: Celebrated Efforts"
  ek_ymis_decision_events.0007.desc:0 "Calling upon the dead is an art that is highly respected in Reachfolk culture. After all it gives fallen soldiers a second chance to fight for their tribe, redeem their names, and protect their people. It is a very honourable thing to do and the fact that I am now stepping onto the path that could make me a mighty Gravesinger one day is met with acknowledgment even among the most unruly of my people.\n\nIt's good to have their respect for now, and I should try my best to prove myself worthy of this."

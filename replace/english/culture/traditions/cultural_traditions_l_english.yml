@@ -33,3 +33,5 @@
  culture_in_forest_desc:0 "The [culture|E] is not present in any [county|E] with Forest, Taiga, Taiga Hills, Jungle or Jungle Hills [terrain|E]"
  culture_in_jungle_desc:0 "The [culture|E] is not present in any [county|E] with Jungle or Jungle Hills [terrain|E]"
  jungle_percentage_desc:0 "The [culture|E] does not have #V 30%#! of its [counties|E] in Jungle or Jungle Hills [terrain|E]"
+ culture_in_plains_or_steppe_terrain_desc:0 "The [culture|E] does not have #V 40%#! of its [counties|E] in Plains [terrain|E] or Steppe [terrain|E]"
+ guess_you_need_more_friends_desc:0 "You need at least 3 [friends|E]"

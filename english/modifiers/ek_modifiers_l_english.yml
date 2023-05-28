@@ -900,6 +900,8 @@
  exchanged_necromantic_knowledge_desc:0 "This character has shared their expertise with another necromancer."
  soldiers_funeral:0 "Soldiers Funeral"
  soldiers_funeral_desc:0 "A great funeral was held in this county, as the remains of a venerated soldier were finally allowed to rest."
+ robbed_graves_modifier:0 "Robbed Graves"
+ robbed_graves_modifier_desc:0 "Graves and crypts in this county are often found empty which causes concerns in the local populace."
  
  ### Coming of Age Modifiers
  nord_brave_modifier:0 "Brave Child of Skyrim"
