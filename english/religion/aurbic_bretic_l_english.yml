@@ -5,7 +5,7 @@
  wyrd_religion_adj:1 "Bretic"
  wyrd_religion_adherent:1 "Bretic"
  wyrd_religion_adherent_plural:1 "Bretics"
- wyrd_religion_desc:0 "The first religion of the Bretons is characterised by association in close-knit, nature-oriented communities. Armed with devotion to a particular divinity, druids and wyresses perform obscure rituals filled with serene life or horrifying death, all in the name of communion. Unified expression of the faith ceased when the Direnni invaded, driving a wedge between the Wyrd sisterhoods and the Druidic circles. Further subdivision occurred over time, consolidating the decentralised streak of this religion."
+ wyrd_religion_desc:0 "The first religion of the Bretons is characterised by association in close-knit, nature-oriented communities known as Wyrds (among Wyresses) and Circles (among Druids). Armed with devotion to a particular divinity, druids and wyresses perform obscure rituals filled with serene life or horrifying death, all in the name of communion. Unified expression of the faith ceased when the Direnni invaded, driving a wedge between the Wyrd sisterhoods and the Druidic circles. Further subdivision occurred over time, consolidating the decentralised streak of this religion."
  wyrd_high_god_name:0 "$god_jephre_name$"
  wyrd_high_god_name_2:0 "$wyrd_high_god_name$" # Optional translation alt
  wyrd_high_god_name_3:0 "$wyrd_high_god_name$" # Optional translation alt

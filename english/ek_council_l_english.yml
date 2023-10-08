@@ -54,7 +54,7 @@
  councillor_court_chaplain_wyrd_religion_kingdom_female:0 "Arch-Wyress"
  councillor_court_chaplain_wyrd_religion_kingdom_female_possessive:0 "Arch-Wyress'"
  councillor_court_chaplain_wyrd_religion_empire_female:0 "Arch-Wyress"
- councillor_court_chaplain_wyrd_religion_empire_female_possessive:0 "Arch-Wyress's"
+ councillor_court_chaplain_wyrd_religion_empire_female_possessive:0 "Arch-Wyress'"
  
  #Bosmer Faith
  councillor_court_chaplain_greenpact_county:0 "Green Spinner"
@@ -78,7 +78,7 @@
  
  councillor_court_chaplain_tribunal_temple_county_female:0 "Court Priestess"
  councillor_court_chaplain_tribunal_temple_county_female_possessive:0 "Court Priestess's"
- councillor_court_chaplain_tribunal_temple_duchy_female:0 "Court Priest"
+ councillor_court_chaplain_tribunal_temple_duchy_female:0 "Court Priestess"
  councillor_court_chaplain_tribunal_temple_duchy_female_possessive:0 "Court Priestess's"
  councillor_court_chaplain_tribunal_temple_kingdom_female:0 "Court Priestess"
  councillor_court_chaplain_tribunal_temple_kingdom_female_possessive:0 "Court Priestess's"
@@ -116,7 +116,7 @@
  
  councillor_court_chaplain_daedric_county_female:0 "Court Priestess"
  councillor_court_chaplain_daedric_county_female_possessive:0 "Court Priestess's"
- councillor_court_chaplain_daedric_duchy_female:0 "Court Priest"
+ councillor_court_chaplain_daedric_duchy_female:0 "Court Priestess"
  councillor_court_chaplain_daedric_duchy_female_possessive:0 "Court Priestess's"
  councillor_court_chaplain_daedric_kingdom_female:0 "Court Priestess"
  councillor_court_chaplain_daedric_kingdom_female_possessive:0 "Court Priestess's"

@@ -4,3 +4,4 @@
 
  artifact_torture_trophy_of_victim_name:0 "Trophy from [recipient.GetTitledFirstNameNoTooltip]"
  artifact_torture_trophy_of_victim_desc:0 "This... trophy was taken by [owner.GetTitledFirstName] during terrible torture of [recipient.GetTitledFirstName]"
+ 

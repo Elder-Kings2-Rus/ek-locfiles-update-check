@@ -17,7 +17,7 @@
  ek_stress_threshold.0014.desc:0 "As the morning light creeps through my window, I wake up with a lingering sense of doom. Something isn't right.\n\nFeeling an unusual ache, I move my hand towards my neck. Just as I touch it, I feel the unmistaken teeth marks and realize what has happened last night.\n\n#bold I was biten by a vampire!#!\n\nMay [ROOT.Char.GetFaith.random_GoodGodNames] protect my soul."
  ek_stress_threshold.0014.biten:0 "I'm feeling dizzy."
  ek_stress_threshold.0015.t:0 "Night Terror: Paralyzed"
- ek_stress_threshold.0015.desc:0 "I wake suddenly in the dead of the night to an unresponsive body, unable to move even a finger.\n\nAs I try to make sense of what is happening, I feel someone is over me, holding me down. What are they doing?\n\nA dizziness starts to take over my body and I start to drift back into sleep. Before I fall into slumber, however, I see [vampire_attacker.GetName] face emerge from my neck."
+ ek_stress_threshold.0015.desc:0 "I wake suddenly in the dead of the night to an unresponsive body, unable to move even a finger.\n\nAs I try to make sense of what is happening, I feel someone is over me, holding me down. What are they doing?\n\nA dizziness starts to take over my body and I start to drift back into sleep. Before I fall into slumber, however, I see [vampire_attacker.GetName]'s face emerge from my neck."
  ek_stress_threshold.0015.secret:0 "[vampire_attacker.GetSheHe|U] is a vampire!"
  ek_stress_threshold.0016.t:0 "A Cursed Realization"
  ek_stress_threshold.0016.desc:0 "After being sick for so long, feeling stranger with each passing day, unable to satiate my hunger with regular food or stay in the burning sun for long periods of time.\n\nSuddenly, I realize it: #bold I have contracted vampirism!#!"

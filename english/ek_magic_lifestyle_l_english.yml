@@ -3,7 +3,7 @@
  NO_MAGIC_PERKS:0 "Character has no Magic Perks"
  # grouped here for now, should be orgnised into ek_focus and ek_perks at some point. 
  magic_lifestyle_name:0 "Magic"
- magic_lifestyle_desc:0 "Focus on dedicating yourself to the study and application of magicka, through the meticulous study of the five major schools of magic.". Summon daedra, heal the sick, throw fireballs.
+ magic_lifestyle_desc:0 "Focus on dedicating yourself to the study and application of magicka, through the meticulous study of the five major schools of magic."
  magic_lifestyle_highlight_desc:0 "$magic_lifestyle_highlight_taught$"
  magic_lifestyle_highlight_taught:0 "[GetPlayer.Custom('education_magical_ability_impact_magic_lifestyle_experience')]"
  education_magical_ability_impact_magic_lifestyle_experience_4:0 "Because of your Magic [education|E], you gain #P +40%#! more [experience|E] in this Lifestyle."
@@ -88,7 +88,6 @@
  necromancy_medium_rituals_perk_name:0 "Medium Necromancy Rituals"
  necromancy_major_rituals_perk_name:0 "Major Necromancy Rituals"
  necromancy_master_perk_effect_lich:0 "Unlocks the #V 'Become a Lich#!' decision"
- no_necromancy_trait_perk_effect:0 "You need to be a necromancer before you can choose this perk."
 
  conjuration_novice_perk_effect:0 "Unlocks novice level conjuration spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('conjuration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
  conjuration_apprentice_perk_effect:0 "Unlocks apprentice level conjuration spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('conjuration') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
@@ -135,22 +134,3 @@
  restoration_minor_rituals_perk_effect:0 "Unlocks Minor Restoration [rituals|E]"
  restoration_medium_rituals_perk_effect:0 "Unlocks Medium Restoration [rituals|E]"
  restoration_major_rituals_perk_effect:0 "Unlocks Major Restoration [rituals|E]"
-
- ####################
- ##  RITUAL STUFF  ##
- ####################
-
- #someone please add better names - varla
- life_extension_name:0 "Life Extension"
- lichdom_name:0 "Lichdom"
- redacted_1_name:0 "REDACTED"
- redacted_2_name:0 "VERY REDACTED"
- life_extension_stage_1:0 "Research"
- life_extension_stage_2:0 "Experimentation"
- life_extension_stage_3:0 "Material Aquisition"
- life_extension_stage_4:0 "Final Preparation"
- life_extension_stage_5:0 "Ritual Execution"
- lichdom_stage_1:0 "Undead Theory"
- lichdom_stage_2:0 "Material Aquisition"
- lichdom_stage_3:0 "Phlactery Crafting"
- lichdom_stage_4:0 "Final Death"

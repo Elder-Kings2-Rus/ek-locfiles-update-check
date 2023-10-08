@@ -5,7 +5,7 @@
  velothi_faiths_adj:1 "Velothi"
  velothi_faiths_adherent:1 "Velothi"
  velothi_faiths_adherent_plural:1 "Velothi"
- velothi_faiths_desc:0 "Born under the exodus led by the Prophet Veloth, the Velothi faith all revere the Good Daedra, the three Princes who helped the Chimer before and after their perillous travel to Resdayn. After the ascension of the Tribunal, several splinter faiths emerged, either adhering or rejecting the authority of the Living Gods of Morrowind."
+ velothi_faiths_desc:0 "Born under the exodus led by the Prophet Veloth, the Velothi faiths all revere the Good Daedra, the three Princes who helped the Chimer before and after their perillous travel to Resdayn. After the ascension of the Tribunal, several splinter faiths emerged, either adhering or rejecting the authority of the Living Gods of Morrowind."
  velothi_high_god_name:0 "$god_good_daedra_name$"
  velothi_high_god_name_2:0 "$velothi_high_god_name$" # Optional translation alt
  velothi_high_god_name_3:0 "$velothi_high_god_name$" # Optional translation alt
@@ -42,8 +42,6 @@
  velothi_priest_neuter:0 "curate"
  velothi_priest_neuter_plural:0 "curates"
  velothi_priest_alternate_plural:0 "canons"
- velothi_priest_neuter:0 "curate"
- velothi_priest_neuter_plural:0 "curates"
  velothi_bishop_male:0 "master"
  velothi_bishop_male_plural:0 "masters"
  velothi_bishop_female:0 "mistress"
@@ -140,7 +138,7 @@
  tribunal_cult_adj:1 "Tribunal Cult"
  tribunal_cult_adherent:1 "Tribunal Cultist"
  tribunal_cult_adherent_plural:1 "Tribunal Cultists"
- otribunal_cult_desc:0 "The Tribunal Cult is a persistent southern heterodoxy rooted in Chimeri folk beliefs, representing the rites and traditions of ancient Velothi. It recognizes the laws and temporal primacy of the Living Gods while maintaining the ancestral right to open and enthusiastic worship of the Good Daedra, underlining the importance of staying in good graces with the Tribunal in life, and with its Anticipations in death. This seamless, carefully negotiated synthesis of old and new teachings within the Cult has earned itself a peaceful coexistence with the Temple's doctrine."
+ tribunal_cult_desc:0 "The Tribunal Cult is a persistent southern heterodoxy rooted in Chimeri folk beliefs, representing the rites and traditions of ancient Velothi. It recognizes the laws and temporal primacy of the Living Gods while maintaining the ancestral right to open and enthusiastic worship of the Good Daedra, underlining the importance of staying in good graces with the Tribunal in life, and with its Anticipations in death. This seamless, carefully negotiated synthesis of old and new teachings within the Cult has earned itself a peaceful coexistence with the Temple's doctrine."
 
  #High Velothi
  old_velothi:1 "High Velothi"

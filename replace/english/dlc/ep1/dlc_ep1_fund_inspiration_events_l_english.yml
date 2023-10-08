@@ -2,7 +2,7 @@
 
 # Adventurer hasn't actually gone on the adventure!
 
-fund_inspiration.6400.desc:0 "On a visit to the tavern in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], I spy one of the patrons at the heart of all attention.\n\n[inspiration_owner.GetSheHe|U] is more grizzled than the rest of the patrons, and smells as if [inspiration_owner.GetSheHe] has been there for an age. To my horror, I recognize my adventurer, [inspiration_owner.GetTitledFirstName], who appears not to have made it out of the homeland after months of funding!\n\n"And for my next journey, I shall cross the Sea of Ghosts in a single gulp!" [inspiration_owner.GetSheHe] promptly scoffs an entire glass of red wine and cheering rings through the drinking-hall."
+ fund_inspiration.6400.desc:0 "On a visit to the tavern in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], I spy one of the patrons at the heart of all attention.\n\n[inspiration_owner.GetSheHe|U] is more grizzled than the rest of the patrons, and smells as if [inspiration_owner.GetSheHe] has been there for an age. To my horror, I recognize my adventurer, [inspiration_owner.GetTitledFirstName], who appears not to have made it out of the homeland after months of funding!\n\n"And for my next journey, I shall cross the Sea of Ghosts in a single gulp!" [inspiration_owner.GetSheHe] promptly scoffs an entire glass of red wine and cheering rings through the drinking-hall."
 
 ## Postcards from your Adventurer by Isabella Welch
 
@@ -16,8 +16,8 @@ fund_inspiration.6400.desc:0 "On a visit to the tavern in [ROOT.Char.GetCapitalL
 #Skyrim
 
  fund_inspiration.6002.t:0 "My jaunt through Skyrim marches on!"
- fund_inspiration.6002.desc:0 "I am near-blinded by all the snow in the wilderness. I find myself yearning for the warmth of a hearth.\n\nI have sent a courier with . Have you ever seen something so garish?"
- fund_inspiration.6002.a:0 "I rather like it, it's his loss."
+ fund_inspiration.6002.desc:0 "I am near-blinded by all the snow in the wilderness. I find myself yearning for the warmth of a hearth.\n\nI have sent a courier with an urn I foundan urn I found. Have you ever seen something so garish?"
+ fund_inspiration.6002.a:0 "I rather like it, it's [inspiration_owner.GetHerHis] loss."
  fund_inspiration.6002.b:0 "Ghastly! Take it apart and sell the gems."
 
  fund_inspiration.6503.t:0 "$fund_inspiration.title$ Nordic Whispers"
@@ -27,22 +27,22 @@ fund_inspiration.6400.desc:0 "On a visit to the tavern in [ROOT.Char.GetCapitalL
 
 #Morrowind
 
-fund_inspiration.6003.t:0 "I dream of the ashlands,"
-fund_inspiration.6003.desc:0 "My liege, my journey to Morrowind is underway, and I have hired a silt strider to traverse the width of the land.\n\nI send to you a piece of these lands one of my fellow travelers granted me — a most dreadful golden mask shaped as the face of the late Indoril Nerevar."
-fund_inspiration.6003.a:0 "A fine find! I will display it proudly."
-fund_inspiration.6003.b:1 "I shall give it to [event_knight.GetTitledFirstNameNoTooltip]."
+ fund_inspiration.6003.t:0 "I dream of the ashlands,"
+ fund_inspiration.6003.desc:0 "My liege, my journey to Morrowind is underway, and I have hired a silt strider to traverse the width of the land.\n\nI send to you a piece of these lands one of my fellow travelers granted me — a most dreadful golden mask shaped as the face of the late Indoril Nerevar."
+ fund_inspiration.6003.a:0 "A fine find! I will display it proudly."
+ fund_inspiration.6003.b:1 "I shall give it to [event_knight.GetTitledFirstNameNoTooltip]."
 
 #Black Marsh
-fund_inspiration.6005.desc:0 "My Lord, I have found a few trite relics so far in my adventures, which I have sent with this courier, but I am unsure what I may uncover next.\n\nThe Argonians are the smelliest creatures I have encountered. As a child, I dreamt of the ruins and exciting adventures, but I am convinced half of this world is made of mud. If you are a gracious liege, please send word to call me back."
+ fund_inspiration.6005.desc:0 "My Lord, I have found a few trite relics so far in my adventures, which I have sent with this courier, but I am unsure what I may uncover next.\n\nThe Argonians are the smelliest creatures I have encountered. As a child, I dreamt of the ruins and exciting adventures, but I am convinced half of this world is made of mud. If you are a gracious liege, please send word to call me back."
 
 # Hammerfell
 
-fund_inspiration.6006.t:0 "Greetings from [inspiration_owner.GetLocation.GetName],"
-fund_inspiration.6006.desc:0 "My travels throughout Hammerfell have left me with quite a taste for lamb kabobs, chili cheese corn and garlic greens, and I have sent some recipes along with this courier.\n\nI have been given a exquisite shield adorned with spikes by one of my hosts, which I also send to you. I'm certain my travels will bring further wonders in due time."
-fund_inspiration.6006.a:0 "Order our chefs to prepare these dishes at once!"
-fund_inspiration.6006.b:0 "[inspiration_owner.GetSheHe|U] seems to be having too much fun on this quest..."
+ fund_inspiration.6006.t:0 "Greetings from [inspiration_owner.GetLocation.GetName],"
+ fund_inspiration.6006.desc:0 "My travels throughout Hammerfell have left me with quite a taste for lamb kabobs, chili cheese corn and garlic greens, and I have sent some recipes along with this courier.\n\nI have been given a exquisite shield adorned with spikes by one of my hosts, which I also send to you. I'm certain my travels will bring further wonders in due time."
+ fund_inspiration.6006.a:0 "Order our chefs to prepare these dishes at once!"
+ fund_inspiration.6006.b:0 "[inspiration_owner.GetSheHe|U] seems to be having too much fun on this quest..."
 
 # High Rock
 
-fund_inspiration.6004.t:0 "Ah, to be a merchant,"
-fund_inspiration.6004.desc:0 "My journey through High Rock has mostly involved being lost in the endless markets bringing things from all over Tamriel and beyond to the Iliac Bay.\n\nPerusing the wares of one of the merchants, I came across this interesting find. An Antique Map, drawn by an ancient cartographer countless decades ago. I hope you find it as amusing as I did."
+ fund_inspiration.6004.t:0 "Ah, to be a merchant,"
+ fund_inspiration.6004.desc:0 "My journey through High Rock has mostly involved being lost in the endless markets bringing things from all over Tamriel and beyond to the Iliac Bay.\n\nPerusing the wares of one of the merchants, I came across this interesting find. An Antique Map, drawn by an ancient cartographer countless decades ago. I hope you find it as amusing as I did."

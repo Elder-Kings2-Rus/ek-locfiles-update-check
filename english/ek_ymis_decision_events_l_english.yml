@@ -63,8 +63,8 @@
  ek_ymis_decision_events.0012.desc:0 "Wherever I go and whatever I do, I feel like [secret_opposer.GetFirstName] is watching me closely. At first, I wasn't sure how to feel about it, but now I believe that [secret_opposer.GetSheHe] is suspicious of my secret studies, and it's becoming increasingly problematic. How can I continue my efforts without [secret_opposer.GetHerHis] vigilant gaze constantly monitoring me?\n\nWhile I could just confront [secret_opposer.GetHerHim], I wonder if there's a more subtle approach to addressing this issue."
  ek_ymis_decision_events.0012a:0 "Tell [secret_opposer.GetHerHim] to stay out of my affairs!"
  ek_ymis_decision_events.0012b:0 "Try to distract [secret_opposer.GetHerHim] from you true intentions."
- ek_ymis_decision_events.0012b.tt_success:0 "You succesfully divert [secret_opposer.GetFirstNameNoTooltip] from your true intentions."
- ek_ymis_decision_events.0012b.tt_failure:0 "[secret_opposer.GetFirstNameNoTooltip|U] is growing even more suspicious."
+ ek_ymis_decision_events.0012b.success:0 "You succesfully divert [secret_opposer.GetFirstNameNoTooltip] from your true intentions."
+ ek_ymis_decision_events.0012b.failure:0 "[secret_opposer.GetFirstNameNoTooltip|U] is growing even more suspicious."
  ek_ymis_decision_events.0012c:0 "It's getting too risky. I need to stop."
 
  ek_ymis_decision_events.0013.t:0 "Learning Necromancy: The Toll of Secrecy"
@@ -216,7 +216,7 @@
  ek_ymis_decision_events.0039a:0 "Watch and learn, my apprentice."
 
  ek_ymis_decision_events.0040.t:0 "Necromancy Tutorship: New Study Materials"
- ek_ymis_decision_events.0040.desc:0 "If [necromancy_ward.GetFirstName] is to learn the full extent of necromancy, [necromancy_ward.GetSheHe] will need an abundance of flesh and bones to work and experiment with. However, graverobbing is a dangerous business, and [necromancy_ward.GetHeShe] is probably not ready to do it on [necromancy_ward.GetHerHis] own. I cannot risk losing such a promising adept of the dark arts to the guards or a group of angry villagers.\n\nAs I have robbed a dozen or more graves myself at this point and I am well aware of the dangers. I guess it is my duty as a mentor to fulfill this task one more time." 
+ ek_ymis_decision_events.0040.desc:0 "If [necromancy_ward.GetFirstName] is to learn the full extent of necromancy, [necromancy_ward.GetSheHe] will need an abundance of flesh and bones to work and experiment with. However, graverobbing is a dangerous business, and [necromancy_ward.GetSheHe] is probably not ready to do it on [necromancy_ward.GetHerHis] own. I cannot risk losing such a promising adept of the dark arts to the guards or a group of angry villagers.\n\nAs I have robbed a dozen or more graves myself at this point and I am well aware of the dangers. I guess it is my duty as a mentor to fulfill this task one more time." 
  ek_ymis_decision_events.0040a:0 "Time to get my trusty shovel."
 
  ek_ymis_decision_events.0041.t:0 "Lich Ascension"

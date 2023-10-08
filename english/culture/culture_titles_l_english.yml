@@ -35,10 +35,10 @@
  title_general_consort_male:1 "High Lord"
  title_general_consort_female:1 "High Lady"
  title_grand_overlord:0 "Grand Overlord"
- title_grand_overlady:0  "Grand Overlady"
+ title_grand_overlady:0 "Grand Overlady"
  
- title_high_kinlord_male:0  "High Kinlord"
- title_high_kinlord_female:0  "High Kinlady"
+ title_high_kinlord_male:0 "High Kinlord"
+ title_high_kinlord_female:0 "High Kinlady"
  
  title_legate:0 "Legate"
  title_legate_female:0 "Legate"
@@ -114,8 +114,6 @@
  count_male_e_black_marsh:0 "Marshlord"
  count_female_e_black_marsh:0 "Marshlady"
  county_e_black_marsh:0 "Marshdom"
- 
- queen_mother:0 "Queen Mother"
  
  title_archmage_male:0 "Arch-Mage"
  title_archmage_female:0 "Arch-Mage"
@@ -193,11 +191,11 @@
  wilderking_guardian_court:0 "Grove"
  wilderking_guardian_grand_court:0 "Court"
 
-pale_watch_watchmaster_male:0 "Watchmaster"
-pale_watch_watchmaster_female:0 "Watchmistress"
+ pale_watch_watchmaster_male:0 "Watchmaster"
+ pale_watch_watchmaster_female:0 "Watchmistress"
 
-title_barony_city:0 "City"
-title_county_city:0 "Metropolis"
+ title_barony_city:0 "City"
+ title_county_city:0 "Metropolis"
 
  #Default Feudal tiers
  #Default Republic tiers
@@ -239,7 +237,6 @@ title_county_city:0 "Metropolis"
  duchy_feudal_independent:0 "Kingdom"
  king_feudal_male_independent:0 "King"
  king_feudal_female_independent:0 "Queen"
- kingdom_feudal_independent:0 "Kingdom"
 
  #Default Pirate tiers
  baron_pirate_male:0 "Captain"
@@ -278,7 +275,7 @@ title_county_city:0 "Metropolis"
  duchy_pirate_fleet_kingdom:0 "Grand Fleet"
  duchy_pirate_free_port:0 "Free Port"
  
-  #Default Academy tiers
+ #Default Academy tiers
  baron_academy_male:0 "[CHARACTER.Custom('ArchmageTitle')]"
  baron_academy_female:0 "[CHARACTER.Custom('ArchmageTitle')]"
  barony_academy:0 "[CHARACTER.Custom('AcademyRealm')]"
@@ -502,8 +499,6 @@ title_county_city:0 "Metropolis"
  head_of_faith_eight_divines_female:1 "Arch-Primate"
  
  #Khajiiti Religion
- khajiiti_religious_head_title:1 "Mane"
- 
  baron_theocracy_male_khajiiti_religion:0 "Moon-Priest"
  baron_theocracy_female_khajiiti_religion:0 "Moon-Priestess"
  count_theocracy_male_khajiiti_religion:0 "Moon-Bishop"
@@ -516,7 +511,7 @@ title_county_city:0 "Metropolis"
  emperor_theocracy_female_khajiiti_religion:0 "Moon-Empress" 
  
  #Lilmothiiti Faith
-#  lilmothiiti_religious_head_title:1 "Lawgifter"
+ #lilmothiiti_religious_head_title:1 "Lawgifter"
  
  baron_theocracy_male_lilmothiiti_religion:0 "Lawspeaker"
  baron_theocracy_female_lilmothiiti_religion:0 "Lawspeaker"
@@ -544,7 +539,7 @@ title_county_city:0 "Metropolis"
  emperor_theocracy_male_wyrd_religion:0 "Supreme"
  emperor_theocracy_female_wyrd_religion:0 "Supreme"
  empire_theocracy_wyrd_religion:0 "Realm"
-  #Druid Religion
+ #Druid Religion
  baron_theocracy_male_druid_circles:0 "Acolyte"
  baron_theocracy_female_druid_circles:0 "Acolyte"
  count_theocracy_male_druid_circles:0 "Druid"
@@ -577,620 +572,706 @@ title_county_city:0 "Metropolis"
 ################################################
 #Cultural titles, cultural localization
 
-#Aldmeris Group
-baron_republic_male_aldmeris_group:0 "Reeve"
-baron_republic_female_aldmeris_group:0 "Reeve"
-baron_republic_male_balfieri:0 "Beratu"
-baron_republic_female_balfieri:0 "Beratu"
-count_republic_male_balfieri:0 "Bailiff"
-count_republic_female_balfieri:0 "Bailiff"
-count_republic_male_aldmeris_group:0 "Canonreeve"
-count_republic_female_aldmeris_group:0 "Canonreeve"
-duke_republic_male_aldmeris_group:0 "High Reeve"
-duke_republic_female_aldmeris_group:0 "High Reeve"
-
-baron_feudal_male_aldmeris_group:0 "Cerum"
-baron_feudal_female_aldmeris_group:0 "Cerum"
-barony_feudal_aldmeris_group:0 "Ceruval"
-count_feudal_male_aldmeris_group:0 "Optimate"
-count_feudal_female_aldmeris_group:0 "Optimate"
-county_feudal_aldmeris_group:0 "Optimal"
-duke_feudal_male_aldmeris_group:0 "Kinlord"
-duke_feudal_female_aldmeris_group:0 "Kinlady"
-duchy_feudal_aldmeris_group:0 "Kinhold"
-king_feudal_male_aldmeris_group:0 "High Kinlord"
-king_feudal_female_aldmeris_group:0 "High Kinlady"
-emperor_feudal_male_aldmeris_group:0 "Aran-El"
-emperor_feudal_female_aldmeris_group:0 "Arana-El"
-empire_feudal_aldmeris_group:0 "High Kingdom"
-
-king_feudal_male_aldmeris_group_independent:0 "Aran"
-king_feudal_female_aldmeris_group_independent:0 "Arana"
-
-
-#Falmeris Group
-baron_feudal_male_falmer:0 "Adon"
-baron_feudal_female_falmer:0 "Adona"
-barony_feudal_falmer:0 "Adonel"
-
-count_feudal_male_falmer:0 "Arpen"
-count_feudal_female_falmer:0 "Arpena"
-county_feudal_falmer:0 "Arpency"
-
-duke_feudal_male_falmer:0 "Prince"
-duke_feudal_female_falmer:0 "Princess"
-duchy_feudal_falmer:0 "Princedom"
-
-king_feudal_male_falmer:0 "High Prince"
-king_feudal_female_falmer:0 "High Princess"
-kingdom_feudal_falmer:0 "Kingdom"
-
-#Betrayed
-baron_feudal_male_betrayed:0 "Skulker"
-baron_feudal_female_betrayed:0 "Skulker"
-barony_feudal_betrayed:0 "Skulk"
-
-count_feudal_male_betrayed:0 "Chief"
-count_feudal_female_betrayed:0 "Chieftess"
-county_feudal_betrayed:0 "Chiefdom"
-
-duke_feudal_male_betrayed:0 "High Chief"
-duke_feudal_female_betrayed:0 "High Chieftess"
-duchy_feudal_betrayed:0 "Hive"
-
-king_feudal_male_betrayed:0 "Warchief"
-king_feudal_female_betrayed:0 "Warchieftess"
-kingdom_feudal_betrayed:0 "Horde"
-
-emperor_feudal_male_betrayed:0 "Great Warchief"
-emperor_feudal_female_betrayed:0 "Great Warchieftess"
-empire_feudal_betrayed:0 "Great Horde"
-
-#Independent
-duke_feudal_male_betrayed_independent:0 "Warchief"
-duke_feudal_female_betrayed_independent:0 "Warchieftess"
-
-#Republic
-
-baron_republic_male_betrayed:0 "Nestmonger"
-baron_republic_female_betrayed:0 "Nestmonger"
-barony_republic_betrayed:0 "Nest"
-
-county_republic_male_betrayed:0 "Nestmonger"
-county_republic_female_betrayed:0 "Nestmonger"
-county_republic_betrayed:0 "Hive-Nest"
-
-
-#Dwemeris Group
-baron_feudal_male_dwemer:0 "Varzak"
-baron_feudal_female_dwemer:0 "Varzarn"
-barony_feudal_dwemer:0 "Varunch"
-
-count_feudal_male_dwemer:0 "Btharak"
-count_feudal_female_dwemer:0 "Bcharn"
-county_feudal_dwemer:0 "Bthar"
-
-duke_feudal_male_dwemer:0 "Akzhar"
-duke_feudal_female_dwemer:0 "Arnzhar"
-duchy_feudal_dwemer:0 "Zhardum"
-
-baron_republic_male_dwemer:0 "Abakch"
-baron_republic_female_dwemer:0 "Abakch"
-barony_republic_dwemer:0 "Zel"
-
-count_republic_male_dwemer:0 "Abakch"
-count_republic_female_dwemer:0 "Abakch"
-county_republic_dwemer:0 "Zel"
-
-
-#Chimeris Group
-baron_feudal_male_dunmeris_group:0 "Sera"
-baron_feudal_female_dunmeris_group:0 "Sera"
-count_feudal_male_dunmeris_group:0 "Muthsera"
-count_feudal_female_dunmeris_group:0 "Muthsera"
-
-baron_republic_male_dunmeris_group:0 "Hetman"
-baron_republic_female_dunmeris_group:0 "Hetwoman"
-count_republic_male_dunmeris_group:0 "Hetman"
-count_republic_female_dunmeris_group:0 "Hetwoman"
-duke_republic_male_dunmeris_group:0 "Councillor"
-duke_republic_female_dunmeris_group:0 "Councillor"
-
-count_republic_male_chimeris_group:0 "Hetman"
-count_republic_female_chimeris_group:0 "Hetwoman"
-duke_republic_male_chimeris_group:0 "Ilkhan"
-duke_republic_female_chimeris_group:0 "Ilkhatun"
-
-#Breton Group
-
-count_feudal_male_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
-count_feudal_female_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
-county_feudal_balfieri:0 "[CHARACTER.Custom('DirenniRealm')]"
-
-title_count_feudal_male_balfieri:0 "Castellan"
-title_count_feudal_female_balfieri:0 "Castellan"
-title_county_feudal_balfieri:0 "Castellany"
-
-count_feudal_male_earl:0 "Earl"
-count_feudal_female_earl:0 "Earl"
-county_feudal_earldom:0 "Earldom"
-count_feudal_male_baron:0 "Baron"
-count_feudal_female_baron:0 "Baroness"
-county_feudal_barony:0 "Barony"
-count_feudal_male_count:0 "Count"
-count_feudal_female_countess:0 "Countess"
-county_feudal_county:0 "County"
-duke_feudal_male_marchis:0 "Marquis"
-duke_feudal_female_marchis:0 "Marchioness"
-duchy_feudal_march:0 "March"
-count_feudal_independent_male:0 "Prince"
-count_feudal_independent_female:0 "Princess"
-county_feudal_independent:0 "Principality"
-
-duke_child_male:0 "Prince"
-duke_child_female:0 "Princess"
-
-#Nordic Group
-count_feudal_male_nordic_group:0 "Lendman"
-count_feudal_female_nordic_group:0 "Lendwoman"
-county_feudal_nordic_group:0 "Lend"
-duchy_feudal_male_nordic_group:0 "[CHARACTER.Custom('NordicClanHead')]"
-duchy_feudal_female_nordic_group:0 "[CHARACTER.Custom('NordicClanHead')]"
-duchy_feudal_nordic_group:0 "Clanstead"
-king_feudal_male_nordic_group:0 "[CHARACTER.Custom('NordicJarl')]"
-king_feudal_female_nordic_group:0 "[CHARACTER.Custom('NordicJarl')]"
-kingdom_feudal_nordic_group:0 "Hold"
-emperor_feudal_male_nordic_group:0 "High King"
-emperor_feudal_female_nordic_group:0 "High Queen"
-empire_feudal_nordic_group:0 "High Kingdom"
-
-TitleClanHead:0 "Clan-Head"
-TitleJarl:0 "Jarl"
-
-count_republic_male_nordic_group:0 "Alderman"
-count_republic_female_nordic_group:0 "Alderwoman"
-county_republic_nordic_group:0 "Lendstead"
-
-duchy_republic_male_nordic_group:0 "Steadholder"
-duchy_republic_female_nordic_group:0 "Steadholder"
-duchy_republic_nordic_group:0 "Steadhold"
-
-barony_republic_male_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
-barony_republic_female_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
-
-Steadholder_male:0 "Alderman"
-Steadholder_female:0 "Alderwoman"
-
-#Cyro-Nords
-duke_feudal_male_cyro_nord_independent:1 "[CHARACTER.Custom('NordicClanHead')]"
-duke_feudal_female_cyro_nord_independent:1 "[CHARACTER.Custom('NordicClanHead')]"
-duchy_feudal_cyro_nord_independent:1 "Hold"
-
-#Cyrodiilic Group
-king_feudal_male_cyrodiil:0 "[CHARACTER.Custom('KingFeudalMaleCyrodiil')]"
-king_feudal_female_cyrodiil:0 "[CHARACTER.Custom('KingFeudalFemaleCyrodiil')]"
-kingdom_feudal_cyrodiil:0 "[CHARACTER.Custom('KingdomFeudalCyrodiil')]"
-
-warlord_male_cyrodiil:0 "[CHARACTER.Custom('WarlordMaleCyrodiil')]"
-warlord_female_cyrodiil:0 "[CHARACTER.Custom('WarlordFemaleCyrodiil')]"
-
-imperial_count:0 "Imperial Count"
-imperial_countess:0 "Imperial Countess"
-imperial_county:0 "Imperial County"
-
-warlord:0 "Warlord"
-warlady:0 "Warlady"
-
-duke_feudal_male_cyrodiilic_group:0 "Viscount"
-duke_feudal_female_cyrodiilic_group:0 "Viscountess"
-duchy_feudal_cyrodiilic_group:0 "Viscounty"
-
-count_feudal_male_cyrodiilic_group:0 "Baron"
-count_feudal_female_cyrodiilic_group:0 "Baroness"
-county_feudal_cyrodiilic_group:0 "Barony"
-
-duchy_feudal_Cyrodiilic_independent:0 "Duchy"
-
-#Heartlander
-king_feudal_male_heartlands:0 "Lord Protector"
-king_feudal_female_heartlands:0 "Lady Protectress"
-kingdom_feudal_heartlands:0 "Protectorate"
-
-#Colovian 
-duke_feudal_male_colovian_independent:1 "Duke"
-duke_feudal_female_colovian_independent:1 "Duchess"
-
-#Nibenese
-duke_feudal_male_nibenese_independent:1 "Overlord"
-duke_feudal_female_nibenese_independent:1 "Overlady"
-king_feudal_male_nibenese_independent_cyrodiil:0 "Overlord"
-king_feudal_female_nibenese_independent_cyrodiil:0 "Overlady"
-
-#Orsimer Group
-baron_feudal_male_orsimer:0 "Chief"
-baron_feudal_female_orsimer:0 "Chieftess"
-barony_feudal_orsimer:1 "Stronghold"
-count_feudal_male_orsimer:0 "Chieftain"
-count_feudal_female_orsimer:0 "Chieftess"
-county_feudal_orsimer:0 "Chiefdom"
-duke_feudal_male_orsimer:0 "High Chieftain"
-duke_feudal_female_orsimer:0 "High Chieftess"
-duchy_feudal_orsimer:0 "Tribe"
-king_feudal_male_orsimer:0 "King"
-king_feudal_female_orsimer:0 "Queen"
-
-king_huntshusband:0 "Huntshusband"
-king_huntswife:0 "Huntswife"
-duke_huntshusband:0 "Huntshusband"
-duke_huntswife:0 "Huntswife"
-count_huntshusband:0 "Huntshusband"
-count_huntswife:0 "Huntswife"
-baron_huntshusband:0 "Huntshusband"
-baron_huntswife:0 "Huntswife"
-
-#Goblin-ken Group
-king_feudal_male_goblinken:0 "Chief-King"
-king_feudal_female_goblinken:0 "Chief-Queen"
-
-#Reachfolk
-barony_feudal_reachfolk:0 "Dhun"
-duke_feudal_independent_male_reachfolk:0 "Chief-of-Chiefs"
-duke_feudal_independent_female_reachfolk:0 "Chief-of-Chiefs"
-king_feudal_male_reachfolk:0 "Ard"
-king_feudal_female_reachfolk:0 "Ard"
-emperor_feudal_male_reachfolk:1 "Tagh Ard"
-emperor_feudal_female_reachfolk:1 "Tagh Ard"
-
-#Yokudan Group
-baron_republic_male_yokudan_group:0 "Magistrate"
-baron_republic_female_yokudan_group:0 "Magistrate"
-count_republic_male_yokudan_group:0 "Lord Magistrate"
-count_republic_female_yokudan_group:0 "Lady Magistrate"
-
-count_feudal_male_yokudan_group:0 "Magnifico"
-count_feudal_female_yokudan_group:0 "Magnifica"
-county_feudal_yokudan_group:0 "Magnificence"
-duke_feudal_male_yokudan_group:0 "Grandee"
-duke_feudal_female_yokudan_group:0 "Grandeya"
-duchy_feudal_yokudan_group:0 "Grandeza"
-
-#Alik'r
-king_feudal_male_alikr:0 "Sultan"
-king_feudal_female_alikr:0 "Sultana"
-kingdom_feudal_alikr:0 "Sultanate"
-
-#Yokudan
-# count_feudal_male_yokudan:0 "Yokeda"
-# count_feudal_female_yokudan:0 "Yokeda"
-# county_feudal_yokudan:0 "Domain"
-king_feudal_male_yokudan:0 "Yokeda"
-king_feudal_female_yokudan:0 "Yokeda"
-emperor_feudal_male_yokudan:0 "Elden Yokeda"
-emperor_feudal_female_yokudan:0 "Elden Yokeda"
-empire_feudal_yokudan:0 "Empire"
-
-#Chimeris Group + Ashlander
-khan_male:0 "[CHARACTER.Custom('khan_male')]"
-khan_female:0 "[CHARACTER.Custom('khan_female')]"
-great_khan_male:0 "[CHARACTER.Custom('great_khan_male')]"
-great_khan_female:0 "[CHARACTER.Custom('great_khan_female')]"
-khanate_title:0 "[CHARACTER.Custom('khanate_title')]"
-ashkhan:0 "Ashkhan"
-snowkhan:0 "Snowkhan"
-marshkhan:0 "Marshkhan"
-great_ashkhan:0 "Great Ashkhan"
-great_snowkhan:0 "Great Snowkhan"
-great_marshkhan:0 "Great Marshkhan"
-#terrain_khan:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
-#great_terrain_khan:0 "Great [CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
-baron_tribal_male_chimeris_group:0 "Hetman"
-baron_tribal_female_chimeris_group:0 "Hetwoman"
-count_tribal_male_chimeris_group:0 "Gulakhan"
-count_tribal_female_chimeris_group:0 "Gulakhatun"
-duke_tribal_male_chimeris_group:0 "Kogokhan"
-duke_tribal_female_chimeris_group:0 "Kogokhatun"
-king_tribal_male_chimeris_group:0 "Gahkhan"
-king_tribal_female_chimeris_group:0 "Gahkhatun"
-emperor_tribal_male_chimeris_group:0 "Khan"
-emperor_tribal_female_chimeris_group:0 "Khatun"
-wise-woman:0 "Wise-Woman"
-farseer:0 "Farseer"
-
-count_tribal_ashlander_vassal:0 "Gulakhanate"
-duchy_tribal_ashlander_vassal:0 "Kogokhanate"
-king_tribal_ashlander_vassal:0 "Gahkhanate"
-
-count_tribal_ashlander_independent:0 "Tribe"
-duchy_tribal_ashlander_independent:0 "Tribe"
-king_tribal_ashlander_independent:0 "Tribe"
-
-emperor_tribal_ashlander_independent:0 "Tribe"
-
-ashkhanate:0 "Ashkhanate"
-snowkhanate:0 "Snowkhanate"
-marshkhanate:0 "Marshkhanate"
-terrain_khanate:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khanate"
-
-#Bosmeris Group
-baron_feudal_male_bosmeris_group:0 "Clan-Keeper"
-baron_feudal_female_bosmeris_group:0 "Clan-Keeper"
-barony_feudal_bosmeris_group:0 "Clan"
-count_feudal_male_bosmeris_group:0 "Warden"
-count_feudal_female_bosmeris_group:0 "Warden"
-county_feudal_bosmeris_group:0 "Ward"
-duke_feudal_male_bosmeris_group:0 "Treethane"
-duke_feudal_female_bosmeris_group:0 "Treethane"
-duchy_feudal_bosmeris_group:0 "Treethanedom"
-duke_feudal_male_bosmeris_etarani:0 "Woodlord"
-duke_feudal_female_bosmeris_etarani:0 "Woodlady"
-duchy_feudal_bosmeris_etarani:0 "Principality"
-emperor_feudal_male_bosmeris_group:0 "Hart-King"
-emperor_feudal_female_bosmeris_group:0 "Hart-Queen"
-
-duke_green_lady_male:0 "Green Lord"
-duke_green_lady_female:0 "Green Lady"
-
-#Akaviri Group
-emperor_feudal_male_akaviri_group:1 "Potentate"
-emperor_feudal_female_akaviri_group:1 "Potentate"
-
-#Alyeid Group
-baron_feudal_male_ayleid:0 "Adon"
-baron_feudal_female_ayleid:0 "Adona"
-barony_feudal_ayleid:0 "Adonsel"
-
-count_feudal_male_ayleid:0 "Arpen"
-count_feudal_female_ayleid:0 "Arpena"
-county_feudal_ayleid:0 "Arpensel"
-
-duke_feudal_male_ayleid:0 "Malarpen"
-duke_feudal_female_ayleid:0 "Malarpena"
-duchy_feudal_ayleid:0 "Malarpensel"
-
-king_feudal_male_ayleid:0 "Aran"
-king_feudal_female_ayleid:0 "Arana"
-kingdom_feudal_ayleid:0 "Aransel"
-
-emperor_feudal_male_ayleid:0 "Malaran"
-emperor_feudal_female_ayleid:0 "Malarana"
-empire_feudal_ayleid:0 "Malaransel"
-
-count_feudal_independent_male_ayleid:0 "Aran" 
-count_feudal_independent_female_ayleid:0 "Arana" 
-county_feudal_independent_ayleid:0 "Aransel"
-duke_feudal_independent_male_ayleid:0 "Aran" 
-duke_feudal_independent_female_ayleid:0 "Arana" 
-duchy_feudal_independent_ayleid:0 "Aransel"
-
-prince_ayleid_county:0 "Prince" 
-princess_ayleid_county:0 "Princess" 
-
-prince_ayleid_duchy:0 "Prince" 
-princess_ayleid_duchy:0 "Princess" 
-
-emperor_feudal_male_saliache:0 "Malaran"
-emperor_feudal_female_saliache:0 "Malarana"
-empire_feudal_saliache:0 "Malaransel"
-
-duke_feudal_male_white_gold:0 "Malarpen"
-duke_feudal_female_white_gold:0 "Malarpena"
-duchy_feudal_white_gold:0 "Malarpensel"
-
-duke_feudal_male_white_gold_independent:0 "Aran"
-duke_feudal_female_white_gold_independent:0 "Arana"
-duchy_feudal_white_gold_independent:0 "Aransel"
-
-#Yespest Group 
-baron_feudal_male_yespest:0 "Adonu"
-baron_feudal_female_yespest:0 "Adone"
-barony_feudal_yespest:0 "Adonpest"
-
-count_feudal_male_yespest:0 "Arpenu"
-count_feudal_female_yespest:0 "Arpene"
-county_feudal_yespest:0 "Arpenpest"
-
-duke_feudal_male_yespest:0 "Malarpenu"
-duke_feudal_female_yespest:0 "Malarpene"
-duchy_feudal_yespest:0 "Malarpenpest"
-
-#Nedic Group 
-baron_feudal_male_nedic:0 "Chief"
-baron_feudal_female_nedic:0 "Chieftess"
-barony_feudal_nedic:0 "Hall"
-
-count_feudal_male_nedic:0 "Chieftain"
-count_feudal_female_nedic:0 "Chieftess"
-county_feudal_nedic:0 "Tribe"
-
-duke_feudal_male_nedic:0 "High Chieftain"
-duke_feudal_female_nedic:0 "High Chieftess"
-duchy_feudal_nedic:0 "High Chiefdom"
-
-#Argonian Group
-baron_feudal_male_argonian:0 "Reel-ka"
-baron_feudal_female_argonian:0 "Reel-na"
-barony_feudal_argonian:0 "Reel-Uxith"
-
-count_feudal_male_argonian:0 "Kaal"
-count_feudal_female_argonian:0 "Nassa"
-county_feudal_argonian:0 "Leel"
-
-duke_feudal_male_argonian:0 "Raj-kaal"
-duke_feudal_female_argonian:0 "Raj-nassa"
-duchy_feudal_argonian:0 "Ataleel"
-
-king_feudal_male_argonian:0 "King"
-king_feudal_female_argonian:0 "Queen"
-kingdom_feudal_argonian:0 "Kingdom"
-
-emperor_feudal_male_argonian:0 "High King"
-emperor_feudal_female_argonian:0 "High Queen"
-empire_feudal_argonian:0 "High Kingdom"
-
-baron_republic_male_argonian:0 "Naheesh"
-baron_republic_female_argonian:0 "Naheesh"
-barony_republic_argonian:0 "Uxith"
-
-count_republic_male_argonian:0 "Naheesh"
-count_republic_female_argonian:0 "Naheesh"
-county_republic_argonian:0 "Tzel"
-
-duke_republic_male_argonian:0 "Raj-Naheesh"
-duke_republic_female_argonian:0 "Raj-Naheesh"
-duchy_republic_argonian:0 "Atatzel"
-
-baron_theocracy_male_hist_religion:0 "Tree-Minder"
-baron_theocracy_female_hist_religion:0 "Tree-Minder"
-barony_theocracy_hist_religion:0 "Sacred Tree"
-
-count_theocracy_male_hist_religion:0 "Tree-Warden"
-count_theocracy_female_hist_religion:0 "Tree-Warden"
-county_theocracy_hist_religion:0 "Sacred Grove"
-
-duke_theocracy_male_hist_religion:0 "Tree-Keeper"
-duke_theocracy_female_hist_religion:0 "Tree-Keeper"
-duchy_theocracy_hist_religion:0 "Sacred Temple"
-
-baron_theocracy_male_xanmeer_religion:0 "Voh-vastei"
-baron_theocracy_female_xanmeer_religion:0 "Voh-vastei"
-barony_theocracy_xanmeer_religion:0 "Sacred Xanmeer"
-
-count_theocracy_male_xanmeer_religion:0 "Voh-vastei"
-count_theocracy_female_xanmeer_religion:0 "Voh-vastei"
-county_theocracy_xanmeer_religion:0 "Sacred Xanmeer"
-
-duke_theocracy_male_xanmeer_religion:0 "Voh-vastei"
-duke_theocracy_female_xanmeer_religion:0 "Voh-vastei"
-duchy_theocracy_xanmeer_religion:0 "Sacred Xanmeer"
-
-count_theocracy_male_xanmeer_religion_independent:0 "Priest-King"
-count_theocracy_female_xanmeer_religion_independent:0 "Priestess-Queen"
-
-duke_theocracy_male_xanmeer_religion_independent:0 "Priest-King"
-duke_theocracy_female_xanmeer_religion_independent:0 "Priestess-Queen"
-
-#Khajiiti Group
-baron_feudal_male_khajiiti:0 "Hatti"
-baron_feudal_female_khajiiti:0 "Hatta"
-barony_feudal_khajiiti:0 "Sebti"
-
-count_feudal_male_khajiiti:0 "T'har"
-count_feudal_female_khajiiti:0 "T'hara"
-county_feudal_khajiiti:0 "Shapsu"
-
-duke_feudal_male_khajiiti:0 "Ja'aran"
-duke_feudal_female_khajiiti:0 "Ja'arana"
-duchy_feudal_khajiiti:0 "Sepat"
-
-king_feudal_male_khajiiti:0 "K'har"
-king_feudal_female_khajiiti:0 "K'hara"
-kingdom_feudal_khajiiti:0 "Ta"
-
-emperor_feudal_male_khajiiti:0 "K'har-ri"
-emperor_feudal_female_khajiiti:0 "K'hara-ri"
-empire_feudal_khajiiti:0 "Ur-Ta"
-
-prince_feudal_male_khajiiti:0 "Va-K'har"
-princess_feudal_female_khajiiti:0 "Va-K'hara"
-
-imperial_prince_feudal_male_khajiiti:0 "Va-K'har-ri"
-imperial_princess_feudal_female_khajiiti:0 "Va-K'hara-ri"
-
-baron_republic_male_khajiiti:0 "Meyur"
-baron_republic_female_khajiiti:0 "Meyuress"
-barony_republic_khajiiti:0 "Niut"
-
-count_republic_male_khajiiti:0 "Ur-Meyur"
-count_republic_female_khajiiti:0 "Ur-Meyuress"
-county_republic_khajiiti:0 "Ur-Niut"
-
-duchy_republic_khajiiti:0 "Chenhun"
-
-#Lilmothiit Group
-baron_feudal_male_lilmothiit:0 "Guide"
-baron_feudal_female_lilmothiit:0 "Guide"
-barony_feudal_lilmothiit:0 "Clan"
-
-count_feudal_male_lilmothiit:0 "Navigator"
-count_feudal_female_lilmothiit:0 "Navigator"
-county_feudal_lilmothiit:0 "Trail"
-
-duke_feudal_male_lilmothiit:0 "Pathfinder"
-duke_feudal_female_lilmothiit:0 "Pathfinder"
-duchy_feudal_lilmothiit:0 "Prowl"
-
-king_feudal_male_lilmothiit:0 "Wayfarer"
-king_feudal_female_lilmothiit:0 "Wayfarer"
-kingdom_feudal_lilmothiit:0 "Flock"
-
-emperor_feudal_male_lilmothiit:0 "Harbinger"
-emperor_feudal_female_lilmothiit:0 "Harbinger"
-empire_feudal_lilmothiit:0 "Earth"
-
-baron_republic_male_lilmothiit:0 "Lictor"
-baron_republic_female_lilmothiit:0 "Lictor"
-barony_republic_lilmothiit:0 "Seat"
-
-count_republic_male_lilmothiit:0 "Censor"
-count_republic_female_lilmothiit:0 "Censor"
-
-#Ilniviri Group
-baron_feudal_male_ilniviri:0 "Master"
-baron_feudal_female_ilniviri:0 "Mistress"
-barony_feudal_ilniviri:0 "Seat"
-
-# count_feudal_male_ilniviri:0 "Magistrate"
-# count_feudal_female_ilniviri:0 "Magistrate"
-# county_feudal_ilniviri:0 "Magistracy"
-count_feudal_male_ilniviri:0 "Magnate"
-count_feudal_female_ilniviri:0 "Magnate"
-county_feudal_ilniviri:0 "Domain"
-
-duke_feudal_male_ilniviri:0 "Prefect"
-duke_feudal_female_ilniviri:0 "Prefect"
-duchy_feudal_ilniviri:0 "Prefecture"
-
-king_feudal_male_ilniviri:0 "Proconsul"
-king_feudal_female_ilniviri:0 "Proconsul"
-kingdom_feudal_ilniviri:0 "Consulate"
-
-emperor_feudal_male_ilniviri:0 "Potentate"
-emperor_feudal_female_ilniviri:0 "Potentate"
-empire_feudal_ilniviri:0 "Potentate"
-
-duke_feudal_independent_male_ilniviri:0 "Regent" 
-duke_feudal_independent_female_ilniviri:0 "Regent" 
-duchy_feudal_independent_ilniviri:0 "Regency"
-king_feudal_independent_male_ilniviri:0 "Consul" 
-king_feudal_independent_female_ilniviri:0 "Consul" 
-kingdom_feudal_independent_ilniviri:0 "Consulate"
-
-prince_male_ilniviri:0 "Young Master"
-prince_female_ilniviri:0 "Young Mistress"
-prince_male_ilniviri_empire:0 "Proconsul"
-prince_female_ilniviri_empire:0 "Proconsul"
-
-#Dremora Group
-baron_feudal_male_dremora:0 "Kynval"
-baron_feudal_female_dremora:0 "Kynval"
-barony_feudal_dremora:0 "Clan"
-
-count_feudal_male_dremora:0 "Kynreeve"
-count_feudal_female_dremora:0 "Kynreeve"
-county_feudal_dremora:0 "Host"
-
-duke_feudal_male_dremora:0 "Kynmarcher"
-duke_feudal_female_dremora:0 "Kynmarcher"
-duchy_feudal_dremora:0 "Kynmarch"
-
-king_feudal_male_dremora:0 "Markynaz"
-king_feudal_female_dremora:0 "Markynaz"
-kingdom_feudal_dremora:0 "Markyn"
-
-emperor_feudal_male_dremora:0 "Valkynaz"
-emperor_feudal_female_dremora:0 "Valkynaz"
-empire_feudal_dremora:0 "Valkyn"
-
+ #Aldmeris Group
+ baron_republic_male_aldmeris_group:0 "Reeve"
+ baron_republic_female_aldmeris_group:0 "Reeve"
+ baron_republic_male_balfieri:0 "Beratu"
+ baron_republic_female_balfieri:0 "Beratu"
+ count_republic_male_balfieri:0 "Bailiff"
+ count_republic_female_balfieri:0 "Bailiff"
+ count_republic_male_aldmeris_group:0 "Canonreeve"
+ count_republic_female_aldmeris_group:0 "Canonreeve"
+ duke_republic_male_aldmeris_group:0 "High Reeve"
+ duke_republic_female_aldmeris_group:0 "High Reeve"
+ 
+ baron_feudal_male_aldmeris_group:0 "Cerum"
+ baron_feudal_female_aldmeris_group:0 "Cerum"
+ barony_feudal_aldmeris_group:0 "Ceruval"
+ count_feudal_male_aldmeris_group:0 "Optimate"
+ count_feudal_female_aldmeris_group:0 "Optimate"
+ county_feudal_aldmeris_group:0 "Optimal"
+ duke_feudal_male_aldmeris_group:0 "Kinlord"
+ duke_feudal_female_aldmeris_group:0 "Kinlady"
+ duchy_feudal_aldmeris_group:0 "Kinhold"
+ king_feudal_male_aldmeris_group:0 "High Kinlord"
+ king_feudal_female_aldmeris_group:0 "High Kinlady"
+ emperor_feudal_male_aldmeris_group:0 "Aran-El"
+ emperor_feudal_female_aldmeris_group:0 "Arana-El"
+ empire_feudal_aldmeris_group:0 "High Kingdom"
+ 
+ king_feudal_male_aldmeris_group_independent:0 "Aran"
+ king_feudal_female_aldmeris_group_independent:0 "Arana"
+
+
+ #Falmeris Group
+ baron_feudal_male_falmer:0 "Adon"
+ baron_feudal_female_falmer:0 "Adona"
+ barony_feudal_falmer:0 "Adonel"
+ 
+ count_feudal_male_falmer:0 "Arpen"
+ count_feudal_female_falmer:0 "Arpena"
+ county_feudal_falmer:0 "Arpency"
+ 
+ duke_feudal_male_falmer:0 "Prince"
+ duke_feudal_female_falmer:0 "Princess"
+ duchy_feudal_falmer:0 "Princedom"
+ 
+ king_feudal_male_falmer:0 "High Prince"
+ king_feudal_female_falmer:0 "High Princess"
+ kingdom_feudal_falmer:0 "Kingdom"
+ 
+ #Betrayed
+ baron_feudal_male_betrayed:0 "Skulker"
+ baron_feudal_female_betrayed:0 "Skulker"
+ barony_feudal_betrayed:0 "Skulk"
+ 
+ count_feudal_male_betrayed:0 "Chief"
+ count_feudal_female_betrayed:0 "Chieftess"
+ county_feudal_betrayed:0 "Chiefdom"
+ 
+ duke_feudal_male_betrayed:0 "High Chief"
+ duke_feudal_female_betrayed:0 "High Chieftess"
+ duchy_feudal_betrayed:0 "Hive"
+ 
+ king_feudal_male_betrayed:0 "Warchief"
+ king_feudal_female_betrayed:0 "Warchieftess"
+ kingdom_feudal_betrayed:0 "Horde"
+ 
+ emperor_feudal_male_betrayed:0 "Great Warchief"
+ emperor_feudal_female_betrayed:0 "Great Warchieftess"
+ empire_feudal_betrayed:0 "Great Horde"
+ 
+ #Independent
+ duke_feudal_male_betrayed_independent:0 "Warchief"
+ duke_feudal_female_betrayed_independent:0 "Warchieftess"
+ 
+ #Republic
+ 
+ baron_republic_male_betrayed:0 "Nestmonger"
+ baron_republic_female_betrayed:0 "Nestmonger"
+ barony_republic_betrayed:0 "Nest"
+ 
+ county_republic_male_betrayed:0 "Nestmonger"
+ county_republic_female_betrayed:0 "Nestmonger"
+ county_republic_betrayed:0 "Hive-Nest"
+ 
+ 
+ #Dwemeris Group
+ baron_feudal_male_dwemer:0 "Varzak"
+ baron_feudal_female_dwemer:0 "Varzarn"
+ barony_feudal_dwemer:0 "Varunch"
+ 
+ count_feudal_male_dwemer:0 "Btharak"
+ count_feudal_female_dwemer:0 "Bcharn"
+ county_feudal_dwemer:0 "Bthar"
+ 
+ duke_feudal_male_dwemer:0 "Akzhar"
+ duke_feudal_female_dwemer:0 "Arnzhar"
+ duchy_feudal_dwemer:0 "Zhardum"
+ 
+ baron_republic_male_dwemer:0 "Abakch"
+ baron_republic_female_dwemer:0 "Abakch"
+ barony_republic_dwemer:0 "Zel"
+ 
+ count_republic_male_dwemer:0 "Abakch"
+ count_republic_female_dwemer:0 "Abakch"
+ county_republic_dwemer:0 "Zel"
+ 
+ 
+ #Chimeris Group
+ baron_feudal_male_dunmeris_group:0 "Sera"
+ baron_feudal_female_dunmeris_group:0 "Sera"
+ count_feudal_male_dunmeris_group:0 "Muthsera"
+ count_feudal_female_dunmeris_group:0 "Muthsera"
+ 
+ baron_republic_male_dunmeris_group:0 "Hetman"
+ baron_republic_female_dunmeris_group:0 "Hetwoman"
+ count_republic_male_dunmeris_group:0 "Hetman"
+ count_republic_female_dunmeris_group:0 "Hetwoman"
+ duke_republic_male_dunmeris_group:0 "Councillor"
+ duke_republic_female_dunmeris_group:0 "Councillor"
+ 
+ count_republic_male_chimeris_group:0 "Hetman"
+ count_republic_female_chimeris_group:0 "Hetwoman"
+ duke_republic_male_chimeris_group:0 "Ilkhan"
+ duke_republic_female_chimeris_group:0 "Ilkhatun"
+ 
+ #Breton Group
+ 
+ count_feudal_male_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
+ count_feudal_female_balfieri:0 "[CHARACTER.Custom('DirenniTitle')]"
+ county_feudal_balfieri:0 "[CHARACTER.Custom('DirenniRealm')]"
+ 
+ title_count_feudal_male_balfieri:0 "Castellan"
+ title_count_feudal_female_balfieri:0 "Castellan"
+ title_county_feudal_balfieri:0 "Castellany"
+ 
+ count_feudal_male_earl:0 "Earl"
+ count_feudal_female_earl:0 "Earl"
+ county_feudal_earldom:0 "Earldom"
+ count_feudal_male_baron:0 "Baron"
+ count_feudal_female_baron:0 "Baroness"
+ county_feudal_barony:0 "Barony"
+ count_feudal_male_count:0 "Count"
+ count_feudal_female_countess:0 "Countess"
+ county_feudal_county:0 "County"
+ duke_feudal_male_marchis:0 "Marquis"
+ duke_feudal_female_marchis:0 "Marchioness"
+ duchy_feudal_march:0 "March"
+ count_feudal_independent_male:0 "Prince"
+ count_feudal_independent_female:0 "Princess"
+ county_feudal_independent:0 "Principality"
+ 
+ duke_child_male:0 "Prince"
+ duke_child_female:0 "Princess"
+ 
+ #Nordic Group
+ count_feudal_male_nordic_group:0 "Lendman"
+ count_feudal_female_nordic_group:0 "Lendwoman"
+ county_feudal_nordic_group:0 "Lend"
+ duchy_feudal_male_nordic_group:0 "[CHARACTER.Custom('NordicClanHead')]"
+ duchy_feudal_female_nordic_group:0 "[CHARACTER.Custom('NordicClanHead')]"
+ duchy_feudal_nordic_group:0 "Clanstead"
+ king_feudal_male_nordic_group:0 "[CHARACTER.Custom('NordicJarl')]"
+ king_feudal_female_nordic_group:0 "[CHARACTER.Custom('NordicJarl')]"
+ kingdom_feudal_nordic_group:0 "Hold"
+ emperor_feudal_male_nordic_group:0 "High King"
+ emperor_feudal_female_nordic_group:0 "High Queen"
+ empire_feudal_nordic_group:0 "High Kingdom"
+ 
+ TitleClanHead:0 "Clan-Head"
+ TitleJarl:0 "Jarl"
+ 
+ count_republic_male_nordic_group:0 "Alderman"
+ count_republic_female_nordic_group:0 "Alderwoman"
+ county_republic_nordic_group:0 "Lendstead"
+ 
+ duchy_republic_male_nordic_group:0 "Steadholder"
+ duchy_republic_female_nordic_group:0 "Steadholder"
+ duchy_republic_nordic_group:0 "Steadhold"
+ 
+ barony_republic_male_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
+ barony_republic_female_nordic_group:0 "[CHARACTER.Custom('NordicMayor')]"
+ 
+ Steadholder_male:0 "Alderman"
+ Steadholder_female:0 "Alderwoman"
+ 
+ #Cyro-Nords
+ duke_feudal_male_cyro_nord_independent:1 "[CHARACTER.Custom('NordicClanHead')]"
+ duke_feudal_female_cyro_nord_independent:1 "[CHARACTER.Custom('NordicClanHead')]"
+ duchy_feudal_cyro_nord_independent:1 "Hold"
+ 
+ #Cyrodiilic Group
+ king_feudal_male_cyrodiil:0 "[CHARACTER.Custom('KingFeudalMaleCyrodiil')]"
+ king_feudal_female_cyrodiil:0 "[CHARACTER.Custom('KingFeudalFemaleCyrodiil')]"
+ kingdom_feudal_cyrodiil:0 "[CHARACTER.Custom('KingdomFeudalCyrodiil')]"
+ 
+ warlord_male_cyrodiil:0 "[CHARACTER.Custom('WarlordMaleCyrodiil')]"
+ warlord_female_cyrodiil:0 "[CHARACTER.Custom('WarlordFemaleCyrodiil')]"
+ 
+ imperial_count:0 "Imperial Count"
+ imperial_countess:0 "Imperial Countess"
+ imperial_county:0 "Imperial County"
+ 
+ warlord:0 "Warlord"
+ warlady:0 "Warlady"
+ 
+ duke_feudal_male_cyrodiilic_group:0 "Viscount"
+ duke_feudal_female_cyrodiilic_group:0 "Viscountess"
+ duchy_feudal_cyrodiilic_group:0 "Viscounty"
+ 
+ count_feudal_male_cyrodiilic_group:0 "Baron"
+ count_feudal_female_cyrodiilic_group:0 "Baroness"
+ county_feudal_cyrodiilic_group:0 "Barony"
+ 
+ duchy_feudal_Cyrodiilic_independent:0 "Duchy"
+ 
+ #Heartlander
+ king_feudal_male_heartlands:0 "Lord Protector"
+ king_feudal_female_heartlands:0 "Lady Protectress"
+ kingdom_feudal_heartlands:0 "Protectorate"
+ 
+ #Colovian 
+ duke_feudal_male_colovian_independent:1 "Duke"
+ duke_feudal_female_colovian_independent:1 "Duchess"
+ 
+ #Nibenese
+ duke_feudal_male_nibenese_independent:1 "Overlord"
+ duke_feudal_female_nibenese_independent:1 "Overlady"
+ king_feudal_male_nibenese_independent_cyrodiil:0 "Overlord"
+ king_feudal_female_nibenese_independent_cyrodiil:0 "Overlady"
+ 
+ #Orsimer Group
+ baron_feudal_male_orsimer:0 "Chief"
+ baron_feudal_female_orsimer:0 "Chieftess"
+ barony_feudal_orsimer:1 "Stronghold"
+ count_feudal_male_orsimer:0 "Chieftain"
+ count_feudal_female_orsimer:0 "Chieftess"
+ county_feudal_orsimer:0 "Chiefdom"
+ duke_feudal_male_orsimer:0 "High Chieftain"
+ duke_feudal_female_orsimer:0 "High Chieftess"
+ duchy_feudal_orsimer:0 "Tribe"
+ king_feudal_male_orsimer:0 "King"
+ king_feudal_female_orsimer:0 "Queen"
+ 
+ king_huntshusband:0 "Huntshusband"
+ king_huntswife:0 "Huntswife"
+ duke_huntshusband:0 "Huntshusband"
+ duke_huntswife:0 "Huntswife"
+ count_huntshusband:0 "Huntshusband"
+ count_huntswife:0 "Huntswife"
+ baron_huntshusband:0 "Huntshusband"
+ baron_huntswife:0 "Huntswife"
+ 
+ #Goblin-ken Group
+ king_feudal_male_goblinken:0 "Chief-King"
+ king_feudal_female_goblinken:0 "Chief-Queen"
+ 
+ #Reachfolk
+ barony_feudal_reachfolk:0 "Dhun"
+ duke_feudal_independent_male_reachfolk:0 "Chief-of-Chiefs"
+ duke_feudal_independent_female_reachfolk:0 "Chief-of-Chiefs"
+ king_feudal_male_reachfolk:0 "Ard"
+ king_feudal_female_reachfolk:0 "Ard"
+ emperor_feudal_male_reachfolk:1 "Tagh Ard"
+ emperor_feudal_female_reachfolk:1 "Tagh Ard"
+ 
+ #Yokudan Group
+ baron_republic_male_yokudan_group:0 "Magistrate"
+ baron_republic_female_yokudan_group:0 "Magistrate"
+ count_republic_male_yokudan_group:0 "Lord Magistrate"
+ count_republic_female_yokudan_group:0 "Lady Magistrate"
+ 
+ count_feudal_male_yokudan_group:0 "Magnifico"
+ count_feudal_female_yokudan_group:0 "Magnifica"
+ county_feudal_yokudan_group:0 "Magnificence"
+ duke_feudal_male_yokudan_group:0 "Grandee"
+ duke_feudal_female_yokudan_group:0 "Grandeya"
+ duchy_feudal_yokudan_group:0 "Grandeza"
+ 
+ #Alik'r
+ king_feudal_male_alikr:0 "Sultan"
+ king_feudal_female_alikr:0 "Sultana"
+ kingdom_feudal_alikr:0 "Sultanate"
+ 
+ #Yokudan
+ # count_feudal_male_yokudan:0 "Yokeda"
+ # count_feudal_female_yokudan:0 "Yokeda"
+ # county_feudal_yokudan:0 "Domain"
+ king_feudal_male_yokudan:0 "Yokeda"
+ king_feudal_female_yokudan:0 "Yokeda"
+ emperor_feudal_male_yokudan:0 "Elden Yokeda"
+ emperor_feudal_female_yokudan:0 "Elden Yokeda"
+ empire_feudal_yokudan:0 "Empire"
+ 
+ #Chimeris Group + Ashlander
+ khan_male:0 "[CHARACTER.Custom('khan_male')]"
+ khan_female:0 "[CHARACTER.Custom('khan_female')]"
+ great_khan_male:0 "[CHARACTER.Custom('great_khan_male')]"
+ great_khan_female:0 "[CHARACTER.Custom('great_khan_female')]"
+ khanate_title:0 "[CHARACTER.Custom('khanate_title')]"
+ ashkhan:0 "Ashkhan"
+ snowkhan:0 "Snowkhan"
+ marshkhan:0 "Marshkhan"
+ great_ashkhan:0 "Great Ashkhan"
+ great_snowkhan:0 "Great Snowkhan"
+ great_marshkhan:0 "Great Marshkhan"
+ #terrain_khan:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
+ #great_terrain_khan:0 "Great [CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khan"
+ baron_tribal_male_chimeris_group:0 "Hetman"
+ baron_tribal_female_chimeris_group:0 "Hetwoman"
+ count_tribal_male_chimeris_group:0 "Gulakhan"
+ count_tribal_female_chimeris_group:0 "Gulakhatun"
+ duke_tribal_male_chimeris_group:0 "Kogokhan"
+ duke_tribal_female_chimeris_group:0 "Kogokhatun"
+ king_tribal_male_chimeris_group:0 "Gahkhan"
+ king_tribal_female_chimeris_group:0 "Gahkhatun"
+ emperor_tribal_male_chimeris_group:0 "Khan"
+ emperor_tribal_female_chimeris_group:0 "Khatun"
+ wise-woman:0 "Wise-Woman"
+ farseer:0 "Farseer"
+ 
+ count_tribal_ashlander_vassal:0 "Gulakhanate"
+ duchy_tribal_ashlander_vassal:0 "Kogokhanate"
+ king_tribal_ashlander_vassal:0 "Gahkhanate"
+ 
+ count_tribal_ashlander_independent:0 "Tribe"
+ duchy_tribal_ashlander_independent:0 "Tribe"
+ king_tribal_ashlander_independent:0 "Tribe"
+ 
+ emperor_tribal_ashlander_independent:0 "Tribe"
+ 
+ ashkhanate:0 "Ashkhanate"
+ snowkhanate:0 "Snowkhanate"
+ marshkhanate:0 "Marshkhanate"
+ terrain_khanate:0 "[CHARACTER.GetCapitalLocation.GetTerrain.GetNameNoTooltip]khanate"
+ 
+ #Bosmeris Group
+ baron_feudal_male_bosmeris_group:0 "Clan-Keeper"
+ baron_feudal_female_bosmeris_group:0 "Clan-Keeper"
+ barony_feudal_bosmeris_group:0 "Clan"
+ count_feudal_male_bosmeris_group:0 "Warden"
+ count_feudal_female_bosmeris_group:0 "Warden"
+ county_feudal_bosmeris_group:0 "Ward"
+ duke_feudal_male_bosmeris_group:0 "Treethane"
+ duke_feudal_female_bosmeris_group:0 "Treethane"
+ duchy_feudal_bosmeris_group:0 "Treethanedom"
+ duke_feudal_male_bosmeris_etarani:0 "Woodlord"
+ duke_feudal_female_bosmeris_etarani:0 "Woodlady"
+ duchy_feudal_bosmeris_etarani:0 "Principality"
+ emperor_feudal_male_bosmeris_group:0 "Hart-King"
+ emperor_feudal_female_bosmeris_group:0 "Hart-Queen"
+ 
+ duke_green_lady_male:0 "Green Lord"
+ duke_green_lady_female:0 "Green Lady"
+ 
+ #Akaviri Group
+ emperor_feudal_male_akaviri_group:1 "Potentate"
+ emperor_feudal_female_akaviri_group:1 "Potentate"
+ 
+ #Alyeid Group
+ baron_feudal_male_ayleid:0 "Adon"
+ baron_feudal_female_ayleid:0 "Adona"
+ barony_feudal_ayleid:0 "Adonsel"
+ 
+ count_feudal_male_ayleid:0 "Arpen"
+ count_feudal_female_ayleid:0 "Arpena"
+ county_feudal_ayleid:0 "Arpensel"
+ 
+ duke_feudal_male_ayleid:0 "Malarpen"
+ duke_feudal_female_ayleid:0 "Malarpena"
+ duchy_feudal_ayleid:0 "Malarpensel"
+ 
+ king_feudal_male_ayleid:0 "Aran"
+ king_feudal_female_ayleid:0 "Arana"
+ kingdom_feudal_ayleid:0 "Aransel"
+ 
+ emperor_feudal_male_ayleid:0 "Malaran"
+ emperor_feudal_female_ayleid:0 "Malarana"
+ empire_feudal_ayleid:0 "Malaransel"
+ 
+ count_feudal_independent_male_ayleid:0 "Aran" 
+ count_feudal_independent_female_ayleid:0 "Arana" 
+ county_feudal_independent_ayleid:0 "Aransel"
+ duke_feudal_independent_male_ayleid:0 "Aran" 
+ duke_feudal_independent_female_ayleid:0 "Arana" 
+ duchy_feudal_independent_ayleid:0 "Aransel"
+ 
+ prince_ayleid_county:0 "Prince" 
+ princess_ayleid_county:0 "Princess" 
+ 
+ prince_ayleid_duchy:0 "Prince" 
+ princess_ayleid_duchy:0 "Princess" 
+ 
+ emperor_feudal_male_saliache:0 "Malaran"
+ emperor_feudal_female_saliache:0 "Malarana"
+ empire_feudal_saliache:0 "Malaransel"
+ 
+ duke_feudal_male_white_gold:0 "Malarpen"
+ duke_feudal_female_white_gold:0 "Malarpena"
+ duchy_feudal_white_gold:0 "Malarpensel"
+ 
+ duke_feudal_male_white_gold_independent:0 "Aran"
+ duke_feudal_female_white_gold_independent:0 "Arana"
+ duchy_feudal_white_gold_independent:0 "Aransel"
+ 
+ #Yespest Group 
+ baron_feudal_male_yespest:0 "Adonu"
+ baron_feudal_female_yespest:0 "Adone"
+ barony_feudal_yespest:0 "Adonpest"
+ 
+ count_feudal_male_yespest:0 "Arpenu"
+ count_feudal_female_yespest:0 "Arpene"
+ county_feudal_yespest:0 "Arpenpest"
+ 
+ duke_feudal_male_yespest:0 "Malarpenu"
+ duke_feudal_female_yespest:0 "Malarpene"
+ duchy_feudal_yespest:0 "Malarpenpest"
+ 
+ #Nedic Group 
+ baron_feudal_male_nedic:0 "Chief"
+ baron_feudal_female_nedic:0 "Chieftess"
+ barony_feudal_nedic:0 "Hall"
+ 
+ count_feudal_male_nedic:0 "Chieftain"
+ count_feudal_female_nedic:0 "Chieftess"
+ county_feudal_nedic:0 "Tribe"
+ 
+ duke_feudal_male_nedic:0 "High Chieftain"
+ duke_feudal_female_nedic:0 "High Chieftess"
+ duchy_feudal_nedic:0 "High Chiefdom"
+ 
+ #Argonian Group
+ baron_feudal_male_argonian:0 "Reel-ka"
+ baron_feudal_female_argonian:0 "Reel-na"
+ barony_feudal_argonian:0 "Reel-Uxith"
+ 
+ count_feudal_male_argonian:0 "Kaal"
+ count_feudal_female_argonian:0 "Nassa"
+ county_feudal_argonian:0 "Leel"
+ 
+ duke_feudal_male_argonian:0 "Raj-kaal"
+ duke_feudal_female_argonian:0 "Raj-nassa"
+ duchy_feudal_argonian:0 "Ataleel"
+ 
+ king_feudal_male_argonian:0 "King"
+ king_feudal_female_argonian:0 "Queen"
+ kingdom_feudal_argonian:0 "Kingdom"
+ 
+ emperor_feudal_male_argonian:0 "High King"
+ emperor_feudal_female_argonian:0 "High Queen"
+ empire_feudal_argonian:0 "High Kingdom"
+ 
+ baron_republic_male_argonian:0 "Naheesh"
+ baron_republic_female_argonian:0 "Naheesh"
+ barony_republic_argonian:0 "Uxith"
+ 
+ count_republic_male_argonian:0 "Naheesh"
+ count_republic_female_argonian:0 "Naheesh"
+ county_republic_argonian:0 "Tzel"
+ 
+ duke_republic_male_argonian:0 "Raj-Naheesh"
+ duke_republic_female_argonian:0 "Raj-Naheesh"
+ duchy_republic_argonian:0 "Atatzel"
+ 
+ baron_theocracy_male_hist_religion:0 "Tree-Minder"
+ baron_theocracy_female_hist_religion:0 "Tree-Minder"
+ barony_theocracy_hist_religion:0 "Sacred Tree"
+ 
+ count_theocracy_male_hist_religion:0 "Tree-Warden"
+ count_theocracy_female_hist_religion:0 "Tree-Warden"
+ county_theocracy_hist_religion:0 "Sacred Grove"
+ 
+ duke_theocracy_male_hist_religion:0 "Tree-Keeper"
+ duke_theocracy_female_hist_religion:0 "Tree-Keeper"
+ duchy_theocracy_hist_religion:0 "Sacred Temple"
+ 
+ baron_theocracy_male_xanmeer_religion:0 "Voh-vastei"
+ baron_theocracy_female_xanmeer_religion:0 "Voh-vastei"
+ barony_theocracy_xanmeer_religion:0 "Sacred Xanmeer"
+ 
+ count_theocracy_male_xanmeer_religion:0 "Voh-vastei"
+ count_theocracy_female_xanmeer_religion:0 "Voh-vastei"
+ county_theocracy_xanmeer_religion:0 "Sacred Xanmeer"
+ 
+ duke_theocracy_male_xanmeer_religion:0 "Voh-vastei"
+ duke_theocracy_female_xanmeer_religion:0 "Voh-vastei"
+ duchy_theocracy_xanmeer_religion:0 "Sacred Xanmeer"
+ 
+ count_theocracy_male_xanmeer_religion_independent:0 "Priest-King"
+ count_theocracy_female_xanmeer_religion_independent:0 "Priestess-Queen"
+ 
+ duke_theocracy_male_xanmeer_religion_independent:0 "Priest-King"
+ duke_theocracy_female_xanmeer_religion_independent:0 "Priestess-Queen"
+ 
+ #Khajiiti Group
+ baron_feudal_male_khajiiti:0 "Hatti"
+ baron_feudal_female_khajiiti:0 "Hatta"
+ barony_feudal_khajiiti:0 "Sebti"
+ 
+ count_feudal_male_khajiiti:0 "T'har"
+ count_feudal_female_khajiiti:0 "T'hara"
+ county_feudal_khajiiti:0 "Shapsu"
+ 
+ duke_feudal_male_khajiiti:0 "Ja'aran"
+ duke_feudal_female_khajiiti:0 "Ja'arana"
+ duchy_feudal_khajiiti:0 "Sepat"
+ 
+ king_feudal_male_khajiiti:0 "K'har"
+ king_feudal_female_khajiiti:0 "K'hara"
+ kingdom_feudal_khajiiti:0 "Ta"
+ 
+ emperor_feudal_male_khajiiti:0 "K'har-ri"
+ emperor_feudal_female_khajiiti:0 "K'hara-ri"
+ empire_feudal_khajiiti:0 "Ur-Ta"
+ 
+ prince_feudal_male_khajiiti:0 "Va-K'har"
+ princess_feudal_female_khajiiti:0 "Va-K'hara"
+ 
+ imperial_prince_feudal_male_khajiiti:0 "Va-K'har-ri"
+ imperial_princess_feudal_female_khajiiti:0 "Va-K'hara-ri"
+ 
+ baron_republic_male_khajiiti:0 "Meyur"
+ baron_republic_female_khajiiti:0 "Meyuress"
+ barony_republic_khajiiti:0 "Niut"
+ 
+ count_republic_male_khajiiti:0 "Ur-Meyur"
+ count_republic_female_khajiiti:0 "Ur-Meyuress"
+ county_republic_khajiiti:0 "Ur-Niut"
+ 
+ duchy_republic_khajiiti:0 "Chenhun"
+ 
+ #Lilmothiit Group
+ baron_feudal_male_lilmothiit:0 "Guide"
+ baron_feudal_female_lilmothiit:0 "Guide"
+ barony_feudal_lilmothiit:0 "Clan"
+ 
+ count_feudal_male_lilmothiit:0 "Navigator"
+ count_feudal_female_lilmothiit:0 "Navigator"
+ county_feudal_lilmothiit:0 "Trail"
+ 
+ duke_feudal_male_lilmothiit:0 "Pathfinder"
+ duke_feudal_female_lilmothiit:0 "Pathfinder"
+ duchy_feudal_lilmothiit:0 "Prowl"
+ 
+ king_feudal_male_lilmothiit:0 "Wayfarer"
+ king_feudal_female_lilmothiit:0 "Wayfarer"
+ kingdom_feudal_lilmothiit:0 "Flock"
+ 
+ emperor_feudal_male_lilmothiit:0 "Harbinger"
+ emperor_feudal_female_lilmothiit:0 "Harbinger"
+ empire_feudal_lilmothiit:0 "Earth"
+ 
+ baron_republic_male_lilmothiit:0 "Lictor"
+ baron_republic_female_lilmothiit:0 "Lictor"
+ barony_republic_lilmothiit:0 "Seat"
+ 
+ count_republic_male_lilmothiit:0 "Censor"
+ count_republic_female_lilmothiit:0 "Censor"
+ 
+ #Ilniviri Group
+ baron_feudal_male_ilniviri:0 "Master"
+ baron_feudal_female_ilniviri:0 "Mistress"
+ barony_feudal_ilniviri:0 "Seat"
+ 
+ # count_feudal_male_ilniviri:0 "Magistrate"
+ # count_feudal_female_ilniviri:0 "Magistrate"
+ # county_feudal_ilniviri:0 "Magistracy"
+ count_feudal_male_ilniviri:0 "Magnate"
+ count_feudal_female_ilniviri:0 "Magnate"
+ county_feudal_ilniviri:0 "Domain"
+ 
+ duke_feudal_male_ilniviri:0 "Prefect"
+ duke_feudal_female_ilniviri:0 "Prefect"
+ duchy_feudal_ilniviri:0 "Prefecture"
+ 
+ king_feudal_male_ilniviri:0 "Proconsul"
+ king_feudal_female_ilniviri:0 "Proconsul"
+ kingdom_feudal_ilniviri:0 "Consulate"
+ 
+ emperor_feudal_male_ilniviri:0 "Potentate"
+ emperor_feudal_female_ilniviri:0 "Potentate"
+ empire_feudal_ilniviri:0 "Potentate"
+ 
+ duke_feudal_independent_male_ilniviri:0 "Regent" 
+ duke_feudal_independent_female_ilniviri:0 "Regent" 
+ duchy_feudal_independent_ilniviri:0 "Regency"
+ king_feudal_independent_male_ilniviri:0 "Consul" 
+ king_feudal_independent_female_ilniviri:0 "Consul" 
+ kingdom_feudal_independent_ilniviri:0 "Consulate"
+ 
+ prince_male_ilniviri:0 "Young Master"
+ prince_female_ilniviri:0 "Young Mistress"
+ prince_male_ilniviri_empire:0 "Proconsul"
+ prince_female_ilniviri_empire:0 "Proconsul"
+ 
+ #Dremora Group
+ baron_feudal_male_dremora:0 "Kynval"
+ baron_feudal_female_dremora:0 "Kynval"
+ barony_feudal_dremora:0 "Clan"
+ 
+ count_feudal_male_dremora:0 "Kynreeve"
+ count_feudal_female_dremora:0 "Kynreeve"
+ county_feudal_dremora:0 "Host"
+ 
+ duke_feudal_male_dremora:0 "Kynmarcher"
+ duke_feudal_female_dremora:0 "Kynmarcher"
+ duchy_feudal_dremora:0 "Kynmarch"
+ 
+ king_feudal_male_dremora:0 "Markynaz"
+ king_feudal_female_dremora:0 "Markynaz"
+ kingdom_feudal_dremora:0 "Markyn"
+ 
+ emperor_feudal_male_dremora:0 "Valkynaz"
+ emperor_feudal_female_dremora:0 "Valkynaz"
+ empire_feudal_dremora:0 "Valkyn"
+ 
+ # Imgan Group
+ baron_tribal_male_imga:0 "Baron"
+ baron_tribal_female_imga:0 "Baroness"
+ 
+ count_tribal_male_imga:0 "Count"
+ count_tribal_female_imga:0 "Countess"
+ 
+ duke_tribal_male_imga:0 "Duke"
+ duke_tribal_female_imga:0 "Duchess"
+ 
+ king_tribal_male_imga:0 "King"
+ king_tribal_female_imga:0 "Queen"
+ 
+ emperor_tribal_male_imga:0 "High King"
+ emperor_tribal_female_imga:0 "High Queen"
+ 
+ #Worm Cult Group
+ baron_feudal_male_worm_cult:0 "Master"
+ baron_feudal_female_worm_cult:0 "Mistress"
+ barony_feudal_worm_cult:0 "Seat"
+ 
+ count_feudal_male_worm_cult:0 "[CHARACTER.Custom('WormCountTitle')]"
+ count_feudal_female_worm_cult:0 "[CHARACTER.Custom('WormCountTitle')]"
+ county_feudal_worm_cult:0 "Domain"
+ 
+ duke_feudal_male_worm_cult:0 "[CHARACTER.Custom('WormDukeTitle')]"
+ duke_feudal_female_worm_cult:0 "[CHARACTER.Custom('WormDukeTitle')]"
+ duchy_feudal_worm_cult:0 "Arch-Domain"
+ 
+ king_feudal_male_worm_cult:0 "[CHARACTER.Custom('WormKingTitle')]"
+ king_feudal_female_worm_cult:0 "[CHARACTER.Custom('WormKingTitle')]"
+ kingdom_feudal_worm_cult:0 "Ascendant-Domain"
+ 
+ emperor_feudal_male_worm_cult:0 "[CHARACTER.Custom('WormEmpireTitle')]"
+ emperor_feudal_female_worm_cult:0 "[CHARACTER.Custom('WormEmpireTitle')]"
+ empire_feudal_independent_worm_cult:0 "Black Domain"
+ 
+ duke_feudal_independent_male_worm_cult:0 "[CHARACTER.Custom('WormKingLichTitle')]" 
+ duke_feudal_independent_female_worm_cult:0 "[CHARACTER.Custom('WormKingLichTitle')]" 
+ duchy_feudal_independent_worm_cult:0 "Black Domain"
+ 
+ king_feudal_independent_male_worm_cult:0 "[CHARACTER.Custom('WormKingLichTitle')]" 
+ king_feudal_independent_female_worm_cult:0 "[CHARACTER.Custom('WormKingLichTitle')]" 
+ kingdom_feudal_independent_worm_cult:0 "Black Domain"
+ 
+ #Ttitle
+ title_count_feudal_male_worm_cult:0 "Anchorite"
+ title_count_feudal_female_worm_cult:0 "Anchorite"
+ title_county_feudal_worm_cult:0 "Domain"
+ 
+ title_count_feudal_male_worm_cult_lich:0 "Lich-Lord"
+ title_count_feudal_female_worm_cult_lich:0 "Lich-Lady"
+ 
+ title_duke_feudal_male_worm_cult:0 "Arch-Anchorite"
+ title_duke_feudal_female_worm_cult:0 "Arch-Anchorite"
+ title_duchy_feudal_worm_cult:0 "Arch-Domain"
+ 
+ title_duke_feudal_male_worm_cult_lich:0 "Arch-Lich"
+ title_duke_feudal_female_worm_cult_lich:0 "Arch-Lich"
+ 
+ title_king_feudal_male_worm_cult:0 "Ascendant-Anchorite"
+ title_king_feudal_female_worm_cult:0 "Ascendant-Anchorite"
+ title_kingdom_feudal_worm_cult:0 "Ascendant-Domain"
+ 
+ title_king_feudal_male_worm_cult_lich:0 "Ascendant-Lich"
+ title_king_feudal_female_worm_cult_lich:0 "Ascendant-Lich"
+ 
+ title_emperor_feudal_male_worm_cult:0 "Worm-Herald"
+ title_emperor_feudal_female_worm_cult:0 "Worm-Herald"
+ title_empire_feudal_worm_cult:0 "Black Domain"
+ 
+ title_king_feudal_independent_male_worm_cult:0 "Worm-Herald" 
+ title_king_feudal_independent_female_worm_cult:0 "Worm-Herald" 
+ title_kingdom_feudal_independent_worm_cult:0 "Black Domain"
+ 
+ title_king_feudal_independent_male_worm_cult_lich:0 "Lich-King" 
+ title_king_feudal_independent_female_worm_cult_lich:0 "Lich-Queen" 
+ title_kingdom_feudal_independent_worm_cul_licht:0 "Black Domain"
+ 
+ title_mannimarco:0 "Lord" 
+ 
+ #Heir
+ prince_male_worm_cult:0 "Master"
+ prince_female_worm_cult:0 "Mistress"
+ prince_male_worm_cult_empire:0 "Master"
+ prince_female_worm_cult_empire:0 "Mistress"
 
 ####################################################
 
@@ -1209,5 +1290,8 @@ empire_feudal_dremora:0 "Valkyn"
  realm_priest_female:0 "[CHARACTER.GetCouncilTitle]"
  head_of_faith_male:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
  head_of_faith_female:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
+
+ CHARACTER_SERA:0 "sera"
+ CHARACTER_SERJO:0 "serjo"
  
  ERROR_ERROR:0 "Error"

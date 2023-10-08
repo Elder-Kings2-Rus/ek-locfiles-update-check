@@ -10,7 +10,7 @@
  culture_custom_nativity_rivenspire:0 "[GetGeographicalRegion('custom_nativity_rivenspire').GetName]"
  culture_custom_nativity_stormhaven:0 "[GetGeographicalRegion('custom_nativity_stormhaven').GetName]"
  culture_custom_nativity_greater_wrothgar:0 "[GetGeographicalRegion('custom_nativity_greater_wrothgar').GetName]"
- culture_custom_nativity_bangkorai:0 "[GetGeographicalRegion('custom_nativity_bangkorai').GetName]"
+ culture_custom_nativity_greater_bangkorai:0 "[GetGeographicalRegion('custom_nativity_greater_bangkorai').GetName]"
  culture_custom_nativity_craglorn:0 "[GetGeographicalRegion('custom_nativity_craglorn').GetName]"
  culture_custom_nativity_alikr:0 "[GetGeographicalRegion('custom_nativity_alikr').GetName]"
  culture_custom_nativity_brena:0 "[GetGeographicalRegion('custom_nativity_brena').GetName]"
@@ -59,7 +59,7 @@
     game_concept_cg_akaviri_desc:0 "akaviri_group"
     akaviri_group_desc:0 "Foreigners from the East"
     
-tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
+ tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
     tsaesci_prefix:0 "Tsaesco"
     tsaesci_collective_noun:1 "Tsaesci"
     tsaesci_desc:0 "The Tsaesci are the fabled Snake-People from Akavir. Not much is known about them in Tamriel." ## Placeholder DO NOT USE. HISTORY USE ONLY (FOR NOW).
@@ -320,7 +320,7 @@ tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
  blackwood:1 "Nibenu"
     blackwood_prefix:0 "Nibenu"
     blackwood_collective_noun:1 "Nibenu"
-    blackwood_desc:0 "Nibenu tend the breadbasket of Cyrodiil and share the cornucopia of their labor with their fellow countrymen. They are a rural yet esoteric folk, home to sprawling stilt-villages along great rivers divided by boundless saltrice paddies and dense jungle; fishing, farming, keeping newts for scale and ancestor moths for silk and prayer. Nibenu appreciate slow living and it reflects in their unwillingness to let go of even tradition not their own. What passes through Nibenay remains grafted to a giant branching tree of Nibenu folklore, unbroken from ever before the Paravana stood free, where every god — big and small — has a cult and every legend has a hundred retellings."
+    blackwood_desc:0 "Nibenu tend the breadbasket of Cyrodiil and share the cornucopia of their labor with their fellow countrymen. They are a rural yet esoteric folk, home to sprawling stilt-villages along great rivers divided by boundless saltrice paddies and dense jungle; fishing, farming, keeping newts for scale and ancestor moths for silk and prayer. Nibenu appreciate slow living and it reflects in their unwillingness to let go of even tradition not their own. What passes through Nibenay remains grafted to a giant branching tree of Nibenu folklore, unbroken from ever before the Paravant stood free, where every god — big and small — has a cult and every legend has a hundred retellings."
     blackwood_opinion:0 "$blackwood$ Opinion"
  rimmenese:1 "Rimmenese"
     rimmenese_prefix:0 "Rimmeno"
@@ -368,7 +368,7 @@ tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
     game_concept_cg_chimeris:0 "Chimer"
     game_concept_cg_chimeris_cn:0 "Chimer"
     game_concept_cg_chimeris_desc:0 "chimeris_group"
-    chimeris_group_desc:0 "They have not achieved CHIM dispite the name"
+    chimeris_group_desc:0 "They have not achieved CHIM despite the name"
 
  chimer:1 "Chimeri"
     chimer_prefix:0 "Chimero"
@@ -466,7 +466,7 @@ tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
     forebear_collective_noun:1 "Forebears"
     forebear_desc:0 "When the Yokudans invaded the Deathlands, the commoner vanguard called the Ra Gada or “Warrior Wave” wreaked havoc upon native settlements and cultures. They eventually came to be much more influenced by Tamrielic cultures than their Na-Totambu overlords, earning them scorn from the conservative Crowns. Corruption of their name gave way to the name by which all Yoku in Tamriels are known, Redguards."
     forebear_opinion:0 "$forebear$ Opinion"
- crown:0 "Crown"
+ crown_culture:0 "Crown"
     crown_prefix:0 "Totambu"
     crown_collective_noun:1 "Crowns"
     crown_desc:0 "Whilst the Ra Gada conquered much of the Deathlands, the Na-Totambu settled in and tried their best to emulate old Yokuda in the foreign lands. Representing the high nobility and spiritual leaders they stayed much less permeable to Tamrielic influences and scoffed at the Forebears’ partial assimilation. They still keep a very strong taboo against striking down the honoured dead for example. The tension with Forebears is such that foreign and internal threats alike have successfully exploited their mutual hostility to their benefit."
@@ -481,11 +481,16 @@ tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
     abecean_collective_noun:1 "Abeceans"
     abecean_desc:0 "The Redguard marines of the Abecean Sea staff lucrative pirate vessels and trading ships. Their sea-oriented lifestyle fosters a naval prowess few can match in Tamriel.\n\nTheir interests being primarily at sea, they divest their attention from the caste-based quarrels of other Redguards."
     abecean_opinion:0 "$abecean$ Opinion"
- horsemen:0 "Horseman"
-    horsemen_prefix:0 "Horseman"
-    horsemen_collective_noun:1 "Horsemen"
-    horsemen_desc:0 "The Horsemen of Akos Kasaz usually follow a horse centric deity, the Herd Mother. Some sailed to High Rock during the First Era, settling before the Sinking of Yokuda. \n\n Their speech has preserved much features of Old Yoku and their riders are the pinnacle of Yokudan horsemanship."
+ horsemen:0 "Horse-Folk"
+    horsemen_prefix:0 "Horse-Folk"
+    horsemen_collective_noun:1 "Horse-Folk"
+    horsemen_desc:0 "The Horse-Folk of Akos Kasaz usually follow a horse centric deity, the Herd Mother. Some sailed to High Rock during the First Era, settling before the Sinking of Yokuda. \n\n Their speech has preserved much features of Old Yoku and their riders are the pinnacle of Yokudan horsemanship."
     horsemen_opinion:0 "$horsemen$ Opinion"
+ silverhoof:0 "Silverhoof"
+    silverhoof_prefix:0 "Silverhoof"
+    silverhoof_collective_noun:1 "Silverhoof"
+    silverhoof_desc:0 "Fleeing religious persecution within Old Yokuda, an offshoot of Horse-Folk sailed across the Eltheric Ocean in search of a new home. They finally made landfall in northern High Rock during the 1E 600s and leveraged the political chaos to claim the Vale of Silverhoof for themselves.\n\nThese exiles became the ancestors of the eponymous Silverhoof tribe. Over the centuries, the original Yokudan colonists intermingled with the local Bretons while keeping the core of their customs. Horse-rearing, horse riding and the worship of the Herd-Mother form the cornerstones of this legacy. Few are the riders more skilled than someone born and raised in Silverhoof."
+    silverhoof_opinion:0 "$silverhoof$ Opinion"
     
 #KHAJIITI
  khajiiti_group:0 "[cg_khajiiti|L]"
@@ -576,7 +581,7 @@ tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
  grahtwood:0 "Etarani"
     grahtwood_prefix:0 "Etarano"
     grahtwood_collective_noun:1 "Etarani"
-    grahtwood_desc:0 "Characteristic graht-oak villages populate the groves of southeastern Valenwood, with Elden Root standing by far the tallest — second only to Falinesti. The capital of Grahtwood shelters Etarani, or 'Children of the King,' the royal elite of the Bosmer nation. When Hart-King Eplear ruled atop the ever-moving Falinesti, the only period he anticipated would be winter, as two greatest cities of his land would stand beside each other. The subjects that settled in the area profited from the generosity of the itinerant court and came to be — or rather acting — superior to all others. Having the two Elden Tree cities within their borders bestowed them this right. When the Second Empire absorbed their lands in 1E 2714, the woodlords of Grahtwood selectively adopted Imperial customs into dress, speech and governance. As the link between the deepwoods and the Cyro-Bosmer class, they play kingmakers in Bosmer politics."
+    grahtwood_desc:0 "Characteristic graht-oak villages populate the groves of southeastern Valenwood, with Eldenroot standing by far the tallest — second only to Falinesti. The capital of Grahtwood shelters Etarani, or 'Children of the King,' the royal elite of the Bosmer nation. When Hart-King Eplear ruled atop the ever-moving Falinesti, the only period he anticipated would be winter, as two greatest cities of his land would stand beside each other. The subjects that settled in the area profited from the generosity of the itinerant court and came to be — or rather acting — superior to all others. Having the two Elden Tree cities within their borders bestowed them this right. When the Second Empire absorbed their lands in 1E 2714, the woodlords of Grahtwood selectively adopted Imperial customs into dress, speech and governance. As the link between the deepwoods and the Cyro-Bosmer class, they play kingmakers in Bosmer politics."
     grahtwood_opinion:0 "$grahtwood$ Opinion" 
     
 #ARGONIAN
@@ -645,7 +650,7 @@ tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
 
 #Daedric
  daedric_group:0 "[cg_daedric|L]"
-    argonian_group_collective_noun:1 "[cg_daedric_cn|L]"
+    daedric_group_collective_noun:1 "[cg_daedric_cn|L]"
     game_concept_cg_daedric:0 "Daedric"
     game_concept_cg_daedric_cn:0 "Daedric"
     game_concept_cg_daedric_desc:0 "daedric_group"
@@ -670,3 +675,17 @@ tsaesci:0 "Tsaesci" ## Placeholder DO NOT REMOVE. HISTORY USE ONLY (FOR NOW).
     dwemer_collective_noun:1 "Dwemer"
     dwemer_desc:0 "The Culture of the “Deep Folk” or Dwemer, also known as Dwarves, Mer who are second to none in the use of technologies such as steam power, or soul gem-powered Animunculi. They were masters of Tonal Architecture, an art as powerful as it is mysterious. They are however distrusted due to their reclusiveness and atypical atheism - and vanished around the Red Moment of 1E 700.\n\nIt remains to be seen if any will ever resurface..."
     dwemer_opinion:0 "$dwemer$ Opinion"
+
+  #Imga
+ imgans_group:0 "[cg_imgans|L]"
+    imgans_group_collective_noun:1 "[cg_imgans_cn|L]"
+    game_concept_cg_imgans:0 "Imga"
+    game_concept_cg_imgans_cn:0 "Imga"
+    game_concept_cg_imgans_desc:0 "imgans_group"
+    imgans_group_desc:0 "Ape people inhabiting Nirns jungles."
+
+ imga:1 "Imgan"
+    imga_prefix:0 "Imga"
+    imga_collective_noun:1 "Imgan"
+    imga_desc:0 "Imga usually live in arable clearings near kollopi nests, their meat of choice. The most powerful tribes occupy hillforts or defensible valleys from which they can safely travel to market towns. They revel in wrestling and various form of martial arts to sharpen both their minds and bodies. It is from these war games that Imga nobles pick their elite guard, the so-called 'Selectives'. Short of ennoblement, there is no greater honour Imga commoners can aspire to. As an alternative to military service, some youths take to commerce or administration to further their station, honouring the legacy of their forefathers."
+    imgan_opinion:0 "$imga$ Opinion"

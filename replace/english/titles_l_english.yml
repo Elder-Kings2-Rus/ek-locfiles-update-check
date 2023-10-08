@@ -34,6 +34,10 @@
  k_wilderking_court:0 "Wilderking's Court"
  d_scaled_court_article:0 "the "
  d_scaled_court:0 "Scaled Court"
+ d_dark_oracle_article:0 "the "
+ d_dark_oracle:0 "Dark Oracle"
+ d_beldama_wyrd_article:0 "the "
+ d_beldama_wyrd:0 "Beldama Wyrd"
  k_falinesti:0 "Falinesti"
  # History Titles
  AKAVIRI_POTENTATE:0 "Akaviri Potentate"
@@ -86,7 +90,7 @@
  d_kothringi_cult:1 "Chapel of Black Marsh"
  d_green_pact:1 "Silvenar"
  d_green_pact_article:1 "the "
- d_scions_faith:1"Blood Scions"
+ d_scions_faith:1 "Blood Scions"
  d_scions_faith_article:1 "the "
  d_alessian_order:1 "Alessian Order"
  d_tonal_architects:1 "Tonal Architects"
@@ -114,7 +118,7 @@
  k_glenumbra:0 "Glenumbra"
  k_rivenspire:0 "Rivenspire"
  k_greater_wrothgar:0 "Greater Wrothgar"
- k_bangkorai:0 "Bangkorai"
+ k_greater_bangkorai:0 "Greater Bangkorai"
  # Hammerfell
  k_craglorn:0 "Craglorn"
  # Summerset
@@ -150,8 +154,17 @@
  d_abbey_shezarr_article:0 "the "
 
 ## Map mode duchies
-d_map_base_color:0 ""
-d_map_has_special_building:0 ""
-d_map_has_special_building_slot:0 ""
-d_map_holy_site:0 ""
-d_map_holy_site_own:0 ""
+ d_map_base_color:0 ""
+ d_map_has_special_building:0 ""
+ d_map_has_special_building_slot:0 ""
+ d_map_holy_site:0 ""
+ d_map_holy_site_own:0 ""
+
+# Error log cleaning
+ b_mahut:0 "Ma'hut"
+ b_wara:0 "Wara"
+ b_leylan:0 "Caer Leylan"
+ c_cambray:0 "Cambray Hills"
+ c_meroe_pass:0 "Meroe Pass"
+ b_ko_erigavo:0 "Ko Erigavo"
+ b_dokan:0 "Dokan"

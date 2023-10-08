@@ -4,10 +4,10 @@
  unlocks_kingdom_offer_vassalization_interaction:0 "Can use the [offer_vassalization_interaction|E] with characters of [king|E] rank"
  unlocks_bonus_offer_vassalization_interaction:0 "Increases the likelyhood of characters accepting an [offer_vassalization_interaction|E]"
  unlock_provincial_governor_contract:0 "Unlocks the #high $special_contract_provincial_governor_short$#! [feudal_contract|E]"
- ### First Era
+ ### Empire of Men
  # Military
  innovation_war_magic:0 "War Magic"
- innovation_war_magic_desc:0 "Raw energy pours into our world through the stars and the [enc_sun|E]. By learning how to tap into this energy, and focus it to impact our world, we can train some of our soldiers to use it."
+ innovation_war_magic_desc:0 "Raw energy pours into our world through the stars and the #LORE [compendium_sun]#!. By learning how to tap into this energy, and focus it to impact our world, we can train some of our soldiers to use it."
  unlock_academy_holding:0 "Unlocks the ability to build [academy|E] [holdings|E]"
  unlock_tribal_academy_buildings:0 "Unlocks all $culture_era_tribal$ Academy [buildings|E]"
  required_other_magical_innovations:0 "This [innovation|E] is required for all other magicka-related Military Innovations"
@@ -27,7 +27,7 @@
  innovation_horse_breeding_desc:0 "Horses are expensive but allow for very powerful cavalry regiments. By selecting horses lineages which are easy to train and suited for warfare, we can field new regiments that can scout ahead and pursue the enemy."
  # Civic
  innovation_alchemy:0 "Alchemy"
- innovation_alchemy_desc:0 "The art of combining various ingredients to create potions and poisons, [enc_alchemy|E], in its most basic form, was present in most if not all societies. But carefully studying each ingredient to determine what magical property each has requires a higher understanding of nature and the alchemichal processes themselves."
+ innovation_alchemy_desc:0 "The art of combining various ingredients to create potions and poisons, #LORE [compendium_alchemy]#!, in its most basic form, was present in most if not all societies. But carefully studying each ingredient to determine what magical property each has requires a higher understanding of nature and the alchemichal processes themselves."
  innovation_master_field:0 "Master's Field"
  innovation_master_field_desc:0 "For most, education comes from personal tutorage with a local master. We should reserve small plots of land for such tutorage."
  innovation_might_makes_right:0 "Might Makes Right"
@@ -88,7 +88,7 @@
 # Pariah Folk
  innovation_pariah_folk:0 "Pariah Folk"
  innovation_pariah_folk_desc:0 "Just because we are who we are, others view our lives as expendable, our existence as a blemish. In the hearts of the "civilized", our name invokes disgust, derision, scorn, persecution. For now, with our hearts and hides hardened to abuse, we endure, until one blessed day we cast off this cursed lot."
- innovation_pariah_folk_can_be_removed:0 "This [innovation|E] can be removed by a prestigious [cultural_head|E] that has proven their people to be equal to other races, by enacting the #V 'Cast off Pariah' Status#! [decision|E]"
+ innovation_pariah_folk_can_be_removed:0 "This [innovation|E] can be removed by a prestigious [cultural_head|E] that has proven their people to be equal to other races, by enacting the #V 'Cast off Pariah Status'#! [decision|E]"
  innovation_pariah_folk_marriage:0 "Characters of a culture with this [innovation|E] get reduced Marriage Acceptance with characters of non-[pariah|E] cultures"
  innovation_pariah_folk_revocation:0 "Characters of a culture with this [innovation|E] may be [imprisoned|E], [executed|E] or [revoked|E] from by non-[pariah|E] lieges without it being considered [tyranny|E], unless they are a [vassal|E] with the [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )] [vassal_contract|E]"
  innovation_pariah_folk_persecution:0 "Characters of a culture with this [innovation|E] may be targeted using the $EXPEL_MONSTERS_DUCHY_NAME$ [casus_belli|E]"
@@ -179,8 +179,8 @@
  innovation_native_greater_wrothgar:0 "Natives of the Wrothgarian Mountains"
  innovation_native_greater_wrothgar_desc:0 "Our people have lived and prospered in the Wrothgarian Mountains for millenia. Where others struggle to build simple settlements, we construct great cities and temples."
  faster_culture_convert_wrothgar:0 "$faster_culture_convert_region$ the Wrothgarian Mountains"
- innovation_native_bangkorai:0 "Natives of Bangkorai"
- innovation_native_bangkorai_desc:0 "Our people have lived and prospered in Bangkorai for millenia. Where others struggle to build simple settlements, we construct great cities and temples."
+ innovation_native_bangkorai:0 "Natives of Greater Bangkorai"
+ innovation_native_bangkorai_desc:0 "Our people have lived and prospered in Greater Bangkorai for millenia. Where others struggle to build simple settlements, we construct great cities and temples."
  faster_culture_convert_bangkorai:0 "$faster_culture_convert_region$ Bangkorai"
  
  innovation_native_craglorn:0 "Natives of Craglorn"
@@ -313,10 +313,6 @@
  innovation_extinct_race_desc:0 "This culture belongs to a race long gone, with no living relatives who could ever hope to reclaim their cultural practices and resettle their ancestral lands. While some long since disappeared peoples may hope for a revitalisation, this culture cannot ever again walk on Nirn."
  culture_cannot_be_revived:0 "#N This culture cannot be#! [culture_revived|E]"
 
-#
- innovation_plate_armor:0 "Trip Hammers"
- innovation_plate_armor_desc:0 "Steady improvements in engineering have allowed us to partially automate the production of arms and armor with the use of sophisticated trip hammers. With this development, we will be able to produce much higher quantities of suits of full-body armor to protect our troops in battle."
- 
  ## Regional MaA
  #innovation_war_mammoths:0 "War Mammoths"
  #innovation_war_mammoths_desc:0 "The huge beasts of the frozen land we live in can be trained for warfare. Their size and resilience give them a tremendous advantage in battle, especially in the cold. They are however less suited to mountainous or hotter terrain."

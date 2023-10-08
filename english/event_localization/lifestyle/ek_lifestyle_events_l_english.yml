@@ -206,7 +206,7 @@
  ek_lifestyles.0028.desc:0 "I was browsing some of the books I had at one point purchased but not until now read, when something quite unusual caught my eye: a short treatise, a mere ten pages, tucked almost carelessly between two chapters on advanced Illusion magic.\n\nIt seems whoever owned this book before me had access to - and opinions on - the more esoteric work of the late Azra Nightwielder, the great Shadow Mage, who developed such a profound understanding of the shadows that he could weave them to accomplish marvels far beyond the scope of conventional Illusion. Though his books are almost impossible to find these days, I now possess a solid commentary on his theories.\n\nSolid enough to work from, perhaps? Replicating the Nightwielder’s arts from a derivative work would be impossible, but then, I consider myself a prodigal mind in the field of Illusion…"
  ek_lifestyles.0028.a:0 "Merging with one's shadows to merge multiple worlds of potential?"
  ek_lifestyles.0028.a.tt_success:0 "You achieve merged potential"
- ek_lifestyles.0028.b.tt_fail:0 "You're engulfed by shadows"
+ ek_lifestyles.0028.a.tt_fail:0 "You're engulfed by shadows"
  ek_lifestyles.0028.b:0 "The creation of what he dubs “Shadowkeys” intrigues me…"
  ek_lifestyles.0028.b.tt_success:0 "You successfully create a Shadowkey"
  ek_lifestyles.0028.b.tt_fail:0 "You permanently seal your possibilities"

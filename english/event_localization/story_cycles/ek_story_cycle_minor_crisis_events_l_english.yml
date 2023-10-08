@@ -2,7 +2,7 @@
  ek_scmc.0001.desc:0 "It seems that the procrastination to remove the plague of bandits from our land has had some unfortunate side effects.\n\n[bandit_leader.GetFirstNameNoTooltip], as the leader of the self-proclaimed [ROOT.Char.Custom('BanditFaction')], have started enacting banditry in the [bandit_county.GetTitle.GetName], claiming that our court doesn't care for the common people and robbery is the only way of feeding their families."
  ek_scmc.0001.a:0 "Sooner or later they will be eating steel!"
  ek_scmc.0001.t:0 "Crisis Averted!"
- ek_scmc.0010.d:0 "The last smudge of organised crime in [GetPlayer.GetCurrentLocation.GetName] is gone and the people is saved!"
+ ek_scmc.0010.d:0 "The last smudge of organised crime in [GetPlayer.GetCurrentLocation.GetName] is gone and the people are safe!"
  ek_scmc.0010.optA:0 "Rejoice, citizens!"
  ek_scmc.0010.optA_bandits_defeated_tt:0 "You have crushed all the bandits who tried to conquer your lands!"
  ek_scmc.8003.t:0 "Bandit Uprising: Inheritance"

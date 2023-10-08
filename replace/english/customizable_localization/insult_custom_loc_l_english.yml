@@ -10,7 +10,7 @@
  cox_comb:0 "coxcomb"
  strumpet:0 "strumpet"
  bedswerver:0 "bedswerver"
- nixhound:0 "nixhound"
+ nixhound:0 "nix-hound"
  swit:0 "s'wit"
 
  #InsultAdjective
@@ -132,7 +132,7 @@
  # Female versions requested by other languages
  coward_female:0 "coward"
  boar_female:0 "boar"
- nixhound_female:0 "nixhound"
+ nixhound_female:0 "nix-hound"
  swit_female:0 "s'wit"
  cox_comb_female:0 "coxcomb"
  bedswerver_female:0 "bedswerver"

@@ -1,7 +1,6 @@
 ﻿l_english:
  ### Troops
  # Misses from vanilla /shrugs
- heavy_cavalry_screen_mult:1 "[heavy_cavalry|E] [screen|E]"
  
  mages_damage_add:1 "[mages|E] [damage|E]"
  mages_damage_mult:0 "$mages_damage_add$"
@@ -30,6 +29,27 @@
  spellblades_max_size_add:0 "Max Size of [spellblades|E] [regiments|E]"
  spellblades_maintenance_add:0 "[spellblades|E] Maintenance"
  spellblades_maintenance_mult:0 "$spellblades_maintenance_add$"
+
+ stationed_mages_damage_add:0 "[stationed|E] [mages|E] [damage|E]"
+ stationed_mages_damage_mult:0 "$stationed_mages_damage_add$"
+ stationed_mages_toughness_add:0 "[stationed|E] [mages|E] [toughness|E]"
+ stationed_mages_toughness_mult:0 "$stationed_mages_toughness_add$"
+ stationed_mages_pursuit_add:0 "[stationed|E] [mages|E] [pursuit|E]"
+ stationed_mages_pursuit_mult:0 "$stationed_mages_pursuit_add$"
+ stationed_mages_screen_add:0 "[stationed|E] [mages|E] [screen|E]"
+ stationed_mages_screen_mult:0 "$stationed_mages_screen_add$"
+ stationed_mages_siege_value_add:0 "[stationed|E] [mages|E] [siege_progress|E]"
+ stationed_mages_siege_value_mult:0 "[stationed|E] [mages|E] [siege_value|E]"
+ stationed_spellblades_damage_add:0 "[stationed|E] [spellblades|E] [damage|E]"
+ stationed_spellblades_damage_mult:0 "$stationed_spellblades_damage_add$"
+ stationed_spellblades_toughness_add:0 "[stationed|E] [spellblades|E] [toughness|E]"
+ stationed_spellblades_toughness_mult:0 "$stationed_spellblades_toughness_add$"
+ stationed_spellblades_pursuit_add:0 "[stationed|E] [spellblades|E] [pursuit|E]"
+ stationed_spellblades_pursuit_mult:0 "$stationed_spellblades_pursuit_add$"
+ stationed_spellblades_screen_add:0 "[stationed|E] [spellblades|E] [screen|E]"
+ stationed_spellblades_screen_mult:0 "$stationed_spellblades_screen_add$"
+ stationed_spellblades_siege_value_add:0 "[stationed|E] [spellblades|E] [siege_progress|E]"
+ stationed_spellblades_siege_value_mult:0 "[stationed|E] [spellblades|E] [siege_value|E]"
  
  monthly_magic_lifestyle_xp_gain_mult:0 "Monthly Magical Arts [lifestyle|E] Experience"
  monthly_dark_arts_lifestyle_xp_gain_mult:0 "Monthly Dark Arts [lifestyle|E] Experience"
@@ -233,15 +253,37 @@
  black_marsh_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in $black_marsh$"
  black_marsh_tax_mult:0 "$MOD_TAX_MULT$ in $black_marsh$"
  black_marsh_levy_size:0 "$MOD_LEVY_SIZE$ in $black_marsh$"
+
+ ## Travel
+
+ ashlands_travel_danger:0 "[GetTerrain( 'ashlands' ).GetName] [travel_danger|E]"
+ volcanic_travel_danger:0 "[GetTerrain( 'volcanic' ).GetName] [travel_danger|E]"
+ desert_hills_travel_danger:0 "[GetTerrain( 'desert_hills' ).GetName] [travel_danger|E]"
+ mangrove_forest_travel_danger:0 "[GetTerrain( 'mangrove_forest' ).GetName] [travel_danger|E]"
+ jungle_hills_travel_danger:0 "[GetTerrain( 'jungle_hills' ).GetName] [travel_danger|E]"
+ valenwood_travel_danger:0 "[GetTerrain( 'valenwood' ).GetName] [travel_danger|E]"
+ valenwood_hills_travel_danger:0 "[GetTerrain( 'valenwood_hills' ).GetName] [travel_danger|E]"
+ wasteland_travel_danger:0 "[GetTerrain( 'wasteland' ).GetName] [travel_danger|E]"
+ tundra_travel_danger:0 "[GetTerrain( 'tundra' ).GetName] [travel_danger|E]"
+ taiga_hills_travel_danger:0 "[GetTerrain( 'taiga_hills' ).GetName] [travel_danger|E]"
+ black_marsh_travel_danger:0 "[GetTerrain( 'black_marsh' ).GetName] [travel_danger|E]"
  
  ### Governments
  pirate_government_opinion:0 "[pirate|E] Ruler Opinion"
  pirate_government_tax_contribution_add:1 "[pirate|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
  pirate_government_tax_contribution_mult:1 "[pirate|E] [vassal|E] [tax|E] [modifier_contribution|E]"
 
- magocracy_government_opinion:0 "[magocracy|E] Ruler Opinion"
- magocracy_government_tax_contribution_add:1 "[magocracy|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
- magocracy_government_tax_contribution_mult:1 "[magocracy|E] [vassal|E] [tax|E] [modifier_contribution|E]"
+ academy_government_opinion:0 "[academy|E] Ruler Opinion"
+ academy_government_tax_contribution_add:1 "[academy|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
+ academy_government_tax_contribution_mult:1 "[academy|E] [vassal|E] [tax|E] [modifier_contribution|E]"
+
+ hierocracy_government_opinion:0 "[hierocracy|E] Ruler Opinion"
+ hierocracy_government_tax_contribution_add:1 "[academy|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
+ hierocracy_government_tax_contribution_mult:1 "[academy|E] [vassal|E] [tax|E] [modifier_contribution|E]"
+
+ autocracy_government_opinion:0 "[autocracy|E] Ruler Opinion"
+ autocracy_government_tax_contribution_add:1 "[academy|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
+ autocracy_government_tax_contribution_mult:1 "[academy|E] [vassal|E] [tax|E] [modifier_contribution|E]"
 
  praxis_government_opinion:0 "[ceremoniarchy|E] Ruler Opinion"
  praxis_government_tax_contribution_add:1 "[ceremoniarchy|E] [vassal|E] [tax|E] [modifier_base_contribution|E]"
@@ -262,6 +304,8 @@
  terribly_tortured:0 "Terribly Tortured"
  terribly_tortured_desc:0 "It is not merely the #italic pain#! of recent torture by practiced hands that haunts this character."
 
+ nord_coward_modifier:0 "Cowardly Behaviour"
+ nord_coward_modifier_desc:0 "This character acted in a way that brought shame upon their ancestors."
 
 
  wild_magic_weak:0 "Wild Magic - Weak"
@@ -312,8 +356,7 @@
  imperial_city_harbor_01_duchy_modifier:0 "Influence of the Imperial City Harbor"
  imperial_city_harbor_01_duchy_modifier_desc:0 "The Imperial City Harbor handles most of the trade in the Imperial City. As long as the Harbor is open, all the Imperial Isle will benefit from it."
  
- nord_coward_modifier:0 "Cowardly Behaviour"
- nord_coward_modifier_desc:0 "This character acted in a way that brought shame upon their ancestors."
+
  
  ## Attrebus vs Potentate
  attrebus_opened_temple_district:0 "Opened the Temple District"
@@ -336,7 +379,7 @@
  hegemony_new_capital_temp:0 "A new Hegemony capital?"
  hegemony_new_capital_temp_desc:0 "The whole county buzzes with workers and scholars, as their holders have publicly proclaimed the return of the Hegemony that once ruled over High Rock."
  hegemony_new_capital_perm:0 "A new Hegemonic capital."
- hegemony_new_capital_perm_desc:0 "As the Hegemony once again controls High Rock and the surrounding provinces, scholars, workers, and political refugees once again court the now Hegemon family of High Rock."
+ hegemony_new_capital_perm_desc:0 "As the Hegemony once again controls High Rock and the surrounding provinces, scholars, workers, and political refugees once again court the new Hegemon family of High Rock."
  
  ### Lingua Tamrielis
  established_lingua_tamrielis_modifier:0 "Established Lingua Tamrielis"
@@ -367,10 +410,6 @@
  hist_sharp_blessing_desc:0 "The Hist blesses you with sharp leaves."
  hist_insight_blessing:0 "Insightful Crown"
  hist_insight_blessing_desc:0 "The Hist blesses you with an insightful crown."
- 
- ### Dynamic holy sites
- consecrated_holy_site_modifier:0 "Consecrated Holy Site"
- consecrated_holy_site_modifier_desc:0 "This character consecrated a new Holy Site in their capital."
  
  ### Liturgical language
  knows_liturgical_language_modifier:0 "Knows Liturgical Language"
@@ -404,13 +443,13 @@
  stress_experimentalist_modifier_05:0 "Magic Spasms"
  stress_experimentalist_modifier_05_desc:0 "This character suffers from a magical effect that makes it difficult to move without weird spasms."
  stress_experimentalist_modifier_06:0 "Arcane Overflow"
- stress_experimentalist_modifier_06_desc:0 "This characters body produces additional magicka, but pays a hefty price for it."
+ stress_experimentalist_modifier_06_desc:0 "This character's body produces additional magicka, but pays a hefty price for it."
  
  ### Orsinium
  city_of_the_orcs:0 "Capital of the Orsimer"
  
  orsinium_mountain_orc_advantage:0 "Defenders of Orsinium"
- orsinium_mountain_orc_advantage_desc:0 "Now that the Mountain Orcs have reclaimed or refounded the city of Orsinium, they are ready to defend it to the death.\nA million Bretons, Nords, and Redguards could march on it, and a million Bretons, Nords, and Redguard would be repelled.\n\n#weak Note: This modifier applies to every province that is both a de Jure and de Facto vassal of the Kingdom of Orsinium. For every duchy that is considered a de Jure vassal of Orsinium, this modifier loses a stack, starting at 5 stacks.#!"*
+ orsinium_mountain_orc_advantage_desc:0 "Now that the Mountain Orcs have reclaimed or refounded the city of Orsinium, they are ready to defend it to the death.\nA million Bretons, Nords, and Redguards could march on it, and a million Bretons, Nords, and Redguard would be repelled.\n\n#weak Note: This modifier applies to every province that is both a de Jure and de Facto vassal of the Kingdom of Orsinium. For every duchy that is considered a de Jure vassal of Orsinium, this modifier loses a stack, starting at 5 stacks.#!"
  
  ### Autocracy
  autocracy_county_opinion:0 "Popular Opinion (Autocracy)"
@@ -649,31 +688,37 @@
  bear_plunge:0 "Plunged!"
  bear_plunge_desc:0 "Partook in the Snow Bear Plunge."
  sanguines_wrath:0 "Permanently Inebriated"
- sanguines_wrath_desc:0 "Sanguine himself cursed you with permanent inebriation for defying his will. Get rid of it by seeking the Daedric Prince of Debauchery for a deal or upon asking for the mercy of your deity by undergoing a [pilgrimage|E]."
+ sanguines_wrath_desc:0 "Sanguine himself inflicted a [curse|E] of permanent inebriation upon you for defying his will."
  nocturnals_wrath:0 "Creeping Shadows"
- nocturnals_wrath_desc:0 "Nocturnal herself cursed you and now every dark corner and shadowy turn can be fatal for you. Get rid of it by asking for the mercy of your deity by undergoing a [pilgrimage|E]."
+ nocturnals_wrath_desc:0 "Nocturnal herself inflicted a [curse|E] upon you and now every dark corner and shadowy turn can be fatal for you."
  meridias_wrath:0 "Wilting Life"
- meridias_wrath_desc:0 "Meridia herself cursed you and now you can feel your own life swindling away. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]."
+ meridias_wrath_desc:0 "Meridia herself inflicted a [curse|E] upon you and now you can feel your own life swindling away."
  boethiahs_wrath:0 "Unrelenting Hunger"
- boethiahs_wrath_desc:0 "Boethiah has cursed you and now you can feel a neverending hunger plaging your troops. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]."
+ boethiahs_wrath_desc:0 "Boethiah has inflicted a [curse|E] upon you and now you can feel a neverending hunger plaging your troops."
  molags_wrath:0 "Sheepishly Submissive"
- molags_wrath_desc:0 "Molag Bal has cursed you and now you can't stand up for yourself in the most minimal ways. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]."
+ molags_wrath_desc:0 "Molag Bal has inflicted a [curse|E] upon you and now you can't stand up for yourself in the most minimal ways."
  azuras_wrath:0 "Cosmically Severed"
- azuras_wrath_desc:0 "Azura has cursed you and now you don't feel any interest in anything whatsoever. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]."
+ azuras_wrath_desc:0 "Azura has inflicted a [curse|E] upon you and now you don't feel any interest in anything whatsoever."
  clavicus_wrath:0 "Streak of Bad Luck"
- clavicus_wrath_desc:0 "Clavicus Vile has cursed you and now you can't get a good deal on anything, no matter how hard you try. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]."
+ clavicus_wrath_desc:0 "Clavicus Vile has inflicted a [curse|E] upon you and now you can't get a good deal on anything, no matter how hard you try."
  mehrunes_wrath:0 "Destructive Disrespect"
- mehrunes_wrath_desc:0 "Mehrunes Dagon has cursed you and now people mock you and disregard what you say. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]."
+ mehrunes_wrath_desc:0 "Mehrunes Dagon has inflicted a [curse|E] upon you and now people mock you and disregard what you say."
  namiras_wrath:0 "Repulsive Visage"
- namiras_wrath_desc:0 "Namira has cursed you and now fortune eludes you and people turn their heads when you pass by. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]."
+ namiras_wrath_desc:0 "Namira has inflicted a [curse|E] upon you and now fortune eludes you and people turn their heads when you pass by."
  hircines_wrath:0 "Hunted"
- hircines_wrath_desc:0 "Hircine has cursed you and now you feel more vulnerable than ever. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]." 
+ hircines_wrath_desc:0 "Hircine has inflicted a [curse|E] upon you and now you feel more vulnerable than ever." 
  vaerminas_wrath:0 "Troubled Nights"
- vaerminas_wrath_desc:0 "Vaermina has cursed you and now you can't seem to get a good night's sleep. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]." 
+ vaerminas_wrath_desc:0 "Vaermina has inflicted a [curse|E] upon you and now you can't seem to get a good night's sleep." 
  sheogoraths_wrath:0 "Fleeting Reality"
- sheogoraths_wrath_desc:0 "Sheogorath has cursed you and now everything looks outlandish and strange. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]." 
+ sheogoraths_wrath_desc:0 "Sheogorath has inflicted a [curse|E] upon you and now everything looks outlandish and strange." 
  malacaths_wrath:0 "Ostracized Weakness"
- malacaths_wrath_desc:0 "Malacath has cursed you and now you feel your strength wilting away. Get rid of it by seeking the mercy of your deity by undergoing a [pilgrimage|E]." 
+ malacaths_wrath_desc:0 "Malacath has inflicted a [curse|E] upon you and now you feel your strength wilting away." 
+ hermaeus_wrath:0 "Blinding Confusion"
+ hermaeus_wrath_desc:0 "Hermaeus Mora has inflicted a [curse|E] upon you and now you can't seem to hold a thought." 
+ mephalas_wrath:0 "Brutal Honesty"
+ mephalas_wrath_desc:0 "Mephala has inflicted a [curse|E] upon you and now you can't hold your tongue." 
+ peryites_wrath:0 "Disease Magnet"
+ peryites_wrath_desc:0 "Peryite has inflicted a [curse|E] upon you and now you seem to attract diseases." 
  fortify_health:0 "Magically Fortified Health"
  damage_health:0 "Magically Damaged Health"
  
@@ -686,7 +731,7 @@
  ek_yearly_events_heard_supplicant:0 "Listened to A Supplicant's Song"
  ek_yearly_events_heard_supplicant_desc:0 "Free us from Mehrunes Dagon, we plea\nChaos he spawns upon us with glee\nSpare all from hardship and grant calm repose\nShare with us safety from all he'd impose."
  ek_yearly_events_heard_red_mountain:0 "Listened to Red Mountain Drinking Song"
- ek_yearly_events_heard_red_mountain_desc:0 "“It sleeps like a giant, our tower of stones,\nRed Mountain, Red Mountain, all rumbles and moans.\nIt tosses and turns, pray it won't wake,\nAnd then without warning the ground starts to shake!\nAs the world ends, the ground starts to shake! So—”"
+ ek_yearly_events_heard_red_mountain_desc:0 "“It sleeps like a giant, our tower of stones,\nRed Mountain, Red Mountain, all rumbles and moans.\nIt tosses and turns, pray it won't wake,\nAnd then without warning the ground starts to shake!\nAs the world ends, the ground starts to shake! So—”
  clandestine_arena_legal:0 "Legalised Clandestine Arena"
  clandestine_arena_legal_desc:0 "You made the clandestine arena pay taxes."
  clandestine_arena_positive:0 "Clandestine Arena"
@@ -740,11 +785,11 @@
  dwemer_arms:0 "Dwarven Equipment"
  automata_modifier:0 "Automata Invasion"
  falmer_modifier:0 "Falmer Invasion"
- ek_yearly_events_heard_welkinar:0 "Listened to Charge of the Welkinar"
- ek_yearly_events_heard_welkinar_desc:0 "Charge, o Gryphon Knights,\nFly on and fight our foes!\nCharge, o Welkynar,\nTake wing with swords and bows!"
+ ek_yearly_events_heard_welkynar:0 "Listened to Charge of the Welkynar"
+ ek_yearly_events_heard_welkynar_desc:0 "Charge, o Gryphon Knights,\nFly on and fight our foes!\nCharge, o Welkynar,\nTake wing with swords and bows!"
  ek_yearly_events_heard_armiger:0 "Listened to the Armiger Marching Song"
- ek_yearly_events_heard_welkinar_desc:0 "Sing proud, sound roars,\nO ye Buoyant Armigers,\nRaise voices in courageous cheers,\nGive those heathens cause for fear!"
- ek_yearly_events_sang_folly:0 "Sang The Folly of Man"
+ ek_yearly_events_heard_armiger_desc:0 "Sing proud, sound roars,\nO ye Buoyant Armigers,\nRaise voices in courageous cheers,\nGive those heathens cause for fear!"
+ ek_yearly_events_sang_folly:0 "Sang Folly of Man"
  ek_yearly_events_sang_folly_desc:0 "Their lives may be short, and lacking import,\nBut keep an eye to their blundering.\nIt's tempting to jest, about this simple pest,\nUntil you've seen their plundering."
  refused_kuvastei:0 "Refused Ku-Vastei"
  refused_kuvastei_desc:0 "Refused to make needed changes."
@@ -772,6 +817,8 @@
  county_corruption_goblins_rampant_modifier_desc:0 "[county_corruption|E]\nGoblins roam freely in the County"
  county_corruption_undead_rampant_modifier:0 "Undead Running Rampant"
  county_corruption_undead_rampant_modifier_desc:0 "[county_corruption|E]\nUndead roam freely in the County"
+ county_corruption_exiles_rampant_modifier:0 "Exiles Running Rampant"
+ county_corruption_exiles_rampant_modifier_desc:0 "[county_corruption|E]\nAshlander exiles roam freely in the County"
  neglected_studies:0 "Neglected Studies"
  neglected_studies_desc:0 "This character has given up on certain basic magical studies, lagging behind compared to their peers."
  conjuration_focus:0 "Conjuration Focus"
@@ -852,7 +899,7 @@
  godlike_health:0 "Godlike Health"
  godlike_health_desc:0 "This character has managed to achieve a glow of health not thought possible for mortalkind."
  splendor:0 "Splendor"
- splendor_desc:0 "This character utilizes Restoration magic to keep mortal decay at bay"
+ splendor_desc:0 "This character utilizes Restoration magic to keep mortal decay at bay."
  enriched_capital:0 "Enriched Capital"
  enriched_capital_desc:0 "This county was improved by using Restoration magic to manipulate the Earthbones for enriching the soil"
  everscamps_modifier:0 "Everscamps!"
@@ -865,11 +912,11 @@
  redguard_hero_makela:0 "Studied Makela Leki"
  redguard_zero:0 "Failed to study a sword-singer"
  famous_duelist:0 "Famous Duelist"
- famous_duelist.desc:0 "This character fought in a duel for his life and was vicotorious."
+ famous_duelist.desc:0 "This character fought in a duel for their life and were vicotorious."
  learning_necromancy:0 "Learning New Magic"
  learning_necromancy.desc:0 "This characters mind is currently occupied by a very demanding project of magical nature."
  is_necromancy_tutor:0 "Teaching Magic"
- learning_necromancy.desc:0 "This characters is currently investing time and energy into the teaching of an apprentice in the magical arts."
+ is_necromancy_tutor.desc:0 "This characters is currently investing time and energy into the teaching of an apprentice in the magical arts."
  rotten_stench:0 "Stinks of Death"
  rotten_stench.desc:0 "This character gives off a stench of rotten flesh."
  closely_watched:0 "Closely Watched"
@@ -905,7 +952,6 @@
  
  ### Coming of Age Modifiers
  nord_brave_modifier:0 "Brave Child of Skyrim"
- nord_coward_modifier:0 "Ancestor Dishonor"
  harrowing_not_complete:0 "Unproven"
  harrowing_not_complete_desc:0 "This character wasn't accepted at their tribe's Harrowing"
  herder_blessing:0 "Blessing of the Herder"
@@ -988,8 +1034,8 @@
  ayleid_ruin_excavation:0 "Ayleid Ruin Excavation"
  ayleid_ruin_excavation_desc:0 "Excavation and resettlement of an old Ayleid city is attracting settlers, tradesmen and laborers alike."
 
- friends_prowess_gain:0 "Brothers-in-Arms"
- friends_prowess_gain_desc:0 "This character is bolstered by the support of their friends"
+ friend_prowess_gain_modifier:0 "Brothers-in-Arms"
+ friend_prowess_gain_modifier_desc:0 "This character is bolstered by the support of their friends."
 
  focused_support_modifier:0 "Focused Support"
  hostile_house_members_modifier:0 "Hostile House Members"
@@ -1013,3 +1059,45 @@
  diligent_lackeys_modifier:0 "Diligent Lackeys"
  baseless_rumors_modifier:0 "Baseless Rumours"
  reliable_informants_modifier:0 "Reliable Informants"
+ hire_assassin_modifier:0 "Hiring Assassin"
+ morag_tong_hired:0 "Hired Morag Tong"
+ db_hired:0 "Hired Dark Brotherhood"
+ assassin_hired:0 "Hired Lowly Assassin"
+
+ dangerous_mage:0 "Dangerous Mage"
+ dangerous_mage_desc:0 "This character is known to use magic in harmful and malicious ways."
+
+ mundus_apprentice_modifier:0 "Apprentice's Boon"
+
+ mundus_atronach_modifier:0 "Atronach's Boon"
+
+ mundus_lady_modifier:0 "Lady's Boon"
+
+ mundus_lord_modifier:0 "Lord's Boon"
+
+ mundus_lover_modifier:0 "Lover's Boon"
+
+ mundus_ritual_modifier:0 "Ritual's Boon"
+
+ mundus_serpent_modifier:0 "Serpent's Boon"
+
+ mundus_shadow_modifier:0 "Shadow's Boon"
+
+ mundus_steed_modifier:0 "Steed's Boon"
+
+ mundus_thief_modifier:0 "Thief's Boon"
+
+ mundus_tower_modifier:0 "Tower's Boon"
+
+ mundus_warrior_modifier:0 "Warrior's Boon"
+ 
+ mundus_mage_modifier:0 "Mage's Boon"
+ mundus_mage_modifier_desc:0 "[arcana|E]: [arcana_i]#P +1# "
+  
+  # Tournaments
+ tournament_arcane_clash_winner_modifier:0 "Arcane Clash Victor"
+ tournament_arcane_clash_winner_modifier_desc:0 "This character triumphed in an Arcane Clash against all other participating mages.\n[arcana|E]: [arcana_i]#P +3# "
+ tournament_arcane_clash_participant_modifier:0 "Arcane Clash Participant"
+ tournament_arcane_clash_participant_modifier_desc:0 "This character tested their magic abilities in an Arcane Clash against other mages.\n[arcana|E]: [arcana_i]#P +1# "
+ tournament_exhausted_arcana_modifier:0 "Exhausted Arcana"
+ tournament_exhausted_arcana_modifier_desc:0 "This character burned all their magical reserves in an Arcane Clash. It will take some time to regenerate those.\n[arcana|E]: [arcana_i]#P -5# "

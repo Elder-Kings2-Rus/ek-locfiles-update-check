@@ -36,7 +36,7 @@
  modifier_spell_aggravate_vulnerability:0 "Weakness to Weapons"
  modifier_spell_aggravate_vulnerability_desc:0 "This character is under the effect of a weakness to weapons spell, and their troops will be more likely to die in combat."
  modifier_spell_muffled_senses:0 "Muffled Senses"
- modifier_spell_muffled_senses_desc:0 "This character is under the effect of a muffled senses spell, and cannot tell apart real from imaginary threats."
+ modifier_spell_muffled_senses_desc:0 "This character is under the effect of a muffled senses spell, and cannot tell real from imaginary threats."
  modifier_spell_charm_petty:0 "Petty Charm"
  modifier_spell_charm_petty_desc:0 "This character magically enhanced their charm to be more likeable and have better chances in personal schemes."
  modifier_spell_charm_lesser:0 "Lesser Charm"

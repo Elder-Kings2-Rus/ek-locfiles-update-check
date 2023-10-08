@@ -90,7 +90,7 @@
  game_concept_meritocratic_desc:0 "Under the $game_concept_meritocratic$ [succession_law|E], each [county|E] decides if it follows the former ruler's [heir|E], or if they elect one of their own to rule them. The county having a high [county_opinion|E] will help secure it during succession."
 
  game_concept_feudal_like_government:0 "Feudal-like Government"
- game_concept_feudal_like_government_desc:0 "[autocracy|E], [feudalism|E], [hierocracy|E] and [praxis_government|E] are highly institutionalised and are considered feudal-like, which unlocks courts and allows for the founding of certain kingdoms."
+ game_concept_feudal_like_government_desc:0 "[autocracy|E], [feudalism|E], [hierocracy|E] and [ceremoniarchy|E] are highly institutionalised and are considered feudal-like, which unlocks courts and allows for the founding of certain kingdoms."
 
  game_concept_pirate:0 "Pirate"
  game_concept_pirate_government:0 "Pirate Government"
@@ -108,7 +108,7 @@
  game_concept_autocracy:0 "Autocracy"
  game_concept_autocracy_government:0 "Autocracy Government"
  game_concept_autocratic:0 "Autocratic"
- game_concept_autocracy_desc:0 "Autocracies are defined by the loose relationship between the ruler and their vassals, in contrast to the strict de jure hierarchy held up in certain cultures. What each ruler can do is autocratic realm is highly dependent on their personal power and how much their vassals like, or fear, them."
+ game_concept_autocracy_desc:0 "Autocracies are defined by the loose relationship between the ruler and their vassals, in contrast to the strict de jure hierarchy held up in certain cultures. What each ruler can do in an Autocratic realm is highly dependent on their personal power and how much their vassals like, or fear, them."
  
  game_concept_hierocracy:0 "Hierocracy"
  game_concept_hierocracy_government:0 "Hierocratic Government"
@@ -118,8 +118,10 @@
  game_concept_ceremoniarchy:0 "Ceremoniarchy"
  game_concept_ceremoniarchy_government:0 "Ceremoniarchic Government"
  game_concept_ceremoniarchic:0 "Ceremoniarchic"
- game_concept_praxis_government:0 "Ceremoniarchic Government"
- game_concept_ceremoniarchy_desc:0 "In a Ceremoniarchy, rulers are expected to rule in accordance to the ancient rites developped over time by their divine Ancestors. A ruler has to manage their [praxis|E] and ensure that the traditions are respected - some rulers however might want to set tradition aside and adapt to this changing world...\n#weak Only rulers whose faith has the [GetFaithDoctrine('tenet_legalism').GetBaseName] and the [GetFaithDoctrine('tenet_divine_purity').GetBaseName] [core_tenets|E] can adopt the Ceremoniarchy.#!"
+ game_concept_ceremoniarchy_desc:0 "Ceremoniarchy is a complicated system of rites and customs centering around the pursuit of Aldmeris. A ruler has to manage their [praxis|E] and ensure that the traditions are respected - some rulers however might want to set tradition aside and adapt to this changing world...\n#weak Only rulers whose faith has the [GetFaithDoctrine('tenet_legalism').GetBaseName] and the [GetFaithDoctrine('tenet_divine_purity').GetBaseName] [core_tenets|E] can adopt the Ceremoniarchy.#!"
+
+ game_concept_praxis:0 "Praxis"
+ game_concept_praxis_desc:0 "Praxis is the measurement of a character's conformity to the strict standards of 'The Path to Alaxon' - an Altmeri philsophy emphasising the search for perfection. \n\nConforming to these social expectations ensures harmony within realm. Those who stray from the path may have an easier personal life - but risk social ostracism. \n\nA ruler will be judged for their Praxis by their behaviour at public events such as attending a feast or holding court."
 
  game_concept_might_makes_right:0 "Might Makes Right"
  game_concept_might_makes_right_desc:0 "Some of the actions locked behind an [innovation|E] - such as [laws|E] and [casus_bellis|E] - can be accessed and used by [rulers|E] if they have a high enough [prestige_level|E].\n\nSome faiths allow the use of [piety_level|E] and [piety|E], either as an optional or an additional requirement."
@@ -131,8 +133,7 @@
  game_concept_almsivi_power_power:0 "Power"
  game_concept_almsivi_power_tribunal:0 "Power of the Tribunal"
  game_concept_almsivi_power_desc:0 "The Three Living Gods of Morrowind; Almalexia Sotha Sil, and Vivec; all impact the life of those revering them, granting powerful [almsivi_boon_boons|E] to those they deem worthy and strengthening the faiths having them as their [pantheon|E].\nWhile the Tribunal can, at their apex, flood entire armies and force the Daedric Princes into submission, they require regular pilgrimages to Red Mountain to sustain their power. Should they become unable to bathe into the waters near the Heart of Lorkhan, they will become weaker and their hold on Morrowind will weaken."
- game_concept_almsivi_power_desc:0 "The Three Living Gods of Morrowind; Almalexia Sotha Sil, and Vivec; all impact the life of those revering them, granting powerful [almsivi_boon_boons|E] to those they deem worthy and strengthening the faiths having them as their [pantheon|E].\nWhile the Tribunal can, at their apex, flood entire armies and force the Daedric Princes into submission, they require regular pilgrimages to Red Mountain to sustain their power. Should they become unable to bathe into the waters near the Heart of Lorkhan, they will become weaker and their hold on Morrowind will weaken."
- 
+  
  game_concept_almsivi_boon:0 "Boon of the ALMSIVI"
  game_concept_almsivi_boon_boon:0 "Boon"
  game_concept_almsivi_boons:0 "Boons of the ALMSIVI"
@@ -148,13 +149,13 @@
  game_concept_daedric_sacrifice_desc:0 "While most Princes have an interest in playing with mortalkind, you still have to get their attention to get the most [daedric_ardor|E] and the most powerful [daedric_boons|E] from them.\n\nEach Prince likes it when you spend some of your personal wealth in a ritual for them, or when you send a poor unfortunate soul to Oblivion to serve them for all eternity.\n\nSome Princes have more specific tastes, with Meridia granting your Ardor when you sacrifice Undead characters in her name, or with Namira granting more [daedric_ardor|E] to those who uphold their Vows of Squalor."
  
  game_concept_daedric_ardor:0 "Ardor"
- game_concept_daedric_ardor_desc:0 "Ardor is a resource like [prestige|E] or [piety|E], but used solely to get [daedric_boons|E] from a Daedric Prince. Ardor can be acrued passively, by taking a specific Prince as your [patron_deity|E] if your faith allows it, or by performing [daedric_sacrifices|E] for them."
+ game_concept_daedric_ardor_desc:0 "Ardor is a resource like [prestige|E] or [piety|E], but used solely to get [daedric_boons|E] from a Daedric Prince. Ardor can be accrued passively, by taking a specific Prince as your [patron_deity|E] if your faith allows it, or by performing [daedric_sacrifices|E] for them."
  
  game_concept_daedric_artifact:0 "Daedric Artifact"
  game_concept_daedric_artifact_desc:0 "Each Daedric Prince holds a fragment of their power in an artifact, with which they have a long history.\n\nThey may bestow this artifact to their most devout follower, for a high price in [daedric_ardor|E], in which case the follower will hold the artifact until their death, a challenge from another worshipper of the same Prince, or until the Prince reclaims their artifact."
  
  game_concept_daedric_invasion:0 "Daedric Invasion"
- game_concept_daedric_invasion_desc:0 "While all Princes have an interest in mortal affairs, some would rather take a more direct approach, with the most ambitious and powerful of them even being ready to launch a full invasion of Nirn, with the ultimage goal of merging the mortal Plane with their own.\n\nThese Daedric Invasions are cataclysmic events that can potentially end the world, but the most devout followers of the invading Prince know that they will be rewarded once the Invasion is over and their Prince is victorious.\n\nEach Invasion is led by an [daedric_herald|E], who starts as the ruler who called forth the Invasion with a tremendous [daedric_ardor|E] sacrifice. The Herals is given by their Prince the permission to rule Mundus in the name of the Prince until the invasion is over, after which they too will join the Prince's Plane when the mortal world is merged into the distant world of the Prince."
+ game_concept_daedric_invasion_desc:0 "While all Princes have an interest in mortal affairs, some would rather take a more direct approach, with the most ambitious and powerful of them even being ready to launch a full invasion of Nirn, with the ultimate goal of merging the mortal Plane with their own.\n\nThese Daedric Invasions are cataclysmic events that can potentially end the world, but the most devout followers of the invading Prince know that they will be rewarded once the Invasion is over and their Prince is victorious.\n\nEach Invasion is led by an [daedric_herald|E], who starts as the ruler who called forth the Invasion with a tremendous [daedric_ardor|E] sacrifice. The Herald is given by their Prince the permission to rule Mundus in the name of the Prince until the invasion is over, after which they too will join the Prince's Plane when the mortal world is merged into the distant world of the Prince."
  
  game_concept_daedric_herald:0 "Daedric Herald"
  game_concept_daedric_herald_desc:0 "The devout ruler who calls forth a [daedric_invasion|E], shattering the barriers between Mundus and Oblivion and allowing their Prince to send countless Daedric soldiers and starting the merging of their Plane with the mortal one.\n\nThe Herald is given authority over all of Mundus by their Prince, and is the one who leads the invasion until the Planes are merged, or until a Hero saves the world and stops the Invasion."
@@ -206,61 +207,12 @@
  game_concept_optional_task_4:0 "Secure the Succession"
  game_concept_optional_task_4_desc:0 "While you may hold the Imperial Isle for the rest of your life, once you leave this world the Elder Council will be able to seize control of the Heartlands. If you wish for your legacy to go on, you will need a proper heir.\n\n$task_start$: To start this task, you must have been crowned Potentate-for-Life\n$task_fulfill$: To fulfill this task, your [primary_heir|E] must be an adult with a high enough [prestige_level|E] (at least [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]), without [sin|E], and your [dynasty_prestige_level|E] must be high enough (at least [dynasty_prestige_level_2|E])"
  
- ### ENCYCLOPEDIA
- game_concept_enc_aedra:0 "Aedra"
- game_concept_enc_ancestors:0 "Ancestors"
- game_concept_enc_aedric:0 "Aedric"
- game_concept_enc_aedra_desc:0 "Meaning 'Ancestors' in the old Aldmeri tongue, the Aedra are the Gods who helped forge Mundus. They however lost most of their divine power in the process, and are as such bound to take a passive role now, instead of the Daedra who can be much more active. As part of the divine contract of creation, the Aedra are also thought to be killable. The Trickster God Lorkhan, and the Two Moons are thought to have been killed, with their dead body still obversable to this day.\n\nThe Aedra are worshipped through most of Tamriel, but their most known followers would probably be the worshippers of the [enc_divines|E]."
- 
- game_concept_enc_alchemy:0 "Alchemy"
- game_concept_enc_alchemy_desc:0 "An art as old as time, alchemy is the process through which someone combines and mixes, boils, or distills several ingredients to form a poison, or a potion. This art was supposedly codified by Asliel Direnni, but most people in Tamriel already knew how boiling a plant could cure a fever, or what bones should one crush to produce a potent poison.\n\nAlchemical ingredients come in very various forms, such as plants or leaves, animal parts, undead remnants, and even Daedric summons. This makes alchemy a potentially very lucrative and very dangerous trade, as the most expensive ingredients produce the most powerful poisons and potions, but are also hidden in the most deadly places."
- 
- game_concept_enc_divines:0 "Divines"
- game_concept_enc_eight_divines:0 "Eight Divines"
- game_concept_enc_divines_desc:0 "The Eight Divines are the [enc_aedra|E] who maintained most of their divine power even as the creation of Mundus drained most of it. Their worship started under Alessia and her newly forged Empire, as the Elven gods and Nordic deities had to coexist in this new nation.\n\nAs part of the Covenant between Alessia and Akatosh, the Dragon-God of Time swore to protect Mundus from further Daedric influence as long as Alessia and her line championed the pantheon throughout Tamriel. Aside from Akatosh, the Eight Divines are made of Arkay, Dibella, Julianos, Kynareth, Mara, Stendarr, and Zenithar."
- 
- game_concept_enc_magnus:0 "Magnus"
- game_concept_enc_sun:0 "Sun"
- game_concept_enc_magnus_desc:0 "Known as the God of Magic, Magnus was one of the most powerful Original Spirits, the et'Ada. As [enc_lorkhan|E] convinced the other Aedra to create the Mortal Plane, Magnus was known as the 'Architect of Mundus', due to the diagrams and schematics he drew for the other deities to follow.\n\nAfter learning of Lorkhan's treachery Magnus was among the first, and the most powerful, to decide to leave the newly created mortal plane, tearing a hole through the fabric the edge of Mundus, allowing raw energy from Aetherius to pour unto the plane. Those who decided to follow him, the Magna-Ge, teared their own holes as they followed Magnus, which became known as the stars.\n\nHe is still revered in the Altmeri and Breton pantheons, and followers of Magnus can be found throughout Tamriel."
- 
- game_concept_enc_missing_god:0 "Missing God"
- game_concept_enc_lorkhan:0 "Lorkhan"
- game_concept_enc_shezarr:0 "Shezarr"
- game_concept_enc_shor:0 "Shor"
- game_concept_enc_sheor:0 "Sheor"
- game_concept_enc_sep:0 "Sep"
- game_concept_enc_lorkhaj:0 "Lorkhaj"
- game_concept_enc_lorkh:0 "Lorkh"
- game_concept_enc_tseol:0 "Tseol"
- game_concept_enc_missing_god_desc:0 "The Missing God is a blanket term referring to the deity variously known as Lorkhan, Shezarr, Shor, Sheor, Sep, Lorkhaj, Lorkh or Tseol. So named because he features prominently in most cosmogonies as a casualty of creation, killed by the other gods in their anger at his trickery.\n\nHe convinced his fellow gods to join him in his project to construct a new plane. Halfway through, the Architect Magnus learned the truth of the Missing God's designs and departed, leading an exodus of gods remembered as the Magna-Ge.\n\nThe remaining gods who chose to complete the project and lost most of their powers in the process became the Aedra, the Earthbones and Ehlnofey, the latter of which would eventually become the mortal races.\n\nWhether you revere or abhor him, most agree the Missing God played a pivotal role in enabling the existence of the mortal plane, and as such life as we know it. Opinions diverge whereas the existence of mortal life is a blessing — a position held by most beliefs sympathetic or neutral towards him — or a curse — the stance of most faiths that actively see Mundus as a barrier to immortality and a fall from grace."
- 
+ game_concept_gc_lifespan:0 "Lifespan"
+ game_concept_gc_longlived:0 "Longlived"
+ game_concept_gc_lifespan_desc:0 "The Lifespan traits represent both natural and magicka-related prolonged lifespans. Only the natural lifespan - that is, the lifespan the character had at birth - can be inherited. Magically-altered lifespans are not passed on to children. \n\nLifespan represents how long a character lives, how quickly they age, and how long they are fertile. Aging is represented via character [ek_age_modifiers|E], which can be viewed by hovering over a characters health."
+
  game_concept_tsaescence:0 "Tsaescence"
- game_concept_tsaescence_desc:0 "Tsaescence, or name-biting, is a philosophical endeavour concerned with the loss and acquisition of identity. [rulers|E] belonging to a [faith|E] with the [GetFaithDoctrine('tenet_tsaescence').GetBaseName] [core_tenet|E] can consume prisoners in order to get a chance to inherit one of their captive's [traits|E] or to increase a [skill|E], as well as prolonging their [enc_lifespan|E]."
- 
- game_concept_enc_lifespan:0 "Lifespan"
- game_concept_enc_longlived:0 "Longlived"
- game_concept_enc_lifespan_desc:0 "The Lifespan traits represent both natural and magicka-related prolonged lifespans. Only the natural lifespan - that is, the lifespan the character had at birth - can be inherited. Magically-altered lifespans are not passed on to children. \n\nLifespan represents how long a character lives, how quickly they age, and how long they are fertile. Aging is represented via character [ek_age_modifiers|E], which can be viewed by hovering over a characters health."
-  
- game_concept_aldmeris:0 "Aldmeris"
- game_concept_aldmeris_desc:0 "Aldmeris is the mythical homeland of the Aldmer from which it is said all Mer decend."
- 
- game_concept_sixteen_kingdoms:0 "Sixteen Kingdoms"
- game_concept_sixteen_kingdoms_desc:0 "The Sixteen Kingdoms are the Old Kingdoms of Ancient Elsweyr before they were consolidated into Anequina and Pellitine."
- 
- game_concept_dawn_era:0 "Dawn Era"
- game_concept_dawn_era_desc:0 "The Dawn Era was a period during which time followed an incomprehensible nonlinear path and the very laws of nature remained unset. It was followed by the [merethic_era|E]."
- 
- game_concept_merethic_era:0 "Merethic Era"
- game_concept_merethic_era_desc:0 "The Merethic Era also known as the Era of Myths. It ended when Eplear Camoran united Valenwood and forged the First known Kingdom and ushered in the [first_era|E]."
- 
- game_concept_first_era:0 "First Era"
- game_concept_first_era_desc:0 "The First Era was preceded by the [merethic_era|E] and lasted for thirty centuries, ending with the assassination of Emperor Reman III and his heirs by the hands of the Morag Tong and leading to the rise of the First Akaviri Potentate."
- 
- game_concept_ragada:0 "Ra'Gada"
- game_concept_ragada_desc:0 "Ra'Gada is Yokudan for 'Warrior Wave', an umbrella term which refers to four successive waves of Yokudan settlers, invaders, and colonisers of Hammerfell, who later became the Redguards."
- 
- game_concept_narfinsel_schism:0 "Narfinsel Schism"
- game_concept_narfinsel_schism_desc:0 "The root of the Narfinsel Schism is nigh impossible to pinpoint and the historians have long since ceased to try. It is known for a fact, however, that it was already in full swing by the late Merethic Era. The Schism began the twilight of the Imperatum Saliache and the Ayleid civilization as a whole. Some would call it a civil war and they would technically be correct. Multiple centuries of proxy feiting and bloody struggle between Aedra-worshipping Barsaebic and Daedra-worshipping Atataric factions served to unseam and polarize the Ayleid society, and empty Ald-Cyrod of much innocent blood.To the contemporaries, the Narfinsel hostilities seemed to never end, but like all things, they too came to pass. In 1E 198, the Aran of Atatar crushed the Aedraphiles in the infamous Scouring of Wendelbek, rendering the movement weak and disorganized. The Barsaebic vestiges fled Southeast, towards the Argonian borderlands of Shadowfen, Blackwood, and Keener Coast. This marked the triumph of the Atatarics and the unconditional primacy of Daedra worship in Cyrodiil until the Alessian Rebellion in 1E 242, not even half a century after the climax of the Schism."
+ game_concept_tsaescence_desc:0 "Tsaescence, or name-biting, is a philosophical endeavour concerned with the loss and acquisition of identity. [rulers|E] belonging to a [faith|E] with the [GetFaithDoctrine('tenet_tsaescence').GetBaseName] [core_tenet|E] can consume prisoners in order to get a chance to inherit one of their captive's [traits|E] or to increase a [skill|E], as well as prolonging their [gc_lifespan|E]."
 
  game_concept_important_character:0 "Important Character" #none of the existing one seem to give it without adding titles
  game_concept_important_character_desc:0 "A historical figure of note or renown"
@@ -273,12 +225,6 @@
 
  game_concept_undead_faction:0 "$FACTION_UNDEAD_NAME$"
  game_concept_undead_faction_desc:2 "The $game_concept_undead_faction$ is populated by [counties|E] overrun by undead of all kinds. Successful Undead Hordes will take land from your [realm|E] for their own."
- 
- game_concept_praxis:0 "Praxis"
- game_concept_praxis_desc:0 "Praxis is the measurement of a character's conformity to the strict standards of 'The Path to Alaxon' - an Altmeri philsophy emphasising the search for perfection. \n\nConforming to these social expectations ensures harmony within realm. Those who stray from the path may have an easier personal life - but risk social ostracism. \n\nA ruler will be judged for their Praxis by their behaviour at public events such as attending a [feast|E] or [holding_court|E]."
-
- game_concept_praxis_government:0 "Ceremoniarchy"
- game_concept_praxis_government_desc:0 "Ceremoniarchy is a complicated system of rites and customs centering around the pursuit of Aldmeris. While similar in many respects to other feudal monarchies, with subjects providing their liege with [soldiers|E] and [taxes|E], there is also an expectation that all members of society conform to the rigid social roles and stratification laid out by Altmeri philsophy."
 
  game_concept_great_house_value:0 "House Values"
  game_concept_great_house_value_desc:0 "Traditionally, each Great House has been associated with certain values, such that candidates vying for House leadership should display certain educations or personal skillsets.\n\nThe House Values are as such:\n- Dres: [martial_i][martial|E] and [stewardship_i][stewardship|E]\n- Hlaalu: [diplomacy_i][diplomacy|E] and [stewardship_i][stewardship|E]\n- Indoril: [diplomacy_i][diplomacy|E] and [learning_i][learning|E]\n- Redoran: [martial_i][martial|E] and [learning_i][learning|E]\n- Telvanni: [intrigue_i][intrigue|E] and [arcana_i][arcana|E]"
@@ -289,3 +235,13 @@
  game_concept_ek_age_modifiers_advanced:0 "Advanced Age"
  game_concept_ek_age_modifiers_borrowed:0 "Borrowed Time"
  game_concept_ek_age_modifiers_desc:0 "Aging modifiers represent a character's declining health as they age. The number next to the modifier indicates the equivalent to the current modifier in human years."
+
+ game_concept_holiday_calendar:0 "Holiday Calendar"
+ game_concept_holiday:0 "Holiday"
+ game_concept_holiday_calendar_desc:0 "The many cultures in Tamriel celebrate the passage of time in different ways. Those celebrations are organised in a [holiday|E] Calendar. They include:\n\n$EFFECT_LIST_BULLET$#V New Life Festival#!: The New Life Festival is a vibrant Tamriel-wide celebration, honoring the birth of a new year with races, feasts, games, and dances. It is celebrated in the month of Morning Star (1).\n\n$EFFECT_LIST_BULLET$#V Jester's Festival#!: The Jester's Festival, a mischievous holiday, brings laughter and chaos to Tamriel as jesters roam the streets, towns indulge in pranks, and games with humorous rewards are played. It is celebrated in the month of Rain's Hand (4) and are exclusive to cultures with the Court Jester position available."
+
+ game_concept_daedric_curse:0 "Curse"
+ game_concept_daedric_curse_desc:0 "Daedric curses are inflicted upon mortals who offend the Daedric Princes in some way. To get rid of them, one must go through a [pilgrimage|E] or procure someone with the magical ability to cast the Lift Curse spell."
+
+ game_concept_curse:0 "$game_concept_daedric_curse$"
+ game_concept_curse_desc:0 "$game_concept_daedric_curse_desc$"

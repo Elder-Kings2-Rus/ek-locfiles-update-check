@@ -1,6 +1,6 @@
 ﻿l_english:
 
- default_culture_desc:0 "[Culture.GetNameNoTooltip] diverged from its parent culture in recent memory."
+ default_culturedesc:0 "[Culture.GetNameNoTooltip] diverged from its parent culture in recent memory."
 
 ###### BLACK MARSH ######
  archonese_name:0 "Archonese" #Nibenese + Horwalli
@@ -164,7 +164,7 @@
 
  south_wealder_name:0 "Wealdish" #Colovians in Arenthia
  south_wealder_collective_noun:0 "Wealdish"
- south_wealder_prefix:0 "Wealdish"
+ south_wealder_prefix:0 "Weald"
 
 ###### SUMMERSET ISLES ######
  crystal_orc_name:0 "Crystal-Like-Orc"

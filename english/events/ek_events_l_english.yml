@@ -64,7 +64,6 @@
  ek_court.0003.desc24:0 ""Some demand that the Imga show themselves. M'aiq answer that the Imga will reveal themselves when they can be represented in a proper fashion.""
  ek_court.0003.desc25:0 ""Trade routes? Why would Khajiit want a specific route for trade to travel, when it could go anywhere it wants?""
  ek_court.0003.desc26:0 ""M'aiq spent a long, long time in Skyrim. He got in trouble there and became a prisoner quite often, but luckily, he was re-released over and over.""
- ek_court.0003.desc26:0 ""Some say great ships can travel the Niben. How they can pass the great bridges of Leyawiin is a mystery to M'aiq.""
  ek_court.0003.desc27:0 ""M'aiq thought he saw a Snow Elf once. But he looked again, and it was only a mage.""
  ek_court.0003.desc28:0 ""Bandits? M'aiq knows nothing of bandits, but they must indeed be hounds.""
  ek_court.0003.desc29:0 ""People in Tamriel used to greatly appreciate the arts. M'aiq remembers when practically everyone owned a portrait of themselves.""
@@ -88,6 +87,8 @@
  ek_court.0003.desc47:0 ""M'aiq cannot quite tell the difference between the sour-faced Dunmer and Dremora. It seems neither could some conjurers, back in the old days."" 
  ek_court.0003.desc48:0 ""M'aiq does not see the point of being a vampire.  M'aiq's legacy already lives forever.""
  ek_court.0003.desc49:0 ""Many people accuse M'aiq of worshipping Boethra, even Boethra herself. M'aiq does not understand why. Perhaps she is lying.""
+ ek_court.0003.desc50:0 ""There are many Khajiit in Morrowind, yes? Perhaps at one point, the two provinces were much closer than they are now?."" # This is a reference to a longstanding bug which made Morrowind and Elsweyr border each other.
+ ek_court.0003.desc51:0 ""Some say great ships can travel the Niben. How they can pass the great bridges of Leyawiin is a mystery to M'aiq.""
  ek_court.0003.a:0 "That was... interesting."
 
  ek_court.0004.t:0 "$hold_court_header$ Last of His Kind"
@@ -552,7 +553,6 @@
  convert_to_vampire_key:0 "Turn into Vampire"
  convert_to_vampire_interaction:1 "$convert_to_vampire_key$ #weak (Scheme)#!"
  convert_to_vampire_interaction_desc:0 "Attempt to turn [recipient.GetShortUINameNoTooltip] into a Vampire"
- convert_to_vampire:2 "$convert_to_vampire_key$"
  convert_to_vampire_desc:0 "I will turn [SCHEME.GetTarget.GetShortUINameNoTooltip] into a Vampire and show [SCHEME.GetTarget.GetHerHim] the true extent of our power."
  convert_to_vampire_desc_general:0 "Turn a target into a vampire and show them the extent of this power."
  convert_to_vampire_action:0 "Turn"
@@ -617,7 +617,6 @@
  convert_to_lycan_key:0 "Turn into Werebeast"
  convert_to_lycan_interaction:1 "$convert_to_lycan_key$ #weak (Scheme)#!"
  convert_to_lycan_interaction_desc:0 "Attempt to turn [recipient.GetShortUINameNoTooltip] into a Werebeast"
- convert_to_lycan:2 "$convert_to_lycan_key$"
  convert_to_lycan_desc:0 "I will turn [SCHEME.GetTarget.GetShortUINameNoTooltip] into a Werebeast and show [SCHEME.GetTarget.GetHerHim] the true extent of our power."
  convert_to_lycan_desc_general:0 "Turn a target into a lycan and show them the extent of this power."
  convert_to_lycan_action:0 "Turn"

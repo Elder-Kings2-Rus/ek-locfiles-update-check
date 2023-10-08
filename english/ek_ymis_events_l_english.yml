@@ -1,4 +1,13 @@
 ﻿l_english:
+ ek_magic_ai_events.0004.t:0 "Magic Instructions"
+ ek_magic_ai_events.0004.desc:0 "[court_mage.GetFirstName|U] may be well-versed in the arcane arts, but it is the duty of a ruler to familiarize themselves with the actions of their subjects - and keep a close eye on them if needed. The deeds of my court mage will reflect upon me and my entire realm. Thus, it is time to decide how [court_mage.GetFirstNameNoTooltip] should use [court_mage.GetHerHis] abilities. \n\nCan [court_mage.GetSheHe] be allowed to decide on the use of spells without my direct orders, or shall I retain full control about that?\n\nIt could be wise to at least advise against the use of hostile spells if I want to avoid provoking further hostilities."
+ ek_magic_ai_events.0004.a:0 "I trust you to act wisely upon your own."
+ ek_magic_ai_events.0004.a.tt:0 "[court_mage.GetFirstNameNoTooltip|U] will try to balance out hostile spells against your enemies and beneficial spells for your own realm."
+ ek_magic_ai_events.0004.b:0 "Act independently but don't use hostile spells."
+ ek_magic_ai_events.0004.b.tt:0 "[court_mage.GetFirstNameNoTooltip|U] will only use spells to your benefit and will abstain of any harmful magic."
+ ek_magic_ai_events.0004.c:0 "Cast only on my direct orders."
+ ek_magic_ai_events.0004.c.tt:0 "You have to order [court_mage.GetFirstNameNoTooltip] directly through the spellbook if you want [court_mage.GetHerHim] to use magic."
+
  ek_ymis_events.0001.t:0 "The Old Orc"
  ek_ymis_events.0001.desc:0 "A shouting match disrupts an otherwise peaceful day. My guards are arguing at the gates with someone demanding to be let in. It turns out to be an old, battle-hardened orc, whom I have never seen before. I decide to intervene before things get out of hand.\n\nThe orc greets me respectfully as I approach him. “My [ROOT.Char.GetLadyLord], I am here to ask for a favor: I am growing older every day and cannot bear the prospect of a peaceful death. It is my greatest wish to die in battle, but no one is able to best me in combat. Your skill with the blade is well known. Will you meet me in a duel to the death and try to send my soul to the Ashen Forge?”"
  ek_ymis_events.0001.a:0 "Join me instead. There will be plenty of opportunities to die in battle."
@@ -93,7 +102,7 @@
 
  ek_ymis_events.0018.t:0 "A Poor Performance"
  ek_ymis_events.0018.desc:0 "What a disappointment! What a disgrace! [visiting_artist.GetFirstName|U] has committed more gaffes and faux pas today than these walls bore witness to in years! It's difficult to even come up with excuses for [visiting_artist.GetHerHim], and [visiting_artist.GetSheHe] is perhaps the worst artist I have seen in a long while.\n\nUnsavory rumors shall surely spread about me after I gave [visiting_artist.GetHerHim] an opportunity to perform in front of my court. Now I am wondering how to proceed with [visiting_artist.GetFirstNameNoTooltip] after this disaster."
- ek_ymis_events.0018a:0 "Appoint this dilettante [visiting_artist.GetHerHim] as my court jester."
+ ek_ymis_events.0018a:0 "Appoint this dilettante as my court jester."
  ek_ymis_events.0018b:0 "To stray this far from Alaxon is a crime that should be punsihed!"
  ek_ymis_events.0018c:0 "Just get [visiting_artist.GetHerHim] out of my sight!"
 
@@ -238,7 +247,7 @@
  # experimentalist Trait
  stress_threshold.1001.experimentalist.gain:0 "My knowledge can make this world a better place."
  stress_threshold.1001.experimentalist.effect:0 "I need some time in my laboratory."
- stress_threshold.1504.g:0 "Time to find something else to do."
+ stress_threshold.1504.i:0 "Time to find something else to do."
  stress_threshold.1601.experimentalist.gain:0 "I need to decipher the mysteries of this existence!"
  stress_threshold.1601.experimentalist.effect:0 "Spending some time in my laboratory always calms my mind"
  stress_threshold.1701.g.experimentalist.gain:0 "I must forget about these thoughts through some new experiments."

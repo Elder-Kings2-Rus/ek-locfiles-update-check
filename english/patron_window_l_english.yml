@@ -332,8 +332,8 @@
  desc_noctra:0 "Born from the black blood of Lorkhaj at the steps of the Void Gate, Noctra's name is whispered  for silence, shade, and luck."
 
 # Living Law
-desc_jefr:0 "The exacting leaf-god of Language and Proper Tones who lives in a bone-tomb deep underground and shouts commandments and imperatives into the roots of trees. He minted the first words and put them into empty throats of living things, a feat that earns him respect in spite of his weak Law."
-desc_asuura:0 "The fickle spinner-goddess of Nets and Fates who rules the Diurnality of Cats and the Dominion of Ashes. Once spurned by them, she tests the Fox-folk with unfavorable deals and ill passions, and her rewards may be both rich and dubious."
+ desc_jefr:0 "The exacting leaf-god of Language and Proper Tones who lives in a bone-tomb deep underground and shouts commandments and imperatives into the roots of trees. He minted the first words and put them into empty throats of living things, a feat that earns him respect in spite of his weak Law."
+ desc_asuura:0 "The fickle spinner-goddess of Nets and Fates who rules the Diurnality of Cats and the Dominion of Ashes. Once spurned by them, she tests the Fox-folk with unfavorable deals and ill passions, and her rewards may be both rich and dubious."
 
 # Forgotten Gods
  god_fg_notorgo_name:0 "Notorgo"
@@ -359,13 +359,13 @@ desc_asuura:0 "The fickle spinner-goddess of Nets and Fates who rules the Diurna
 
 # Magna-Ge
  god_mg_mnemoli_name:0 "Mnemo-Li"
- desc_mg_mnemoli:0 "Mnemo-Li, the Blue Coruscation, once reckoned time past and future among the Magna-Ge, but on turning her back on Mundus instead became the sole goddess with knowledge and power over un-time. She perceives times that were not, and secret invocations of her are connected to unspeakable rituals to create untrackable, broken periods of time."
+ desc_mg_mnemoli:0 "Mnemo-Li, the Blue Coruscation. On turning her back on Mundus she became the sole goddess with knowledge and power over un-time. She perceives times that were not, and secret invocations of her are connected to unspeakable rituals to create untrackable, broken periods of time."
  god_mg_xerolyg_name:0 "Xero-Lyg"
- desc_mg_xerolyg:0 "Xero-Lyg, the Red Coruscation, once surveyed space in its greatest expanse and smallest detail, but on fleeing the treachery of Lorkhan instead became the lady that walks the un-spaces, places adjacent and unreal and those removed from Tamriel only by happenstance of reality. Xero-Lyg's name is invoked in studying these transkalpic geographies."
+ desc_mg_xerolyg:0 "Xero-Lyg, the Red Coruscation. On fleeing the treachery of Lorkhan she became the lady that walks the un-spaces, places adjacent and unreal and those removed from Tamriel only by happenstance of reality. Xero-Lyg's name is invoked in studying these transkalpic geographies."
  god_mg_meridia_name:0 "Merid-Nunda"
- desc_mg_meridia:0 "Merid-Nunda, the Yellow Coruscation, is first among the daughters of Magnus. Some believe that she alone takes an active role in mortal affairs as she represents the desires of the Magna-Ge to steward the living energies that arose from the designs of Magnus. Rumours that Merid-Nunda is a long dead star, or has burned into something else entirely, are whispered in confidence."
+ desc_mg_meridia:0 "Merid-Nunda, the Yellow Coruscation, first daughter of Magnus. Some believe that she represents the desires of the Magna-Ge to steward the living energies that arose from the designs of Magnus. Rumours that Merid-Nunda is a long dead star or has burned into something else entirely, are sometimes heard in whisper."
  god_mg_magnus_name:0 "Magnus"
- desc_mg_magnus:0 "Magnus, the Architect, is king and father of the Magna-Ge. His expansive mind conceived all structure in the Mundus, and his sage judgement resolved to abandon it for what it was. Despite his escape, his face is turned at all times towards the creation he cannot forget, and magicka comes down to us from his abode in Aetherius."
+ desc_mg_magnus:0 "Magnus, the Architect, is king and father of the Magna-Ge. His expansive mind conceived all structure in Mundus, and but also resolved to abandon it for what it was. Despite his escape his face is turned at all times towards the creation he cannot forget, and Magicka comes down to us from his abode in Aetherius."
 
 # Ten Ancestors/Ilpenada
  god_ta_meridia_name:0 "Merid-Nunda"

@@ -24,10 +24,17 @@
  cn_brirmarch_adj:0 "Brirmarch"
  cn_brir:0 "Brir"
  cn_brir_adj:0 "Brir"
- cn_jerhan:0 "Jerhan"
- cn_jerhan_adj:0 "Jerhan"
- cn_lar_druaid:0 "Lar Druaid"
- cn_lar_druaid_adj:0 "Lar Druaid"
+ cn_jelhana:0 "Jelhana"
+ cn_jelhana_adj:0 "Jelhana"
+ cn_lar_druaid:0 "Lar Druaid" # Reachfolk k_Jehanna
+ cn_dru_druad:0 "Dru Druaid" # Reachfolk d_Jehanna
+ cn_cul_druaid:0 "Cul Druaid" # Reachfolk c_Jehanna
+ cn_lar_farun:0 "Lar Farun" # Reachfolk k_Farrun
+ cn_dru_farun:0 "Dru Farun" # Reachfolk d_Farrun
+ cn_cul_farun:0 "Cul Farun" # Reachfolk c_Farrun
+ cn_lar_wrogar:0 "Lar Wrogar" # Reachfolk k_Wrothgar
+ cn_cul_aloue:0 "Cul Aloue" # Reachfolk c_Coldperch
+ cn_jehenna:0 "Jehenna" # PGE3/Skyrim name for Jehanna
  cn_jehann:0 "Jehann"
  cn_jehann_adj:0 "Jehann"
  cn_gauvadon:0 "Gauvadon"
@@ -50,8 +57,8 @@
  cn_skalar_adj:1 "Skalar"
  cn_honor_rest:1 "Honor's Rest"
  cn_honor_rest_adj:1 "Honor's Rest"
- cn_pagorda:1 "Pagorda"
- cn_pagorda_adj:1 "Pagorda"
+ cn_pagorda:1 "Rhalta Keep"
+ cn_pagorda_adj:1 "Rhaltan"
  cn_dwynnen:1 "Dwynnen"
  cn_dwynnen_adj:1 "Dwynnen"
  cn_urvaius:1 "Urvaius"
@@ -72,6 +79,12 @@
  cn_evermor_adj:0 "Evermor"
  cn_anticlere:0 "Anticlere"
  cn_anticlere_adj:0 "Anticlere"
+ cn_oirrad:0 "Oirrad"
+ cn_oirrad_adj:0 "Oirrad"
+ cn_Ain_Kolur:0 "Ain Kolur" # Bjoule Name for Murcien
+ cn_wroth_naga:0 "Wroth Naga" # Hamlet from 2920 Vol 8
+ cn_caladan:0 "Castle Caladan" # PTR name for the Castle of Trowbridge
+ cn_trowbridge:0 "Trowbridge" # from A tale of Kieran
 #Ayleid
  cn_bisnensel:0 "Bisnensel"
  cn_bisnenselaran:0 "Bisnensel Aran Arpena"
@@ -87,6 +100,10 @@
 ##################
  cn_drangstor:0 "Drangstor"
  cn_drangstor_adj:0 "Drangstoran"
+ cn_drangstor_west:0 "Drangstor West"
+ cn_drangstor_west_adj:0 "Drangstoran"
+ cn_drangstor_east:0 "Drangstor East"
+ cn_drangstor_east_adj:0 "Drangstoran"
  cn_sanloa_mkai:0 "Sanloa M'Kai"
  cn_sanloa_mkai_adj:0 "Sanloa M'Kai"
  cn_scar:0 "Scar"
@@ -143,7 +160,7 @@
  cn_vtholftenzel_adj:0 "Vtholftenzel"
  cn_hrammafel:0 "Hrammafel"
  cn_jephre_path:0 "Jephre's Path"
- cn_mitana_mkai:0 "Mitana M'kai"
+ cn_mitana_mkai:0 "Mitana M'Kai"
 
 
 ##############
@@ -187,8 +204,6 @@
  cn_falmereth_adj:0 "Falmeris"
  cn_hjaalvale:0 "Hjaalvale"
  cn_hjaalvale_adj:0 "Hjaalvale"
- cn_khazgur:0 "Khazgur"
- cn_khazgur_adj:0 "Khazgur"
  cn_mor_khazgur:0 "Mor Khazgur"
  cn_mor_khazgur_adj:0 "Mor Khazgur"
  cn_dushnikh:0 "Dushnikh"
@@ -257,7 +272,7 @@
 ################
 ### Cyrodiil ###
 ################
- cn_imperium_saliache:0 "Imperium Saliache"
+ cn_imperium_saliache:0 "Imperatum Saliache"
  cn_imperium_saliache_adj:0 "Saliache"
  cn_imperium_saliache_article:0 "The "
  cn_varsa_baalim:0 "Varsa Baalim"
@@ -458,14 +473,14 @@
  cn_wenyandawik_adj: "Wenyandawik"
  cn_nenyond_twyll: "Nenyond Twyll"
  cn_nenyond_twyll_adj: "Nenyond Twyll"
- cn_abargalas: "Abargalas"
- cn_abargalas_adj: "Abargalas"
+ cn_abagarlas: "Abagarlas"
+ cn_abagarlas_adj: "Abagarlas"
  cn_aurus: "Aurus"
  cn_aurus_adj: "Aurus"
  cn_cedrian: "Cedrian"
  cn_cedrian_adj: "Cedrian"
  cn_wenayasille: "Wenayasille"
- cn_wenayasille: "Wenayasille"
+ cn_wenayasille_adj: "Wenayasille"
  cn_fanacas: "Fanacas"
  cn_fanacas_adj: "Fanacas"
  cn_welyond: "Welyond"
@@ -540,6 +555,7 @@
  cn_nivenpest:0 "Nivenpest"
  cn_levinu:0 "Levinu"
  cn_torlevinu:0 "Torlevinu"
+ cn_yirpa:0 "Yirpa"
 
 #################
 ### Summerset ###
@@ -609,7 +625,6 @@
  cn_olmgerdheim:0 "Olmgerdheim"
  cn_olmgerds_landing:0 "Olmgerd's Landing"
  cn_ramimilk:0 "Ramimilk"
- cn_mala_tor:0 "Mala Tor"
 
 #################
 ### Valenwood ###
@@ -703,7 +718,7 @@
  cn_nequinal:0 "Ne-Quin-Al"
  cn_nequinal_adj:0 "Ne-Quinīt"
  cn_paalatiin:0 "Paalatiin"
- cn_paalatiin:0 "Paalatīt"
+ cn_paalatiin_adj:0 "Paalatīt"
 #Cyrodiilic
  cn_rim:0 "The Rim"
  cn_senchel:0 "Senchel"
@@ -731,6 +746,7 @@
 ###################
 ### Black Marsh ###
 ###################
+ cn_orma_la: "Ormala"
  cn_orma_ka: "Ormaka"
  cn_orma_ko: "Ormako"
  cn_orma_ke: "Ormake"
@@ -748,7 +764,6 @@
  cn_arlis:0 "Arlis"
  cn_serpendamath:0 "Serpendamath"
  cn_tormora:0 "Tormora"
- cn_tormora:0 "Tormora Xanmeer"
  cn_ninen:0 "Ninen"
  cn_ceyrod:0 "Ceyrod"
  cn_ceynen:0 "Ceynen"

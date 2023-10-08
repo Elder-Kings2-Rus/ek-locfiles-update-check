@@ -45,7 +45,6 @@
  send_to_varangian_guard_interaction_effect_desc:1 "#weak While serving in the Imperial Legion, [CHARACTER.GetShortUIName] might increase [CHARACTER.GetHerHis] [skills|E] or gain [traits|E] — but [CHARACTER.GetSheHe] might also become wounded, or worse. [CHARACTER.GetSheHe|U] will return within a few years, but cannot be recalled.#!"
 
  lover_varangian_local:0 "[CHARACTER.GetShortUIName|U] met [TARGET_CHARACTER.GetShortUIName], a local, while serving in the Imperial Legion."
- lover_varangian_local_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] met [CHARACTER.GetShortUIName], a local, while serving in the Imperial Legion."
  
  rival_varangian:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] started despising each other while serving together in the Imperial Legion."
  best_friend_varangian:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] formed an unbreakable bond while serving together in the Imperial Legion."

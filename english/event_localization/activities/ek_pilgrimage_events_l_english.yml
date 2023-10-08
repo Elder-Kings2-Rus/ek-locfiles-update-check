@@ -25,7 +25,7 @@
  ek_pilgrimage.0002.b:0 "I'm not worthy, my Lord."
 
  ek_pilgrimage.0003.t:0 "The Bloodstone Shrine"
- ek_pilgrimage.0003.desc:0 "A pilgrimage can be a difficult ordeal, but some pilgrims take a more extreme approach. I've noticed a trail of blood coming from the feet of some pilgrims and I've wondered about that until I stopped one of them to ask them if they needed a physician.\n\nWith a sigh and a pained voice, [hetman.GetSheHe] answered me that was a proof of devotion to the Tribunal. They were using special footwear that pierced and cut their feet, to make them feel the pain of the martyrs. That practice created a bloodstone, which would be offered in a shrine on the way to [destination_title.GetNameNoTierNoTooltip]."
+ ek_pilgrimage.0003.desc:0 "A pilgrimage can be a difficult ordeal, but some pilgrims take a more extreme approach. I've noticed a trail of blood coming from the feet of some pilgrims and I've wondered about that until I stopped one of them to ask them if they needed a physician.\n\nWith a sigh and a pained voice, [hetman.GetSheHe] answered me that was a proof of devotion to the Tribunal. They were using special footwear that pierced and cut their feet, to make them feel the pain of the martyrs. That practice created a bloodstone, which would be offered in a shrine on the way to [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]."
  ek_pilgrimage.0003.a:0 "For Saint Veloth! I shall undertake this ordeal!"
  ek_pilgrimage.0003.a.tt:0 "You ask for one of the pilgrimage shoes and start following the trail of dried blood."
  ek_pilgrimage.0003.b:0 "Those people are insane!"
@@ -89,17 +89,17 @@
  ek_pilgrimage.0013.a:0 "Offer a soul gem at the shrine."
  ek_pilgrimage.0013.b:0 "Nod and carry on."
 
- ek_pilgrimage.0014.t:0 "Rilms's Grace"
+ ek_pilgrimage.0014.t:0 "Rilms' Grace"
  ek_pilgrimage.0014.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. They were the shoes that St. Rilms gave away in order to humble herself and give our people an everlasting example of generosity. Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Barefooted Saint."
  ek_pilgrimage.0014.a:0 "Bless Saint Rilms! Bless the beggars and the pilgrims!"
  ek_pilgrimage.0014.b:0 "I'm not worthy, great Saint."
 
  ek_pilgrimage.0015.t:0 "Aralor's Intervention"
- ek_pilgrimage.0015.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the hair shirt that St. Aralor himself used. Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Penitent Saint."
+ ek_pilgrimage.0015.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the hair shirt that St. Aralor himself used! Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Penitent Saint."
  ek_pilgrimage.0015.a:0 "Bless Saint Aralor! Bless the tanners and the miners!"
  ek_pilgrimage.0015.b:0 "I'm not worthy, great Saint." 
 
- ek_pilgrimage.0016.t:0 "Felms's Glory"
+ ek_pilgrimage.0016.t:0 "Felms' Glory"
  ek_pilgrimage.0016.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the cleaver which belonged to St. Felms himself! Oh, joyous day! I fall to my knees and start a fervorous prayer while tears roll down my face.\n\nTouching it moves me so much that I consider also devouting myself to the Bold Saint."
  ek_pilgrimage.0016.a:0 "Bless Saint Felms! Bless the butchers and the fishmongers!"
  ek_pilgrimage.0016.b:0 "I'm not worthy, great Saint." 
@@ -109,4 +109,8 @@
  ek_pilgrimage.0017.a:0 "Bless Saint Llothis! Bless the tailors and the dyers!"
  ek_pilgrimage.0017.b:0 "I'm not worthy, great Saint." 
 
+ ek_pilgrimage.1018.t:0 "The Sword of the Crusader"
+ ek_pilgrimage.1018.desc:0 "While heading towards my destination in the pilgrimage, I spot a bright shimmer in the distance, almost like it was calling me from afar.\n\nAs I approach the site, I immediately recognise the object that was emitting such a bright light. It was the sword that Pelinal Whitestrake carried into battle, made by Arkay himself. Oh, joyous day! I fall to my knees and start a fervorous prayer to my patron god. Touching it reveals an inscription on the rock behind it:\n\n#F "Honor the earth, its creatures, and the spirits, living and dead. Guard and tend the bounties of the mortal world, and do not profane the spirits of the dead." #! "
+ ek_pilgrimage.1018.a:0 "Praise Arkay!"
+ ek_pilgrimage.1018.b:0 "I'm not worthy, my Lord."
  

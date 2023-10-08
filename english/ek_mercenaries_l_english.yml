@@ -45,8 +45,6 @@
  mercenary_knights_phalanx_article:0 "the "
  mercenary_knights_auxiliaries:0 "Auxiliaries of [TITLE.GetNameNoTierNoTooltip]"
  mercenary_knights_auxiliaries_article:0 "the "
- mercenary_knights_retainers:0 "[TITLE.GetNameNoTierNoTooltip] Retinue"
- mercenary_knights_retainers_article:0 "the "
  mercenary_knights_marine:0 "[TITLE.GetNameNoTierNoTooltip] Marines"
  mercenary_knights_marine_article:0 "the "
  mercenary_knights_squadron:0 "[TITLE.GetNameNoTierNoTooltip] Squadron"

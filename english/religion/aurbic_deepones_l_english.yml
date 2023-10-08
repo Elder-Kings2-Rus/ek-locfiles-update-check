@@ -90,8 +90,8 @@
 # Xrib
  xrib:0 "Temple of Xrib"
  xrib_adj:0 "Temple of Xrib"
- xrib_adherent:0 "listener"
- xrib_adherent_plural:0 "listeners"
+ xrib_adherent:0 "Listener"
+ xrib_adherent_plural:0 "Listeners"
  xrib_desc:0 "The Temple of Xrib is a gruesome mystery cult found among the Betrayed focused on its namesake insectoid deity of caverns and gifts of the earth. Its followers believe that Xrib scuttles countless miles underground and sends up treasure to those who placate it by relinquishing people and valued things to the ground. Xrib priesthood communicates with this bizarre and elusive god through lengthy and exhausting songs, carefully listening for patterns and unnatural changes in the returning echoes. The Temple of Xrib kills to live and destroys to prosper."
  xrib_house_of_worship:0 "temple"
  xrib_house_of_worship_plural:0 "temples"

@@ -86,7 +86,7 @@
  imperial_cult_adj:0 "Imperial Cult"
  imperial_cult_adherent:0 "Imperial Cultist"
  imperial_cult_adherent_plural:0 "Imperial Cultists"
- imperial_cult_desc:0 "The worship of the [enc_divines|E] has changed since Alessia's rebellion, but the belief in the Eight and of the Covenant with Akatosh still shapes the beliefs of Cyrodiil. Local beliefs and Hero Gods can still be found throughout the province, and it is said that the Imperial City is home to a thousand cults..."
+ imperial_cult_desc:0 "The worship of the #LORE [compendium_divines]#! has changed since Alessia's rebellion, but the belief in the Eight and of the Covenant with Akatosh still shapes the beliefs of Cyrodiil. Local beliefs and Hero Gods can still be found throughout the province, and it is said that the Imperial City is home to a thousand cults..."
  imperial_cult_religious_head_title:0 "Arch-Prelate"
  imperial_cult_religious_head_title_name:0 "Chapel of Cyrodiil"
  imperial_cult_creator_god_name:0 "$god_the_divines_name$"

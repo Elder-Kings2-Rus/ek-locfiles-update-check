@@ -61,8 +61,8 @@
  birth.1003.b:0 "May you grow strong and wise!"
 
  birth.1005.t:0 "Fatherless"
- birth.1005.desc.twin:0 "My beautiful children are resting, unaware of the challenging life they have been born into. The world does not know who their father is, and they might never know themselves."
- birth.1005.desc:0 "My beautiful [child.Custom('GetDaughterSon')] is resting, unaware of the challenging life [child.GetSheHe] has been born into. The world does not know who [child.GetHerHis] father is, and [child.GetSheHe] might never know [child.GetHerselfHimself]."
+ birth.1005.desc.twin:0 "My beautiful children are resting, unaware of the challenging life they have been born into. The world does not know who their father is, and they might never know themselves.\n\n"
+ birth.1005.desc:0 "My beautiful [child.Custom('GetDaughterSon')] is resting, unaware of the challenging life [child.GetSheHe] has been born into. The world does not know who [child.GetHerHis] father is, and [child.GetSheHe] might never know [child.GetHerselfHimself].\n\n"
  birth.1005.a:0 "It is the burden we must bear."
 
  birth.1006.t:0 "Bastard Born"

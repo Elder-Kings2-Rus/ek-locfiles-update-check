@@ -26,7 +26,7 @@
  mbhof_succession_law:0 "Mystical Birthright"
  mbhof_succession_law_subname:0 "The divine decides who will succeed us"
  mbhof_succession_law_effects:0 "\n#V Under $mbhof_succession_law$ [succession], a successor chosen by the current [head_of_faith|E] will inherit.\n\n$mbhof_succession_base_desc$"
- mbhof_succession_base_desc:0 "#weak Under $mbhof_succession_law$ [succession], a successor [head_of_faith|E] is chosen among the faithful, if they have the [GetTrait('mystic_3').GetName(GetNullCharacter)] trait. A new successor is chosen when the current [head_of_faith|E] or the successor dies.#!"
+ mbhof_succession_base_desc:0 "#weak Under $mbhof_succession_law$ [succession], a successor [head_of_faith|E] is chosen among the faithful, if they have the [GetTrait('lifestyle_mystic').GetName(GetNullCharacter)] trait. A new successor is chosen when the current [head_of_faith|E] or the successor dies.#!"
  
  rule_by_might_succession_law:0 "Rule by Might"
  rule_by_might_succession_law_subname:0 "Only the strongest shall lead us"
@@ -34,9 +34,9 @@
  rule_by_might_succession_law_base_desc:0 "#weak Under $rule_by_might_succession_law$ [succession], the current ruler designates their [primary_heir|E] among all the eligible children.\n\nUpon succession, other children with a similar or higher [prowess|E] can challenge the new ruler, or leave in exile.\n\nChildren of non-eligible genders can contest the succession if their [prowess|E] is high enough.#!"
 
 #Miscenalleous 
-tooltip_feudal_elector_vote_knighthood:0 "Warrior of our people: $VALUE|=+0$"
-tooltip_feudal_elector_vote_conceded_election:0 "[candidate.GetSheHe|U] has no desire to be elected: $VALUE|=+0$"
-tooltip_feudal_elector_vote_conceded_election_myself:0 "I have no desire to be elected: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_knighthood:0 "Warrior of our people: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_conceded_election:0 "[candidate.GetSheHe|U] has no desire to be elected: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_conceded_election_myself:0 "I have no desire to be elected: $VALUE|=+0$"
 
  concede_election_decision:0 "Abstain from Elections"
  concede_election_decision_desc:0 "#F Electors may like me, but I don't want any elective titles.#!"

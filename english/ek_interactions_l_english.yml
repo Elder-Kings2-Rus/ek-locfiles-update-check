@@ -19,8 +19,8 @@
  
  challenge_to_single_combat_interaction.on_decline_low_learning.tt:0 "As [actor.GetShortUINamePossessive] [learning|E] is too low #N (below 10)#! [recipient.GetShortUIName] can refuse the duel without penalty!"
  ek_perk_interaction.0100.t:0 "The [recipient.GetCulture.GetName] Dueling Traditions"
- ek_perk_interaction.0100.desc.intro:0 "#italic Prior to the duel, both parties must recite their adversary's full name—taking care to call upon matrilineal, patrilineal, and clan honorifics where appropriate. Duelists who stumble over or mispronounce their adversary's name must stop and recite the name in its totality twice more.#!"
- ek_perk_interaction.0100.desc.epic_fail: "\n\nYou were somewhat sure of [recipient.GetFirstName] first and last name, but anything other than that was impossible to remember. As you were desperatly trying to recall any one of their matrilineal or patrilineal name, [recipient.GetFirstName] erupted into laughter and flatly refused to engage in the duel, as you were clearly unable to respect this very simple rule."
+ ek_perk_interaction.0100.desc.intro:0 "#italic Prior to the duel, both parties must recite their adversary's full name — taking care to call upon matrilineal, patrilineal, and clan honorifics where appropriate. Duelists who stumble over or mispronounce their adversary's name must stop and recite the name in its totality twice more.#!"
+ ek_perk_interaction.0100.desc.epic_fail:0 "\n\nYou were somewhat sure of [recipient.GetFirstName]'s first and last name, but anything other than that was impossible to remember. As you were desperatly trying to recall any one of their matrilineal or patrilineal name, [recipient.GetFirstName] erupted into laughter and flatly refused to engage in the duel, as you were clearly unable to respect this very simple rule."
  ek_perk_interaction.0100.desc.big_fail:0 "\n\nUnfortunately you were only able to remember a handful of names, and after minutes of waiting [recipient.GetFirstName] decided that the duel could not take place until you remembered [recipient.GetHerHis] full names."
  ek_perk_interaction.0100.desc.smol_fail:0 "\n\nYou must have spent several minutes reciting as many of [recipient.GetFirstNamePossessive] names as you could remember, but your memory failed you for the last few ones. As [recipient.GetFirstName] gives you both a disappointed and relieved look, the duel has to be called off."
  ek_perk_interaction.0100.desc.end:0 "\n\nIt seems that whatever grievances you might have against [recipient.GetFirstName] will not be settled today..."
@@ -30,7 +30,7 @@
  duel_for_claim_default_interaction_desc:0 "Challenge a ruler to a [single_combat_duel|E] to gain a [title|E] you have a [claim|E] upon"
  duel_for_claim_default_interaction.non_lethal.tt:0 "A non-lethal [single_combat_fight|E] will commence immediately"
  duel_for_claim_default_interaction.actor_victory.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] win, [actor.GetFirstNameOrMeNoTooltip] will receive the [target.GetName]. If the title is a [duchy|E] or above, [actor.GetFirstNameOrMeNoTooltip] will also get every [county|E] directly held by [recipient.GetFirstNameOrMeNoTooltip] within it"
- duel_for_claim_default_interaction.actor_defeat.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] lose, [actor.GetFirstNameOrMeNoTooltip] will lose your claim on the [target.GetName], and all claims on titles currently held by [recipient.GetFirstNameOrMeNoTooltip]"
+ duel_for_claim_default_interaction.actor_defeat.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] lose, [actor.GetFirstNameOrMeNoTooltip] will lose [CharYourHerHis(actor)] claim on the [target.GetName], and all claims on titles currently held by [recipient.GetFirstNameOrMeNoTooltip]"
  duel_for_claim_default_interaction.actor_victory_game_over.tt:0 "#N [recipient.GetFirstNamePossessiveOrMy|U] defeat would result in a game over#!"
  duel_for_claim_default_interaction.actor_default_victory.tt:0 "[actor.GetFirstNameOrMeNoTooltip|U] will keep [actor.GetFirstNamePossessiveOrMy] claim on the [target.GetName]"
  culture_parameter_unlock_duel_for_title:0 "Unlocks the #V $duel_for_claim_default_interaction$#!, allowing characters to start a [single_combat_duel|E] in order press a [claim|E]"
@@ -81,7 +81,7 @@
  CONTRACT_CULTURAL_RELIGIOUS_PRIVILEGE_REASON:0 "Cultural and Religious Privilege: $VALUE|=+0$"
  cultural_protection_tt:0 "[feudal_contract|E] starts with [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )]"
  great_house_vassalage_reason:0 "[recipient.GetHerHis|U] [culture|E] does not wish to be part of a Great House: $VALUE|+=0$"
- EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "I be trained into the arts of Magicka, and receive a #V Student of Magicka#! [trait|E]"
+ EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "I will be trained into the arts of Magicka, and receive a #V Student of Magicka#! [trait|E]"
  EDUCATE_CHILD_OPTION_TRAIN_ARCANA_EFFECT:1 "Will be trained into the arts of Magicka, and receive a #V Student of Magicka#! [trait|E]"
  
  EDUCATE_ME_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "I am studying the [learning|E] Education and will receive a better #V Student of Magicka#! [trait|E]"
@@ -92,10 +92,10 @@
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture neither has the #V $innovation_magical_studies$#! or #V $innovation_schools_of_magic$#! [innovation|E], does not have a [tradition|E] such as #V $tradition_sorcerer_kings_name$#!, and their [dynasty|E] does not have the #V $magicka_legacy_3_name$#! [dynasty_perk|E], Magical education is #N impossible#!."
 
  consume_interaction:0 "Consume"
- consume_interaction_desc:0 "Consume [recipient.GetShortUINameNoTooltip] in the endeavor to increase [tsaescence|E] and possibly changing your personality [traits|E] and [skills|E]!"
+ consume_interaction_desc:0 "Consume [recipient.GetShortUINameNoTooltip] in the endeavor to increase [tsaescence|E] and possibly changing your [personality_traits|E] and [skills|E]!"
 
  thralldom_interaction:0 "Turn into Thrall"
- thralldom_interaction_desc:0 "You will kill [recipient.GetShortUINameNoTooltip] to raise his corpse under your command."
+ thralldom_interaction_desc:0 "You will kill [recipient.GetShortUINameNoTooltip] to raise [recipient.GetHerHis] corpse under your command."
  get_undead_thrall:0 "You will turn [recipient.GetShortUINameNoTooltip]'s corpse into a mindless but loyal thrall."
 
  skull_corruption_interaction:0 "Use the Skull of Corruption"
@@ -135,3 +135,24 @@
  send_knight_to_wander_return_title:0 "Wanderer Returns"
  send_knight_to_wander_return_desc:0 "[recipient.GetFullName] has returned to your court after wandering to seek fame and improve their [martial|E] abilities."
  innovation_knightly_orders_wander:0 "Young courtiers of this [culture|E] with a Students of Knighthood [trait|E] can be sent to become [wanderers|E] to seek glory and improve their skills."
+
+### EK secrets
+ CHARACTER_IS_A_VAMPIRE:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+ IS_A_VAMPIRE:0 "Is a [GetTrait('vampire_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_VAMPIRE:0 "Is #bold not#! a [GetTrait('vampire_character').GetName( CHARACTER.Self )]"
+
+ CHARACTER_IS_A_LYCAN:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+ IS_A_LYCAN:0 "Is a [GetTrait('lycan_character').GetName( GetNullCharacter )]"
+ IS_NOT_A_LYCAN:0 "Is #bold not#! a [GetTrait('lycan_character').GetName( CHARACTER.Self )]"
+
+ CHARACTER_IS_A_NECROMANCER:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('necromancer').GetName( CHARACTER.Self )]"
+ IS_A_NECROMANCER:0 "Is a [GetTrait('necromancer').GetName( GetNullCharacter )]"
+ IS_NOT_A_NECROMANCER:0 "Is #bold not#! a [GetTrait('necromancer').GetName( CHARACTER.Self )]"
+
+ I_CANNOT_BLACKMAIL_ANOTHER_VAMPIRE:1 "You cannot blackmail another [GetTrait('vampire_character').GetName( CHARACTER.Self )] for being a Vampire"
+ I_CANNOT_BLACKMAIL_ANOTHER_LYCAN:1 "You cannot blackmail another [GetTrait('lycan_character').GetName( CHARACTER.Self )] for being a Lycanthrope"
+ I_CANNOT_BLACKMAIL_ANOTHER_NECROMANCER:1 "You cannot blackmail another [GetTrait('necromancer').GetName( CHARACTER.Self )] for being a Necromancer"
+
+ BLACKMAIL_NOTIFICATION_SECRET_VAMPIRE:0 "\nI have evidence of your thirst for blood!"
+ BLACKMAIL_NOTIFICATION_SECRET_LYCAN:0 "\nI have evidence of you true beastly form!"
+ BLACKMAIL_NOTIFICATION_SECRET_NECROMANCER:0 "\nI have evidence of your defilement of life and death!"

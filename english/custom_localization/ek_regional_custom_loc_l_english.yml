@@ -5,9 +5,11 @@
  terrain_mangrove_forest:0 "Mangrove Forests"
  terrain_wasteland:0 "wasteland"
  terrain_tundra:0 "tundra"
- terrain_black_marsh:0 "black marsh"
+ terrain_black_marsh:0 "Black Marsh"
  terrain_valenwood:0 "valenwoods"
- terrain_valenwood_hills:0 "valenwood hills"
+ terrain_valenwood_hills:0 "Valenwood Hills"
+ terrain_taiga_hills:0 "Taiga Hills"
+ terrain_desert_hills:0 "Desert Hills"
  terrain_missing:0 "TERRAIN UNKNOWN"
  
  #RandomEntertainmentText
@@ -67,10 +69,8 @@
  cider:0 "cider"
  honey_wine:0 "honey wine"
  jagga:0 "jagga"
- mead:0 "mead"
  sujamma:0 "sujamma"
  theilul:0 "theilul"
- wine:0 "wine"
 
  #LocalAnimal
  animal_animal:0 "beast"
@@ -85,7 +85,6 @@
  animal_senche_lionesses:0 "senche-lionesses"
  animal_senche_panther:0 "senche-panther"
  animal_senche_panthers:0 "senche-panthers"
- animal_dire_wolf:0 "dire wolf"
  animal_dire_wolves:0 "dire wolves"
  animal_tusked_bristleback:0 "tusked bristleback"
  animal_tusked_bristlebacks:0 "tusked bristlebacks"
@@ -99,6 +98,8 @@
  animal_gryphons:0 "gryphons"
  animal_addax:0 "addax"
  animal_addaxes:0 "addaxes"
+ animal_springbok:0 "springbok"
+ animal_springboks:0 "springboks"
  animal_ringtail:0 "ringtail"
  animal_ringtails:0 "ringtails"
  animal_cliff-strider:0 "cliff-strider"
@@ -132,13 +133,13 @@
  animal_wamasus:0 "wamasus"
  animal_scrib:0 "scrib"
  animal_scribs:0 "scribs"
- animal_giant_wasp:0 "giant wasp"
- animal_giant_wasps:0 "giant wasps"
+ animal_giant_wasp:0 "Giant Wasp"
+ animal_giant_wasps:0 "Giant Wasps"
  animal_chaurus:0 "chaurus"
  animal_nix_hound:0 "nix-hound"
  animal_nix_hounds:0 "nix-hounds"
- animal_giant_bat:0 "giant bat"
- animal_giant_bats:0 "giant bats"
+ animal_giant_bat:0 "Giant Bat"
+ animal_giant_bats:0 "Giant Bats"
 
  #LocalMount
  mount_mount:0 "mount"
@@ -171,7 +172,6 @@
  warhorse_name_shadowmere:0 "Shadowmere"
  warhorse.0003.zarnor:0 "Zarnor — Just like the cursed curious senche-raht!"
  warhorse_name_zarnor:0 "Zarnor"
- warhorse_name_arvak:0 "Arvak"
  warhorse_name_war_master:0 "War Master"
  warhorse.0004.destrier:0 "Destrier"
  warhorse_name_destrier:0 "Destrier"
@@ -186,6 +186,10 @@
  warhorse.0004.fangs:0 "Fangs"
  warhorse_name_fangs:0 "Fangs"
  warhorse.0002.falk:0 "Falk — Like Tula the Skullcleaver's bear!"
+ warhorse.0003.imperator:0 "Imperator"
+ warhorse_name_imperator:0 "Imperator"
+ warhorse.0003.oiobaun:0 "Oiobaun"
+ warhorse_name_oiobaun:0 "Oiobaun"
 
  
  #BanditFaction

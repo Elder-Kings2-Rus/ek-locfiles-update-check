@@ -16,7 +16,7 @@
  # Daedric Succour
  dark_arts_daedric_succour_focus:0 "Daedric Succour Focus"
  dark_arts_daedric_succour_focus_modifier:1 "[GetFocus('dark_arts_daedric_succour_focus').GetName]"
- dark_arts_daedric_succour_focus_desc:0 "There is great and horrible knowledge sealed away in the planes of Oblivion. To seek the council of the princes will grant access to some of it."
+ dark_arts_daedric_succour_focus_desc:0 "There is great and horrible knowledge sealed away in the planes of Oblivion. Seeking the counsel of the Princes will bestow a sliver upon you."
  dark_arts_daedric_succour_focus_effect_desc:0 "Focusing on Daedric Succour grants:"
  # Blood Magic
  dark_arts_blood_magic_focus:0 "Blood Magic Focus"
@@ -25,7 +25,6 @@
  dark_arts_blood_magic_focus_effect_desc:0 "Focusing on Blood Magic grants:"
 
  # Perks
- necromancy_name:0 "Necromancy"
  necromancy_novice_perk_effect:0 "Unlocks novice level necromancy spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)1') ).End)]"
  necromancy_apprentice_perk_effect:0 "Unlocks apprentice level necromancy spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)2') ).End)]"
  necromancy_journeyman_perk_effect:0 "Unlocks journeyman level necromancy spells:\n[GetScriptedGui('spell_perk_list').ExecuteTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('school', MakeScopeFlag('necromancy') ).AddScope('tier', MakeScopeValue('(CFixedPoint)3') ).End)]"
@@ -36,4 +35,4 @@
  necromancy_medium_rituals_perk_effect:0 "Unlocks Medium Necromancy [rituals|E]"
  necromancy_major_rituals_perk_effect:0 "Unlocks Major Necromancy [rituals|E]"
 
-CAN_CONSULT_SOUL_LOST_LOVED_ONES_DECISION:0 "Can use the 'Consult the Soul of a Loved One' decision, allowing the character to speak one last time with a character they held dear"
+ CAN_CONSULT_SOUL_LOST_LOVED_ONES_DECISION:0 "Can use the 'Consult the Soul of a Loved One' decision, allowing the character to speak one last time with a character they held dear"

@@ -51,7 +51,7 @@
  ek_spymaster_task.0010.a.meridia_worshipper:0 "A fellow devout of $meridia$... Interesting."
  ek_spymaster_task.0010.a:0 "A servant of a dangerous Prince!"
  ek_spymaster_task.0011.t:0 "Espionage: Worshipper of $molag$"
- ek_spymaster_task.0011.secret_molag_worshipper.shared:0 "\n\nHidden within [secret_holder.GetHerHis] chambers, a small shrine of $molag$ could be found! It seems I am not the only who worships the  Prince of Domination deep within their heart..."
+ ek_spymaster_task.0011.secret_molag_worshipper.shared:0 "\n\nHidden within [secret_holder.GetHerHis] chambers, a small shrine of $molag$ could be found! It seems I am not the only who worships the Prince of Domination deep within their heart..."
  ek_spymaster_task.0011.secret_molag_worshipper:0 "\n\nHidden within [secret_holder.GetHerHis] chambers, a small shrine of $molag$ could be found! If [secret_holder.GetSheHe] worships this foul Prince, who knows how many devious cultists hide in [secret_holder.GetHerHis] court..."
  ek_spymaster_task.0011.a.molag_worshipper:0 "A fellow devout of $molag$... Interesting."
  ek_spymaster_task.0011.a:0 "A servant of a dangerous Prince!"

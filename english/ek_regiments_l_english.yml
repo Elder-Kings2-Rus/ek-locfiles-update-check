@@ -93,6 +93,15 @@
  falmer_gloomlurkers_flavor:0 "Honing their skills as young hunters, some Betrayed join the archer warbands during wartime. Lurking on the rear or wings, they are ready to strike the unaware with lethal accuracy."
  falmer_battleragers:0 "Falmer Battleragers"
  falmer_battleragers_flavor:0 "The strongest Betrayed fight in tight infantry formations. Clad from head to toes in Chaurus chitin, they can give the toughest soldiers a run for their money."
+ # Imga
+ imga_scouts:0 "Imga Scouts"
+ imga_scouts_flavor:0 "#F These troops are used to pave the way for the heavier Imga forces. They are quick and nimble, perfectly suited for a life in the jungle, where they often hide in the canopies until it is time to attack.#!"
+ imga_slingers:0 "Imga Slingers"
+ imga_slingers_flavor:0 "#F Imga are not really fond of bows, and they don't need to be. A simple sling can be just as deadly if used in the right way, and these troops certainly know how to do so - hurling all kinds of nasty things onto their enemies."#!"
+ imga_guards:0 "Imga Guards"
+ imga_guards_flavor:0 "#F Normally assigned to protect Imga settlements and sacred places, these apemen prove to be surprisingly sturdy troops on a battlefield. The combined reach of their pikes and long arms lets them counter most cavalry charges with ease.#!"
+ imga_frenzied:0 "Imga Frenzied"
+ imga_frenzied_flavor:0 "#F The heaviest, strongest, and wildest Imga are often assembled in special battle groups. Together, they create a force of fur and muscle that can break through any defensive line, shattering their enemies' bones and fighting spirit alike.#!"
  # Goblin-ken
  bristleback_riders:0 "Bristleback Riders"
  bristleback_riders_flavor:0 "#F The Riekling of Solstheim rely on Bristleback boars and their strength against magical effects to dominate their surroundings and resist invaders of their native lands.#!"
@@ -102,16 +111,23 @@
  riekling_butcher_flavor:0 "#F Butchering is the opposite of letting good loot go to waste. The goblinoid Rieklings of Solstheim know this too well, so their skirmishers are trained to take advantage of every ounce of resources they can. #!"
  riekling_harrier:0 "Riekling Harriers"
  riekling_harrier_flavor:0 "#F Riekling archers are known as harriers for their constant torment of tiny arrows that ambushed many of their enemies, forcing them to retreat into another ambush or into one of many of their traps.#!"
- durzog_riders:0 "Durzog Riders"
- durzog_riders_flavor:0 "#F Goblinken have raised durzogs for war, company and for hunting down their victims for millenia. These "sludgepuppies" are fierce and intelligent, and are also bred for their hides, meat and even guts for bowstrings.#!"
- goblin_ravager:0 "Goblin Ravager"
- goblin_ravager_flavor:0 "#F Though it can be considered savagery by outsiders, goblinken ravagers specialize in disorganized plundering, looting and sacking as a means of survival, for their kind was always dealt with by the most violent kind of diplomacy from foreigners. #!"
- goblin_ranger:0 "Goblin Ranger"
- goblin_ranger_flavor:0 "#F While most goblinken rangers take pride of their hunting prowess, warfare really isn't their specialty. While some complain about the risks involved in their new positions, most rangers are glad to be able to hunt the most dangerous game. #!"
- goblin_skirmisher:0 "Goblin Skirmisher"
- goblin_skirmisher_flavor:0 "#F Quick to adapt and improvise in the most unpredictable outcomes, the goblinken skirmishers are not an uncommon sight to see in the front lines when their tribes decide to go to war.#!" 
+ riekr_wildlings:0 "Riekr Wildlings"
+ riekr_wildlings_flavor:0 "#F These wandering bands of Riekr may be poorly equipped and trained, but they are able to utilize their speed, savagery, and large numbers to their advantage. #!"
+ riekr_deadeyes:0 "Riekr Deadeyes"
+ riekr_deadeyes_flavor:0 "#F It is unusual for most Riekrs to manage the art of archery since they mostly rely on their primal magic to deal with distant targets. Those who master the bow nonetheless are called 'deadeyes' in a tone of admiration. #!"
+ riekr_scrappers:0 "Riekr Scrappers"
+ riekr_scrappers_flavor:0 "#F Armed with long metal poles they scavenged from various places and hammered into crude spears, those Riekr are able to form a somewhat defensive line. #!" 
  ice_shamans:0 "Ice Shamans"
  ice_shamans_flavor:0 "#F Left to fend for themselves until they can pay tribute to their home, these Goblin-ken spellcasters survived the frozen wilderness. These are no pampered scholars but deadly cryomancers as anyone foolish enough to cross them will see.#!"
+ goblin_ravager:1 "Goblin Ravager"
+ goblin_ravager_flavor:1 "#F Though it can be considered savagery by outsiders, goblinken ravagers specialize in disorganized plundering, looting and sacking as a means of survival, for their kind was always dealt with by the most violent kind of diplomacy from foreigners. #!"
+ goblin_ranger:1 "Goblin Ranger"
+ goblin_ranger_flavor:1 "#F While most goblinken rangers take pride of their hunting prowess, warfare really isn't their specialty. While some complain about the risks involved in their new positions, most rangers are glad to be able to hunt the most dangerous game. #!"
+ goblin_skirmisher:1 "Goblin Skirmisher"
+ goblin_skirmisher_flavor:1 "#F Quick to adapt and improvise in the most unpredictable outcomes, the goblinken skirmishers are not an uncommon sight to see in the front lines when their tribes decide to go to war.#!" 
+ durzog_riders:0 "Durzog Riders"
+ durzog_riders_flavor:0 "#F Goblinken have raised durzogs for war, company and for hunting down their victims for millenia. These "sludgepuppies" are fierce and intelligent, and are also bred for their hides, meat and even guts for bowstrings.#!"
+ 
  # Khajiiti
  alfiq:0 "Alfiq War Mages"
  alfiq_flavor:0 "#F The smallest form of Khajiit, the Alfiq are predisposed for the arts of magicka and are often seen sitting in a shoulder harness worn by one of their bigger brethren.#!"
@@ -145,8 +161,7 @@
  jungle_peltasts:0 "Jungle Peltasts"
  jungle_peltasts_flavor:0 "#F These lightly armored spearmen excell at drawing enemies with heavier equipment into dangerous terrain through hit-and-run tactics, after which the peltasts can pick them off at their leisure.#!"
  # Nordic
- huscarl:0 "Housecarls"
- huscarl_flavor:0 "#F Armed with heavy Nordic armor, the Housecarls are among the most fearsome troops in all of Northern Tamriel.#!"
+ # huscarls see replace\regiments_l_english.yml
  skaal_hunter:0 "Skaal Hunters"
  skaal_hunter_flavor:0 "#F Life among the Skaal is harsh, and there is not much room for difference between a hunter and a warrior.#!"
  # Orsimer
@@ -181,7 +196,13 @@
  
  dragons:0 "Dragons"
  dragons_flavor:0 "#F Few have witnessed the power of the Dragons, and even fewer have managed to get a Dragon to fight with them.#!"
+
+ undead_dragon:0 "Undead Dragon"
+ undead_dragon_flavor:0 "#F These reanimated bones of a mighty dragon are a teribble sight on every battlefied. They may lack an amount of the raw power they once possesed but they are now even harder to bring down - again.#!"
  
+ hollows:0 "The Hollow"
+ hollows_flavor:0 "Walking husks of stone, unable to feel pain, fear or exhuastion. They are a terrible foe, incredbile hard to destroy and able to tear down walls with their bare hands."
+
  minotaurs:0 "Minotaurs"
  minotaurs_flavor:0 "#F While Minotaurs are treated as beasts by most of Tamriel, it is said that those who worship them or someone close to them can convince a handful of Bull-Men to fight with them.#!"
  
