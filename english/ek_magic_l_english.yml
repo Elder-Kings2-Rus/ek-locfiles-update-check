@@ -152,6 +152,7 @@
  ##  Magicka  ##
  ##  Flat  ##
  magicka_arcana:0 "[arcana|E]"
+ magicka_ritual:0 "[rituals|E]]"
 
  ##  Upkeep  ##
  magicka_flat_ritual:0 "[ritual|E]: [GetModifier(Concatenate('modifier_ritual_', Scope.GetFlagName)).GetNameWithTooltip]"
@@ -592,3 +593,6 @@
  reactive_advice_spellbook_step_3_desc:0 "Both [spells|E] and [rituals|E] require having sufficient [magicka_i][magicka|E] to use. Spells cost a set amount of Magicka per use, while Rituals have a maintenance cost that reduces your monthly Magicka gain.\n\nPowerful mages will have higher max Magicka and regain it faster.\n\nYou can see your current and max Magicka levels, as well as monthly gain on the bar at the bottom left corner of the screen, or from the [magicka_i] icon in your Character Window."
  reactive_advice_spellbook_step_4:0 "Magic 4 - Education"
  reactive_advice_spellbook_step_4_desc:0 "The ability to educate a child in the ways of [magic|E] depends primarily on your [innovations|E].\n\nWith the 'Early Interregnum' Era #V $innovation_magical_studies$#! Innovation, a child might gain a Magic [education_trait|E] if their [guardian|E] has a Magic [congenital_trait|E].\n\nWith the 'Time of the Pretenders' Era #V $innovation_schools_of_magic$#! Innovation, a child might gain a Magic [education_trait|E] if their [guardian|E] has a Magic [congenital_trait|E] #italic or#! a Magic [education_trait|E].\n\nAlternatively, if your [culture|E] has the [GetCultureTradition('tradition_sorcerer_kings').GetName|V] [tradition|E] or your [dynasty|E] the $magicka_legacy_3_name$#! [dynasty_perk|E], the Guardian must still have either the Magic Congenital or Education trait, but these Innovations are not required - instead having them will improve the results of such education."
+
+ # Hastiluder Trait
+ arcana_hastiluder:0 "[arcana|E]: [arcana_i]#P +2#"

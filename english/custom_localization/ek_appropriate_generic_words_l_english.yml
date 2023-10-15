@@ -30,3 +30,12 @@
  expensive_drink_singular_maormer_tea:0 "Maormer Tea"
  expensive_drink_singular_fulmination_ale:0 "Fulmination Ale"
  expensive_drink_singular_imperial_stout:0 "Imperial Stout"
+
+ maple:0 "Maple"
+ beech:0 "Beech"
+ hickory:0 "Hickory"
+ yew:o "Yew"
+ ash:0 "Ash"
+ mahogany:0 "Mahogany"
+ nightwood:0 "Nightwood"
+ ruby_ash:0 "Ruby Ash"

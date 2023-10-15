@@ -394,7 +394,7 @@
  building_type_treehenge_resting_place_01_desc:0 "This sacred location serves as the final resting place for the spirits of the Green Ladies who have safeguarded Valenwood since the Merethic Era. It transcends being a mere burial ground, for the souls of these age-old protectors continue to dwell within the land and the trees. A worthy Bosmer may be bestowed with a blessing at this site, allowing them to sense the formidable vigilance of Valenwood's staunch guardians and to imbibe a fraction of their power."
  building_treehenge_resting_place_01:0 "$building_type_treehenge_resting_place_01$"
  building_treehenge_resting_place_01_desc:0 "$building_type_treehenge_resting_place_01_desc$"
- bosmeri:0 "Holder must be of bosmeri [heritage|E]"
+ green_pact_or_bosmeri:0 "Holder must be of bosmeri [heritage|E] or their [faith|E] must have the Green Pact [doctrine|E]"
 
  building_type_vinedusk_lookout_01:0 "Vinedusk Lookout"
  building_type_vinedusk_lookout_01_desc:0 "Nendaer Ironbark established the Vindedusk Rangers with the noble aim of safeguarding Valenwood against both internal and external threats. This Lookout stands proudly as the central headquarters for this exceptional assembly of skilled archers and adept foresters.\n\nWhile it might not rival the fortified Bastions favored by other races, it possesses the complete capability to fulfill its intended role, as it guards the borders and operates as a central point for occasional patrols into the perilous expanse known as the 'Reapers Marsh' – a realm characterized by unending strife."

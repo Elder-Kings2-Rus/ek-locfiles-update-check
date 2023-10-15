@@ -51,3 +51,6 @@
  magicka_legacy_5_name:0 "Perennial Rites"
  ADDITIONAL_RITUAL_PERK_BONUS:0 "Allows one additional Permanent Ritual"
  magicka_legacy_trigger:0 "\n#weak Picking this Legacy requires being able to use [magic|E]!#!"
+
+# Edit to vanilla Blood Legacy
+ blood_legacy_trigger:0 "\n#weak Picking this Legacy requires your [faith|E] having the [GetFaithDoctrine('tenet_divine_purity').GetBaseName] Tenet!#!"

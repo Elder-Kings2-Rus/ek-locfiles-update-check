@@ -51,7 +51,7 @@
  game_concept_empires:0 "High Kingdoms"
  game_concept_emperor:0 "High King/Queen"
  game_concept_emperors:0 "High Kings/Queens"
- game_concept_empire_desc:1 "$game_concept_empires$ are the highest ranked [titles|E].\n\nThe [holder|E] of a High Kingdom has [de_jure|E] rights to its constituent territory and can have Kings as [vassals|E].\n\nHigh Kingdoms can be dormant and have have no current Holder. Such Titles can be created by a [ruler|E] who controls more than 80% of the Counties within.\n\n#italic "There is but one Empire in Tamriel, but one Empire in the World; that, my brothers, is the Empire of the Cyrodiils."#!"
+ game_concept_empire_desc:1 "$game_concept_empires$ are the highest ranked [titles|E].\n\nThe [holder|E] of a High Kingdom has [de_jure|E] rights to its constituent territory and can have Kings as [vassals|E].\n\nHigh Kingdoms can be dormant and have no current Holder. Such Titles can be created by a [ruler|E] who controls more than 80% of the Counties within.\n\n#italic "There is but one Empire in Tamriel, but one Empire in the World; that, my brothers, is the Empire of the Cyrodiils."#!"
 
  game_concept_buy_claim_desc:2 "An Interaction that allows a character to buy [unpressed_claims|E] in exchange for [piety|E].\n\n$EFFECT_LIST_BULLET$A [vassal|E] may not buy a claim on any [liege|E]'s [title|E], and a Liege may not buy a claim on any Vassal's Title\n$EFFECT_LIST_BULLET$A [king|E] or [emperor|E] may not buy claims on Kingdom Titles, and High Kings may not buy claims on other High Kingdoms\n$EFFECT_LIST_BULLET$No one may buy a claim on their [head_of_faith|E]."
 

@@ -22,6 +22,8 @@
  
  activity_window_character_arcane_clash_winner:1 "Arcane Clash Winner\n[Character.GetShortUINameNoTooltip|U]"
 
+ mysterious_stranger_arcane_clash:0 "An enigmatic mage called '[mysterious_stranger.GetFirstName]' with unknown origin is gathering much interest lately.\n\n"
+
  locale_window_widget_progress_to_victory_label_active_competing_arcane_clash:0 "You are competing in an #bold Arcane Clash#!"
 
  death_contest_arcane_clash_accident:0 "was accidentally killed in a tournament arcane clash"

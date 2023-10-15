@@ -119,7 +119,7 @@
  heritage_dremora_desc:0 "Most mortals would conjure the image of a Dremora if asked to describe a Daedra: a tall armor-clad humanoid with pallid grey to ashen black skin, baleful horns and war tattoos.\n\nDremora clans enforce a strict hierarchy, held together by oaths of loyalty alongside worship of a patron god. Dremora are typically warlike to the extreme, with the highest positions doubling as military ranks. It is no coincidence that many clans serve Molag Bal and Mehrunes Dagon."
 
  #heritage_imgan_name:0 "Imga"
- heritage_imgan_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_DREMORA') ) ), 'Imga', Localize('no') )]"
+ heritage_imgan_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_IMGA') ) ), 'Imga', Localize('no') )]"
  heritage_imgan_collective_noun:0 "Imgan"
  heritage_imgan_desc:0 "The apefolk known as 'Imga' are denizens of Greenshade, claiming to predate even the Bosmer. Their frequent polyglossia has given birth to rumors of extreme xenophily. In truth, the Imga appreciate nobility and courage, reputed to be common among wayfarers. This can be traced back to the Early First Era, when many Imga leveraged the administrative vacuum to become itinerant governors or merchants under Camoran mandate.\n\nNewly enriched, some households trekked outside of their native Valenwood in search of further opportunities. Stubborn legends claim that one of those tribes harbored the ancestors of Marukh, the Prophet of the One. Although no source has corroborated that he was an Imga, it's widely assumed he was, due to his physique."
 

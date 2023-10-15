@@ -2007,6 +2007,7 @@
     doctrine_parameter_children_non_accepted_culture_impure:0 "If we have the [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName] or [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName] [core_tenet|E], any child born with at least one parent not sharing the accepted [heritage|E] will be considered [impure|E]\n If we have the [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName] or [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName] [core_tenet|E], any child born with at least one parent not sharing the accepted [culture|E] will be considered [impure|E]"
     doctrine_parameter_character_impurity_deformity_election_lowers_score_active:0 "Characters suffering from deformities will suffer a #N harsh penalty#! under elective realms"
     doctrine_parameter_character_impure_foreign_relationships_impure:0 "Characters who form close relationships with [impure|E] characters, or characters of other faiths are considered [impure|E]"
+    doctrine_parameter_unlocks_blood_legacy:0 "Unlocks the #V Blood#! [dynasty_perk|E] Track"
     
  tenet_daedric_bargains_name:0 "Daedric Bargains"
     tenet_daedric_bargains_desc:0 "The Daedric Princes are known to meddle with the affairs of mortal. If we were to present them the right sacrifice, they might be willing to help us."
