@@ -123,9 +123,10 @@
  k_craglorn:0 "Craglorn"
  # Summerset
  k_auridon:0 "Auridon"
-  e_aldmeri_dominion:0 "Aldmeri Dominion"
-  d_thalmor:0 "Bureau of Aldmeri Propriety"
-  d_magnus_watchers:0 "Magnus' Watchers"
+ e_aldmeri_dominion:0 "Aldmeri Dominion"
+ e_aldmeri_dominion_article:0 "the "
+ d_thalmor:0 "Bureau of Aldmeri Propriety"
+ d_magnus_watchers:0 "Magnus' Watchers"
  # Vvardenfell
  e_vvardenfell:0 "Vvardenfell"
  ## Great Houses

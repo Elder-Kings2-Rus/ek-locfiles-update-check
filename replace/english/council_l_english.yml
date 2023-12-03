@@ -19,14 +19,14 @@
  councillor_court_chaplain_theocrat_empire_possessive:0 "Prelate's"
  councillor_court_chaplain_theocrat_empire_female_possessive:0 "Prelate'"
 
- councillor_spouse_countess:0 "Baroness"
+ councillor_spouse_countess:0 "Countess"
  councillor_spouse_baroness:0 "Lady"
 
- councillor_spouse_count:0 "Baron"
+ councillor_spouse_count:0 "Count"
  councillor_spouse_baron:0 "Lord"
 
- councillor_spouse_countess_possessive:0 "Baroness'"
+ councillor_spouse_countess_possessive:0 "Countess'"
  councillor_spouse_baroness_possessive:0 "Lady's"
 
- councillor_spouse_count_possessive:0 "Baron's"
+ councillor_spouse_count_possessive:0 "Count's"
  councillor_spouse_baron_possessive:0 "Lord's"

@@ -37,8 +37,8 @@
  
  duel_for_claim_strong_interaction:0 "Duel to the Death for a Title"
  duel_for_claim_strong_interaction.lethal.tt:0 "A [single_combat_fight|E] to the death will commence immediately"
- duel_for_claim_strong_interaction.actor_victory.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] win, [actor.GetFirstNameOrMeNoTooltip] will receive the [target.GetName]. If the title is a [duchy|E] or above, [actor.GetFirstNameOrMeNoTooltip] will also get every [county|E] directly held by [recipient.GetFirstNameOrMeNoTooltip] within it.\n[recipient.GetFirstNameOrMeNoTooltip|U] would #N die#!."
- duel_for_claim_strong_interaction.actor_defeat.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] lose, [actor.GetFirstNameOrMeNoTooltip] would #N die#!, and [recipient.GetFirstNameOrMeNoTooltip] would keep the [target.GetName]."
+ duel_for_claim_strong_interaction.actor_victory.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] win, [actor.GetFirstNameOrMeNoTooltip] will receive the [target.GetName]. If the title is a [duchy|E] or above, [actor.GetFirstNameOrMeNoTooltip] will also get every [county|E] directly held by [recipient.GetFirstNameOrMeNoTooltip] within it.\n[recipient.GetFirstNameOrMeNoTooltip|U] is likely to #N die#! in the duel, if not you can decide about [recipient.GetHerHis] fate."
+ duel_for_claim_strong_interaction.actor_defeat.tt:0 "Should [actor.GetFirstNameOrMeNoTooltip] lose, [actor.GetFirstNameOrMeNoTooltip] has a high chance to #N die#!, and [recipient.GetFirstNameOrMeNoTooltip] would keep the [target.GetName]."
  duel_for_claim_strong_interaction.actor_victory_game_over.tt:0 "#N [recipient.GetFirstNamePossessiveOrMy|U] defeat would result in a game over#!"
  duel_for_claim_strong_interaction.actor_default_victory.tt:0 "[actor.GetFirstNameOrMeNoTooltip|U] will receive the [target.GetName]. If the title is a [duchy|E] or above, [actor.GetFirstNameOrMeNoTooltip] will also get every [county|E] directly held by [recipient.GetFirstNameOrMeNoTooltip] within it"
  duel_for_claim_strong_interaction.default_game_over.tt:0 "#N This will result in a game over#!"
@@ -47,6 +47,8 @@
  DUEL_FOR_CLAIM_TITLE_TIER:0 "Dueling for a [target.GetTierAsName]: #P +$VALUE|0$#!"
  DUEL_FOR_CLAIM_DE_JURE_LIEGE:0 "[recipient.GetShortUINameNoTooltip] is the [de_jure|E] Liege of [target.GetNameNoTier]: #P +$VALUE|0$#!"
  DUEL_FOR_CLAIM_LAST_TITLE:0 "[recipient.GetShortUINameNoTooltip] would become unlanded if [recipient.GetSheHe] refused: #P +$VALUE|0$#!"
+ DUEL_FOR_CLAIM_INFIRM:0 "[recipient.GetShortUINameNoTooltip] has the trait [infirm|E]: #P +$VALUE|0$#!"
+ DUEL_FOR_CLAIM_INCAPABLE:0 "[recipient.GetShortUINameNoTooltip] has the trait [incapable|E]: #P +$VALUE|0$#!"
  
  prowess_claim_interaction:0 "Claim Land via Prowess"
  prowess_claim_interaction_desc:0 "[claim|E] a [title|E] held by [recipient.GetShortUINameNoTooltip], using your superior [prowess|E] and [prestige|E]."
@@ -86,10 +88,10 @@
  
  EDUCATE_ME_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "I am studying the [learning|E] Education and will receive a better #V Student of Magicka#! [trait|E]"
  EDUCATE_CHILD_OPTION_TRAIN_ARCANA_LEARNING_FOCUS_EFFECT:1 "Is studying the [learning|E] Education and will receive a better #V Student of Magicka#! [trait|E]"
- EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a [tradition|E] such as #V $tradition_sorcerer_kings_name$#!, or the child's [dynasty|E] has the #V $magicka_legacy_3_name$#! [dynasty_perk|E], you need to find a Tutor with a #V $trait_education_magical_ability$#! or #V $trait_arcana_good$#! [trait|E]"
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_1:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a [tradition|E] unlocking Magic education, or the child's [dynasty|E] has the #V $magicka_legacy_3_name$#! [dynasty_perk|E], you need to find a Tutor with a #V $trait_education_magical_ability$#! or #V $trait_arcana_good$#! [trait|E]"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_2:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a the #V $innovation_schools_of_magic$#! [innovation|E], you need to find a Tutor with a #V $trait_education_magical_ability$#! or #V $trait_arcana_good$#! [trait|E]"
  EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_3:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture has a the #V $innovation_magical_studies$#! [innovation|E], you need to find a Tutor with a #V $trait_arcana_good$#! [trait|E]"
- EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture neither has the #V $innovation_magical_studies$#! or #V $innovation_schools_of_magic$#! [innovation|E], does not have a [tradition|E] such as #V $tradition_sorcerer_kings_name$#!, and their [dynasty|E] does not have the #V $magicka_legacy_3_name$#! [dynasty_perk|E], Magical education is #N impossible#!."
+ EDUCATE_CHILD_OPTION_NOT_TRAIN_ARCANA_EFFECT_4:0 "Will #N not#! be trained in the arts of Magicka.\nAs the child's culture neither has the #V $innovation_magical_studies$#! or #V $innovation_schools_of_magic$#! [innovation|E], does not have a [tradition|E] unlocking Magic education, and their [dynasty|E] does not have the #V $magicka_legacy_3_name$#! [dynasty_perk|E], Magical education is #N impossible#!."
 
  consume_interaction:0 "Consume"
  consume_interaction_desc:0 "Consume [recipient.GetShortUINameNoTooltip] in the endeavor to increase [tsaescence|E] and possibly changing your [personality_traits|E] and [skills|E]!"

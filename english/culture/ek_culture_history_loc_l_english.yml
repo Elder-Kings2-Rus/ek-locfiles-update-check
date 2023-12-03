@@ -21,7 +21,7 @@
  orc_history_loc:0 "Changed from their Aldmer forms after Trinimac's transformation"
  iron_orc_history_loc:0 "Renounced their peaceful ways after Nedic aggression"
  redguard_history_loc:0 "Descended from the [CULTURE.GetName] #LORE [compendium_ragada]#! settlers who invaded the Deathlands"
- crown_history_loc:0 "Scions of the Old [CULTURE.GetName] Na-Totambu high nobility"
+ crown_history_loc:0 "Scions of the Old [CULTURE.GetName] #LORE [compendium_na_totambu]#! high nobility"
  yokudan_history_loc:0 "Survivors of the sinking of Old Yokuda"
  abecean_history_loc:0 "Descended from the [CULTURE.GetName] Tavan #LORE [compendium_ragada]#! led by Prince Hubalajad"
  argonian_history_loc:0 "Blessed with sapience by the Hist during the #LORE [compendium_merethic_era]#!"

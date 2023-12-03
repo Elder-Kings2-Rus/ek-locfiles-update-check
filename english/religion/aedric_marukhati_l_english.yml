@@ -5,7 +5,7 @@
  marukhati_religion_adj:0 "Marukhati"
  marukhati_religion_adherent:0 "Marukhati"
  marukhati_religion_adherent_plural:0 "Marukhati"
- marukhati_religion_desc:0 "Marukh was an Imga prophet of the First Era who rose to prominence after founding the Alessian Order - a radical religious sect that would dominate Cyrodiil for around 2 millenia before its rapid collapse around 1E 2321 in the War of Righteousness. While in exile, suffering in penance, Marukh claimed the spirit of St. Alessia appeared before him and taught him the Seventy-Seven Inflexible Doctrines, which he wrote there on the rocks with his own blood. Alongside their belief in a supreme deity called The One, they also claim that Death is an illusion, and that through living a proper life and expelling all Elven corruption one can persist beyond it."
+ marukhati_religion_desc:0 "Marukh was an Imga prophet of the #LORE [compendium_first_era]#! who rose to prominence after founding the Alessian Order - a radical religious sect that would dominate Cyrodiil for around 2 millenia before its rapid collapse around 1E 2321 in the War of Righteousness. While in exile, suffering in penance, Marukh claimed the spirit of St. Alessia appeared before him and taught him the Seventy-Seven Inflexible Doctrines, which he wrote there on the rocks with his own blood. Alongside their belief in a supreme deity called The One, they also claim that Death is an illusion, and that through living a proper life and expelling all Elven corruption one can persist beyond it."
  marukhati_religion_high_god_name:0 "$god_the_one_name$"
  marukhati_religion_high_god_name_2:0 "$marukhati_religion_high_god_name$" # Optional translation alt
  marukhati_religion_high_god_name_3:0 "$marukhati_religion_high_god_name$" # Optional translation alt
@@ -86,7 +86,7 @@
  alessian_adj:0 "Alessian"
  alessian_adherent:0 "Alessian Faithful"
  alessian_adherent_plural:0 "Alessian Faithful"
- alessian_desc:0 "The Alessian Order is a zealous, stern, complex faith created in the 1st Era by Monkey-Prophet Marukh after receiving a divine revelation from the spirit of St. Alessia. At its core it preaches of a supreme god called The One, often associated with Akatosh, but later began to incorporate increasing numbers of lesser saints and deities as the Order grew in complexity. Its basis is Marukh’s 77 Inflexible Doctrines, which explains the evils of elvenkind, how to conquer death, and the now-famous declaration that “All are Guilty until proven Innocent”."
+ alessian_desc:0 "The Alessian Order is a zealous, stern, complex faith created in the #LORE [compendium_first_era]#! by Monkey-Prophet Marukh after receiving a divine revelation from the spirit of St. Alessia. At its core it preaches of a supreme god called The One, often associated with Akatosh, but later began to incorporate increasing numbers of lesser saints and deities as the Order grew in complexity. Its basis is Marukh’s 77 Inflexible Doctrines, which explains the evils of elvenkind, how to conquer death, and the now-famous declaration that “All are Guilty until proven Innocent”."
  
  #Temple of the One
  
@@ -94,7 +94,7 @@
  temple_one_adj:0 "Temple of the One"
  temple_one_adherent:0 "One Faithful"
  temple_one_adherent_plural:0 "One Faithful"
- temple_one_desc:0 "The Temple of the One is the only legal form of Marukhatism in Cyrodiil, formed by Emperor Reman in the First Era to tend to the Dragonfires, as well as to assimilate the remaining holdouts of the Alessian Order. While still retaining much of their Marukhati origins, the new Temple of the One operates under a hugely relaxed belief system which emphasises the many aspects of their god, whose core manifestation is the Supreme Spirit Akatosh."
+ temple_one_desc:0 "The Temple of the One is the only legal form of Marukhatism in Cyrodiil, formed by Emperor Reman in the #LORE [compendium_first_era]#! to tend to the Dragonfires, as well as to assimilate the remaining holdouts of the Alessian Order. While still retaining much of their Marukhati origins, the new Temple of the One operates under a hugely relaxed belief system which emphasises the many aspects of their god, whose core manifestation is the Supreme Spirit Akatosh."
  temple_one_religious_head_title:0 "Temple of the One"
  temple_one_religious_head_title_name:0 "Temple of the One"
  temple_one_high_god_name_alternate:0 "Ak-at-Osh"

@@ -4,6 +4,7 @@
  county_opinion_must_be_high_enough:0 "[county_opinion|E] needs to be above #V -10#! ([autocracy|E] with #V [GetPlayer.Custom('GetCrownAuthority1')]#!)"
  county_must_have_temple_holding:0 "At least one province within the county must have a [temple_holding|E]"
  orphanage_already_present_trigger_desc:0 "There is already an Orphanage within this [county|E]"
+ holy_site_already_present_trigger_desc:0 "There is already a [holy_site|E] [special_building|E] within this [county|E]. The #V 'Repurpose Holy Site'#! [decision|E] can flip that [special_building|E] to one usable by your faith!"
  
  ### Regular Buidlings
  # EK TODO: Add loc for tier 2-8
@@ -59,7 +60,7 @@
  holy_site_or_the_one:0 "Holder [faith|E] must consider it a [holy_site|E] or have The One as its [pantheon|E]"
  
  building_type_imperial_city_arena_01:0 "Imperial City Arena"
- building_type_imperial_city_arena_01_desc:0 "Also named the 'Bloody Jewel of the Imperial City', the Imperial Arena was built by Gaiden Shinji at the end of the first millenium of the First Era. In here, the people of the Imperial Isle can enjoy watching warriors from all of Tamriel clash to the death for the greatest pleasure of the local population, as well as some well-enjoyed money for the lucky and daring gamblers."
+ building_type_imperial_city_arena_01_desc:0 "Also named the 'Bloody Jewel of the Imperial City', the Imperial Arena was built by Gaiden Shinji at the end of the first millenium of the #LORE [compendium_first_era]#!. In here, the people of the Imperial Isle can enjoy watching warriors from all of Tamriel clash to the death for the greatest pleasure of the local population, as well as some well-enjoyed money for the lucky and daring gamblers."
  building_imperial_city_arena_01:0 "$building_type_imperial_city_arena_01$"
  building_imperial_city_arena_01_desc:0 "$building_type_imperial_city_arena_01_desc$"
  
@@ -83,7 +84,7 @@
  building_port_hestra_01_desc:0 "$building_type_port_hestra_01_desc$"
  
  building_type_arcane_university_01:0 "Arcane University"
- building_type_arcane_university_01_desc:0 "Founded in the Second Era, the Arcane University is the center of magical learning in Tamriel, even surpassing Crystal-like-Law in Summerset. Its vast libraries, countless artifacts, and unique amenities such as the Chironasium for enchanting, the Praxographical Center for spell making, the Lustratorium for alchemy, and the Imperial Orrery to chart Nirn and the heavens, make it a powerful place to hold in one's realm, even if they're not versed in the arts of magicka."
+ building_type_arcane_university_01_desc:0 "Founded in the #LORE [compendium_second_era]#!, the Arcane University is the center of magical learning in Tamriel, even surpassing Crystal-like-Law in Summerset. Its vast libraries, countless artifacts, and unique amenities such as the Chironasium for enchanting, the Praxographical Center for spell making, the Lustratorium for Alchemy, and the Imperial Orrery to chart Nirn and the heavens, make it a powerful place to hold in one's realm, even if they're not versed in the arts of magicka."
  building_arcane_university_01:0 "$building_type_arcane_university_01$"
  building_arcane_university_01_desc:0 "$building_type_arcane_university_01_desc$"
  
@@ -112,7 +113,7 @@
  building_alinor_harbor_01_desc:0 "$building_type_alinor_harbor_01_desc$"
  
  building_type_firsthold_orrery_01:0 "Great Orrery of Firsthold"
- building_type_firsthold_orrery_01_desc:0 "The Orrery of Firsthold is the prime institution of astronomical studies in the Summerset Isles. Through complex machinery and arcane spells, seers, symbologicians and polymaths decipher the mysteries of the starry sky, peering into the secrets of the Magna-Ge.\n\nMade with Aetherial minerals gathered in the Merethic Era, the legacy of the Sun Birds of Alinor is on full display."
+ building_type_firsthold_orrery_01_desc:0 "The Orrery of Firsthold is the prime institution of astronomical studies in the Summerset Isles. Through complex machinery and arcane spells, seers, symbologicians and polymaths decipher the mysteries of the starry sky, peering into the secrets of the Magna-Ge.\n\nMade with Aetherial minerals gathered in the #LORE [compendium_merethic_era]#!, the legacy of the Sun Birds of Alinor is on full display."
  building_firsthold_orrery_01:0 "$building_type_firsthold_orrery_01$"
  building_firsthold_orrery_01_desc:0 "$building_type_firsthold_orrery_01_desc$"
  
@@ -157,16 +158,16 @@
  bridges_leyawiin_01_must_be_disabled:0 "The $building_type_bridges_leyawiin_01$ must be disabled"
 
  building_type_st_bravillius_01:0 "St. Bravillius District"
- building_type_st_bravillius_01_desc:0 "The ward of St. Bravillius is where the Jewel of Nibenay's high walls stack the highest, sheltering the enormous manors of shipping magnates whose ancestors realized the drakes to be made on the River Larsius. At the dawn of the Second Era, fearing the bureaucracy that would follow in the wake of a stable empire, St. Bravillius's once-bickering wealthy families locked shields - and though the dockyards grew vacant and Bravil's common folk languished, palms were greased, arms and people were sold, and the old manor-district carried on.\n\nAll over the city, people muse that St. Bravillius's corruption will destroy the city in the coming centuries, in a tone which seems almost wishful."
+ building_type_st_bravillius_01_desc:0 "The ward of St. Bravillius is where the Jewel of Nibenay's high walls stack the highest, sheltering the enormous manors of shipping magnates whose ancestors realized the drakes to be made on the River Larsius. At the dawn of the #LORE [compendium_second_era]#!, fearing the bureaucracy that would follow in the wake of a stable empire, St. Bravillius's once-bickering wealthy families locked shields - and though the dockyards grew vacant and Bravil's common folk languished, palms were greased, arms and people were sold, and the old manor-district carried on.\n\nAll over the city, people muse that St. Bravillius's corruption will destroy the city in the coming centuries, in a tone which seems almost wishful."
  building_st_bravillius_01:0 "$building_type_st_bravillius_01$"
  building_st_bravillius_01_desc:0 "$building_type_st_bravillius_01_desc$"
  building_st_bravillius_02:0 "Magnificent $building_type_st_bravillius_01$"
  building_st_bravillius_02_desc:0 "$building_type_st_bravillius_01_desc$"
  
  building_type_city_of_orsinium_01:0 "City of Orsinium"
- building_type_city_of_orsinium_01_desc:0 "After a successful siege in the 430th Year of the Second Era, the City of Orsinium - the home of the Orcs - was sacked and almost completely destroyed. Its Orsimer population was expelled, forced to flee without a home. What remains of the city is routinely pillage by whoever owns the ruins, which is a great source of pride for many."
+ building_type_city_of_orsinium_01_desc:0 "After a successful siege in the 430th Year of the #LORE [compendium_second_era]#!, the City of Orsinium - the home of the Orcs - was sacked and almost completely destroyed. Its Orsimer population was expelled, forced to flee without a home. What remains of the city is routinely pillage by whoever owns the ruins, which is a great source of pride for many."
  building_city_of_orsinium_01:0 "Ruins of Orsinium"
- building_city_of_orsinium_01_desc:0 "After a successful siege in the 430th Year of the Second Era, the City of Orsinium - the home of the Orcs - was sacked and almost completely destroyed.\nIts Orsimer population was expelled, forced to flee without a home. \n\nWhat remains of the city is routinely pillaged by whoever owns the ruins, which is a great source of pride for many."
+ building_city_of_orsinium_01_desc:0 "After a successful siege in the 430th Year of the #LORE [compendium_second_era]#!, the City of Orsinium - the home of the Orcs - was sacked and almost completely destroyed.\nIts Orsimer population was expelled, forced to flee without a home. \n\nWhat remains of the city is routinely pillaged by whoever owns the ruins, which is a great source of pride for many."
  building_city_of_orsinium_02:0 "Reclaimed Ruins of Orsinium"
  building_city_of_orsinium_02_desc:0 "Reclaimed by the Orcs after decades of foreign ownership, the Ruins of Orsinium are another symbol of the Orsimer way of life - beaten down, fighting against insurmountable odds, and yet triumphing.\n\nWork has already started, but it will need many more years and many more workers before it can be once again the proud home of the Pariah Folk."
  building_city_of_orsinium_03:0 "City of Orsinium"
@@ -198,23 +199,23 @@
  holy_site_or_nature_freak:0 "Holder [faith|E] must consider it a [holy_site|E] or have the Green Pact or Jephre [pantheon|E]"
 
  building_type_cathedral_of_the_golden_path_01:0 "Cathedral of the Golden Path"
- building_type_cathedral_of_the_golden_path_01_desc:0 "Toward the end of the First Era, when Valenwood was ruled by the Second Empire, Southpoint was the most important Imperial colony-town in what was then called the Kingdom of Grahtwood. The cathedral there was built by Governor Zantonius, a Colovian from Kvatch."
+ building_type_cathedral_of_the_golden_path_01_desc:0 "Toward the end of the #LORE [compendium_first_era]#!, when Valenwood was ruled by the Second Empire, Southpoint was the most important Imperial colony-town in what was then called the Kingdom of Grahtwood. The cathedral there was built by Governor Zantonius, a Colovian from Kvatch."
  building_cathedral_of_the_golden_path_01:0 "Cathedral of the Golden Path"
  building_cathedral_of_the_golden_path_01_desc:0 "$building_type_cathedral_of_the_golden_path_01_desc$"
 
  building_type_othrenis_01:0 "Othrenis Necropolis"
- building_type_othrenis_01_desc:0 "During the First Era, this necropolis was created to inter a group of mages from Vvardenfell that were sent to seal away the Brothers of Strife, two hulking Bone Colossi that wreaked havoc across the land, slaughtering both Chimer and Nede alike. Not just the men, but the women and children too."
+ building_type_othrenis_01_desc:0 "During the #LORE [compendium_first_era]#!, this necropolis was created to inter a group of mages from Vvardenfell that were sent to seal away the Brothers of Strife, two hulking Bone Colossi that wreaked havoc across the land, slaughtering both Chimer and Nede alike. Not just the men, but the women and children too."
  building_othrenis_01:0 "Othrenis Necropolis"
  building_othrenis_01_desc:0 "$building_type_othrenis_01_desc$"
 
  building_type_ald_mirathi_01:0 "Ald Mirathi Shrine"
- building_type_ald_mirathi_01_desc:0 "This shrine built in honor of the Daedric Prince of Destruction, Mehrunes Dagon, stands upon Lake Boethiah's shores since time immemorial."
+ building_type_ald_mirathi_01_desc:0 "This shrine built in honor of the #LORE [compendium_daedric_prince]#! of Destruction, Mehrunes Dagon, stands upon Lake Boethiah's shores since time immemorial."
  building_ald_mirathi_01:0 "$building_type_ald_mirathi_01$"
  building_ald_mirathi_01_desc:0 "$building_type_ald_mirathi_01_desc$" 
  special_building_mehrunes:0 "Holder [faith|E] must have Mehrunes Dagon in its [pantheon|E]"
  
  building_type_vivecpalace_01:0 "Palace of Vivec"
- building_type_vivecpalace_01_desc:0 "This grand structure is the home of Vivec, the Warrior-Poet of the ALMSIVI. Although the compound's underlying Puzzle Canal is open to anyone, Vivec's personal abode is notoriously secure. Impregnable walls and doors, as well as patrols of Buoyant Armigers, Ordinators and summoned Daedra, protect the site from unwelcome visitors."
+ building_type_vivecpalace_01_desc:0 "This grand structure is the home of Vivec, the Warrior-Poet of the ALMSIVI. Although the compound's underlying Puzzle Canal is open to anyone, Vivec's personal abode is notoriously secure. Impregnable walls and doors, as well as patrols of Buoyant Armigers, Ordinators and summoned #LORE [compendium_daedra]#!, protect the site from unwelcome visitors."
  building_vivecpalace_01:0 "$building_type_vivecpalace_01$"
  building_vivecpalace_01_desc:0 "$building_type_vivecpalace_01_desc$"
 
@@ -225,7 +226,7 @@
  parliament_of_bugs_requirement:0 "You or your [liege|E] must hold House Telvanni"
  
  building_type_mane_palace_01:0 "Palace of the Mane"
- building_type_mane_palace_01_desc:0 "More a temple than palace, though lacking no luxuries and ostentations by any means, the Palace of the Mane rises towards the moonlit night amidst sugarcane gardens and undisturbed cool ponds. Here can be found ancient tapestries, silent testimonies to the bygone Sixteen Kingdoms, and esoteric frescoes depicting the lunar mysteries of Lles'wer. In these halls are also the Bi-Lunar Guard, who stalk out all interlopers who would trespass without the Mane's invitation."
+ building_type_mane_palace_01_desc:0 "More a temple than palace, though lacking no luxuries and ostentations by any means, the Palace of the Mane rises towards the moonlit night amidst sugarcane gardens and undisturbed cool ponds. Here can be found ancient tapestries, silent testimonies to the bygone #LORE [compendium_sixteen_kingdoms]#!, and esoteric frescoes depicting the lunar mysteries of Lles'wer. In these halls are also the Bi-Lunar Guard, who stalk out all interlopers who would trespass without the Mane's invitation."
  building_mane_palace_01:0 "$building_type_mane_palace_01$"
  building_mane_palace_01_desc:0 "$building_type_mane_palace_01_desc$"
  
@@ -247,12 +248,12 @@
  building_soulrest_port_01_desc:0 "$building_type_soulrest_port_01_desc$"
  
  building_type_nordic_walls_01:0 "Ancient Nordic Walls"
- building_type_nordic_walls_01_desc:0 "Towering Walls dating back to the First Era and beyond. Build by the Ancient Nords with methods barely understood now and reinforced with arcane magics, they have protected those that live inside them for generations."
+ building_type_nordic_walls_01_desc:0 "Towering Walls dating back to the #LORE [compendium_first_era]#! and beyond. Build by the Ancient Nords with methods barely understood now and reinforced with arcane magics, they have protected those that live inside them for generations."
  building_nordic_walls_01:0 "$building_type_nordic_walls_01$"
  building_nordic_walls_01_desc:0 "$building_type_nordic_walls_01_desc$"
  
  building_type_blue_palace_01:0 "Blue Palace"
- building_type_blue_palace_01_desc:0 "The Blue Palace has served as the seat of the Jarls of Solitude (and occasional High King) since at least the year 143 of the First Era. Called the 'Blue Palace' because of its blue roofs and great blue dome, it towers on top of Solitude's Great Arch and can be seen when aproaching the city by boat or foot."
+ building_type_blue_palace_01_desc:0 "The Blue Palace has served as the seat of the Jarls of Solitude (and occasional High King) since at least the year 143 of the #LORE [compendium_first_era]#!. Called the 'Blue Palace' because of its blue roofs and great blue dome, it towers on top of Solitude's Great Arch and can be seen when aproaching the city by boat or foot."
  building_blue_palace_01:0 "$building_type_blue_palace_01$"
  building_blue_palace_01_desc:0 "$building_type_blue_palace_01_desc$"
  
@@ -272,7 +273,7 @@
  building_winterhold_fortress_01_desc:0 "$building_type_winterhold_fortress_01_desc$"
 
  building_type_winterhold_college_01:0 "College of Winterhold"
- building_type_winterhold_college_01_desc:0 "The College of Winterhold is Skyrim's premier location for learning and studying the arcane arts. It was supposedly founded by the great Arch-Mage Shalidor in the First Era, and has for generations bought prestige and recognition to Winterhold."
+ building_type_winterhold_college_01_desc:0 "The College of Winterhold is Skyrim's premier location for learning and studying the arcane arts. It was supposedly founded by the great Arch-Mage Shalidor in the #LORE [compendium_first_era]#!, and has for generations bought prestige and recognition to Winterhold."
  building_winterhold_college_01:0 "$building_type_winterhold_college_01$"
  building_winterhold_college_01_desc:0 "$building_type_winterhold_college_01_desc$"
 
@@ -330,7 +331,7 @@
  building_grayhome_citadel_01_desc:0 "$building_type_grayhome_citadel_01_desc$"
 
  building_type_hira_free_port_01:0 "Hira Free Port"
- building_type_hira_free_port_01_desc:0 "According to legends, this location served as the site of the Na-Totambu exodus, accommodating a fleet of hundreds of enormous ships with docks stretching as far as the eye can see. Although those glorious days have passed, the Hira Free Port remains the paramount hub for any remaining trade between Yokuda and Tamriel. It continues to offer a place where ships can be repaired and readied for the arduous journey across the eltheric ocean."
+ building_type_hira_free_port_01_desc:0 "According to legends, this location served as the site of the #LORE [compendium_na_totambu]#! exodus, accommodating a fleet of hundreds of enormous ships with docks stretching as far as the eye can see. Although those glorious days have passed, the Hira Free Port remains the paramount hub for any remaining trade between Yokuda and Tamriel. It continues to offer a place where ships can be repaired and readied for the arduous journey across the eltheric ocean."
  building_hira_free_port_01:0 "$building_type_hira_free_port_01$"
  building_hira_free_port_01_desc:0 "$building_type_hira_free_port_01_desc$"
 
@@ -351,7 +352,7 @@
  building_mathiisen_forge_district_01_desc:0 "$building_type_mathiisen_forge_district_01_desc$"
 
  building_type_banished_cells_01:0 "Banished Cells"
- building_type_banished_cells_01_desc:0 "The Banished Cells are a high security prison that is built into the remains of a large underground complex. They are specifically designed to held high ranking prisoners, especially ones with a vast amount of magical capabilities or – and that occurs dangerously often – individuals who get too close to the Daedra. To doing so is considered a most heinous crime as it allows malevolent forces to get a gripe on altmer society, which in the most extreme cases could led to its destruction if left unchecked.\n\nTherefore only the most capable of guards, called keepers, are allowed to work here and they are supported in their duty by powerful magical barriers and the thick walls of this unforgiving prison."
+ building_type_banished_cells_01_desc:0 "The Banished Cells are a high security prison that is built into the remains of a large underground complex. They are specifically designed to held high ranking prisoners, especially ones with a vast amount of magical capabilities or – and that occurs dangerously often – individuals who get too close to the #LORE [compendium_daedra]#!. To doing so is considered a most heinous crime as it allows malevolent forces to get a gripe on altmer society, which in the most extreme cases could led to its destruction if left unchecked.\n\nTherefore only the most capable of guards, called keepers, are allowed to work here and they are supported in their duty by powerful magical barriers and the thick walls of this unforgiving prison."
  building_banished_cells_01:0 "$building_type_banished_cells_01$"
  building_banished_cells_01_desc:0 "$building_type_banished_cells_01_desc$"
 
@@ -391,7 +392,7 @@
  building_anvil_harborside_01_desc:0 "$building_type_anvil_harborside_01_desc$"
 
  building_type_treehenge_resting_place_01:0 "Treehenge Resting Place"
- building_type_treehenge_resting_place_01_desc:0 "This sacred location serves as the final resting place for the spirits of the Green Ladies who have safeguarded Valenwood since the Merethic Era. It transcends being a mere burial ground, for the souls of these age-old protectors continue to dwell within the land and the trees. A worthy Bosmer may be bestowed with a blessing at this site, allowing them to sense the formidable vigilance of Valenwood's staunch guardians and to imbibe a fraction of their power."
+ building_type_treehenge_resting_place_01_desc:0 "This sacred location serves as the final resting place for the spirits of the Green Ladies who have safeguarded Valenwood since the #LORE [compendium_merethic_era]#!. It transcends being a mere burial ground, for the souls of these age-old protectors continue to dwell within the land and the trees. A worthy Bosmer may be bestowed with a blessing at this site, allowing them to sense the formidable vigilance of Valenwood's staunch guardians and to imbibe a fraction of their power."
  building_treehenge_resting_place_01:0 "$building_type_treehenge_resting_place_01$"
  building_treehenge_resting_place_01_desc:0 "$building_type_treehenge_resting_place_01_desc$"
  green_pact_or_bosmeri:0 "Holder must be of bosmeri [heritage|E] or their [faith|E] must have the Green Pact [doctrine|E]"
@@ -423,7 +424,7 @@
  holy_site_or_zenithar:0 "Holder [faith|E] must consider it a [holy_site|E], have Zenithar, Z'en, Zeht or the Cult of Guilds in its [pantheon|E], or be a Cyrodiilic Cult."
 
  building_type_great_chapel_stendarr_01:0 "Great Chapel of Stendarr"
- building_type_great_chapel_stendarr_01_desc:0 "This chapel traces its origins to the ancient days of the First Era, with its initial construction likely coinciding with the establishment of the city itself. Dedicated to Stendarr, it symbolizes both resilience and steadfastness, much like the renowned oaks for which the city is known.\n\nSimilar to these majestic trees, the chapel gradually expanded over time, undergoing numerous enhancements and renovations until the modest structure transformed into the grand cathedral that now stands, casting an impressive shadow even over the mightiest of oaks."
+ building_type_great_chapel_stendarr_01_desc:0 "This chapel traces its origins to the ancient days of the #LORE [compendium_first_era]#!, with its initial construction likely coinciding with the establishment of the city itself. Dedicated to Stendarr, it symbolizes both resilience and steadfastness, much like the renowned oaks for which the city is known.\n\nSimilar to these majestic trees, the chapel gradually expanded over time, undergoing numerous enhancements and renovations until the modest structure transformed into the grand cathedral that now stands, casting an impressive shadow even over the mightiest of oaks."
  building_great_chapel_stendarr_01:0 "$building_type_great_chapel_stendarr_01$"
  building_great_chapel_stendarr_01_desc:0 "$building_type_great_chapel_stendarr_01_desc$"
  stendarr_or_cyrodiilic_cult:0 "Holder [faith|E] must consider it a [holy_site|E], have Stendarr or Stuhn in its [pantheon|E], or be a Cyrodiilic Cult."
@@ -436,10 +437,10 @@
 
 
  building_type_great_chapel_shezarr_01:0 "Great Chapel of Shezarr"
- building_type_great_chapel_shezarr_01_desc:0 "A prominent site of worship for the 'Missing God', the Great Chapel of Shezarr is unusually austere compared to its sister temples. This deliberate frugality covers the influx of wealth channeled through the Chapel.\n\nThe priesthood of Shezarr tends to the temple first and foremost before using most of their resources to maintain a widespread information network. If a priest, prelate or lay initiate hears anything of strategic value, chances are the Chapel of Shezarr will get their hands on that information and sell it for the right price. A savvy patron could exert influence in the opposite way, to keep information from leaking."
+ building_type_great_chapel_shezarr_01_desc:0 "A prominent site of worship for the '#LORE [compendium_missing_god]#!', the Great Chapel of Shezarr is unusually austere compared to its sister temples. This deliberate frugality covers the influx of wealth channeled through the Chapel.\n\nThe priesthood of Shezarr tends to the temple first and foremost before using most of their resources to maintain a widespread information network. If a priest, prelate or lay initiate hears anything of strategic value, chances are the Chapel of Shezarr will get their hands on that information and sell it for the right price. A savvy patron could exert influence in the opposite way, to keep information from leaking."
  building_great_chapel_shezarr_01:0 "$building_type_great_chapel_shezarr_01$"
  building_great_chapel_shezarr_01_desc:0 "$building_type_great_chapel_shezarr_01_desc$"
- shezarr_or_cyrodiilic_cult:0 "Holder [faith|E] must have Shezarr, Shor, Lorkhan or Sep in its [pantheon|E], or be a Cyrodiilic Cult."
+ shezarr_or_cyrodiilic_cult:0 "Holder [faith|E] must have #LORE [compendium_shezarr]#!, Shor, Lorkhan or Sep in its [pantheon|E], or be a Cyrodiilic Cult."
 
  building_type_great_chapel_julianos_01:0 "Great Chapel of Julianos"
  building_type_great_chapel_julianos_01_desc:0 "Skingrad has held a prominent position in the Colovian region of the Empire for as far back as collective memory allows. Nestled upon gentle hills, enveloped by fertile farmlands and flourishing vineyards, it possessed all the necessary elements to flourish into an opulent and picturesque city – a potential that it fully capitalized on.\n\nThe city's affluence is splendidly exemplified by the grandeur of the Cathedral of Julianos, an exquisite edifice devoted to a cultivated deity. Julianos, revered as the Patron of Wisdom, Logic, and Magic, finds homage in this architectural marvel."
@@ -485,7 +486,7 @@
  building_type_chapel_of_the_eight_01_desc:0 "There are numerous temples in Cyrodiil devoted to one of the divines, but this particular holy site stands out due to its dedication to the worship of the entire pantheon. In this capacity, it serves as the central hub of the Cyrodiilic Cult and provides a residence for several initiates who diligently attend to this place and offer their prayers.\n\nTo ensure the security of this significant location and the safety of both its inhabitants and the pilgrims who arrive here, a specialized order known as "The Knights of the Eight" is stationed at this site. They maintain constant vigilance, guarding the premises and even providing training to the initiates, enabling them to defend themselves if the need arises."
  building_chapel_of_the_eight_01:0 "$building_type_chapel_of_the_eight_01$"
  building_chapel_of_the_eight_01_desc:0 "$building_type_chapel_of_the_eight_01_desc$"
- holy_site_or_cyrodiilic_cult:0 "Holder [faith|E] must consider it a [holy_site|E], have the Divines in its [pantheon|E] or be a Cyrodiilic Cult."
+ holy_site_or_cyrodiilic_cult:0 "Holder [faith|E] must consider it a [holy_site|E], have the #LORE [compendium_divines]#! in its [pantheon|E] or be a Cyrodiilic Cult."
 
  building_type_dervish_grounds_01:0 "Dervish Grounds"
  building_type_dervish_grounds_01_desc:0 "The dervishes of Rihad are quite peculiar individuals. They have adapted to a life amidst the vast deserts of Hammerfell, while also staunchly adhering to the sword-fighting traditions passed down by their ancestors. This unique fusion results in a group of highly skilled yet somewhat zealous warriors, characterized by numerous practices that might appear unsettling to others. It is said that they traverse the land atop tattooed camels, tirelessly searching for fresh opportunities to refine their mastery of the sword.\n\nThese training grounds in Rihad serve as the gathering place for the dervishes, where they convene periodically to exchange their experiences and engage in competitions to test their prowess against each other - and anyone brave enough to issue a challenge."
@@ -614,7 +615,7 @@
  building_zazaradi_mines_04_desc:1 "$building_type_zazaradi_mines_01_desc$"
 
  building_type_ebony_mine_01:0 "Ebony Mine"
- building_type_ebony_mine_01_desc:0 "This is an ebony mine, said to tap into veins of the blood of Lorkhan himself. In its depths, miners toil day upon day to extract this precious metal, powerful both physically and magickally and very, very, valuable.\n\nAs unrestricted ebony access is terrifying—and wasteful for their armies—, some polities make it a controlled material. Distributed through a state monopoly, few will be connected or affluent enough to do legit trade, and the majority resort to smugglers to acquire the ore."
+ building_type_ebony_mine_01_desc:0 "This is an ebony mine, said to tap into veins of the blood of #LORE [compendium_lorkhan]#! himself. In its depths, miners toil day upon day to extract this precious metal, powerful both physically and magickally and very, very, valuable.\n\nAs unrestricted ebony access is terrifying—and wasteful for their armies—, some polities make it a controlled material. Distributed through a state monopoly, few will be connected or affluent enough to do legit trade, and the majority resort to smugglers to acquire the ore."
  building_ebony_mine_01:1 "$building_type_ebony_mine_01$"
  building_ebony_mine_01_desc:1 "$building_type_ebony_mine_01_desc$"
  building_ebony_mine_02:1 "$building_type_ebony_mine_01$"
@@ -692,7 +693,7 @@
  building_fahlbtharz_forge_01_desc:1 "$building_type_fahlbtharz_forge_01_desc$"
 
  building_type_garlas_agea_01:0 "Garlas Agea"
- building_type_garlas_agea_01_desc:0 "In the early First Era, Garlas Agea was home to the most prominent Sorcerer-King on the Gold Coast, and the de facto “capitol” of the Ayleids in the area. It served as a sort of Arcane High Palace, until Garlas Malatar began to eclipse the influence of Garlas Agea. This early demise might be what saved the structure from being destroyed following the Alessian Slave Rebellion in the early 1E 240s.\nHowever to this day its exact arcane functions remain a mystery, making it a prime destination of regional scholars and noble tourists alike."
+ building_type_garlas_agea_01_desc:0 "In the early #LORE [compendium_first_era]#!, Garlas Agea was home to the most prominent Sorcerer-King on the Gold Coast, and the de facto “capitol” of the Ayleids in the area. It served as a sort of Arcane High Palace, until Garlas Malatar began to eclipse the influence of Garlas Agea. This early demise might be what saved the structure from being destroyed following the Alessian Slave Rebellion in the early 1E 240s.\nHowever to this day its exact arcane functions remain a mystery, making it a prime destination of regional scholars and noble tourists alike."
  building_garlas_agea_01:1 "$building_type_garlas_agea_01$"
  building_garlas_agea_01_desc:1 "$building_type_garlas_agea_01_desc$"
 
@@ -727,7 +728,7 @@
  building_rimmen_necropolis_01_desc:1 "$building_type_rimmen_necropolis_01_desc$"
 
  building_type_sunspire_temple_01:0 "Sunspire Temple"
- building_type_sunspire_temple_01_desc:0 "Established in the First Era, Sunspire temple was the epicenter of Khajiit religion in ancient Anequina. Back in 1E 243, the Khajiit were nearly annihilated by Pelinal, lost in the throes of violent madness. Alkosh's intervention saved the survivors on the Sunspire, and since then the mountain has been holy to the catfolk.\n\nThe massive complex has profited from generations of offerings and patrons to fully glorify Alkosh. Many stoneworks and towers of antique Khajiit make occupy the grounds, kept in pristine condition by the resident monks and some lay volunteers. The mountain spire that gives it name to the place is among the highest houses of worship in Elsweyr."
+ building_type_sunspire_temple_01_desc:0 "Established in the #LORE [compendium_first_era]#!, Sunspire temple was the epicenter of Khajiit religion in ancient Anequina. Back in 1E 243, the Khajiit were nearly annihilated by Pelinal, lost in the throes of violent madness. Alkosh's intervention saved the survivors on the Sunspire, and since then the mountain has been holy to the catfolk.\n\nThe massive complex has profited from generations of offerings and patrons to fully glorify Alkosh. Many stoneworks and towers of antique Khajiit make occupy the grounds, kept in pristine condition by the resident monks and some lay volunteers. The mountain spire that gives it name to the place is among the highest houses of worship in Elsweyr."
  building_sunspire_temple_01:1 "$building_type_sunspire_temple_01$"
  building_sunspire_temple_01_desc:1 "$building_type_sunspire_temple_01_desc$"
  holy_site_or_alkosh:0 "Holder [faith|E] must consider it a [holy_site|E] or have Alkosh in its [pantheon|E]"
@@ -779,7 +780,7 @@
  building_halls_of_highmane_01_desc:1 "$building_type_halls_of_highmane_01_desc$"
 
  building_type_senchal_palace_01:0 "Senchal Palace"
- building_type_senchal_palace_01_desc:0 "Embellished by wares from across seas, Senchal Palace stands for all the great and worse of its town; Opulence, guile and and thrift are carved into its foundations. Several rulers arose from the native merchant oligarchy while even the Potentate elected to rule from within these walls.\n\nHence the Palace is more baroque meeting hall than grim stronghold, and its layout has plenty of room for fountains, gardens and lanterns to the delight of all authorized to walk the grounds. Generations of funding and rich history have made the Palace one of the most refined landmarks in all Southern Tamriel."
+ building_type_senchal_palace_01_desc:0 "Embellished by wares from across seas, Senchal Palace stands for all the great and worse of its town; Opulence, guile and and thrift are carved into its foundations. Several rulers arose from the native merchant oligarchy while even the #LORE [compendium_potentate]#! elected to rule from within these walls.\n\nHence the Palace is more baroque meeting hall than grim stronghold, and its layout has plenty of room for fountains, gardens and lanterns to the delight of all authorized to walk the grounds. Generations of funding and rich history have made the Palace one of the most refined landmarks in all Southern Tamriel."
  building_senchal_palace_01:1 "$building_type_senchal_palace_01$"
  building_senchal_palace_01_desc:1 "$building_type_senchal_palace_01_desc$"
 
@@ -789,7 +790,7 @@
  building_marzuk_tower_01_desc:1 "$building_type_marzuk_tower_01_desc$"
 
  building_type_potentate_retreat_01:0 "Potentate's Retreat"
- building_type_potentate_retreat_01_desc:0 "When the Potentate wasn't an 'honored guest' of the Senchal royals, he would reside in this villa at the southern tip of the Quin'rawl Peninsula. It appears as a rock-hewn Khajiiti manor, but with a prominent Imperial Diamond latched on the wooden door. According to records, the Potentate often felt more at ease within the Retreat: within bustling Senchal he stayed more guest than resident, despite absolute power. From there, he could freely organize hunting parties, feasts or audiences with less pomp than his dignity required at Senchal Palace."
+ building_type_potentate_retreat_01_desc:0 "When the #LORE [compendium_potentate]#! wasn't an 'honored guest' of the Senchal royals, he would reside in this villa at the southern tip of the Quin'rawl Peninsula. It appears as a rock-hewn Khajiiti manor, but with a prominent Imperial Diamond latched on the wooden door. According to records, the Potentate often felt more at ease within the Retreat: within bustling Senchal he stayed more guest than resident, despite absolute power. From there, he could freely organize hunting parties, feasts or audiences with less pomp than his dignity required at Senchal Palace."
  building_potentate_retreat_01:1 "$building_type_potentate_retreat_01$"
  building_potentate_retreat_01_desc:1 "$building_type_potentate_retreat_01_desc$"
 
@@ -799,7 +800,7 @@
  building_temple_mourning_spring_01_desc:1 "$building_type_temple_mourning_spring_01_desc$"
 
  building_type_tonenaka_shrine_01:0 "Tonenaka Shrine"
- building_type_tonenaka_shrine_01_desc:0 "Consecrated by fleeing Ilniviri, the Tonenaka Shrine is a nexus of Rimmen past and present history; A Khajiit city with a significant Cyrodiilic component and now Tsaesci settlers. Workers from throughout Elsweyr and beyond flocked to work on the centerpiece: ten thousand stone statuettes, who adorn the masonry work.\n\nSome say they honor the innumerable fallen of the chaotic post-Potentate period, in particular the trek to Rimmen. None knows for certain, as the five surviving patrons of the project entered the shrine alone and sealed it with wards of magic. As such only the outside has seen restoration work. Petitioners must do with the courtyard of the temple complex."
+ building_type_tonenaka_shrine_01_desc:0 "Consecrated by fleeing Ilniviri, the Tonenaka Shrine is a nexus of Rimmen past and present history; A Khajiit city with a significant Cyrodiilic component and now Tsaesci settlers. Workers from throughout Elsweyr and beyond flocked to work on the centerpiece: ten thousand stone statuettes, who adorn the masonry work.\n\nSome say they honor the innumerable fallen of the chaotic post-#LORE [compendium_potentate]#! period, in particular the trek to Rimmen. None knows for certain, as the five surviving patrons of the project entered the shrine alone and sealed it with wards of magic. As such only the outside has seen restoration work. Petitioners must do with the courtyard of the temple complex."
  building_tonenaka_shrine_01:1 "$building_type_tonenaka_shrine_01$"
  building_tonenaka_shrine_01_desc:1 "$building_type_tonenaka_shrine_01_desc$"
 
@@ -883,7 +884,7 @@
  building_solitude_holy_walls_01:0 "$building_type_solitude_holy_walls_01$"
  building_solitude_holy_walls_01_desc:0 "$building_type_solitude_holy_walls_01_desc$"
  building_solitude_holy_walls_02:0 "Blessed $building_type_solitude_holy_walls_01$"
- building_solitude_holy_walls_02_desc:0 "The walls surrounding the city of Solitude have seen their divine enchantments refined and strengthened, and pilgrims now come from all provinces of Tamriel to admire this creation of the Divines."
+ building_solitude_holy_walls_02_desc:0 "The walls surrounding the city of Solitude have seen their divine enchantments refined and strengthened, and pilgrims now come from all provinces of Tamriel to admire this creation of the #LORE [compendium_divines]#!."
  
  building_type_leki_blade_01:0 "Leki's Blade"
  building_type_leki_blade_01_desc:0 "Leki and Rada al-Saran fought for three days and three nights.\nGrowing tired, the warrior struck Leki's blade directly and broke it in two.\nA terrifying sandstorm covered the province, and as it cleared the goddess had erected a shrine.\n\nEver since, the most arduous and talented students in the ways of the sword come here to train and learn the ancient arts."
@@ -899,12 +900,12 @@
  holy_site_or_reman:0 "Holder [faith|E] must consider it a [holy_site|E] or have Reman in its [pantheon|E]"
  
  building_type_cath_bedraud_01:0 "Cath Bedraud"
- building_type_cath_bedraud_01_desc:0 "Built in the First Era, in the wake of Battle of Glenumbra Moors, the great cemetary of Cath Bedraud houses all the fallen soldiers and heroes who died defending High Rock. Over the centuries it evolved to house the greatest rulers of High Rock, and it is now common for a royal family to be granted an exclusive portion of the cemetary to house their dead."
+ building_type_cath_bedraud_01_desc:0 "Built in the #LORE [compendium_first_era]#!, in the wake of Battle of Glenumbra Moors, the great cemetary of Cath Bedraud houses all the fallen soldiers and heroes who died defending High Rock. Over the centuries it evolved to house the greatest rulers of High Rock, and it is now common for a royal family to be granted an exclusive portion of the cemetary to house their dead."
  building_cath_bedraud_01:0 "$building_type_cath_bedraud_01$"
  building_cath_bedraud_01_desc:0 "$building_type_cath_bedraud_01_desc$"
 
  building_type_burg_tusktrutz_01:0 "Burg Tusktrutz"
- building_type_burg_tusktrutz_01_desc:0 "Built by the Bretons of the First Era, Burg Tusktrutz is a massive fortress that has withstood the test of time. It is a bulwark that stretches across the entire valley and is both a bridge and a gigantic gateway.\n\nThe castle with an unpronounceable name has kept the Orcs of Wrothgar from invading the Stormhaven region for centuries. Locals often refer to it as a fiery beacon of safety, as its large signal lights can be seen all the way to the coast."
+ building_type_burg_tusktrutz_01_desc:0 "Built by the Bretons of the #LORE [compendium_first_era]#!, Burg Tusktrutz is a massive fortress that has withstood the test of time. It is a bulwark that stretches across the entire valley and is both a bridge and a gigantic gateway.\n\nThe castle with an unpronounceable name has kept the Orcs of Wrothgar from invading the Stormhaven region for centuries. Locals often refer to it as a fiery beacon of safety, as its large signal lights can be seen all the way to the coast."
  building_burg_tusktrutz_01:0 "$building_type_burg_tusktrutz_01$"
  building_burg_tusktrutz_01_desc:0 "$building_type_burg_tusktrutz_01_desc$"
 
@@ -914,7 +915,7 @@
  building_castle_wayrest_01_desc:0 "$building_type_castle_wayrest_01_desc$"
 
  building_type_castle_daggerfall_01:0 "Castle Daggerfall"
- building_type_castle_daggerfall_01_desc:0 "The Castle of Daggerfall overlooks both the Iliac and Eltheric waters like a proud sea bird. Its high towers, enchanted portcullis and unfathomable moat join forces to deter intruders. Past monarchs of Daggerfall exercised control not only over Glenumbra but the whole of Starfall Bay relying on this august fortress and its bustling castle town.\n\nThe building testifies to the turbulence of First Era High Rockian politics: Altmer techniques can be seen in the construction, yet the layout is reminiscent of ancient Nord fortresses. No matter this heritage, architects made the castle a distinctly Breton work with walls typical of a High Rock hillfort, only grander and sturdier than any other stronghold besides Bangkorai Garrison."
+ building_type_castle_daggerfall_01_desc:0 "The Castle of Daggerfall overlooks both the Iliac and Eltheric waters like a proud sea bird. Its high towers, enchanted portcullis and unfathomable moat join forces to deter intruders. Past monarchs of Daggerfall exercised control not only over Glenumbra but the whole of Starfall Bay relying on this august fortress and its bustling castle town.\n\nThe building testifies to the turbulence of #LORE [compendium_first_era]#! High Rockian politics: Altmer techniques can be seen in the construction, yet the layout is reminiscent of ancient Nord fortresses. No matter this heritage, architects made the castle a distinctly Breton work with walls typical of a High Rock hillfort, only grander and sturdier than any other stronghold besides Bangkorai Garrison."
  building_castle_daggerfall_01:0 "$building_type_castle_daggerfall_01$"
  building_castle_daggerfall_01_desc:0 "$building_type_castle_daggerfall_01_desc$"
 
@@ -943,7 +944,7 @@
  building_doomcrag_tower_02_desc:0 "Through deep purifying magic, the Doomcrag has been purified and Erokii stands again! Proudly overlooking the land is Lattanya—Light of Life— of old, the guardian relic which made nature blossom and warded off illnesses. Its soothing magic ensure the hinterlands prosper and are safe to walk again."
 
  building_type_fang_lair_01:0 "Fang Lair (Haunted)"
- building_type_fang_lair_01_desc:0 "This cursed place was once known as Arkngthamz-Phng, a thriving city of the Dwemer. It owed its prosperity to the presence of Aetherium and its strategic location between High Rock and Hammerfell. However, its tale took a gruesome turn with the arrival of the dragon Thurvokun. This fearsome creature laid claim to the city, leading to its destruction and driving the surviving Dwemer inhabitants away. As a result, the city earned a new name: Fang Lair. Yet, in these dark depths, not even a dragon could found respite. Thurvokun met his end at the hands of a group of adventurers, though he dragged them into death's embrace with him.\n\nSince that time, Fang Lair has been avoided by mostn folk, as it gained a reputation for harboring undead and dark magic. Despite this, the allure of Aetherium still compels some miners to venture into the upper levels of these caverns."
+ building_type_fang_lair_01_desc:0 "This cursed place was once known as Arkngthamz-Phng, a thriving city of the Dwemer. It owed its prosperity to the presence of Aetherium and its strategic location between High Rock and Hammerfell. However, its tale took a gruesome turn with the arrival of the dragon Thurvokun. This fearsome creature laid claim to the city, leading to its destruction and driving the surviving Dwemer inhabitants away. As a result, the city earned a new name: Fang Lair. Yet, in these dark depths, not even a dragon could found respite. Thurvokun met his end at the hands of a group of adventurers, though he dragged them into death's embrace with him.\n\nSince that time, Fang Lair has been avoided by most folk, as it gained a reputation for harboring undead and dark magic. Despite this, the allure of Aetherium still compels some miners to venture into the upper levels of these caverns."
  building_fang_lair_01:0 "$building_type_fang_lair_01$"
  building_fang_lair_01_desc:0 "$building_type_fang_lair_01_desc$"
  building_fang_lair_02:0 "Fang Lair"
@@ -988,7 +989,7 @@
  holy_site_building_university_visit:0 "May be used for [GetActivityType('activity_adult_education').GetName]"
  
  building_type_daedric_shrine_01:0 "Daedric Shrine"
- building_type_daedric_shrine_01_desc:0 "A great shrine, dedicated to the Daedric Princes.\n\nSacrifices in the name of the Daedra are held almost every day, and the terrific powers of Oblivion seem to seep from this very place."
+ building_type_daedric_shrine_01_desc:0 "A great shrine, dedicated to the #LORE [compendium_daedric_princes]#!.\n\nSacrifices in the name of the #LORE [compendium_daedra]#! are held almost every day, and the terrific powers of Oblivion seem to seep from this very place."
  building_daedric_shrine_01:0 "$building_type_daedric_shrine_01$"
  building_daedric_shrine_01_desc:0 "$building_type_daedric_shrine_01_desc$"
  
@@ -998,9 +999,10 @@
  building_great_wyrd_tree_01_desc:0 "$building_type_great_wyrd_tree_01_desc$"
  
  building_type_dragon_temple_01:0 "Dragon Temple"
- building_type_dragon_temple_01_desc:0 "Gigantic temples dedicated to the Dragons, the sole masters of this world. Through these they appoint their heralds and stewards, and the blessed may serve the Dragon-Priest housed here.\n\nThe [holder|E] of this [county|E] also receives the following:\n$TAB$ #G -10%#! 'Summon Dragons' [piety|E] cost"
+ building_type_dragon_temple_01_desc:0 "Gigantic temples dedicated to the Dragons, the sole masters of this world. Through these they appoint their heralds and stewards, and the blessed may serve the Dragon-Priest housed here."
  building_dragon_temple_01:0 "$building_type_dragon_temple_01$"
  building_dragon_temple_01_desc:0 "$building_type_dragon_temple_01_desc$"
+ holy_site_building_university_visit_dragon_temple:0 "May be used for [GetActivityType('activity_adult_education').GetName]\n[holder|E] of this [county|E]:\n$TAB$ #P -10%#! #V 'Summon Dragons'#! [piety|E] cost"
 
  building_type_generic_holy_site_01:0 "Holy Site"
  building_type_generic_holy_site_01_desc:0 "This place holds a particular importance to a faith, and its faithful may here consecrate a holy site to serve as a place of worship."
@@ -1068,7 +1070,7 @@
  building_academymag_02:0 "Mage's Towers"
  building_academymag_02_desc:1 "Towers are usually a popular option when a mage academy or institution decides to house its personel."
  building_academymag_03:0 "Greenhouse"
- building_academymag_03_desc:1 "Almost all ingredients needed for alchemy classes are grown here in the quantities required to support the classes."
+ building_academymag_03_desc:1 "Almost all ingredients needed for Alchemy classes are grown here in the quantities required to support the classes."
  building_academymag_04:0 "Laboratory"
  building_academymag_04_desc:1 "Alchemy can be a very finicky subject, thats why a controlled envirorment is needed to keep and brew the most difficult potions."
  building_academymag_05:0 "Enchanting Room"
@@ -1157,9 +1159,9 @@
 
 # Pantherfang Chapel
  building_type_pantherfang_chapel_01:0 "Pantherfang Chapel"
- building_type_pantherfang_chapel_01_desc:1 "Erected during the First Era by the Quenching Grail religious order, this sacred sanctuary served for centuries as both a chapel and a formidable fortress, safeguarding the clergy and believers amidst turbulent times."
+ building_type_pantherfang_chapel_01_desc:1 "Erected during the #LORE [compendium_first_era]#! by the Quenching Grail religious order, this sacred sanctuary served for centuries as both a chapel and a formidable fortress, safeguarding the clergy and believers amidst turbulent times."
  building_pantherfang_chapel_01:0 "Pantherfang Chapel"
- building_pantherfang_chapel_01_desc:1 "Erected during the First Era by the Quenching Grail religious order, this sacred sanctuary served for centuries as both a chapel and a formidable fortress, safeguarding the clergy and believers amidst turbulent times."
+ building_pantherfang_chapel_01_desc:1 "Erected during the #LORE [compendium_first_era]#! by the Quenching Grail religious order, this sacred sanctuary served for centuries as both a chapel and a formidable fortress, safeguarding the clergy and believers amidst turbulent times."
 
  special_prison_effect_desc:0 "@prison_icon! [prisoners|E] held by the holder of this [county|E] are less likely to escape."
  fang_lair_effect_desc:0 "@necromancy_icon! Necromancers holding this [county|E] are able to summon the undead dragon Thurvokun."

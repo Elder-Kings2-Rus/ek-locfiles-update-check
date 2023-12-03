@@ -13,7 +13,7 @@
  
  ### Attrebus/Interregnum decisions
  attrebus_interregnum_decision:0 "The Interregnum?"
- attrebus_interregnum_decision_desc:0 "The Potentate has fallen, and the Elder Council has agreed to lend you emergency powers to sort out the political crisis that could ensue.\n\nYou will however have to act quick, as the patience of the High Chancellor is not infinite..."
+ attrebus_interregnum_decision_desc:0 "The #LORE [compendium_potentate]#! has fallen, and the Elder Council has agreed to lend you emergency powers to sort out the political crisis that could ensue.\n\nYou will however have to act quick, as the patience of the High Chancellor is not infinite..."
  attrebus_interregnum_decision_tooltip:0 "How will Cyrodiil fare in the coming age?"
  attrebus_interregnum_decision_confirm:0 "Summon the Elder Council!"
  attrebus_interregnum_decision_required_tasks_tt:0 "You have fulfilled #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! of the 3 [required_tasks|E] to placate the Elder Council. You have #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] years#! left before the Elder Council runs out of patience."

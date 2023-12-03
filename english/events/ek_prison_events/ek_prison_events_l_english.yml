@@ -1,4 +1,28 @@
 ﻿l_english:
+ prison.1001.fire.desc:0 "[actor.GetTitledFirstName] conjures a menacing flame in [actor.GetHerHis] hand, its heat searing my face. "You know, some people consider destruction magic to be rough and undefined, but I'll show you that there's a certain artistry to it.""
+ prison.1001.frost.desc:0 "The temperature in my cell noticeably drops, and I observe frost crystals forming around [actor.GetTitledFirstName] hand, mirroring the icy smile on [actor.GetHerHis] face. "Don't worry, at a certain point your body will freeze and numb the pain, although that might take some time.""
+ prison.1001.sparks.desc:0 ""Shock magic, if skillfully applied, serves a particular purpose, don't you agree?" [actor.GetTitledFirstName] inquires, sparks crackling between [actor.GetHerHis] fingers. "It can inflict significant pain without causing excessive harm to your body. Allow me to illustrate.""
+ prison.1001.bone_mending.desc:0 "The scent of death accompanies [actor.GetTitledFirstName] into the cell, and my heart quickens as [actor.GetSheHe] fixes [actor.GetHerHis] gaze on me. "You see, I have significant experience in altering bones and flesh, though I rarely practice on the living. Let's change that.""
+ prison.1001.experimental.desc:0 ""I have some intriguing new spells I'd like to test on someone. Would you be willing to assist me in this endeavor?" [actor.GetTitledFirstName] inquires with genuine curiosity, adding, "It guess it will only hurt a little. Or very much. We have to see.""
+
+ prison.1002.fire.desc:0 "Some people consider destruction magic to be rough and undefined, but the exact control of the flame is quite the art. And I can't wait to demonstrate it to [recipient.GetTitledFirstName] as [recipient.GetSheHe] already flinches before the heat."
+ prison.1002.frost.desc:0 "Using frost magic to inflict pain is a double edged sword. At a certain point [recipient.GetTitledFirstNamePossessive] body will freeze and numb the pain. But not before [recipient.GetSheHe] experiences icy needles in every part of [recipient.GetherHis] flesh."
+ prison.1002.sparks.desc:0 "Shock magic is probably the best suited for nmy current intents. It can inflict significant pain without causing excessive harm to a body, as [recipient.GetTitledFirstName] is about to find out."
+ prison.1002.bone_mending.desc:0 "No one can denie that I have significant experience in altering bones and flesh, though I rarely practice this art on the living. [recipient.GetTitledFirstName] seems like a good subject to train nonetheless."
+ prison.1002.experimental.desc:0 "It is about time to test some of my new spells one someone. Luckily I have [recipient.GetTitledFirstName] as an involuntary yet very useful subject to see the effects of some of the more unpleasant ones at first hand."
+ 
+ prison.1003.fire.desc:0 "$prison.1002.fire.desc$"
+ prison.1003.frost.desc:0 "$prison.1002.frost.desc$"
+ prison.1003.sparks.desc:0 "$prison.1002.sparks.desc$"
+ prison.1003.bone_mending.desc:0 "$prison.1002.bone_mending.desc$"
+ prison.1003.experimental.desc:0 "$prison.1002.experimental.desc$"
+
+ prison.1010.fire.desc:0 "$prison.1001.fire.desc$"
+ prison.1010.frost.desc:0 "$prison.1001.fire.desc$"
+ prison.1010.sparks.desc:0 "$prison.1001.fire.desc$"
+ prison.1010.bone_mending.desc:0 "$prison.1001.fire.desc$"
+ prison.1010.experimental.desc:0 "$prison.1001.fire.desc$"
+
  ek_prison.1001.t:0 "The Blood Price"
  ek_prison.1001.desc_intro:0 "It is custom among the [jailor_culture.GetName] to not use jails or dungeons, but to instead test their physical resistance by letting the jailor, or the person they slighted, draw as much blood as desired."
  ek_prison.1001.desc_no_reason:0 "\n\nWhile most of my alleged crimes against [imprisoner.GetName] were repaid when [imprisoner.GetSheHe] locked me way, there are still some lighter slights [imprisoner.GetSheHe] wants me to answer for."
@@ -46,14 +70,13 @@
  ek_prison.1004.desc:0 "I have been imprisoned by [imprisoner.GetName]!\n\nAccording to [imprisoner.GetHerHis] traditions, any prisoner has to be exiled for their crimes. If the relationship between the criminal and his captor is good enough, the imprisoned can beg for forgiveness and swear it, that the captor is merciful, they will be forever in their debt.\n\n[imprisoner.GetFirstName] will be the one to decide, but I may persuade [imprisoner.GetHerHim] to accept gratitude as atonement."
  ek_prison.1004.a:0 "I accept my exile."
  ek_prison.1004.b:0 "Would you do this to your own [root.Custom2('RelationToMe', SCOPE.sC('imprisoner'))]?"
+ 
  ek_prison.1005.desc_intro:0 "[prisoner.GetName] is finally captured! According to our old traditions, prisoners are to be exiled."
  ek_prison.1005.desc_accept_exile:0 "\n\nLooking straight into my eyes, [prisoner.GetFirstName] expressed [prisoner.GetHerHis] desire to suffer through exile. [prisoner.GetHerHis|U] bravery honors [prisoner.GetHerHim]."
  ek_prison.1005.desc_freedom:0 "\n\n[prisoner.GetFirstName] pleaded for [prisoner.GetHerHis] freedom, claiming that our close bonds and [prisoner.GetHerHis] vows should be the guarantee that we wouldn't harm one another."
  ek_prison.1005.a:0 "You will be exiled and removed from our [house|E]!"
  ek_prison.1005.b:0 "You will be exiled!"
  ek_prison.1005.c:0 "I accept your pleads. Welcome back."
-
-
 
  ek_prison.1006.t:0 "Disrupted"
  ek_prison.1006.start.desc:0 "The jailer drags a panicked [recipient.GetTitledFirstName] into the room. "Please! I will do anything, anything you want!" [recipient.GetHerHis|U] protests are cut short as the jailor gags [recipient.GetHerHim] and ties [recipient.GetHerHim] down on the table.\n\n"

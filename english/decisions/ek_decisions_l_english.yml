@@ -172,7 +172,7 @@
  initiate_consolamentum_decision_age_tt:0 "Has [ek_age_modifier|E] equivalent to #N 60 years#! for average humans"
 
  join_cote_decision:0 "Join the Council of the Eight"
- join_cote_decision_desc:0 "The Divines long ago invested spiritual authority in Alessia the Paravant, and thus Cyrodiil has maintained a status as "first among equals" in spiritual matters. The Council of the Eight exists to enshrine this position in law, and at the same time grant regional chapels a seat at the table and a voice in the Arch-Primate's ear.\n\nAs the de facto worldly leader of my faith, I certainly have a say in its future, and perhaps our priesthood stands to gain more from joining the Council than our believers stand to lose from submitting to its authority."
+ join_cote_decision_desc:0 "The #LORE [compendium_divines]#! long ago invested spiritual authority in Alessia the Paravant, and thus Cyrodiil has maintained a status as "first among equals" in spiritual matters. The Council of the Eight exists to enshrine this position in law, and at the same time grant regional chapels a seat at the table and a voice in the Arch-Primate's ear.\n\nAs the de facto worldly leader of my faith, I certainly have a say in its future, and perhaps our priesthood stands to gain more from joining the Council than our believers stand to lose from submitting to its authority."
  join_cote_decision_tt:0 "Tie your faith to the Temple in Cyrodiil"
  join_cote_decision_confirm:0 "Unity - for the Divines!"
  gain_doctrine_spiritual_head:0 "Your [faith|E] gains the [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName] [head_of_faith|E] Doctrine"
@@ -291,21 +291,22 @@
  debug_mode_toggle_decision_desc:0 "debug_mode_toggle_decision_desc"
  debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
 
-#Become Pirate On Game Start decision
- become_pirate_decision:0 "Change to Pirate Government!"
- become_pirate_decision_tooltip:0 "Become a Pirate!"
- become_pirate_decision_confirm:0 "Arrrr matey!"
- become_pirate_decision_desc:0 "@warning_icon! #X Allows you to become Pirate government once after game start! This decision will disappear after one in-game year! #!"
-
  stop_being_pirate_government_decision:0 "Abandon Piracy?"
  stop_being_pirate_government_decision_desc:0 "Being a Pirate might be lucrative but it lacks a certain legitimacy and authority more regular nobility holds, perhaps it is time to abandon our current governance and adopt a more centralized system? "
  stop_being_pirate_government_decision_confirm:0 "The time of Pirates is over."
- stop_being_pirate_government_decision_tooltip:0 "Perhaps its time for change."
+ stop_being_pirate_government_decision_tooltip:0 "Perhaps it's time for change."
 
  #Abdicate
  abdicate_decision:1 "Abdicate"
  abdicate_desc:0 "I am unable to fulfill my duties as a ruler. My realm lies neglected, and the sorry state I am in tarnishes my dynasty's name. Perhaps it is time to face the truth: my days of ruling are over. It is time to lay down my titles and hand the realm over to someone more capable."
  abdicate_decision_desc_incapable:0 "$abdicate_desc$"
+ abdicate_decision_desc_old_age:0 "I can feel the burden of my age growing heavier with every passing day and I can't deny that I am no longer the [ROOT.Char.GetWomanMan] I once was. Am I really the best choice to rule about my realm any longer? Perhaps it is time to make place for someone younger than me."
+ abdicate_decision_desc_long_rule:0 "I have ruled this for a long time now and I sometimes wonder if I really want to bear the burden of my titles any longer. My fate is chained to that of my realm and there are days when I feel weighted down by my responsibilities. Do I really have to continue like that?"
  abdicate_decision_tooltip:2 "Resign form your titles and let your heir take over."
  abdicate_decision_effect_tooltip:0 "@warning_icon! You will remove yourself as a ruler and continue the game as your heir."
  abdicate_decision_confirm:0 "It's for the best of the realm."
+ abdicate_old_age:0 "You have an [aging_modifier|E] equvivalent of 75 human years or older."
+ abdicate_long_rule:0 "You have ruled for 50 years or longer."
+ abdicate_old_age_infirm:0 "You have an [aging_modifier|E] equvivalent of 60 human years or older."
+ abdicate_long_rule_infirm:0 "You have ruled for 40 years or longer."
+ abdicate_scales_of_power:0 "Your regent does not oppose your abdication."

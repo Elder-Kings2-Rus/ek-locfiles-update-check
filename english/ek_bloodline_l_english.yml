@@ -29,7 +29,7 @@
  bloodline_direnni_matri_override:0 "yes" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
  bloodline_direnni_bastards:0 "yes" # do bastards inherit? yes/no
  bloodline_direnni_special:0 "no" # are there an extra conditions for inheritance? yes/no
- bloodline_direnni_desc:0 "The Direnni are a fabled Altmeri clan that ruled over most of High Rock during the First Era, winning a phyrric victory against the Alessian Order."
+ bloodline_direnni_desc:0 "The Direnni are a fabled Altmeri clan that ruled over most of High Rock during the #LORE [compendium_first_era]#!, winning a phyrric victory against the Alessian Order."
  
  trait_bloodline_reman:0 "Blood of Reman"
  bloodline_reman_inherit:0 "all" # inheritance all, matri, patri

@@ -81,6 +81,9 @@
  emperor_feudal_male_tamriel:0 "[CHARACTER.Custom('Emperor')]"
  emperor_feudal_female_tamriel:0 "[CHARACTER.Custom('Empress')]"
  
+ emperor_feudal_male_dominion:0 "Eagle Primarch"
+ emperor_feudal_female_dominion:0 "Eagle Primarch"
+ 
  potentate_feudal_male_cyrodiil:0 "[CHARACTER.Custom('Potentate')]"
  potentate_feudal_female_cyrodiil:0 "[CHARACTER.Custom('Potentate')]"
  
@@ -190,6 +193,9 @@
  wilderking_guardian_female:0 "Guardian"
  wilderking_guardian_court:0 "Grove"
  wilderking_guardian_grand_court:0 "Court"
+ 
+ wilderking_guardian_speaker_male:0 "Guardian-Speaker"
+ wilderking_guardian_speaker_female:0 "Guardian-Speaker"
 
  pale_watch_watchmaster_male:0 "Watchmaster"
  pale_watch_watchmaster_female:0 "Watchmistress"

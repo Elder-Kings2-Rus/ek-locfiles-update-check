@@ -19,3 +19,5 @@
  doctrine_parameter_torturing_prisoners_grants_piety:0 "Torturing [prisoners|E] earn [piety|E] instead of costing [piety|E]"
  doctrine_parameter_reduced_stress_from_torture:0 "Adherents are resistant to the negative effects of being tortured"
  doctrine_parameter_self_mutilation_active:0 "Can [decide|E] to Perform Self-Mutilation, earning [piety|E] at the cost of getting the [GetTrait('wounded_1').GetName( GetPlayer )] [trait|E]"
+ doctrine_parameter_same_culture_conversion_bonus_active:1 "Conversion Speed in [Faith.MakeScope.Var('associated_culture').Culture.GetName] [counties|E]: #P +50%#!"
+ doctrine_parameter_same_faith_promote_culture_bonus_active:1 "Promote [Faith.MakeScope.Var('associated_culture').Culture.GetName] Culture Speed in [counties|E] of this [faith|E]: #P +50%#!"

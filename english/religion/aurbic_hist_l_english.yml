@@ -108,7 +108,7 @@
  lilmothiit_hist_adj:0 "Living Law"
  lilmothiit_hist_adherent:0 "Litigant"
  lilmothiit_hist_adherent_plural:0 "Litigants"
- lilmothiit_hist_desc:0 "The Living Law is a spiritual codex drawn up between the Hist trees and the ancient Lilmothiit with the help of Tseol, a wandering fox-god who gave them his shape. This agreement gave Litigants the right to live in Black Marsh safely, but forced its custodianship upon them in turn. The Living Law provides far too many obligations in comparison to the rights, so cheating and exploiting its loopholes is not only expected, but rewarded. Powerful Lawspeakers are known to "hold court" with the Hist via dangerous tonal magic seances in hopes to alter the terms of the contract favorably."
+ lilmothiit_hist_desc:0 "The Living Law is a spiritual codex drawn up between the Hist trees and the ancient Lilmothiit with the help of # LORE [compendium_tseol]#!, a wandering fox-god who gave them his shape. This agreement gave Litigants the right to live in Black Marsh safely, but forced its custodianship upon them in turn. The Living Law provides far too many obligations in comparison to the rights, so cheating and exploiting its loopholes is not only expected, but rewarded. Powerful Lawspeakers are known to "hold court" with the Hist via dangerous tonal magic seances in hopes to alter the terms of the contract favorably."
  lilmothiit_hist_religious_symbol:0 "diapason"
  lilmothiit_hist_religious_text:0 "Living Law"
  lilmothiit_hist_religious_head_title:0 "Lawgifter"

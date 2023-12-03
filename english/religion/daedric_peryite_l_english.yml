@@ -5,7 +5,7 @@
  peryite_religion_adj:1 "Peryitic"
  peryite_religion_adherent:1 "Peryitic"
  peryite_religion_adherent_plural:1 "Peryitics"
- peryite_religion_desc:0 "A loose collection of faiths all revering Peryite, the Taskmaster. Overseeing the natural order, he is best known for being associated with plagues and diseases - some even claiming that the most devastating outbreaks in history are to be blamed on him. Despite this, and his depictions as a dragon, he is known as the weakiest among the Daedric Princes. His worship, while present throughout Tamriel, is not viewed as specially dangerous compared to some other Princes."
+ peryite_religion_desc:0 "A loose collection of faiths all revering Peryite, the Taskmaster. Overseeing the natural order, he is best known for being associated with plagues and diseases - some even claiming that the most devastating outbreaks in history are to be blamed on him. Despite this, and his depictions as a dragon, he is known as the weakiest among the #LORE [compendium_daedric_princes]#!. His worship, while present throughout Tamriel, is not viewed as specially dangerous compared to some other Princes."
  peryite_high_god_name:0 "$GET_RANDOM_CUSTOM_PERYITE_NAME"
  peryite_high_god_name_2:0 "$peryite_high_god_name$" # Optional translation alt
  peryite_high_god_name_3:0 "$peryite_high_god_name$" # Optional translation alt

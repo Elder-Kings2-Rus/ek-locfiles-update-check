@@ -9,7 +9,7 @@
  innovation_lacquered_goldscale_desc:0 "Fashioned according to the Serpentine Ways of Making, the impressive lamellar armors of the Tsaesci invaders, our ancestors, were created for the specific purpose of protecting their boldest warriors from dragonfire itself."
  # Aldmeris
  innovation_refined_moonstone_plate:0 "Refined Moonstone Plate"
- innovation_refined_moonstone_plate_desc:0 "Moonstone has exceptional qualities when refined with quicksilver, but the two material are so difficult to alloy as to make the smithing of complex articulated armors impossible. Except to us, who have kept this secret since the Dawn Era."
+ innovation_refined_moonstone_plate_desc:0 "Moonstone has exceptional qualities when refined with quicksilver, but the two material are so difficult to alloy as to make the smithing of complex articulated armors impossible. Except to us, who have kept this secret since the #LORE [compendium_dawn_era]#!."
  innovation_mnemolichite_foci:0 "Mnemolichite Foci"
  innovation_mnemolichite_foci_desc:0 "Shipments of precious Mnemolichite have done much to further our insights into magic. Few can boast of more exotic incantations and deadlier spells than the Adamantine magisters."
  innovation_eton_nir_gryphon_riders:0 "Eton Nir Gryphon Riders"
@@ -53,7 +53,7 @@
  innovation_power_symbols_desc:0 "Riekr tend to gather around individuals who have been able to acquire rare weapons or wear powerful insignia. Since they are largely unable to produce such goods themselves, they scavenge old ruins or keep trophies from those they have defeated in battle."
  # Goblin
  innovation_primal_tradition:0 "Primal Tradition" 
- innovation_primal_tradition_desc:0 "Contrary to popular belief, goblinken are very traditionally-inclined, with some pieces of goblinken design outfits dating back to the First Era. However, it is debated whether if they inherited this style from previous generations, looted it from ancient ruins, scavenged it from other civilizations, or forged it themselves." 
+ innovation_primal_tradition_desc:0 "Contrary to popular belief, goblinken are very traditionally-inclined, with some pieces of goblinken design outfits dating back to the #LORE [compendium_first_era]#!. However, it is debated whether if they inherited this style from previous generations, looted it from ancient ruins, scavenged it from other civilizations, or forged it themselves." 
  # Imga
  innovation_canopy_tactics:0 "Canopy Tactics"
  innovation_canopy_tactics_desc:0 "A traditional Imga city is normally built amidst the branches of a huge Valenwood tree; therefore, the apemen have adapted their warfare to a life up in the canopies. They are able to form greater warbands if needed and will then bring destruction from above. What they can't craft themselves in weapons and armor, they will trade with other cultures."

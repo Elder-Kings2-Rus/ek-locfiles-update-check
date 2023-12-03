@@ -16,7 +16,6 @@
  spellswords:0 "Spellswords"
  spellswords_flavor:0 "#F Spellswords are lightly-armored spellcasting warriors, with knowledge of magic's diverse applications in combat.#!"
 
- 
  #Siege MaA
  
  #Regional MaA
@@ -58,8 +57,8 @@
  # Cyrodiilic
  armored_legionaires:0 "Armored Legionaires"
  armored_legionaires_flavor:0 "#F The backbone of all Cyrodiilic armies, the Legionaires are heavy-armored soldiers who can, and did, force entire provinces to submit to their Emperor.#!"
- colovian_auxilia_cavalry:0 "Colovian Auxilia Cavalry"
- colovian_auxilia_cavalry_flavor:0 ""
+ equestrian_brigade:0 "Equestrian Brigades"
+ equestrian_brigade_flavor:0 "#F Colovian knightly brigades are bound by oaths of fellowship. They wade into the fray no matter the terrain, trampling enemy ranks with extreme prejudice.#!"
  nibenese_battlemages:0 "Nibenese Battlemages"
  nibenese_battlemages_flavor:0 "#F Nibenay is the birthplace of the battlemage tradition, and it is therefore no surprise that our Nibenese battlemages should be the finest there are. Just a single cohort among them placed in the rear of a legion can transform the battlefield to our advantage.#!"
  ut_nibenu_bowmen:0 "Ut-Nibenu Bowmen"
@@ -180,13 +179,13 @@
  
  #Special MaA
  daedra:0 "Daedra"
- daedra_flavor:0 "#F If you've got to travel, by the Nine Divines, stay on the roads! The wilderness just isn't safe anymore. We've had sightings, you see. The Daedra...#!"
+ daedra_flavor:0 "#F If you've got to travel, by the Eight Divines, stay on the roads! The wilderness just isn't safe anymore. We've had sightings, you see. The #LORE [compendium_daedra]#!...#!" # This is a game quote, but Nine Divines had to be altered to Eight as to fit our timeframe.
  
  risen_dead:0 "Risen Dead"
- risen_dead_flavor:0 "Skeletons, zombies, and other low forms of undead make the bulk of these forces. They are slow and stupid, but they will fight until they either win, or their corpse is destroyed."
+ risen_dead_flavor:0 "#F Skeletons, zombies, and other low forms of undead make the bulk of these forces. They are slow and stupid, but they will fight until they either win, or their corpse is destroyed.#!"
 
  razak_army:0 "Razak's Opus"
- razak_army_flavour:0 "#F A loyal steam-powered Dwarven army, fueled by magicka from a soul gem that will last for eras. #!"
+ razak_army_flavour:0 "#F A loyal steam-powered Dwarven army, fueled by magicka from a soul gem that will last for eras.#!"
  
  war_mammoth:0 "War Mammoths" 
  war_mammoth_flavor:0 "#F Almost impossible to stop, these huge beasts have dominated the fields of Skyrim and Atmora for centuries.#!"
@@ -201,9 +200,15 @@
  undead_dragon_flavor:0 "#F These reanimated bones of a mighty dragon are a teribble sight on every battlefied. They may lack an amount of the raw power they once possesed but they are now even harder to bring down - again.#!"
  
  hollows:0 "The Hollow"
- hollows_flavor:0 "Walking husks of stone, unable to feel pain, fear or exhuastion. They are a terrible foe, incredbile hard to destroy and able to tear down walls with their bare hands."
+ hollows_flavor:0 "#F Walking husks of stone, unable to feel pain, fear or exhuastion. They are a terrible foe, incredbile hard to destroy and able to tear down walls with their bare hands.#!"
 
  minotaurs:0 "Minotaurs"
  minotaurs_flavor:0 "#F While Minotaurs are treated as beasts by most of Tamriel, it is said that those who worship them or someone close to them can convince a handful of Bull-Men to fight with them.#!"
+ 
+ bone_colossus:0 "Bone Colossus"
+ bone_colossus_flavor:0 "#F A gigantic construct build from the bones of many slain soldiers and brought into motion by a particualr powerful soul. This undead giant can break through walls and shatter whole infantry formations.#!"
+
+ bone_walker:0 "Bone Walker"
+ bone_walker_flavor:0 "#F This fearsome construct is the result of dark necromantic magic, bringing death and horror to any battlefieled - especially for enemy infantry.#!"
  
  

@@ -112,7 +112,7 @@
  ll_theseus_to_pirithous:0 "Please, be the Huna to my Pelinal"
  ll_paint_love_across_sky:0 "Let us paint our love across the very sky itself"
  ll_do_everything_i_want:0 "You should do everything I want all the time"
- ll_helen_to_paris:0 "Please, be the Kyne to my Shor"
+ ll_helen_to_paris:0 "Please, be the Kyne to my #LORE [compendium_shor]#!"
  ll_may_our_love_grow:0 "May our love grow and flourish ever more"
  ll_i_long_for_you:0 "How I long for you"
  ll_never_ever_let_you_go:0 "I will never let you go, ever"

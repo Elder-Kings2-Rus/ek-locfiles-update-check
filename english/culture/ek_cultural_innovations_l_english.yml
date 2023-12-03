@@ -27,7 +27,7 @@
  innovation_horse_breeding_desc:0 "Horses are expensive but allow for very powerful cavalry regiments. By selecting horses lineages which are easy to train and suited for warfare, we can field new regiments that can scout ahead and pursue the enemy."
  # Civic
  innovation_alchemy:0 "Alchemy"
- innovation_alchemy_desc:0 "The art of combining various ingredients to create potions and poisons, #LORE [compendium_alchemy]#!, in its most basic form, was present in most if not all societies. But carefully studying each ingredient to determine what magical property each has requires a higher understanding of nature and the alchemichal processes themselves."
+ innovation_alchemy_desc:0 "The art of combining various ingredients to create potions and poisons, Alchemy, in its most basic form, was present in most if not all societies. But carefully studying each ingredient to determine what magical property each has requires a higher understanding of nature and the alchemichal processes themselves."
  innovation_master_field:0 "Master's Field"
  innovation_master_field_desc:0 "For most, education comes from personal tutorage with a local master. We should reserve small plots of land for such tutorage."
  innovation_might_makes_right:0 "Might Makes Right"
@@ -108,7 +108,7 @@
  innovation_redeemed_pariahs_intolerant:0 "Characters of this culture may discriminate against current [pariah|E] cultures, just as if they never were a [pariah|E] culture themselves"
 # Daedric Race
  innovation_daedric_race:0 "Daedric Race"
- innovation_daedric_race_desc:0 "Hailing from the Waters of Oblivion, these people have vestiges instead of souls. Many mortals consider them dangerous interlopers that must be driven out at all costs. Once banished, they will go back to the Outer Realms or — in the worst case — the Void. To ensure their efforts are not wasted, they call forth kindred that succeed them upon banishment."
+ innovation_daedric_race_desc:0 "Hailing from the Waters of Oblivion, these people have vestiges instead of souls. Many mortals consider #LORE [compendium_daedra]#! dangerous interlopers that must be driven out at all costs. Once banished, they will go back to the Outer Realms or — in the worst case — the Void. To ensure their efforts are not wasted, they call forth kindred that succeed them upon banishment."
  innovation_daedric_race_persecution:0 "Characters of a culture with this [innovation|E] may be targeted using the $BANISH_DEMON_DUCHY_NAME$ [casus_belli|E], unless the attacker follows a [GetReligionFamily('rf_daedra').GetName] [faith|E]"
  innovation_daedric_race_revocation:0 "Characters of a culture with this [innovation|E] may be [imprisoned|E], [executed|E] or [revoked|E] from by non-[daedric_race|E] lieges without it being considered [tyranny|E], unless they are a [vassal|E] with the [GetVassalContractType( 'cultural_rights' ).GetObligationName( 'cultural_rights_protected' )] [vassal_contract|E] or the liege follows a [GetReligionFamily('rf_daedra').GetName] [faith|E]"
  innovation_daedric_race_title_revocation:0 "[recipient.GetShortUIName|U] is a [demon_race|E], allowing [Select_CString( actor.IsLocalPlayer, 'you', 'them' )] to revoke [Select_CString( recipient.IsLocalPlayer, 'your', recipient.GetHerHis )] [titles|E] without being viewed as a [tyrant|E]"

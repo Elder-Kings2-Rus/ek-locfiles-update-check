@@ -48,7 +48,7 @@
  solstheim_claim_coast_decision_confirm:0 "No one will forget us!"
 
  reform_first_nordic_empire_decision:0 "An Empire of the Nords"
- reform_first_nordic_empire_decision_desc:0 "Long ago, in the early First Era, our forefathers and foremothers conquered vast parts of High Rock, Morrowind and even Cyrodiil under King Vrage the Gifted and his successors.\n\nThe Cyrods would later call this vast realm the 'First Empire of the Nords', though we Nords simply remember it as the High Kingdom expanding its reaches past Skyrim.\n\nToday, we can restore this great 'Empire' and reestablish our rule over northern Tamriel."
+ reform_first_nordic_empire_decision_desc:0 "Long ago, in the early #LORE [compendium_first_era]#!, our forefathers and foremothers conquered vast parts of High Rock, Morrowind and even Cyrodiil under King Vrage the Gifted and his successors.\n\nThe Cyrods would later call this vast realm the 'First Empire of the Nords', though we Nords simply remember it as the High Kingdom expanding its reaches past Skyrim.\n\nToday, we can restore this great 'Empire' and reestablish our rule over northern Tamriel."
  reform_first_nordic_empire_decision_tooltip:0 "Long ago we Nords dominated northern Tamriel - and we can do it again."
  reform_first_nordic_empire_decision_confirm:0 "Northern Tamriel shall once again be under nordic rule!"
  
@@ -96,6 +96,12 @@
  settle_wrothgar_decision_effect.form_wrothgarian_1:0 "You form the [wrothgarian_culture.GetName] [culture|E]."
  settle_wrothgar_decision_effect.form_wrothgarian_2:0 "If your [capital|E] is within [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName], you adopt [wrothgarian_culture.GetName] [culture|E]."
  settle_wrothgar_decision_effect.form_wrothgarian_3:0 "[wrothgarian_culture.GetHeritage.GetName] [heritage|E] [vassals|E] within [GetGeographicalRegion('mundus_tamriel_high_rock_greater_wrothgar').GetName] adopt [wrothgarian_culture.GetName] [culture|E]."
+ 
+ sack_orsinium_decision:0 "Sack Orsinium"
+ sack_orsinium_decision_desc:0 "The savage orcs have once again built their 'Orc-Town' into a mighty fortress. While we may have conquered this stronghold for now, the remaining Orc clans already rally to retake it. For the Orcs to truly be defeated, we must destroy the city once more."
+ sack_orsinium_decision_tooltip:0 "Destroy Orsinium, turning it once more to ruins"
+ sack_orsinium_decision_confirm:0 "Give the Order"
+ sack_orsinium_decision_orcish_vassal_tt:0 "A [vassal|E] holds [GetTitleByKey('c_old_orsinium').GetNameNoTier] and is NOT of [GetCulturePillar('heritage_orsimeri').GetName] [heritage|E]"
 
  silgrad_rift_decision:0 "The Question of Silgrad"
  silgrad_rift_decision_desc:0 "The Sil Valley is a crossroads between Skyrim, Cyrodiil and Morrowind and has thus been of great strategic importance to the realms of ages past.\n\nLong, long ago, when Skyrim spread across northern Tamriel, the ancient Nords established an outpost in Sil Valley. What would later become known as Silgrad is therefore rightfully ours.\n\nIt is time to reclaim it."

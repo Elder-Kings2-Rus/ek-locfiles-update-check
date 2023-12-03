@@ -20,3 +20,5 @@
  FERVOR_EQUILIBRIUM_BREAKDOWN_LEADER_CO8_MEMBER_TT:0 "\tMember of the Council of the Eight: #P +[Faith.MakeScope.Var('fe_impact_leader_co8_member').GetValue]#!\n\t\t\t#weak (Average between the Leader's [fervor_equilibrium|E] and yours)#!"
  FERVOR_EQUILIBRIUM_BREAKDOWN_LEADER_CO8_MEMBER_TT_LOWER:0 "\tMember of the Council of the Eight: #N [Faith.MakeScope.Var('fe_impact_leader_co8_member').GetValue]#!\n\t\t\t#weak (Average between the Leader's [fervor_equilibrium|E] and yours)#!"
  FERVOR_EQUILIBRIUM_BREAKDOWN_LEADER_CO8_MEMBER_TT_HIGHER:0 "\tMember of the Council of the Eight: #P +[Faith.MakeScope.Var('fe_impact_leader_co8_member').GetValue]#!\n\t\t\t#weak (Average between the Leader's [fervor_equilibrium|E] and yours)#!"
+
+ DOCTRINE_BLOCKS_FAITH_CREATION:0 "@warning_icon!#X [FAITH_DOCTRINE.GetName( GetPlayer.GetFaith )] is not allowed due to incompatible [doctrines|E]#!"

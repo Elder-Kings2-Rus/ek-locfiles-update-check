@@ -22,7 +22,7 @@
  language_cyrodiilic_desc:0 "Cyrodilic is spoken in the Heart of Tamriel but also everywhere where Imperial influence once extended. As a mother tongue, however, it is only in Cyrodiil proper and some heavily imperialized cultures that you will find it. Ayleidoon and Nordic amongst others have all bestowed something upon this Nedic language, a testament to the Cyrodiils history of cultural exchange."
  
  language_daedric_name:0 "Daedric"
- language_daedric_desc:0 "Daedra communicate, as all sapient beings do, and that transmundane and nymic force that they employ to do so is perceived by mortal beings as a language. Convoluted and esoteric as the Daedric language is, those mages, madmen and monastics that learn it can nevertheless only hint at the burning secrets contained in each word, metaphors reduced to mere incantations as they are made manifest in mortal diction."
+ language_daedric_desc:0 "#LORE [compendium_daedra]#! communicate, as all sapient beings do, and that transmundane and nymic force that they employ to do so is perceived by mortal beings as a language. Convoluted and esoteric as the Daedric language is, those mages, madmen and monastics that learn it can nevertheless only hint at the burning secrets contained in each word, metaphors reduced to mere incantations as they are made manifest in mortal diction."
 
  language_dovahzul_name:0 "Dovahzul"
  language_dovahzul_desc:0 "Dovahzul is the language of dragons, though so much more than mere language: it possesses a richness of description that imbues each argument expressed in it with cosmic truth. Shouted into the world by a soul as entitled to dominating it as a dragon, it can speak miracles and catastrophes into being, a phenomenon known as the "thu'um" and long ago mastered by the ancient Nords."
@@ -37,7 +37,7 @@
  language_old_falmeris_desc:0 "Ald Falmeris is as curious and elusive a language as the people that once spoke it, the long lost Snow Elves. Remaining inscriptions reveal a surprising resemblance to the Ayleidoon tongue, which is remarkable considering that little historical evidence connects the two Elven races. Stranger still, much of its vocabulary cannot be accounted for as either Ayleidoon or Aldmeri in origin."
  
  language_goblin_name:0 "Goblinspeak"
- language_goblin_desc:0 "The Goblins' language is an isolate, descending neither from the Merish language of the Dawn Era nor the earliest Mannish languages. Because it is so different in such fundamental ways, the people of Tamriel have propagated the misconception that Goblins communicate in gibberish and overall convey no more than simple ideas. However, those who take the time to learn the Goblin-ken's language find that it is different, but by no means inferior or even more simple than other languages on Nirn."
+ language_goblin_desc:0 "The Goblins' language is an isolate, descending neither from the Merish language of the #LORE [compendium_dawn_era]#! nor the earliest Mannish languages. Because it is so different in such fundamental ways, the people of Tamriel have propagated the misconception that Goblins communicate in gibberish and overall convey no more than simple ideas. However, those who take the time to learn the Goblin-ken's language find that it is different, but by no means inferior or even more simple than other languages on Nirn."
  
  language_horsemen_name:0 "Horsemen"
  language_horsemen_desc:0 "The Horsemen speak a creole of Breton and Yoku"
@@ -112,7 +112,7 @@
  language_velothis_desc:0 "Following the ascension of the Tribunal, the nascent Low Velothi culture was split along sectarian lines that solidified into an ethnic divide. The hostile and hardened Velothi people kept the name and religion of their forefathers as they developed their culture. The Ashlanders and House Dunmer do not share the same language anymore."
  
  language_yoku_name:0 "Classical Yoku"
- language_yoku_desc:0 "'Classical Yoku' is a bit of a misnomer, Yoku having obviously evolved since the First Era. From the standpoint of the Redguards it is much closer to the ancient epics. It is common practice among the affluent—moreso Crowns— to have their heirs learn it. "
+ language_yoku_desc:0 "'Classical Yoku' is a bit of a misnomer, Yoku having obviously evolved since the #LORE [compendium_first_era]#!. From the standpoint of the Redguards it is much closer to the ancient epics. It is common practice among the affluent—moreso Crowns— to have their heirs learn it. "
 
  language_tamrielic_yoku_name:0 "Tamrielic Yoku"
  language_tamrielic_yoku_desc:0 "The Yoku spoken in Hammerfell can be qualified as 'Tamrielic'. It has substantial influence from Cyrodilic as one can guess but also from Altmer and even Nedic sources but ultimately Yokudan in character. Forebears tend to fully embrace it whilst Crowns make a point of learning Classical Yoku #italic 'to keep the old ways alive'#!."

@@ -381,6 +381,12 @@
  hegemony_new_capital_perm:0 "A new Hegemonic capital."
  hegemony_new_capital_perm_desc:0 "As the Hegemony once again controls High Rock and the surrounding provinces, scholars, workers, and political refugees once again court the new Hegemon family of High Rock."
  
+ aldmeri_dominion_dynasty_modifier:0 "Auri-El's Chosen"
+ aldmeri_dominion_dynasty_modifier_desc:0 "This dynasty formed the Aldmeri Dominion, reestablishing Elven dominance over much of Tamriel."
+ 
+ sacked_orsinium_modifier:0 "Sacked Orsinium"
+ sacked_orsinium_modifier_desc:0 "You sacked Orsinium, earning the eternal hatred of the Orcs."
+ 
  ### Lingua Tamrielis
  established_lingua_tamrielis_modifier:0 "Established Lingua Tamrielis"
  established_lingua_tamrielis_modifier_desc:0 "This character established their culture and tongue as the language used all throughout Tamriel."
@@ -723,7 +729,7 @@
  damage_health:0 "Magically Damaged Health"
  
  viles_pity:0 "Fair Bargain"
- viles_pity_desc:0 "Clavicus Vile has struck a bargain with you out of pity. By secretly devoting yourself to him, the Daedric Prince of Bargains offered a blessing to ease the disposition of others towards you."
+ viles_pity_desc:0 "Clavicus Vile has struck a bargain with you out of pity. By secretly devoting yourself to him, the #LORE [compendium_daedric_prince]#! of Bargains offered a blessing to ease the disposition of others towards you."
  insulted_tribals:0 "Foreign Insult"
  insulted_tribals_desc:0 "You did not give back the pelts to their rightful owners."
  pleased_tribals:0 "Foreign Respect"
@@ -802,7 +808,7 @@
  gift_ring:0 "Beautiful Ring"
  noise_ring:0 "Ringing Noise"
  noise_ring_desc:0 "Where is it coming from?!"
- heart_musings:0 "Musings over the Heart of Lorkhan"
+ heart_musings:0 "Musings over the Heart of #LORE [compendium_lorkhan]#!"
  heart_musings_desc:0 "This character has gazed upon Red Mountain and its mysteries."
  scholar_insight:0 "Scholar's Insight"
  lovers_insight:0 "Lover's Insight"
@@ -815,6 +821,12 @@
  dreugh_smugglers_legal:0 "Dreugh Eggs Exportation"
  county_corruption_goblins_rampant_modifier:0 "Goblins Running Rampant"
  county_corruption_goblins_rampant_modifier_desc:0 "[county_corruption|E]\nGoblins roam freely in the County"
+ county_corruption_rieklings_rampant_modifier:0 "Rieklings Running Rampant"
+ county_corruption_rieklings_rampant_modifier_desc:0 "[county_corruption|E]\nRieklings roam freely in the County"
+ county_corruption_riekr_rampant_modifier:0 "Riekr Running Rampant"
+ county_corruption_riekr_rampant_modifier_desc:0 "[county_corruption|E]\nRiekr roam freely in the County"
+ county_corruption_imga_rampant_modifier:0 "Imga Running Rampant"
+ county_corruption_imga_rampant_modifier_desc:0 "[county_corruption|E]\nImga roam freely in the County"
  county_corruption_undead_rampant_modifier:0 "Undead Running Rampant"
  county_corruption_undead_rampant_modifier_desc:0 "[county_corruption|E]\nUndead roam freely in the County"
  county_corruption_exiles_rampant_modifier:0 "Exiles Running Rampant"
@@ -923,6 +935,8 @@
  closely_watched.desc:0 "There is barely any step this character can take without someone noticing."
  failed_lich_ascension:0 "Failed Ascension"
  failed_lich_ascension.desc:0 "This character failed at an attempt to reach lichdom and is now suffering the consequences."
+ failed_life_extension:0 "Failed Life Extension"
+ failed_life_extension.desc:0 "This character failed at an attempt to reach a longer lifespan and is now suffering the consequences."
  reminded_of_present_beauty:0 "Reminded of Present Beauty"
  reminded_of_present_beauty.desc:0 "This character has been reminded about the beauty that lies in even the smallest things."
  bug_repellent:0 "Bug Repellent Candle"
@@ -949,6 +963,7 @@
  soldiers_funeral_desc:0 "A great funeral was held in this county, as the remains of a venerated soldier were finally allowed to rest."
  robbed_graves_modifier:0 "Robbed Graves"
  robbed_graves_modifier_desc:0 "Graves and crypts in this county are often found empty which causes concerns in the local populace."
+ haunted_house:0 "Haunted House"
  
  ### Coming of Age Modifiers
  nord_brave_modifier:0 "Brave Child of Skyrim"
@@ -1063,9 +1078,13 @@
  morag_tong_hired:0 "Hired Morag Tong"
  db_hired:0 "Hired Dark Brotherhood"
  assassin_hired:0 "Hired Lowly Assassin"
+ subdued_sea_ghosts_modifier:0 "Subdued Dangerous Sea Wraiths"
 
  dangerous_mage:0 "Dangerous Mage"
  dangerous_mage_desc:0 "This character is known to use magic in harmful and malicious ways."
+
+ lauded_faction_leader:0 "Lauded Faction Leader"
+ lauded_faction_leader_desc:0 "This character has lead a faction to independence and enjoys the full support of their people."
 
  mundus_apprentice_modifier:0 "Apprentice's Boon"
 
@@ -1101,3 +1120,9 @@
  tournament_arcane_clash_participant_modifier_desc:0 "This character tested their magic abilities in an Arcane Clash against other mages.\n[arcana|E]: [arcana_i]#P +1# "
  tournament_exhausted_arcana_modifier:0 "Exhausted Arcana"
  tournament_exhausted_arcana_modifier_desc:0 "This character burned all their magical reserves in an Arcane Clash. It will take some time to regenerate those.\n[arcana|E]: [arcana_i]#P -5# "
+
+ ACTIVITY_GUEST_HOST_IS_PARIAH:0 "[ROOT.Char.GetSheHe|U] despises [pariahs|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HOST_IS_ALSO_PARIAH:0 "[ROOT.Char.GetSheHe|U] is also a [pariah|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HOST_IS_PARIAHPHOBIC:0 "[host.GetShortUINameNoTooltip|U] despise [pariahs|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_MIGHT_BE_PARIAHS:0 "[pariahs|E|U] might show up: $VALUE|=+0$"
+ ACTIVITY_GUEST_HOST_IS_PARIAHPHOBIC_IM_NOT:0 "[ROOT.Char.GetSheHe|U] consort with [pariahs|E]: $VALUE|=+0$"

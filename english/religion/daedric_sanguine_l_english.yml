@@ -5,7 +5,7 @@
  sanguine_religion_adj:1 "Sanguiniac"
  sanguine_religion_adherent:1 "Sanguiniac"
  sanguine_religion_adherent_plural:1 "Sanguiniacs"
- sanguine_religion_desc:0 "A loose collection of faiths all revering Sanguine, the Prince of Debauchery. A rarity among the Daedric Princes, his spheres are aligned with what a significant portion of mortals enjoy - sex, hedonism, and joyful parties. However, some of his most devout followers are thought to indulge into the darkest aspect of their Prince's sphere, and are due to it despised by the rest of society. Due to his joyful nature, he is revered throughout Tamriel."
+ sanguine_religion_desc:0 "A loose collection of faiths all revering Sanguine, the Prince of Debauchery. A rarity among the #LORE [compendium_daedric_princes]#!, his spheres are aligned with what a significant portion of mortals enjoy - sex, hedonism, and joyful parties. However, some of his most devout followers are thought to indulge into the darkest aspect of their Prince's sphere, and are due to it despised by the rest of society. Due to his joyful nature, he is revered throughout Tamriel."
  sanguine_high_god_name:0 "$GET_RANDOM_CUSTOM_SANGUINE_NAME"
  sanguine_high_god_name_2:0 "$sanguine_high_god_name$" # Optional translation alt
  sanguine_high_god_name_3:0 "$sanguine_high_god_name$" # Optional translation alt

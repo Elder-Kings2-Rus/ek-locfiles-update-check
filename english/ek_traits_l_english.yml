@@ -175,16 +175,12 @@
  trait_lifespan_4_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] mid 300s. Women with this trait will become infertile at around age 215."
  
  trait_lifespan_5:1 "Lifespan V #italic ([gc_lifespan|E])#!"
- trait_lifespan_5_desc:1 "By means of nature or magicka, it is expected that this character will live into their early 500s. Women with this trait will become infertile at around age 335."
- trait_lifespan_5_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] early 500s. Women with this trait will become infertile at around age 335."
+ trait_lifespan_5_desc:1 "By means of nature or magicka, it is expected that this character will live into their 550s. Women with this trait will become infertile at around age 335."
+ trait_lifespan_5_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live into [ROOT.GetCharacter.GetHerHis] 550s. Women with this trait will become infertile at around age 335."
  
- trait_lifespan_6:1 "Lifespan VI #italic ([gc_lifespan|E])#!"
- trait_lifespan_6_desc:1 "By means of nature or magicka, it is expected that this character will live to around 700. Women with this trait will become infertile at around age 450."
- trait_lifespan_6_character_desc:1 "By means of nature or magicka, it is expected that [ROOT.GetCharacter.GetFirstNameNoTooltip] will live to around 700. Women with this trait will become infertile at around age 450."
- 
- trait_lifespan_7:1 "Immortality #italic ([gc_lifespan|E])#!"
- trait_lifespan_7_desc:1 "This character will not die of old age, but that comes at a cost to both their body and mind."
- trait_lifespan_7_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] will not die of old age, but that comes at a cost to both [ROOT.GetCharacter.GetHerHis] body and mind."
+ trait_lifespan_6:1 "Immortality #italic ([gc_lifespan|E])#!"
+ trait_lifespan_6_desc:1 "This character will not die of old age, but that comes at a cost to both their body and mind."
+ trait_lifespan_6_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] will not die of old age, but that comes at a cost to both [ROOT.GetCharacter.GetHerHis] body and mind."
  
  trait_poet_nord:0 "Skald"
  
@@ -380,6 +376,10 @@
  #trait_furstock_tojay_raht:0 "Tojay-Raht"
  trait_furstock_tojay_raht:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Tojay-Raht' )]" 
  trait_furstock_tojay_raht_desc:0 "Born when Masser is waxing and Secunda is waning, little else is known of the Tojay-raht, except that they evidently are bipedal and have digitigrade legs."
+
+ #trait_furstock_mane:0 "Mane"
+ trait_furstock_mane:0 "[Select_CString( GetVariableSystem.HasValue( 'trait_select_window_open', 'other' ), '', 'Mane' )]" 
+ trait_furstock_mane_desc:0 "During a rare alignment of Masser and Secunda, a mystical Third Moon is said to appear in the sky. Those born under this moon are named Mane, by ancient tradition the spiritual leaders of the Khajiit" #PH placeholder
 
  trait_laid_egg:0 "Laid Egg"
  trait_laid_egg_desc:0 "This character laid an egg recently."

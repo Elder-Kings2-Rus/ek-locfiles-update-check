@@ -231,6 +231,8 @@
  
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_common_war_01:0 "Altmer Moonstone Armor"
  
+ PORTRAIT_MODIFIER_custom_cloaks_cloaks_altmer_male_noble_03_high:0 "Altmer Chancellor Pauldrons"
+ 
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_01_common:0 "Altmer Common Clothing 1"
  PORTRAIT_MODIFIER_custom_clothes_clothes_altmer_male_noble_02_common:0 "Altmer Common Clothing 2"
  
@@ -243,6 +245,13 @@
  
  PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_common:0 "Altmer Common Legwear 1"
  PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_common:0 "Altmer Common Legwear 2"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_priest_01_lowborn:0 "Altmer Lowborn Headwear"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_priest_01_common:0 "Altmer Common Headwear"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_priest_01_low:0 "Altmer Low Headwear"
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_priest_01_high:0 "Altmer High Headwear"
+ 
+ PORTRAIT_MODIFIER_custom_headgear_headgear_altmer_male_chancellor_01_high:0 "Altmer Chancellor Headwear"
  
  PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_01_low:0 "Altmer Low Nobility Legwear 1"
  PORTRAIT_MODIFIER_custom_legwear_legwear_altmer_male_noble_02_low:0 "Altmer Low Nobility Legwear 2"
@@ -295,6 +304,9 @@
 
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_tabi_01_high:0 "Akaviri Tabi Socks"
  
+ PORTRAIT_MODIFIER_custom_beards_japanese_beard_01:0 "Akaviri Beard"
+ PORTRAIT_MODIFIER_custom_beards_japanese_moustache_03:0 "Akaviri Moustache"
+ 
 ### Female ###
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_common:0 "Akaviri Common Clothing"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_kimono_kosode_01_low:0 "Akaviri Low Nobility Clothing"
@@ -307,7 +319,7 @@
  #########################################
  
   ### EK2 Hair ###
-  PORTRAIT_MODIFIER_custom_hair_male_hair_legolas_01:0 "Elven Hair"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_legolas_01:0 "Long Elven Hair"
   
   PORTRAIT_MODIFIER_custom_beards_male_beard_dwemer_01:0 "Dwemer Beard"
  
