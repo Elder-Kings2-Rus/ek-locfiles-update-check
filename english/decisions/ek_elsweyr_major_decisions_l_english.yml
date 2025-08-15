@@ -50,7 +50,7 @@
  restore_tenmar_decision_confirm:0 "Tenmar is restored!"
 
  restore_khenarthia_decision:0 "Restore the Kingdom of Khenarthia"
- restore_khenarthia_decision_desc:0 "Back in the #LORE [compendium_first_era]#!, our lands were part of the kingdom of Khenarthia, one of the #LORE [compendium_sixteen_kingdoms]#!, famous for its moon sugar and fishermen. What truly makes us unique from the rest of Khajiit is that we have lived side-by-side with Maormer ever since the #LORE [compendium_merethic_era]#!. Our neighbors are known as expert sailors and fearsome pirates. Perhaps if we follow their example and control the seas, then Khenarthia will be recognized as a great kingdom once more."
+ restore_khenarthia_decision_desc:0 "Back in the #LORE [compendium_first_era]#!, our lands were part of the kingdom of Khenarthia, one of the #LORE [compendium_sixteen_kingdoms]#!, famous for its moon sugar and fishermen. What truly makes us unique from the rest of Khajiit is that we have lived side-by-side with Maormer ever since the [Glossary( 'Merethic Era', 'MERETHIC_GLOSS' )]. Our neighbors are known as expert sailors and fearsome pirates. Perhaps if we follow their example and control the seas, then Khenarthia will be recognized as a great kingdom once more."
  restore_khenarthia_decision_custom_tooltip:0 "You have a [GetGovernment( 'pirate_government' ).GetName] government"
  restore_khenarthia_decision_tooltip:0 "Kingdom of Khenarthia will be restored"
  restore_khenarthia_decision_confirm:0 "Khenarthia rules the Southern Sea!"

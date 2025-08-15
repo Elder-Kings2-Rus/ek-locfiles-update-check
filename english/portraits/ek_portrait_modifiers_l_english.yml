@@ -360,32 +360,59 @@ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_high:0 "@ek_dlc_i
  ################ Misc ################
  #########################################
  
-  ### EK2 Hair ###
   PORTRAIT_MODIFIER_custom_hair_male_hair_legolas_01:0 "@ek_dlc_icon! Long Elven Hair"
   
   PORTRAIT_MODIFIER_custom_beards_male_beard_dwemer_01:0 "@ek_dlc_icon! Dwemer Beard"
  
-  ### Male ###
-  
   PORTRAIT_MODIFIER_special_draugr:0 "@ek_dlc_icon! Undead"
   
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nudity_01:0 "No Clothes"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:0 "No Clothes"  
+  
   PORTRAIT_MODIFIER_custom_clothes_male_empty:0 "EMPTY PLACEHOLDER REPLACE ME"
+  PORTRAIT_MODIFIER_custom_clothes_female_empty:0 "EMPTY PLACEHOLDER REPLACE ME"
  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_mage:0 "@ek_dlc_icon! Extravagant Mage Robes"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_mage:0 "@ek_dlc_icon! Extravagant Mage Robes"  
+  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_moth_priest:0 "@ek_dlc_icon! Moth Priest Robes"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_moth_priest:0 "@ek_dlc_icon! Moth Priest Robes" 
+  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_orc_war:0 "@ek_dlc_icon! Orcish Armor"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_war:0 "@ek_dlc_icon! Orcish Armor"  
+  
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_daedric:0 "@ek_dlc_icon! Daedric Armor"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_daedric:0 "@ek_dlc_icon! Daedric Armor" 
   
   PORTRAIT_MODIFIER_custom_clothes_male_clothes_artifact_lords_mail:0 "@ek_dlc_icon! Lord's Mail"
   PORTRAIT_MODIFIER_custom_clothes_female_clothes_artifact_lords_mail:0 "@ek_dlc_icon! Lord's Mail"
   
+  PORTRAIT_MODIFIER_custom_headgear_m_headgear_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Imperial Legion Helmet"
+  PORTRAIT_MODIFIER_custom_headgear_f_headgear_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Imperial Legion Helmet"
+  
+  PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Imperial Legion Armor"
+  PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Imperial Legion Armor"
+  
+  PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Imperial Legion Legwear"
+  PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ek2_legion_war_01:0 "@ek_dlc_icon! Imperial Legion Legwear"
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_mage:0 "@ek_dlc_icon! Mage Hood"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage:0 "@ek_dlc_icon! Mage Hood"  
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_mage_02:0 "@ek_dlc_icon! Extravagant Mage Hood"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage_02:0 "@ek_dlc_icon! Extravagant Mage Hood"  
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_moth_priest:0 "@ek_dlc_icon! Moth Priest Hood"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_moth_priest:0 "@ek_dlc_icon! Moth Priest Hood"  
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_monk_01:0 "@ek_dlc_icon! Priest Hood Variant 1"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_01:0 "@ek_dlc_icon! Priest Hood Variant 1"  
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_monk_02:0 "@ek_dlc_icon! Priest Hood Variant 2"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_02:0 "@ek_dlc_icon! Priest Hood Variant 2" 
+  
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_colovian_01:0 "@ek_dlc_icon! Colovian Fur Helm"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_colovian_01:0 "@ek_dlc_icon! Colovian Fur Helm"  
   
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_tricorn_01:0 "@ek_dlc_icon! Tricorn Variant 1"
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_tricorn_02:0 "@ek_dlc_icon! Tricorn Variant 2"
@@ -399,34 +426,16 @@ PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_01_high:0 "@ek_dlc_i
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_nord_crown_of_verity:0 "@ek_dlc_icon! Crown of Verity"
  
   PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_daedric:0 "@ek_dlc_icon! Daedric Greaves"
+  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_daedric:0 "@ek_dlc_icon! Daedric Greaves"
   
   PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dragon_priest:0 "@ek_dlc_icon! Dragon Priest Mask"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_dragon_priest:0 "@ek_dlc_icon! Dragon Priest Mask"  
   
   PORTRAIT_MODIFIER_custom_cloaks_cloaks_nibenese_male_noble_01_high:0 "@ek_dlc_icon! Nibenese Noble Cloak"
   
   PORTRAIT_MODIFIER_custom_clothes_m_clothes_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Breton Plate Armor"
   PORTRAIT_MODIFIER_custom_legwear_m_legwear_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Breton Plate Greaves"
   
-  ### Female ###
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nudity_01:0 "No Clothes"
-  PORTRAIT_MODIFIER_custom_clothes_female_empty:0 "EMPTY PLACEHOLDER REPLACE ME"
-  
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_mage:0 "@ek_dlc_icon! Extravagant Mage Robes"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_moth_priest:0 "@ek_dlc_icon! Moth Priest Robes"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_orc_war:0 "@ek_dlc_icon! Orcish Armor"
-  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_daedric:0 "@ek_dlc_icon! Daedric Armor"
-  
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage:0 "@ek_dlc_icon! Mage Hood"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_mage_02:0 "@ek_dlc_icon! Extravagant Mage Hood"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_moth_priest:0 "@ek_dlc_icon! Moth Priest Hood"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_01:0 "@ek_dlc_icon! Priest Hood Variant 1"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_monk_02:0 "@ek_dlc_icon! Priest Hood Variant 2"
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_colovian_01:0 "@ek_dlc_icon! Colovian Fur Helm"
-  
-  PORTRAIT_MODIFIER_custom_legwear_female_legwear_secular_daedric:0 "@ek_dlc_icon! Daedric Greaves"
-  
-  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_dragon_priest:0 "@ek_dlc_icon! Dragon Priest Mask"
-  
   PORTRAIT_MODIFIER_custom_clothes_f_clothes_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Breton Plate Armor"
-  PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Breton Plate Greaves"
+  PORTRAIT_MODIFIER_custom_legwear_f_legwear_sec_ek2_breton_noble_war_01:0 "@ek_dlc_icon! Breton Plate Greaves" 
 

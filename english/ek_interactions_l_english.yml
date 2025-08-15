@@ -8,9 +8,11 @@
  MARRIAGE_HEIRESS_MATRILINEAL_REASON:0 "[secondary_recipient.GetShortUIName|U] is an heiress and [recipient.GetShortUIName|U] would prefer a [matrilineal|E] marriage: $VALUE|+0$"
  MARRIAGE_MONSTER_REASON:0 "Will not marry a [monster|E]: $VALUE|+0$"
  MARRIAGE_FORMER_PARIAH_REASON:0 "Will not marry a former [pariah|E]: $VALUE|+0$"
- MARRIAGE_CRYSTAL_TOWER_REASON:0 "[GetBuilding('crystal_tower_01').GetName]: #P +10#!"
+ MARRIAGE_CRYSTAL_TOWER_REASON:0 "[GetBuilding('crystal_tower_01').GetName]: $VALUE|+0$"
+ MARRIAGE_SEXUALITY_REASON:0 "Sexuality mismatch: $VALUE|+0$"
  #RELIGION
  ASK_FOR_CONVERSION_CROWN_FOREBEAR:0 "[recipient.GetCulture.GetName|E] dislikes your [actor.GetCulture.GetName] ways: $VALUE|+0$."
+ ORDINATION_OF_WAR_REASON: "$tradition_ordination_of_war_name$: $VALUE|=+0$"
  #MISC
  summoned_undead:0 "Summoned Undead"
 
@@ -25,9 +27,10 @@
  extract_blood_price_effect_no_reason_tooltip:0 "As you do not have an imprisonment or execution reason against [prisoner.GetFirstName], the blood price will be low."
  small_blood_price_modifier:0 "Paid the Blood Price"
  small_blood_price_modifier_desc:0 "This character had to pay the Blood Price to be freed from imprisonment. Fortunately for them, their crime was not significant, and they have been able to escape with only a small portion of their blood being taken."
- extract_blood_price_effect_imprisonment_reason_tooltip:0 "As you have an imprisonment reason against [prisoner.GetFirstName], the blood you will extract will wound [prisoner.GetHerHim]."
- extract_blood_price_effect_execution_reason_tooltip:0 "As you have an execution reason against [prisoner.GetFirstName], you will extract a heavy price."
- extract_blood_price_effect_survival_release_tooltip:0 "If [prisoner.GetFirstName] survives [prisoner.GetSheHe] will be released from prison."
+ extract_blood_price_effect_imprisonment_reason_tooltip:0 "As you have an imprisonment reason against [prisoner.GetFirstName], the blood you will extract will wound [prisoner.GetHerHim]"
+ extract_blood_price_effect_execution_reason_tooltip:0 "As you have an execution reason against [prisoner.GetFirstName], you will extract a heavy price — maiming or even killing [prisoner.GetHerHim]"
+ extract_blood_price_effect_survival_release_tooltip:0 "If [prisoner.GetFirstName] survives [prisoner.GetSheHe] will be released from prison"
+ extract_blood_price_execution:0 "As you have an execution reason against [prisoner.GetFirstName], you would be justified in extracting a #bold very#! heavy price - executing them"
 
  ###Disrupt Arcana Interaction
  recently_disrupted:0 "Recently Disrupted"
@@ -101,7 +104,9 @@
  cultural_religious_privilege:0 "Cultural and Religious Privilege"
  CONTRACT_CULTURAL_RELIGIOUS_PRIVILEGE_REASON:0 "Cultural and Religious Privilege: $VALUE|=+0$"
 
- great_house_vassalage_reason:0 "[recipient.GetHerHis|U] [culture|E] does not wish to be part of a Great House: $VALUE|+=0$"
+ great_house_vassalage_reason_negative:0 "[recipient.GetHerHis|U] [culture|E] does not wish to be part of a Great House: $VALUE|+=0$"
+ great_house_vassalage_reason_positive:0 "[recipient.GetHerHis|U] [culture|E] wishes to be part of a Great House: $VALUE|+=0$"
+ great_house_fealty_reason_positive:0 "[recipient.GetHerHis|U] Great House wishes to consolidate your [culture|E]: $VALUE|+=0$"
  white_gold_tower_vassalage_reason:0 "[GetBuilding('white_gold_tower_01').GetName]: #P +10#!"
  adamantine_tower_invite_reason:0 "[GetBuilding('crystal_tower_01').GetName]: #P +25#!"
  EDUCATE_ME_OPTION_TRAIN_ARCANA_EFFECT:1 "I will be trained into the arts of Magicka, and receive a #V Student of Magicka#! [trait|E]"
@@ -152,6 +157,8 @@
  send_mage_to_wander_return_title:0 "Wanderer Returns"
  send_mage_to_wander_return_desc:0 "[recipient.GetFullName] has returned to your court after wandering to improve their [magic|E] abilities."
  sent_to_wander_already:0 "This character has already been sent to wander once before"
+
+ already_tried_to_interfere:0 "This character has recently tried to interfere."
 
  send_knight_to_wander:0 "Send Knight to Wander"
  send_knight_to_wander_interaction_desc:0 "[recipient.GetFirstName] is a young squire, but have yet to embark on a quest on their own. Let them wander and seek their fortune!"

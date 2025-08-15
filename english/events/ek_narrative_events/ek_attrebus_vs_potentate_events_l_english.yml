@@ -51,7 +51,7 @@
  attrebus_leases_temple_district_transform_td_not_existing:0 "The [temple_district.GetName] will be rebuilt into a Castle holding, and serve as the base of a newly found Holy Order"
  attrebus_leases_temple_district_transform_td:0 "The [temple_district.GetName] will be rebuilt into a Castle holding, and leased to [order.GetName]"
  attrebus_leases_temple_district_unpopular:0 "Only a small part of the clergy would approve of such an action, and as such #R you will lose some of your religious standing#!"
- attrebus_leases_temple_district_militaristic_faith:0 "An ambitious ruler could however use that opportunity to turn the Imperial Cult into a more militaristic and militant faith..."
+ attrebus_leases_temple_district_militaristic_faith:0 "An ambitious ruler could however use that opportunity to turn the Eight Divines into a more militaristic and militant faith..."
  attrebus_leases_temple_district_elder_council:0 "Having a military order in the middle of the Imperial City will cause the Elder Council to worry"
  ek_attrebus_potentate.0005.b:0 "The Temple District will be open to the people, not fanatics."
  
@@ -103,7 +103,6 @@
  attrebus_interregnum_decision_colovian_caesar_civil_war_follow_up_event_tt:0 "#weak The follow up event will show how your choices and handling of [required_tasks|E] and [optional_tasks|E] will tip the odds in your, or the Elder Council's, favor.\nYou will be able to back off, should you think it would be too risky... for now.#!"
  
  attrebus_interregnum_decision_colovian_caesar_civil_war_debt_not_repaid_tt:0 "As you did not complete the second [required_task|E], [required_task_2|E], the Elder Council will have to rely on their leftover funds to pay their troops, #p reducing their starting amount of soldiers#!."
- attrebus_interregnum_decision_colovian_caesar_civil_war_cyrodiilic_hero_tt:0 "As you completed the second [optional_task|E], [optional_task_2|E], #p any ruler worshipping the [GetFaithDoctrine('doctrine_pantheon_heroes').GetBaseName] pantheon will join you#!!"
  attrebus_interregnum_decision_colovian_caesar_civil_war_legion_side_ec_tt:0 "As an #n Elder Council loyalist#! was installed at the head of the Imperial Legion during the third [optional_task|E], [optional_task_3|E], #n the First Legion will join the Elder Council#!."
  
  ek_attrebus_potentate.0054.t:0 "A Potentate-for-Life"
@@ -111,15 +110,6 @@
  ek_attrebus_potentate.0054.a:0 "For the people of Cyrodiil!"
  attrebus_become_potentate_for_life_tooltip:0 "With the Elder Council pushed back, #P I will keep the title of Potentate until the end of my days#!, keeping control over most of Cyrodiil."
  attrebus_loses_potentate_after_death_tooltip:0 "After my death however, the #N Potentate will be destroyed and the Interregnum will start#!.\nMy line will still keep the Imperial Isle, and will stay as its protectors until a proper Dragonborn Emperor is found."
- 
- ek_attrebus_potentate.0060.t:0 "The Fabled Attrebus"
- ek_attrebus_potentate.0060.desc:0 "Your actions resonate throughout Cyrodiil.\n\nYou united the disparate Colovian Kings, and destroyed the Akaviri Potentate who threw Tamriel into a devastating civil war. Like the Heroes of old, you rose up and defended Cyrodiil and its people when they needed it the most.\n\nWhile no-one would say that you are the equal of the Slave-Queen Alessia or Reman 'the Light of Man', most whisper your name when praying, and your name has unofficially joined the likes of Pelinal or Bendu Olo."
- ek_attrebus_potentate.0060.a:0 "Lead by exemple."
- attrebus_potentate_attrebus_new_ch_patron_desc:0 "Faiths worshipping the [GetFaithDoctrine('doctrine_pantheon_heroes').GetBaseName] are now able to take Attrebus as their [patron_deity|E]"
- attrebus_potentate_optional_task_2_fulfilled_desc:0 "You #P fulfilled#! the second [optional_task|E], [optional_task_2|E]"
- 
- ek_attrebus_potentate.0061.desc:0 "WIP"
- ek_attrebus_potentate.0061.a:0 "Interesting."
  
  ek_attrebus_potentate.0062.t:0 "A Debt Repaid"
  ek_attrebus_potentate.0062.desc:0 "For years leading up to the war and when it started, the generosity of the Elder Council was one of the main driving force of the rebellion.\nWhile their open support could not be expected once the fighting started, it is nonentheless thanks to the Elder Council financial backing that the Potentate could be toppled.\nAnd the Elder Council expects to be paid back.\n\nThankfully, you have sent the last shipment of gold to the Elder Council, and your debt is now considered repaid in full."
@@ -214,7 +204,7 @@
   ek_attrebus_potentate.0310.desc.intro.tower:0 "I stand on a white balcony, far above the Imperial City. Letting my gaze wander, I can see the declining city, the ruins of the outer districts and, on the horizon, the flames of [attrebus.GetFirstNamePossessive] army of locusts, coming to tear down everything the #LORE [compendium_akaviri_potentate]#! has built. The war is not going well."
   ek_attrebus_potentate.0310.desc.intro.generic:0 "I stand on a balcony, far above the capital. Letting my gaze wander, on the horizon I spot the flames of [attrebus.GetFirstNamePossessive] army of locusts, coming to tear down everything the #LORE [compendium_akaviri_potentate]#! has built. The war is not going well."
   ek_attrebus_potentate.0310.desc.nephew.sister:0 "\n\nEventually the calm voice of [adventurer.GetFirstName] interrupts the foreboding silence: "Uncle, you must hear me out. I know you too see the flames in the dusk and sense the smoke on your scales. I tried to convince my mother, but she is blind to the signs. If the Elementals wills it, I will face the night, but is there not nobility in survival?""
-  ek_attrebus_potentate.0310.desc.nephew.generic:0 "\n\nEventually the calm voice of [adventurer.GetFirstName] interrupts the foreboding silence: "Uncle, you must hear me out. I know you too see the flames in the dusk and sense the smoke on your scales. If the Elementals wills it, I will face the night, but is there not nobility in survival?""
+  ek_attrebus_potentate.0310.desc.nephew.generic:0 "\n\nEventually the calm voice of [adventurer.GetFirstName] interrupts the foreboding silence: "Uncle, you must hear me out. I know you too see the flames in the dusk and sense the smoke on your scales. If the Elementals will it, I will face the night, but is there not nobility in survival?""
   ek_attrebus_potentate.0310.desc.outro:0 "\n\nI ponder his words. Would sending him away be an admission of defeat? But it would only be for a little while, until this warlord is felled."
   ek_attrebus_potentate.0310.a:0 "Victory is assured! You will remain."
   ek_attrebus_potentate.0310.a.tt:0 "[adventurer.GetFirstName] will support you to the bitter end."
@@ -238,7 +228,7 @@
   ek_attrebus_potentate.0312.c.tt:0 "You secure a vessel to New Lilmoth"
   
   ek_attrebus_potentate.0313.t.potentates_retreat:0 "Arrival at Potentate's Retreat: Who am I?"
-  ek_attrebus_potentate.0313.t.southpoint:0 "Arrival at Soutpoint: Who am I?"
+  ek_attrebus_potentate.0313.t.southpoint:0 "Arrival at Southpoint: Who am I?"
   ek_attrebus_potentate.0313.t.south_argonia:0 "Arrival at South Argonia: Who am I?"
   ek_attrebus_potentate.0313.t.fallback:0 "Arrival: Who am I?"
   ek_attrebus_potentate.0313.desc.potentates_retreat:0 "At last I reach the former embassy at Potentate's Retreat. I have never visited before, but my mother told me stories of spending time here in her youth. Now the old walls are crumbling and some parts of the estate seem to have fallen into disrepair. Many of the locals seem to share my Akaviri heritage, though they treat us with suspicion."

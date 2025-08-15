@@ -34,7 +34,7 @@
  ## Special clauses
  # Provincial Governor
  special_contract_provincial_governor:0 "Provincial Governor Contract"
-    special_contract_provincial_governor_desc:2 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] can not revoke titles or vassals that are de Jure part of the Province\n\n#flavor Provincial Governors are appointed by their Emperor-liege to rule over foreign provinces. While they are only ruling in the name of their suzerain, they are given almost absolute authority over their Province, and are tasked with ensuring its loyalty towards the Empire and its ruler.#!"
+    special_contract_provincial_governor_desc:2 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] can not revoke titles or vassals that are [de_jure|E] part of the Province\n\n#flavor Provincial Governors are appointed by their Emperor-liege to rule over foreign provinces. While they are only ruling in the name of their suzerain, they are given almost absolute authority over their Province, and are tasked with ensuring its loyalty towards the Empire and its ruler.#!"
     special_contract_provincial_governor_short:0 "Provincial Governor"
     ek_character_interactions_cannot_revoke_title_provincial_governor_province:0 "You cannot revoke a title belonging to a #high $special_contract_provincial_governor_short$#! if this title belongs to the Governor's designated province"
  # Cultural Protection
@@ -42,7 +42,7 @@
     cultural_rights_none:0 "Culturally Unprotected"
     cultural_rights_none_short:0 "Unprotected"
     cultural_rights_protected:0 "Culturally Protected"
-    cultural_rights_protected_desc:2 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] can not use [promote_culture|E] in the [vassals|E]' lands, except to spread the vassal's [culture|E]. The [liege|E] can not freely [revoke|E] from, [imprison|E] or [execute|E] a [pariah|E] or [daedric_race|E] vassal.\n\n#flavor The [vassal|E] is granted a special protected status, with the realm officially recognizing their right to practice their own [culture|E]. Special land grants and status in their own territory allows the vassal's culture to easily be spread in the vassal's lands.#!"
+    cultural_rights_protected_desc:2 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] can not use [promote_culture|E] in the [vassals|E]' lands, except to spread the vassal's [culture|E]. The [liege|E] can not freely [revoke|E] from, [imprison|E] or [execute|E] a [pariah|E] or [daedric_race|E] vassal. [outlander|E] vassals are protected. \n\n#flavor The [vassal|E] is granted a special protected status, with the realm officially recognizing their right to practice their own [culture|E]. Special land grants and status in their own territory allows the vassal's culture to easily be spread in the vassal's lands.#!"
     cultural_rights_protected_short:0 "Protected"
   minor_tributes_rights:0 "Minor Tributes"
     minor_tributes_rights_default:0 "No Minor Tributes"
@@ -203,3 +203,14 @@ action_autocracy_assign_tax_payers_click: "#I Click to view#!"
  autocracy_imperial_tax_collector: "Bardmont Prefects"
  autocracy_imperial_tax_collector_flavor_desc: "Their governorates relics of the old Potentates, these prefects cultivate their lands to vie for ever more prestigious postings."
  VASSAL_IS_CYRODIILIC: "[CHARACTER.GetShortUINamePossessive] culture does not have the [GetCultureTradition('tradition_imperial_legacy').GetName|V] [tradition|E]."
+ # GCM
+
+ action_can_support:0 "You can Support [recipient.GetName]'s rule!"
+ action_can_support_label:0 "@gcm_icon! [recipient.GetShortUINameNoTooltip] can be Supported"
+ action_can_support_desc:0 "You can Support [recipient.GetShortUINameNoTooltip]'s rule and gather votes for the next Election!"
+ action_can_support_click:0 "#I Click to start the scheme!#!"
+
+ action_can_undermine:0 "You can Undermine [recipient.GetName]'s rule!"
+ action_can_undermine_label:0 "@gcm_icon! [recipient.GetShortUINameNoTooltip] can be Undermined"
+ action_can_undermine_desc:0 "You can Undermine [recipient.GetShortUINameNoTooltip]'s rule and prove that you'd do a much better job!"
+ action_can_undermine_click:0 "#I Click to start the scheme!#!"
