@@ -45,7 +45,7 @@
  ek_court.0003.desc5:0 ""M'aiq has been told that the Bosmer capital moves around Valenwood with the seasons, but when he went there to see, it just stood still. Perhaps that was a transcription error.""  
  ek_court.0003.desc6:0 ""M'aiq has never seen the litter of a Khajiit and a Breton, but he is certain that if they exist, they must be charming creatures.""  
  ek_court.0003.desc7:0 ""M'aiq has heard many things about the identity of Vanus Galerion, and he does not believe a single one.""  
- ek_court.0003.desc8:0 ""M'aiq once praised the #LORE [compendium_eight_divines]#! and made some people very upset. Perhaps they know something M'aiq doesn't?""
+ ek_court.0003.desc8:0 ""M'aiq once praised the Eight Divines and made some people very upset. Perhaps they know something M'aiq doesn't?""
  ek_court.0003.desc9:0 ""M'aiq has never seen the litter of an Argonian and a Dremora, but he is certain that if they exist, this one would do anything to avoid them.""  
  ek_court.0003.desc10:0 ""Decisions, decisions... M'aiq is glad to not have too many options.""  
  ek_court.0003.desc11:0 ""Cartography is hard work. Every map is based on hundreds of others.""
@@ -149,7 +149,7 @@
  ek_historical_artifacts.0004.b:0 "And who are you to deny me this crown!?"
 
  ek_historical_artifacts.0005.t:0 "Blood of the Dragon"
- ek_historical_artifacts.0005.desc:0 "Akatosh himself blessed [alesh.GetFirstName] and her descendants with the blood of dragons and the [aok.GetName] when the Paravant dared to defy the Ayleid's rule. Thus does Alessia become the first gem in the Cyrodilic Amulet of Kings. The gem is the Red Diamond in the middle of the Amulet. It is surrounded by eight other gems, one for each of the #LORE [compendium_divines]#!. This is the Symbol of the Empire.\n\n[reman.GetFirstName] and his descendantes also donned the Amulet as a symbol of the Emperor's power and as long as they wore it, Tamriel was safe.\n\nI now have the token of this Covenant in my possession. Was it fate that brought it to me or a mere coincidence?"
+ ek_historical_artifacts.0005.desc:0 "Akatosh himself blessed [alesh.GetFirstName] and her descendants with the blood of dragons and the [aok.GetName] when the Paravant dared to defy the Ayleid's rule. Thus does Alessia become the first gem in the Cyrodilic Amulet of Kings. The gem is the Red Diamond in the middle of the Amulet. It is surrounded by eight other gems, one for each of the Divines. This is the Symbol of the Empire.\n\n[reman.GetFirstName] and his descendantes also donned the Amulet as a symbol of the Emperor's power and as long as they wore it, Tamriel was safe.\n\nI now have the token of this Covenant in my possession. Was it fate that brought it to me or a mere coincidence?"
  ek_historical_artifacts.0005.a:0 "I need to know!"
  ek_historical_artifacts.0005.b:0 "Having this token is enough for me."
  ek_historical_artifacts.0005.a.success:0 "The [aok.GetName] stays put"

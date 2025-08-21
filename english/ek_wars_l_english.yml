@@ -58,8 +58,11 @@
  attrebus_potentate_cb_victory_desc:0 "[attacker.GetShortUIName|U] shatters the Potentate, and Cyrodiil holds its breath as the Warlord will shape its history forever..."
  attrebus_potentate_cb_victory_with_liodes_desc:0 "If [liodes.GetNameNicknamed], or [liodes.GetHerHis] line, is still in the war they receive all the land held by the Potentate within any [de_jure|E] Duchy they hold land in"
  attrebus_potentate_cb_seize_potentate_held_land:0 "You seize all the land held directly by the Potentate"
+ dres_argonian_war_cb: "Campaign of Southern Reclamation"
  dres_argonian_war_cb_seize_thorn:0 "Madesi seizes Thorn and proclaims himself King of its lands"
  dres_argonian_war_cb_claim_dres:0 "Savor leverages the support from his war allies to claim the rulership of House Dres"
+ dres_argonian_war_nickname: "Your allies will receive prestige and "$nick_reclaimer$" nickname"
+ dres_argonian_war_imprison_enemies: "You will [imprison|E] the defenders"
 
  IMPRISON_MAGE_CB_NAME:1 "Detain Dangerous Mage"
  IMPRISON_MAGE_WAR_NAME:2 "Detain [DEFENDER.GetShortUIName] for [defender.GetHerHis] magical misuse"

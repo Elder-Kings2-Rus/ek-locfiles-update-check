@@ -169,10 +169,8 @@
  desc_vaermina:0 "Daedric Prince of Dreams, Vaermina rules over Quagmire in Oblivion. She is typically depicted as an older woman wielding a staff, sometimes accompanied by a snake. Her followers are often alchemists, their most notable concoction being Vaermina's Torpor."
 
  desc_akatosh:0 "Chief among the gods, with mastery over the flow of time. Associated with dragons and the qualities of endurance and virtuous service."
- desc_alduin:0 "Alduin, the World-Eater, is the First-Born among dragons, worshipped as destroyer, renewer, and sometimes rightful master of the world. Known also as the Twilight God for his dominion over the end and beginning of time."
 
  desc_arkay:0 "God of cycles, particularly that of birth and death. Presides over funerals and burial rites, as well as ushering in the changes of the seasons."
- desc_orkey:0 "Serpent God of the Dead and the Old Knocker. Orkey tests all mortals, He likes to start all quarrels. A snake no one can flee, None may fool wary Orkey."
  desc_tuwhacca:0 "Tu'whacca, the Tricky God, is shepherd to the dead. As custodian of the Far Shores he escorts us to them when we die. Prior to the creation of the Walkabout, he was merely the God of Nobody Really Cares."
  desc_arkay_nede:0 "Legends speak of a trader whose passion for secret knowledge brought his doom. His quest had however not gone unnoticed - at his deathbed the Mothers Dibe-Mara-Kin granted him time, time unending to seek his answers. In turn, Ark'ay bring us death, as death too is necessary for life, the neverending cycle."
 
@@ -182,10 +180,8 @@
  desc_dibella_reach:0 "Revered goddess of passion, carousing and the harvest. The 'Matron of Joy' is often invoked by the faithful in merry occasions and festivals of harvest. In a world dominated by the benevolent but rather cruel Hircine, Dibella provides a much welcome harbour of happiness."
 
  desc_julianos:0 "God of logic, wisdom, and the arts of magic. His temples act as educational institutions in literature, history, and law."
- desc_jhunal:0 "The Rune God represented by an owl. God of hermetic orders, knowledge and wisdom, who has fallen out of favour."
 
  desc_kynareth:0 "Goddess of the heavens, winds, and rain. Patron of sailors and travelers, and often propitiated for good fortune in life."
- desc_kyne:0 "Goddess of the Storm. Widow of Shor and favored god of warriors. She is often called the Mother of Men. Her daughters taught the first Nords the use of the thu'um, or Storm Voice."
  desc_tava:0 "Tava, the hawkheaded Bird God, holds domain over the wind, weather and skies above, besides the stars. She is patron to sailors and mariners, and led the Warrior Waves to Tamriel upon the loss of Old Yokuda."
  desc_kin_nede:0 "Kin, the third Mother Around-Us, bring us life from water. With her blessing we are spared the terrible storm, yet gifted the wind in our sails."
 
@@ -198,7 +194,6 @@
  desc_stendarr:0 "God of mercy, justice, and righteousness. Patron of all those who wield righteous might to protect the weak, from emperors to holy warriors."
  god_stendarr_bosmer_name:0 "Stendarr"
  desc_stendarr_bosmer:0 "A most merciful god, devotees of Stendarr strive to emulate him by tending to the poor and downtrodden while striking down evildoers in the name of justice."
- desc_stuhn:0 "Stuhn, the Whale God of Ransom, brother of Tsun and Shield-Thane of Shor. He taught us the benefits of ransom and taking prisoners of war."
  god_stendarr_mer_name: "Stendarr"
  desc_stendarr_mer: "Stendarr is the god of mercy and protector of all mortals, a role that has earned him a reputation as the Apologist of Men. His followers both offer aid to the wounded and suffer no abominations to live."
 
@@ -211,13 +206,10 @@
  desc_leki:0 "Leki, God of Aberrant Swordsmanship, is invoked when breaking ties and passing fair judgement. While sword-singers may perfect the Best Known Cuts, the Saint of the Spirit Sword can devise cunning counters to them all."
 
  desc_zenithar:0 "God of work, commerce, and wealth, invoked for success in business ventures. Teaches prosperity through honest industry, rather than violence or deceit."
- patron_tsun_name:0 "Tsun"
- desc_tsun:0 "Dead God of trials against adversity. He died defending Shor from foreign gods, with his death remembered as bringing about the current world."
  desc_zeht:0 "Zeht, God of agriculture and mathematics. A forsaken son of Tall Papa and forsaking father of the water goddess Zeqqi, this family quarrel is said to be the cause of famine and drought."
  desc_zen_nede:0 "A curiosity among Aedric faiths, Z'en is considered chief of the Gods by the Nedes. A bartering God, his foremost teachings are as follows: all trades must be fair, all gifts passed along, all debts repaid, and all slights avenged."
 
  desc_shezarr:0 "Shezarr, spirit of Human Undertaking, particularly against Aldmeri Aggression. Patron of the Imperial Battlemages, but since less popular due to the cosmopolitan nature of the Cult."
- desc_shor:0 "Shor, Dead God of the Underworld. Ruler of sovngarde and dead chief of the Gods. Long time warrior-king of the Nords before foreign gods brought about his demise, dooming him to Sovngarde."
  desc_sep:0 "Sep, the Second Serpent. Driven mad by the hunger of Satakal, Sep convinced the gods to create the mortal world as an easier alternative to the Walkabout. For this he was punished by Ruptga, but his mad hunger lives on among the stars."
  desc_lorkh:0 "Lorkh, spirit of Man. It was Lorkh who convinced Namira the Spirit Queen to allow him the creation of a realm for wayward spirits - the Mortal Realm, for which he sacrificed himself. Yet he walks among mortals and in times of great need will again reveal himself."
  desc_lorkh_nede:0 "Lorkh, the Trickster-Warrior, who through clever words and forceful expression of will caused the formation of our home in the Around-Us. When Lorkh sacrificed himself during Creation, Z'en took the reins as chief of the Gods. While dead his Heart lives on within us."
@@ -275,16 +267,29 @@
  
  desc_da_lost_king:0 "The Lost King still wanders the land, protecting it until his people come back. His determination and unfaltering resolution teaches us to be brave even when alone."
  
- # Atmoran Totems
- desc_bear:0 "The mighty and fierce Bear who's strength rumbles the earth. All fear and respect the Bear, mighty master of battle."
- desc_dragon:0 "The Dragon, mighty steward of time and embodiment of the Allfather. The firstborn of the void, the Dragon is the figurehead of rulership and the patron spirit animal of our Lords."
- desc_fox:0 "The small Fox, who can look gentle and innocent, but is also known to be fierce against his enemies."
- desc_hawk:0 "The highborn Hawk, she who rules the skies and flies with the winds. No animal is more noble than she, and when she speaks all listen."
- desc_moth:0 "The Ancestor Moth, wise and knowledgable. It is from the Silk of the Ancestor Moth that the scrolls of our lives are formed, and from their fluttering flows the winds of our peoples magicks."
- desc_owl:0 "The wise Owl, who guides us in our quest for knowledge. Guardian of the old magical arts, he is the spirit of the powerful forces that rule this world."
- desc_snake:0 "The cunning Snake, who slithers on the ground and hides from greater beasts, ready to strike when the occasion presents itself. One bite is all she needs to take down her target, and she disappears before anyone understands what happened."
- desc_whale:0 "The Whale, long-lived leviathan of the oceans who's heart beats with the waves. The Whale watches our lives from it's watery deep, witnissing all that we do and when all is said and done it is the Whale that guides our souls to the afterlife."
- desc_wolf:0 "The Wolf, she who hunts in pack and makes sure none gets left behind. Fierce to protect her children, and ready to attack should her pack be threatened."
+#Atmoran Totems
+ desc_bear: "The mighty Bear, whose strength shakes the earth. All fear and respect the great master of battle."
+ desc_dragon: "The Dragon, who will consume the world and must be kept asleep through our efforts."
+ desc_fox: "The clever Fox, who is not as he appears. He is cunning and swift, known to be fierce against his enemies."
+ desc_hawk: "The noble Hawk, she who rules the skies and commands the storm. When she speaks, all listen."
+ desc_moth: "The mother Moth, whose gentle hunger demands our nightly devotion. Her song, carried far by fluttering wings, holds her secrets and invites the faithful to pay her homage."
+ desc_owl: "The wise Owl, who guides us in our quest for knowledge. Guardian of the old magical arts, he is the spirit of the powerful forces that rule this world."
+ desc_snake: "The cunning Snake, who lies in wait, ready to strike when the opportunity arises. One bite is all he needs to claim his prey when their time comes."
+ desc_whale: "The Whale, whose heart beats with the waves. He witnesses all that we do, and when all is said and done, it is the Whale that guides our souls to the afterlife."
+ desc_wolf: "The Wolf, she who leads the pack and ensures that none are left behind. She shows her children the way of the mighty hunter, teaching them to protect the pack and keep the peace that keeps them safe."
+ desc_hare: "The solitary Hare, who roams the dark woods in search of the secrets of the world. He tempts those who would follow his tracks with the promise of hidden knowledge."
+#Nord gods
+ desc_kyne: "The Warrior Widow of Shor, goddess of storm and breath, and the chieftess of the Nordic Pantheon. It is said that men were created when Kyne first exhaled upon the land."
+ god_dibella_nord_name: "Dibella"
+ desc_dibella_nord: "Dibella, goddess of love and beauty, the youngest of Shor's wives. She taughts the Nords the arts of music, feasting and sexuality."
+ god_mara_nord_name: "Mara"
+ desc_mara_nord: "Mara, goddess of family, handmaiden of Kyne. Her pity is endless and especial, for she strives for harmony and cooperation among the Nords."
+ desc_jhunal:0 "The Rune God represented by an owl. God of hermetic orders, knowledge and wisdom, who has fallen out of favour."
+ desc_stuhn:0 "Stuhn, the Whale God of Ransom, brother of Tsun and Shield-Thane of Shor. He taught us the benefits of ransom and taking prisoners of war."
+ desc_tsun:0 "Dead God of trials against adversity. He died defending Shor from foreign gods, with his death remembered as bringing about the current world."
+ desc_shor: "Shor, dead god of Sovngarde and warrior-king of the ancient men. He led the Nords in battle against foreign gods, which brought about his demise. "
+ desc_alduin:0 "Alduin, the World-Eater, is the First-Born among dragons, worshipped as destroyer, renewer, and sometimes rightful master of the world. Known also as the Twilight God for his dominion over the end and beginning of time."
+ desc_orkey:0 "Serpent God of the Dead and the Old Knocker. Orkey tests all mortals, He likes to start all quarrels. A snake no one can flee, None may fool wary Orkey."
  
  # Elemental Gods
  desc_ilni:0 "Ilni flutters her colorful fan\nAnd so blows toward the West"

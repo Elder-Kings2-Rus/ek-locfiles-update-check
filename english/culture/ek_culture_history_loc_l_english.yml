@@ -24,8 +24,8 @@
  chimer_history_loc:0 "Followed the Prophet Veloth into exile"
  cantemiric_history_loc:0 "Followed the Oracle Cantemir into Black Marsh"
 #Imperial
- imperial_history_loc:0 "Developed out of [CULTURE.GetName] tribes under [TARGET_CULTURE.GetName] rule"
- colovian_history_loc: "Developed out of [CULTURE.GetName] tribes under Nordic influence"
+ imperial_history_loc: "Developed out of [GetCulturePillar('heritage_nedic_central').GetName] tribes under [TARGET_CULTURE.GetName] rule"
+ colovian_history_loc: "Developed out of [GetCulturePillar('heritage_nedic_central').GetName] tribes under Nordic influence"
  strident_history_loc:0 "Formed from Gold Coast [CULTURE.GetCollectiveNoun] under [TARGET_CULTURE.GetName] influence" 
  blackwood_history_loc:0 "Kept the old ways of the [CULTURE.GetName]"
  rimmenese_history_loc:0 "Descended from [CULTURE.GetName] traders that settled in the Rim Territories" 

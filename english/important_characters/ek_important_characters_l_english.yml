@@ -77,8 +77,8 @@
  imp_char_mora_nerevar_desc:0 "One of the greatest Chimeri heroes, Indoril Nerevar was the Hortator and First Councilor who united the Great Houses against Dwemer and Nord alike. He perished shortly after the [Glossary( 'Battle of Red Mountain', 'BATTLE_RM_GLOSS' )], either due to wounds without or treachery within."
  
  #Almalexia
- imp_char_indoril_100:0 ""
- imp_char_indoril_100_desc:0 "Alma Laesa, Ayem and later, as a Goddess of the Dunmer people, Almalexia, was in her mortal life a daughter of House Indoril, a ruler in her own right, and the wife of Nerevar and one of his close advisors, following his death she and two other of his companions would ascend to godhood forming the ALMSIVI Tribunal."
+ imp_char_indoril_almalexia:0 ""
+ imp_char_indoril_almalexia_desc:0 "$desc_almalexia$"
  
  #Sotha Sil
  imp_char_sotha_100:0 ""
@@ -113,8 +113,8 @@
  imp_char_akavir_100_desc:0 "Despite a long rule over the Empire, Versidue-Shaie was succeeded by the comparatively meek Savirien-Chorak. Local governors undermined central authority in spite of the Potentate's sustained leniency.\n\nAt times Savirien-Chorak resolved to more hard-headed approach. In 2E 400, he ousted House Cuptor from Bravil and appointed an Ilniviri Proconsul in their stead, and boldly proclaimed Orsinium a full fledged Province of the Empire.\n\nYears passed and resentment pooled until Savirien-Chorak's lifeless body was found in 2E 430 in his Senchal palace, killed by Mephalan fanatics called 'the Morag Tong'. They did not let off his direct heirs either, just like the Remans of old. Tensions have finally boiled over as it became painfully clear: the Second Empire had begun its final dissolution."
 
  #Xarxes
- imp_char_xarxes_1000:0 ""
- imp_char_xarxes_1000_desc:0 "$normal_desc_xarxes$"
+ imp_char_xarxes_xarxes:0 ""
+ imp_char_xarxes_xarxes_desc:0 "$normal_desc_xarxes$"
 
  #Syrabane
  imp_char_syrabane_1000:0 ""

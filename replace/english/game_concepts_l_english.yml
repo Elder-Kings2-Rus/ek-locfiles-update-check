@@ -69,6 +69,13 @@
  THEME_DUCHY_SORT_THEME_TROOPS: "Province Troops" #Replaced Theme
  
  game_concept_imperial_family: "Ruling Family" #Replaced Imperial
+ 
+ eldest_imperial_son_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName]'s Eldest Son"  #Replaced Imperial
+ eldest_imperial_daughter_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName]'s Eldest Daughter"  #Replaced Imperial
+ eldest_imperial_child_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName]'s Eldest Child"  #Replaced Imperial
+ 
+ councillor_position_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName]'s [councillor|E]"  #Replaced Imperial
+ court_position_succession_desc: "[ROOT.Char.GetTopLiege.GetTitleAsName]'s [court_position|E]"  #Replaced Imperial
 
  #EK EDIT: Including these in blanked-out form since the logs complain when they mention commented-out game concepts.
  game_concept_harrying_widget_i: ""

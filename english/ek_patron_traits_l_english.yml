@@ -289,6 +289,12 @@
  trait_p_at_dragon_desc:0 "A follower of the Dragon"
  trait_p_at_dragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetAtDragonName')]."
  ##the great Dragon, who first came into this world and is its rightful watcher and protector.
+
+ trait_p_at_hare:0 "Follower of the Hare"
+ trait_p_at_hare_base:0 "Follower of the Hare"
+ trait_p_at_hare_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_hare_desc' )]"
+ trait_p_at_hare_desc:0 "A follower of the Hare"
+ trait_p_at_hare_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Hare."
  
  # Elemental Gods
  trait_p_eg_myn:0 "Follower of Myn"

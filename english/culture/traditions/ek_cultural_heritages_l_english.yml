@@ -66,15 +66,15 @@
  heritage_nedic_north_collective_noun:0 "Northern Nedes"
  heritage_nedic_north_desc:0 "Nedes are the collective human tribes native to Tamriel. Originally inhabiting the Iliac Bay, Southern Skyrim, Cyrodiil and Argonia; many tribes would be displaced or subsumed by later migrations of man and mer. The largest extant population of Nedes are the $reachfolk$ of the Reach, natively 'The Karth' - once a kingdom in its own right prior to Reman splitting the lands between High Rock and Skyrim.\n\nWhile many of their cultures are extinct or near to it, an aspiring ruler could lead their revival..."
 
- #heritage_nedic_south_name:0 "South Nedic"
- heritage_nedic_south_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'South Nedic', Localize('no') )]"
- heritage_nedic_southe_noun:0 "Southern Nedes"
- heritage_nedic_south_desc:0 "Nedes are the collective human tribes native to Tamriel. Originally inhabiting the Iliac Bay, Southern Skyrim, Cyrodiil and Argonia; many tribes would be displaced or subsumed by later migrations of man and mer. The largest extant population of Nedes are the $reachfolk$ of the Reach, natively 'The Karth' - once a kingdom in its own right prior to Reman splitting the lands between High Rock and Skyrim.\n\nWhile many of their cultures are extinct or near to it, an aspiring ruler could lead their revival..." #EK TODO: this is a copy of the northen nedic desc, might wanna talk about south nede here
+ #heritage_nedic_south_name:0 "Kothri"
+ heritage_nedic_south_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Kothri', Localize('no') )]"
+ heritage_nedic_southe_noun:0 "Kothri"
+ heritage_nedic_south_desc:0 "Kothri are the mannish tribes native to Black Marsh, descended from the Nedes of the Niben Basin." #EK TODO: this is a copy of the northen nedic desc, might wanna talk about south nede here
 
  #heritage_nedic_central_name:0 "Central Nedic"
  heritage_nedic_central_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), Or(GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MER') ),GetVariableSystem.HasValue( 'ek_race', Localize('RACE_MAN') ) ) ), 'Central Nedic', Localize('no') )]"
  heritage_nedic_central_collective_noun:0 "Central Nedes"
- heritage_nedic_central_desc:0 "Nedes are the collective human tribes native to Tamriel. Originally inhabiting the Iliac Bay, Southern Skyrim, Cyrodiil and Argonia; many tribes would be displaced or subsumed by later migrations of man and mer. The largest extant population of Nedes are the $reachfolk$ of the Reach, natively 'The Karth' - once a kingdom in its own right prior to Reman splitting the lands between High Rock and Skyrim.\n\nWhile many of their cultures are extinct or near to it, an aspiring ruler could lead their revival..."
+ heritage_nedic_central_desc:0 "Central Nedic tribes are the ancestors of the modern Imperials and the original inhabitants of the Heartlands. They were enslaved by the Ayleids until the Alessian slave rebellion. Since then they diverged into two main groups: Nibenese in the east and Colovians in the west."
 
  #heritage_lilmothiit_name:0 "Lilmothiit"
  heritage_lilmothiit_name:0 "[Select_CString( Or(Not(GetVariableSystem.HasValue( 'ek_ruler_designer_open', 'true' ) ), GetVariableSystem.HasValue( 'ek_race', Localize('RACE_LILMOTHIIT') ) ), 'Lilmothiit', Localize('no') )]"

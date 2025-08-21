@@ -1,15 +1,11 @@
 ﻿l_english:
 ### COMPENDIUM
  game_concept_compendium:0 "Compendium"
- game_concept_compendium_desc:0 "Compendium pages provide more background on Elder Kings 2's characters and setting. \n\nThe Compendium includes the following pages:\nReligion:\n$TAB$$BULLET_WITH_TAB$#LORE [compendium_divines]#!\n$BULLET_WITH_TAB$#LORE [compendium_missing_god]#!\nHistory:\n$BULLET_WITH_TAB$#LORE [compendium_akaviri_potentate]#!\n$BULLET_WITH_TAB$#LORE [compendium_first_era]#!\n$BULLET_WITH_TAB$#LORE [compendium_second_era]#!"
+ game_concept_compendium_desc:0 "Compendium pages provide more background on Elder Kings 2's characters and setting. \n\nThe Compendium includes the following pages:\nReligion:\n$TAB$\n$BULLET_WITH_TAB$#LORE [compendium_missing_god]#!\nHistory:\n$BULLET_WITH_TAB$#LORE [compendium_akaviri_potentate]#!\n$BULLET_WITH_TAB$#LORE [compendium_first_era]#!\n$BULLET_WITH_TAB$#LORE [compendium_second_era]#!"
  
 # CUT, because there's no gameplay mechanic related to Alchemy
  game_concept_compendium_alchemy:0 "Alchemy"
  game_concept_compendium_alchemy_desc:0 "An art as old as time, #bold Alchemy#! is the process through which someone combines and mixes, boils, or distills several ingredients to form a poison, or a potion. This art was supposedly codified by Asliel Direnni, but most people in Tamriel already knew how boiling a plant could cure a fever, or what bones should one crush to produce a potent poison.\n\nAlchemical ingredients come in very various forms, such as plants or leaves, animal parts, undead remnants, and even Daedric summons. This makes alchemy a potentially very lucrative and very dangerous trade, as the most expensive ingredients produce the most powerful poisons and potions, but are also hidden in the most deadly places.\n\nYou can find more lore entries in the #LORE [compendium]#!."
- 
- game_concept_compendium_divines:0 "Divines"
- game_concept_compendium_eight_divines:0 "Eight Divines"
- game_concept_compendium_divines_desc:0 "The #bold Divines#! are the [Glossary( 'Aedra', 'AEDRA_GLOSS' )] who are considered to have maintained most of their divine power even as the creation of Mundus drained most of it. Their joint worship as the #bold Eight Divines#! started under Alessia and her newly forged Empire, as the Elven gods and Nordic deities had to coexist in this new nation.\nAs part of the Covenant between Alessia and Akatosh, the Dragon-God of Time swore to protect Mundus from further Daedric influence as long as Alessia and her line championed the pantheon throughout Tamriel.\n\nAside from #italic Akatosh#!, the Eight Divines are composed of #italic Arkay#!, #italic Dibella#!, #italic Julianos#!, #italic Kynareth#!, #italic Mara#!, #italic Stendarr#!, and #italic Zenithar#!. Different cultures might know the individual Divines under different names. Kynareth for example is known as Kyne to the Nords and Khenarthi to the Khajiit. Other Aedra, such as Magnus or Y'ffre, are often worshipped alongside the Divines.\n\nYou can find more lore entries in the #LORE [compendium]#!."
  
  game_concept_compendium_missing_god:0 "Missing God"
  game_concept_compendium_lorkhan:0 "Lorkhan"

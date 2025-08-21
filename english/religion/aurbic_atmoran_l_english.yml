@@ -39,8 +39,6 @@
  nord_cult_adherent:0 "Nordic Cultist"
  nord_cult_adherent_plural:0 "Nordic Cultists"
  nord_cult_desc:0 "The Nordic gods are forces of nature, with lofty whim and beyond accountability to men. The Nords' scant few temples double as family homes and feasting-halls; faith is no mere hobby to be confined to a single time and place.\n\nThe Nordic gods are in three groups. The Hearth Gods govern wild and tempestuous nature; the Testing Gods, Skyrim's endless bloody battlefields; and the Dead Gods, Sovngarde, the Nordic underworld. But the Nords are careful, and know that communing with the divine is a privilege; one best used in aid of the Nords' fight for survival in the harsh reaches of Skyrim, just as the Nords fight for survival by keeping their Dragon God Alduin asleep for as long as they can."
- nord_cult_house_of_worship:0 "shrine"
- nord_cult_house_of_worship_plural:0 "shrine"
  nord_cult_religious_symbol:0 "heart"
  nord_cult_religious_text:0 "legends"
  nord_cult_religious_head_title:0 "Arch-Prelate"
@@ -51,7 +49,7 @@
  totemism_adj:1 "Totemist"
  totemism_adherent:1 "Totemist"
  totemism_adherent_plural:1 "Totemists"
- totemism_desc:0 "The first Atmoran settlers in Skyrim worshipped totems, sacred symbolic representations of animal gods. They worshipped the hawk, wolf, snake, moth, owl, whale, bear, fox, and the dragon. The dragon was seen as head of the pantheon, and worshipped most strongly. Some scholars believe these ancient totemic animals are the #LORE [compendium_divines]#! followed today in Skyrim, just in a different form."
+ totemism_desc:0 "The first Atmoran settlers in Skyrim worshipped totems, sacred symbolic representations of animal gods. They worshipped the hawk, wolf, snake, moth, owl, whale, bear, fox, and the dragon. The dragon was seen as head of the pantheon, and worshipped most strongly."
  
  #All-Maker
  anuic_skaal:1 "All-Maker"
@@ -104,20 +102,10 @@
  dragon_cult_bishop_female_plural:0 "dragon priestesses"
  dragon_cult_bishop_neuter:0 "dragon priest"
  dragon_cult_bishop_alternate_plural:0 "dragon priesthood"
- 
+
  #Ternion Totems
  ternion_totems:0 "Ternion Totems"
  ternion_totems_adj:0 "Ternion"
  ternion_totems_adherent:0 "Ternion Totemist"
  ternion_totems_adherent_plural:0 "Ternion Totemists"
  ternion_totems_desc:0 "An old and reclusive cult revering the Three Old Gods - the quick and crafty Fox, the strong and mighty Bear, the sly and observant Wolf."
- ternion_totems_religious_symbol:0 "ternion totem"
- ternion_totems_religious_text:0 "ancient stories"
- ternion_totems_religious_head_title:0 "Godsthane"
- ternion_totems_religious_head_title_name:0 "Hall of Three"
- ternion_totems_devotee_male:0 "monk"
- ternion_totems_devotee_male_plural:0 "monks"
- ternion_totems_devotee_female:0 "nun"
- ternion_totems_devotee_female_plural:0 "nuns"
- ternion_totems_devotee_neuter:0 "monastic"
- ternion_totems_devotee_neuter_plural:0 "monastics"

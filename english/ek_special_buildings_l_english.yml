@@ -185,7 +185,7 @@
  building_type_chapel_of_the_eight_01_desc:0 "There are numerous temples in Cyrodiil devoted to one of the divines, but this particular holy site stands out due to its dedication to the worship of the entire pantheon. In this capacity, it serves as the central hub of the Cyrodiilic Cult and provides a residence for several initiates who diligently attend to this place and offer their prayers.\n\nTo ensure the security of this significant location and the safety of both its inhabitants and the pilgrims who arrive here, a specialized order known as "The Knights of the Eight" is stationed at this site. They maintain constant vigilance, guarding the premises and even providing training to the initiates, enabling them to defend themselves if the need arises." #AI
  building_chapel_of_the_eight_01:0 "$building_type_chapel_of_the_eight_01$"
  building_chapel_of_the_eight_01_desc:0 "$building_type_chapel_of_the_eight_01_desc$"
- holy_site_or_cyrodiilic_cult:0 "Holder [faith|E] must consider it a [holy_site|E], have the #LORE [compendium_divines]#! in its [pantheon|E] or be a Cyrodiilic Cult."
+ holy_site_or_cyrodiilic_cult:0 "Holder [faith|E] must consider it a [holy_site|E], have the Divines in its [pantheon|E] or be a Cyrodiilic Cult."
 
  # Artemnon River Channels
  building_type_artemon_river_channels_01:0 "Artemon River Channels"
@@ -754,7 +754,7 @@
  building_solitude_holy_walls_01:0 "$building_type_solitude_holy_walls_01$"
  building_solitude_holy_walls_01_desc:0 "$building_type_solitude_holy_walls_01_desc$"
  building_solitude_holy_walls_02:0 "Blessed $building_type_solitude_holy_walls_01$"
- building_solitude_holy_walls_02_desc:0 "The walls surrounding the city of Solitude have seen their divine enchantments refined and strengthened, and pilgrims now come from all provinces of Tamriel to admire this creation of the #LORE [compendium_divines]#!."
+ building_solitude_holy_walls_02_desc:0 "The walls surrounding the city of Solitude have seen their divine enchantments refined and strengthened, and pilgrims now come from all provinces of Tamriel to admire this creation of the Gods."
 
  building_type_shalidors_maze_01:0 "Shalidor's Maze"
  building_type_shalidors_maze_01_desc:0 "The great mage Shalidor built his labyrinth deep within the old city of Bromjunaar, and his power still echoes through its halls. Some say he concealed magickal secrets within; others, that artifacts of great power are hidden in the walls. Still others say that Shalidor trained his apprentices in its challenging course, or worse: that this is how he separated wheat from chaff among the many mages who sought his tutorship. Whatever the truth, many have entered Labyrinthian, and many corpses still remain. Those mages who navigate it, though, are indisputably more powerful than they were before… and different, somehow."
@@ -1023,10 +1023,10 @@
  building_almas_thir_01:0 "$building_type_almas_thir_01$"
  building_almas_thir_01_desc:0 "$building_type_almas_thir_01_desc$"
 
- building_type_necrom_necropolis_01:0 "City of the Dead"
- building_type_necrom_necropolis_01_desc:0 "Nestled amidst craggy mountains, deep gorges, and a broad river lies Necrom, one of the oldest cities of the Dunmer. Its secluded location has allowed it to flourish into an unexpectedly beautiful place, adorned with gleaming white walls and marble causeways. However, Necrom's true purpose lies hidden from the curious eyes of visitors and pilgrims: it harbors the largest necropolis in all of Morrowind. Where else could the revered dead find their eternal rest but within the confines of the safest city?\n\nThus, beneath Necrom's vibrant streets, lies a second city - an expansive network of catacombs and tombs known as the City of the Dead. An ancestor interred here is expected to bestow a certain degree of gratitude upon their descendants for this prestigious privilege. Some of them are even utilized to animate the formidable bonewalkers - crafted meticulously from bone and flesh - and stand ready to defend their house's interests long beyond the reaches of death." #AI before "An ancestor interred here..."
- building_necrom_necropolis_01:0 "$building_type_necrom_necropolis_01$"
- building_necrom_necropolis_01_desc:0 "$building_type_necrom_necropolis_01_desc$"
+ building_type_necrom_necropolis_01: "City of the Dead"
+ building_type_necrom_necropolis_01_desc: "At the heart of Necrom’s winding marble causeways lies the City of the Dead – the largest necropolis in all of Morrowind and the center of Dunmeri ancestor worship. Beneath the city’s busy streets is an ever-expanding network of catacombs that house the honored dead, who have found their eternal rest in the care of the Keepers of the Dead. Both the living and the dead call Necrom home, filling the vibrant causeways in a constant flow that never ceases."
+ building_necrom_necropolis_01: "$building_type_necrom_necropolis_01$"
+ building_necrom_necropolis_01_desc: "$building_type_necrom_necropolis_01_desc$"
 
 
  building_type_gorne_asylum_01:0 "Gorne Asylum"
@@ -1044,10 +1044,10 @@
  building_silgrad_tower_01:0 "$building_type_silgrad_tower_01$"
  building_silgrad_tower_01_desc:0 "$building_type_silgrad_tower_01_desc$"
 
- building_type_odai_tradeport_01:0 "Odai Tradeport"
- building_type_odai_tradeport_01_desc:0 "The Odai River provides a direct link from the Inner Sea to Balmora, one of Vvardenfell's largest cities and a primary gateway for goods flowing between the island and the mainland. Junks and vessels of various sizes navigate this river continuously, ensuring a steady flow of wares and income.\n\nBalmora's extensive network of canals enables merchants to sell their wares directly from their boats, transforming the river itself into a bustling marketplace teeming with life and various opportunities." #AI
- building_odai_tradeport_01:0 "$building_type_odai_tradeport_01$"
- building_odai_tradeport_01_desc:0 "$building_type_odai_tradeport_01_desc$"
+ building_type_odai_tradeport_01: "Odai Tradeport"
+ building_type_odai_tradeport_01_desc: "The Odai River provides a direct link from the Inner Sea to Balmora, leading to the city's port becoming a primary gateway for goods flowing between the island and the mainland."
+ building_odai_tradeport_01: "$building_type_odai_tradeport_01$"
+ building_odai_tradeport_01_desc: "$building_type_odai_tradeport_01_desc$"
 
  building_type_ald_mirathi_01:0 "Ald Mirathi Shrine"
  building_type_ald_mirathi_01_desc:0 "This shrine built in honor of the [Glossary( 'Daedric Prince', 'DAEDRA_GLOSS' )] of Destruction, Mehrunes Dagon, stands upon Lake Boethiah's shores since time immemorial."
@@ -1135,11 +1135,6 @@
  building_type_plaza_brindisi_dorom_01_desc:0 "There's a reason why, among the many names associated with Morrowind's capital - City of Light and Magic, City of Gems, City of Love and Charity - Mournhold remains prominent. During the end of the First Era, Mehrunes Dagon himself was summoned to assail the city's ruler, Brindisi Dorom. Only through the combined efforts of Sotha Sil and Almalexia could he be banished, but not before the city and its inhabitants suffered brutal devastation.\n\nDespite the destruction, the defeat of Mehrunes Dagon is commemorated as a significant triumph. A portion of Mournhold is now dedicated to its fallen ruler, Brindisi Dorom, who perished in Dagon's assault - the Brindisi Dorom Plaza. This area has been transformed into a place of beauty and reflection, featuring well-tended parks and a colossal statue depicting Almalexia's decisive blow against the Daedric Prince." #Everything after two first sentence is AI
  building_plaza_brindisi_dorom_01:0 "$building_type_plaza_brindisi_dorom_01$"
  building_plaza_brindisi_dorom_01_desc:0 "$building_type_plaza_brindisi_dorom_01_desc$"
-
- building_type_fort_umbermoth_01:0 "Fort Umbermoth"
- building_type_fort_umbermoth_01_desc:0 "The Four-Score War, which raged for over 80 years between Morrowind and the Cyrodilic Empire, only concluded with the rise of the Potentate and the violent end of the Reman dynasty. Versidue Shaie signed the so-called Cervant Truce with Vivec, which included a special clause: the duty to construct a defensive line of forts along Morrowind's eastern coast, ready to repel any potential threats from Akavir itself.\n\nHowever, as the power of the Chorak Dynasty waned and no new invasions materialized, these forts fell into disrepair, their stones repurposed for other needs. Amidst this decline, Umbermoth remains a solitary sentinel, still maintained by the local elves who vigilantly watch over the eastern sea, steadfast in their duty to safeguard the coastline." #AI
- building_fort_umbermoth_01:0 "$building_type_fort_umbermoth_01$"
- building_fort_umbermoth_01_desc:0 "$building_type_fort_umbermoth_01_desc$"
 
  building_type_almalexia_temple_01:0 "Temple of Almalexia"
  building_type_almalexia_temple_01_desc:0 "The Temple of Almalexia stands as more than just a sacred site; it serves as the beating heart of Morrowind itself. Not only does it watch over the grand capital, but it also harbors the goddess herself, radiating her benevolent light upon all who dwell beneath her merciful gaze. Almalexia, also revered as Mother Morrowind, is renowned for her boundless compassion and her willingness to bestow health and fortitude upon those within her realm, drawing thousands of pilgrims to her sanctuary each year.\n\nHowever, her adversaries should not misconstrue her compassion as weakness. Almalexia is also known as an incredible warrior, ready to confront any who dare to threaten her people. Her temple is fiercely guarded by a select corps of High Ordinators, who act as her hands in defense of her divine will." #Everything other than last two sentences is AI

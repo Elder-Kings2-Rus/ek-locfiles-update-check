@@ -1192,31 +1192,33 @@
  god_magus_name:0 "the Magus"
  	 god_magus_name_possessive:0 "the Magus'"
 
- # Atmoran
+#Atmoran
  atmoran_pantheon_name:0 "Totemic Pantheon"
  god_totems:0 "the Totems"
  god_hawk_name:0  "the Hawk"
- 	god_hawk_name_possessive:0 "the Hawk's"
+ god_hawk_name_possessive:0 "the Hawk's"
  god_wolf_name:0  "the Wolf"
- 	god_wolf_name_possessive:0 "the Wolf's"
+ god_wolf_name_possessive:0 "the Wolf's"
  god_snake_name:0  "the Snake"
- 	god_snake_name_possessive:0 "the Snake's"
+ god_snake_name_possessive:0 "the Snake's"
  god_moth_name:0  "the Moth"
- 	god_moth_name_possessive:0 "the Moth's"
+ god_moth_name_possessive:0 "the Moth's"
  god_owl_name:0  "the Owl"
- 	god_owl_name_possessive:0 "the Owl's"
+ god_owl_name_possessive:0 "the Owl's"
  god_whale_name:0  "the Whale"
- 	god_whale_name_possessive:0 "the Whale's"
+ god_whale_name_possessive:0 "the Whale's"
  god_bear_name:0  "the Bear"
- 	god_bear_name_possessive:0 "the Bear's"
+ god_bear_name_possessive:0 "the Bear's"
  god_fox_name:0  "the Fox"
- 	god_fox_name_possessive:0 "the Fox's"
+ god_fox_name_possessive:0 "the Fox's"
  god_dragon_name:0  "the Dragon"
- 	god_dragon_name_possessive:0 "the Dragon's"
+ god_dragon_name_possessive:0 "the Dragon's"
+ god_hare_name: "the Hare"
+ god_hare_name_possessive: "the Hare's"
  god_dragon_plural_name:0  "the Dragons" #for dragon cult
- 	god_dragon_plural_name_possessive:0 "the Dragons'"
+ god_dragon_plural_name_possessive:0 "the Dragons'"
  god_paarthurnax_name:0 "Paarthunax"
-  god_paarthurnax_name_possessive:0 "Paarthunax's"
+ god_paarthurnax_name_possessive:0 "Paarthunax's"
 
  #Skaal
  god_allmaker_name:0 "the All-Maker"
@@ -1227,10 +1229,6 @@
  	god_greedyman_name_possessive:0 "the Greedy Man's"
  god_thartaag_name:0 "Thartaag"
  	god_thartaag_name_possessive:0 "Thartaag's"
- # Ternion Totems
- ternion_totems_pantheon_name:0 "the Ternion Totems"
- god_three_old_gods_name:0 "the Three Old Gods"
-    god_three_old_gods_name_possessive:0 "the Three Old Gods'"
 
  #Khajiiti
  khajiiti_pantheon_name:0 "Khajiiti Pantheon"
