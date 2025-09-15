@@ -3,7 +3,7 @@
  dunmeris_group_coa_gfx:0 "Dunmeri"
  nord_group_coa_gfx:0 "Nordic"
  khajiit_group_coa_gfx:0 "Khajiiti"
- nedic_group_coa_gfx:0 "Nedic"
+ reachfolk_coa_gfx:0 "Reachfolk"
  bosmer_group_coa_gfx:0 "Bosmeri"
  daedric_group_coa_gfx:0 "Daedric"
  ashlander_group_coa_gfx:0 "Ashlander"
@@ -25,6 +25,7 @@
  dwemeris_group_coa_gfx:0 "Dwemer"
  kothringi_coa_gfx:0 "Kothringi"
  horwalli_coa_gfx:0 "Horwalli"
+ nedic_coa_gfx:0 "Nedic"
  ayleid_group_coa_gfx:0 "Ayleid"
  
  dunmer_unit_gfx:0 "Dunmeri"

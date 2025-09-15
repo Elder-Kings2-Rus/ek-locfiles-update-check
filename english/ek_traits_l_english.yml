@@ -190,7 +190,7 @@
  trait_lifespan_magic_5:1 "Magical Lifespan V"
  trait_lifespan_magic_5_desc:1 "By means of magicka, this character might live into their mid 500s. Women with this trait will become infertile at around age 340."
  trait_lifespan_magic_5_character_desc:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 500s. Women with this trait will become infertile at around age 340."
- trait_lifespan_magic_5_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 500s. Women with this trait will become infertile at around age 340.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children.."
+ trait_lifespan_magic_5_character_desc_extended:1 "By means of magicka, [ROOT.GetCharacter.GetFirstNameNoTooltip] might live into [ROOT.GetCharacter.GetHerHis] mid 500s. Women with this trait will become infertile at around age 340.\n\n[ROOT.GetCharacter.GetHerHis|U] natural [gc_lifespan|E] was [ROOT.Char.Custom('GetNaturalLifespan')], which may be passed down to [ROOT.GetCharacter.GetHerHis] children."
  
  trait_lifespan_magic_6:1 "Magical Immortal"
  trait_lifespan_magic_6_desc:1 "This character has through magical means achieved immortality, and will not die of old age."

@@ -108,7 +108,7 @@
  language_velothis_desc: "'Velothis' describes the countless Ashlander tongues, more and less intelligible with each other. Rare contact between the tribes, and even more rarely with urban Dark Elves, keeps these dialects within the same milieu. They have long since diverged from each other, and their ancestors; but many preserve ancient features, and to some carry an archaic air."
  
  language_yoku_name:0 "Yoku"
- language_yoku_desc:0 "Yoku, while having evolved since the #LORE [compendium_first_era]#!, still remains the language closest to that commonly used before the destruction of Yokuda. It is primarily spoken in Yokuda but is not absent in Hammerfell; isolationist and conservative Alik'r nomads still speak a tongue so remarkably similar to their ancestors to be mutually intelligible."
+ language_yoku_desc:0 "Yoku, while having evolved since the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], still remains the language closest to that commonly used before the destruction of Yokuda. It is primarily spoken in Yokuda but is not absent in Hammerfell; isolationist and conservative Alik'r nomads still speak a tongue so remarkably similar to their ancestors to be mutually intelligible."
 
  language_tamrielic_yoku_name:0 "Tamrielic Yoku"
  language_tamrielic_yoku_desc:0 "Separated by ocean, the language of the Hammerfell Redguards rapidly diverged from its Yoku parent. The [Glossary( 'Ra Gada', 'RAGADA_GLOSS' )] swiftly swept over the native Nedes, but not before picking up much of their language. Later, the needs of trade and diplomacy with neighboring Bretons, Cyrodiils, and High Elves made their noticeable marks. Today their speech is clearly Yoku in origin, but also distinctly Tamrielic."

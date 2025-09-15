@@ -107,7 +107,7 @@
  artifact_black_iron_description:0 "A powerful blade of skyfallen iron that forged a mighty dynasty, its first owner was the Iron Son, a mighty ruler of ancient Camlorn."
  
  artifact_kingmakers_trove_name:1 "Kingmaker's Trove"
- artifact_kingmakers_trove_description:0 "A gorgeous chest finely decorated with filigrees similar to those found around the prows of the Bretonic All-Flags warships and a tree-shaped relief reminiscent of the #LORE [compendium_first_era]#!."  # PLACEHOLDER
+ artifact_kingmakers_trove_description:0 "A gorgeous chest finely decorated with filigrees similar to those found around the prows of the Bretonic All-Flags warships and a tree-shaped relief reminiscent of the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )]."  # PLACEHOLDER
 
  artifact_singing_crystal_name:1 "Singing Crystal"
  artifact_singing_crystal_description:0 "This crystal seems inconspicuous at first, but if one listens carefully, they can hear a faint melody - sad yet beautiful - that leaves no heart untouched. If only there were a possibility to let the crystal truly sing once again..."
@@ -287,7 +287,7 @@
  artifact_bow_ivory_description:0 "A bow made of ivory. I don't know what to tell you, it's gonna be very important a few centuries in the future because it was some boy's first bow." # PLACEHOLDER
 
  artifact_book_delegation_name:1 "Direnni Delegation of Rivenspire"
- artifact_book_delegation_description:0 "This parchment document dated to the year 479 of the #LORE [compendium_first_era]#! confirms the delegation "in dynastic perpetuity" of a stretch of land roughly coevalent to Rivenspire from the Direnni Hegemony to House Branquette, empowering and obligating them to exercise authority in the Direnni name. Though some detractors find issue with the uncharacteristic incipit, which lacks the usual stiffness found in text written in Altmeris and translated into Bretic, the Phynastic seal on the document is above suspicion."
+ artifact_book_delegation_description:0 "This parchment document dated to the year 479 of the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )] confirms the delegation "in dynastic perpetuity" of a stretch of land roughly coevalent to Rivenspire from the Direnni Hegemony to House Branquette, empowering and obligating them to exercise authority in the Direnni name. Though some detractors find issue with the uncharacteristic incipit, which lacks the usual stiffness found in text written in Altmeris and translated into Bretic, the Phynastic seal on the document is above suspicion."
 
  artifact_book_bretonnick_name:1 "Bretonnick Natalitie"
  artifact_book_bretonnick_description:0 "This genealogy book contains an exhaustive list of Breton family trees, listing their noble inventories down to each farmhouse and individual piece of silverware, as well as land claims inherited through marriage, promise and quest. In these tedious pages is contained what some would call irrefutable proof that Rivenspire is the Montclairs' by right, but critics point out that the line through which this claim is conferred passes through two mythical figures."
@@ -302,7 +302,7 @@
  artifact_gutwrencher_description:0 "Prized mace of Mercedene Winterborn, which she used throughout her career. Gutwrencher is reportedly anointed with 'the scorn of Malacath for the weak'. Legend says it was gifted for Mercedene's matricidal offering when she acceded the chiefdom. As the renown and strength of the Winterborn Tribe grew, so did the reputation of this fell maul.\n\nMade out of fine steel, Gutwrencher is meticulously inscribed with prayers of devotion and war cries, so that its wielder may bring devastation and carnage upon their foes."
 
  artifact_sword_alessian_name:1 "Alessian General Blade"
- artifact_sword_alessian_description:0 "A tarnished and ancient blade of an Alessian general. At the height of its glory, the Alessian Order bestowed swords such as these are rewards for distinguished commanders.\n\nModest but functional, utilitarian warriors take great pride in owning a blade from the #LORE [compendium_first_era]#!."
+ artifact_sword_alessian_description:0 "A tarnished and ancient blade of an Alessian general. At the height of its glory, the Alessian Order bestowed swords such as these are rewards for distinguished commanders.\n\nModest but functional, utilitarian warriors take great pride in owning a blade from the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )]."
 
  artifact_bow_alessian_name:1 "Alessian Bow"
  artifact_bow_alessian_description:0 "Very well-made bow, crafted back in the days of Saint Alessia. Messengers and envoys of the Alessian Order owned the most exquisite ones as badges of office. Few dared to harm someone bearing such a bow.\n\nThe bowstring is sturdy and the arms are wrapped warlike excerpts of the 77 Inflexible Doctrines."
@@ -341,7 +341,7 @@
  artifact_seekers_sight_description:0 "The Celestial Mage condensed the power of the main Destruction elements — Fire, Frost and Lightning — upon this crown. It enables one to see beyond the mundane and wield devastative arcane spells."
 
  artifact_armlet_torug_name:1 "Armlet of Torug"
- artifact_armlet_torug_description:0 "Armlet worn by King Torug gro-Igrun, who founded the original city of Orsinium during the #LORE [compendium_first_era]#!. The legend says it bestowed him with the power to settle Wrothgar.\n\nFirst Orsinium goldsmithing is on full display here. Pristine gems alternate in color and size, spaced by Torug's name in bold Orcish majuscule. The armlet can bend to fit the wearer's arm, but significant strength is required to do so."
+ artifact_armlet_torug_description:0 "Armlet worn by King Torug gro-Igrun, who founded the original city of Orsinium during the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )]. The legend says it bestowed him with the power to settle Wrothgar.\n\nFirst Orsinium goldsmithing is on full display here. Pristine gems alternate in color and size, spaced by Torug's name in bold Orcish majuscule. The armlet can bend to fit the wearer's arm, but significant strength is required to do so."
 
  artifact_helm_uzdabikh_name:1 "Uzdabikh's Helm"
  artifact_helm_uzdabikh_description:0 "The blessed helm of lone Orcish warrior, it is an enduring symbol of grit and determination. Filled with cracks, it is nevertheless very sturdy. Its uncanny ability to protect against lethal blows makes many suspect that courageous warriors can only fall by their own mistakes when they have this helmet."
@@ -359,13 +359,13 @@
  artifact_unmelting_snow_description:0 "At the summit of the Throat of the World, rests is a patch of snow. Unmelting, legends say the Greybeards taught it to ignore the sun, shrugging off any heat cast at it."
 
  artifact_gauldur_jyrik_name:1 "Gauldur Amulet Fragment"
- artifact_gauldur_jyrik_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the #LORE [compendium_first_era]#!, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Jyrik, the most magically apt of the three siblings."
+ artifact_gauldur_jyrik_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Jyrik, the most magically apt of the three siblings."
 
  artifact_gauldur_mikrul_name:1 "Gauldur Amulet Fragment"
- artifact_gauldur_mikrul_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the #LORE [compendium_first_era]#!, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Mikrul, the strongest of the three siblings."
+ artifact_gauldur_mikrul_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Mikrul, the strongest of the three siblings."
 
  artifact_gauldur_sigdis_name:1 "Gauldur Amulet Fragment"
- artifact_gauldur_sigdis_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the #LORE [compendium_first_era]#!, the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Sigdis, the nimblest of the three siblings." 
+ artifact_gauldur_sigdis_description:0 "Originally owned by the powerful wizard Archmage Gauldur during the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], the Gauldur Amulet was divided between his three sons after they killed him in their sleep. This fragment belonged to Sigdis, the nimblest of the three siblings." 
 
  artifact_jagged_crown_name:1 "Jagged Crown"
  artifact_jagged_crown_description:0 "A material token of the Ysgramor Kings, the Jagged Crown is a lavish combination of dragon trophy and Neo-Atmoran jewelry. Teeth and bones from King Harald's kills were sourced to dress the crown, resting across a circlet of etched Nordic steel. Famous verses pale in comparison with the splendour displayed by this masterpiece of early Nordic smithing.\n\nNords consider it the traditional regalia of the High King of Skyrim, but it was lost when King Borgas perished and the War of Succession started in earnest."
@@ -530,7 +530,7 @@
  artifact_chrysamere_description:0 "An ancient adamantium claymore artifact with offensive capabilities only surpassed by its defenses. It has magical properties which, unlike most weapons, are defensive in nature; it lends the wielder health, boosts their resistance to fire, and reflects some damage from spells." #PLACEHOLDER       
  
  artifact_skull_crusher_name:1 "Skull Crusher"
- artifact_skull_crusher_description:0 "An amazingly large and powerful warhammer created together by the wizard Dorach Gusal and the great weaponsmith Hilbongard Rolamus of Skyrim in the forge of Anudnabia sometime in the early #LORE [compendium_first_era]#!, during the Skyrim Captivity. The creation of this weapon is riddled in magic, such as the fires it was forged in and the steel that was tempered for it. It is incredibly light but hard, which provides for its deadly blows compared to those of a [Glossary( 'Daedric Prince', 'DAEDRA_GLOSS' )]." #PLACEHOLDER       
+ artifact_skull_crusher_description:0 "An amazingly large and powerful warhammer created together by the wizard Dorach Gusal and the great weaponsmith Hilbongard Rolamus of Skyrim in the forge of Anudnabia sometime in the early [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], during the Skyrim Captivity. The creation of this weapon is riddled in magic, such as the fires it was forged in and the steel that was tempered for it. It is incredibly light but hard, which provides for its deadly blows compared to those of a [Glossary( 'Daedric Prince', 'DAEDRA_GLOSS' )]." #PLACEHOLDER       
 
  artifact_mentors_ring_name:1 "Mentor's Ring"
  artifact_mentors_ring_description:0 "A prized possession for any apprentice to magic. It lends the wearer the ability to increase their intelligence and wisdom, thus making their use of magic more efficient. The High Wizard Carni Asron is said to be its creator, and he loaned it to apprentices while they were studying under him." #PLACEHOLDER       

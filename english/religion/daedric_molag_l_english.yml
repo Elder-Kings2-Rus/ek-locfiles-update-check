@@ -1,7 +1,7 @@
 ﻿l_english:
 
  # Molag Bal
- molag_religion:1 "Molag Bal Worship"
+ molag_religion:1 "Molag Bal"
  molag_religion_adj:1 "Balite"
  molag_religion_adherent:1 "Balite"
  molag_religion_adherent_plural:1 "Balites"

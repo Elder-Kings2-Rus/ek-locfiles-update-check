@@ -369,6 +369,11 @@
  cn_bal_sehrma:0 "Bal Sehrma" #Note - Bal'Sehrma in BS, i'm choosing to ignore ' - tvsmsa
  cn_bal_sehrma_adj:0 "Bal Sehrma"
 
+ cn_solstice: "Solstice"
+ cn_solstice_adj: "Solstice"
+ cn_soulstheim: "Soulstheim"
+ cn_soulstheim_adj: "Soulstheim"
+
 ################
 ### Cyrodiil ###
 ################

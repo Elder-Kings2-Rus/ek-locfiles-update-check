@@ -1,11 +1,11 @@
 ﻿l_english:
 
 # Trinimac Faiths
- trinimac_religion:0 "Trinimac Worship"
+ trinimac_religion:0 "Trinimac"
  trinimac_religion_adj:0 "Trinimac"
  trinimac_religion_adherent:0 "Trinimac Follower"
  trinimac_religion_adherent_plural:0 "Trinimac Followers"
- trinimac_religion_desc:0 "Trinimac is the Aldmer Hero-God of Truth, Honour and Justice; who in the [Glossary( 'Dawn Era', 'DAWN_ERA_GLOSS' )] famously slew the traitor #LORE [compendium_lorkhan]#! for deceiving the gods, and then spent centuries preaching to his legions of dedicated followers on military and spiritual matters."
+ trinimac_religion_desc:0 "Trinimac is the Aldmer Hero-God of Truth, Honour and Justice; who in the [Glossary( 'Dawn Era', 'DAWN_ERA_GLOSS' )] famously slew the traitor Lorkhan for deceiving the gods, and then spent centuries preaching to his legions of dedicated followers on military and spiritual matters."
  trinimac_religion_house_of_worship:0 "temple"
  trinimac_religion_house_of_worship_plural:0 "temples"
  trinimac_religion_religious_symbol:0 "vosh rakh"

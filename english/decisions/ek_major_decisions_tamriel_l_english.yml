@@ -13,11 +13,11 @@
  
  ### Attrebus/Interregnum decisions
  attrebus_interregnum_decision:0 "The Interregnum?"
- attrebus_interregnum_decision_desc:0 "The #LORE [compendium_potentate]#! has fallen, and the Elder Council has agreed to lend you emergency powers to sort out the political crisis that could ensue.\n\nYou will however have to act quick, as the patience of the High Chancellor is not infinite..."
+ attrebus_interregnum_decision_desc:0 "The [Glossary( 'Potentate', 'POTENTATE_GLOSS' )] has fallen, and the Elder Council has agreed to lend you emergency powers to sort out the political crisis that could ensue.\n\nYou will however have to act quick, as the patience of the High Chancellor is not infinite..."
  attrebus_interregnum_decision_tooltip:0 "How will Cyrodiil fare in the coming age?"
  attrebus_interregnum_decision_confirm:0 "Summon the Elder Council!"
- attrebus_interregnum_decision_required_tasks_tt:0 "You have fulfilled #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! of the 3 [required_tasks|E] to placate the Elder Council. You have #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] years#! left before the Elder Council runs out of patience."
- attrebus_interregnum_decision_optional_tasks_tt:0 "You have fulfilled #R [THIS.Var('attrebus_optional_tasks_complete').GetValue|0]#! of the 3 [optional_tasks|E]. These tasks do not buy you time with the Elder Council, but are a way to shape Tamriel in ways the Elder Council might not approve or flat out refuse to condone."
+ attrebus_interregnum_decision_required_tasks_tt:0 "You have fulfilled #R [THIS.Var('attrebus_required_tasks_complete').GetValue|0]#! of the 1 [required_tasks|E] to placate the Elder Council. You have #R [THIS.Var('attrebus_years_pseudo_emperor_left').GetValue|0] years#! left before the Elder Council runs out of patience."
+ attrebus_interregnum_decision_optional_tasks_tt:0 "You have fulfilled #R [THIS.Var('attrebus_optional_tasks_complete').GetValue|0]#! of the 2 [optional_tasks|E]. These tasks do not buy you time with the Elder Council, but are a way to shape Tamriel in ways the Elder Council might not approve or flat out refuse to condone."
  attrebus_interregnum_decision_early_effect_tt:0 "You also can decide to hand back the powers given to you by the Elder Council earlier than what they would require. You will be unable to further shape Cyrodiil and push for your own ambitions, and the Interregnum will start."
  attrebus_interregnum_decision_death_effect_tt:0 "Should you die before the Elder Council asks you to hand power back to them, they will take control of the Imperial Isle.\n#N You will lose the Cyrodiilic Potentate title.\nEvery territory outside the [de_jure|E] primary title of your heir will be lost.#!"
  
@@ -49,24 +49,6 @@
  attrebus_draft_tsaesci_act_decision_effect_desc:0 "After the Akaviri Act is drafted, every Akaviri ruler within your realm will have their land seized and awarded to you. Every Akaviri county will see its [culture|E] changed, but its [development|E] halved.\nThis effect will also be applied to any county that becomes part of your realm after the Act is passed."
  attrebus_tsaesci_county_title:0 "Tsaesci County Expelled"
  attrebus_tsaesci_county_desc:0 "The county of [title.GetBaseName] is ours, and its Akaviri population has been expelled."
- 
- attrebus_end_akaviri_rule_decision:0 "End the Akaviri rule"
- attrebus_end_akaviri_rule_decision_desc:0 "Now that the Tsaesci Act has been proclaimed, it is time to end any kind of Akaviri rule over Cyrodiil.\nNone should hold territory in our homeland, and no major Akaviri settlement should taint our province!"
- attrebus_end_akaviri_rule_decision_tooltip:0 "Ensure that no Akaviri stays in Cyrodiil"
- attrebus_end_akaviri_rule_decision_confirm:0 "The end of a dark era!"
- attrebus_end_akaviri_rule_decision_no_tsaesci_ruler_cyrodiil:0 "No ruler in [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName] has the Tsaesci [heritage|E]"
- attrebus_end_akaviri_rule_decision_no_tsaesci_province_cyrodiil:0 "No province in [GetGeographicalRegion('mundus_tamriel_cyrodiil').GetName] has the Tsaesci [heritage|E]"
- attrebus_potentate_required_task_1_fulfilled_desc:0 "You #P fulfilled#! the first [required_task|E], [required_task_1|E]"
- 
- attrebus_secure_heartlands_decision:0 "Secure the Heartlands"
- attrebus_secure_heartlands_decision_desc:0 "The Heartlands of Cyrodiil hold two of the most influential actors of the province, the Imperial City and the Elder Council chambers.\nThe recent taking of the Imperial City by your forces and the seizing of nearby land by ambitious warlords made the Elder Council worried, and they have tasked you with ensuring that the Heartlands would be secured and loyal."
- attrebus_secure_heartlands_decision_tooltip:0 "Secure the Heartlands for the Elder Council"
- attrebus_secure_heartlands_decision_confirm:0 "The Heartlands are ours!"
- attrebus_secure_heartlands_decision_vassal_heartlands_positive_opinion:0 "Every direct vassal in the Heartlands has a #P positive#! opinion of you"
- attrebus_secure_heartlands_decision_full_control_imperial_isle:0 "Every county in the Imperial Isle must have a [control|E] of 90 or more"
- attrebus_secure_heartlands_desc:0 "The Heartlands will be secured, and the Elder Council reassured as their chambers are out of the reach of any invader"
- attrebus_potentate_required_task_3_fulfilled_desc:0 "You #P fulfilled#! the third [required_task|E], [required_task_3|E]"
- attrebus_potentate_ec_control_heartlands_desc:0 "The Elder Council will keep all of the Heartlands under their power once they rule the Imperial Isle"
  
  attrebus_a_militant_faith_decision:0 "A Militant Faith"
  attrebus_a_militant_faith_decision_desc:0 "For centuries our faith, the [ROOT.Char.GetFaith.GetName], has co-existed with various minor cults and other religions. While this is a point of pride for most of our faithful, some parts of our clergy instead point how in the times to come, we need our faith to be strong. While I am not part of the clergy, I know that many would follow my lead..."

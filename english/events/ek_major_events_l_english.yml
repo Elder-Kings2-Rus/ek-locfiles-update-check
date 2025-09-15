@@ -79,9 +79,9 @@
 # Elsweyr events
  elsweyr.0001.t:0 "Restoration of the Kingdom of Anequina"
  #Triggered loc for Many-Paths dance
- elsweyr.0001.desc.a:0 "For the first time since [ridthar.GetFirstName] proclaimed his false Riddle'Thar Epiphany, Anequina is ruled by Khajiit who continue to follow the old ways of the [ROOT.Char.GetFaith.GetName]. With Anequina independent and reunited, we are now free to worship the spirits that were worshipped by our ancestors for generations and have the opportunity to expand our realm further. The lands from Do'Krin to Leyawiin will soon be ruled by Anequina, as they were during the conquests of Darloc Brae in the #LORE [compendium_first_era]#!."
+ elsweyr.0001.desc.a:0 "For the first time since [ridthar.GetFirstName] proclaimed his false Riddle'Thar Epiphany, Anequina is ruled by Khajiit who continue to follow the old ways of the [ROOT.Char.GetFaith.GetName]. With Anequina independent and reunited, we are now free to worship the spirits that were worshipped by our ancestors for generations and have the opportunity to expand our realm further. The lands from Do'Krin to Leyawiin will soon be ruled by Anequina, as they were during the conquests of Darloc Brae in the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )]."
  #Loc for other faiths
- elsweyr.0001.desc.b:0 "For the first time since the fall of Ne-Quin-Al to tribal rebels and the subsequent transfer of power to the Mane, the Kingdom of Anequina can once again call itself whole and independent.\n\nThis one has restored control over our ancestral lands, but with the rest of Tamriel in chaos, a new opportunity arises. We can expand our realm further and match the conquests of Darloc Brae in the #LORE [compendium_first_era]#!. We might even surpass the achievements of the Golden Beast himself."
+ elsweyr.0001.desc.b:0 "For the first time since the fall of Ne-Quin-Al to tribal rebels and the subsequent transfer of power to the Mane, the Kingdom of Anequina can once again call itself whole and independent.\n\nThis one has restored control over our ancestral lands, but with the rest of Tamriel in chaos, a new opportunity arises. We can expand our realm further and match the conquests of Darloc Brae in the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )]. We might even surpass the achievements of the Golden Beast himself."
  elsweyr.0001.a:0 "Anequina is restored."
 
  elsweyr.0002.t:0 "Integration of Leyawiin"
@@ -103,11 +103,11 @@
  elsweyr.0003.b.tt:"You will keep [GetTitleByKey('c_arenthia').GetName] as [de_jure|E] capital of [GetTitleByKey('k_arenthia').GetName]."
 
  elsweyr.0004.t:0 "Kingdom of Darloc Brae"
- elsweyr.0004.desc:0 "Many centuries ago, at the beginning of the #LORE [compendium_first_era]#!, Anequina stretched from Do'Krin to Leyawiin during Darloc Brae's reign. After he died, his realm fell apart, and Northern Elsweyr reverted back to squabbling independent kingdoms.\n\nBut the memory of this glorious period did not die, and today this one has restored the Kingdom of Golden Beast. Once more, Anequina extends from Valenwood in the west to Cyrodiil in the east, and our might will not be challenged again."
+ elsweyr.0004.desc:0 "Many centuries ago, at the beginning of the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], Anequina stretched from Do'Krin to Leyawiin during Darloc Brae's reign. After he died, his realm fell apart, and Northern Elsweyr reverted back to squabbling independent kingdoms.\n\nBut the memory of this glorious period did not die, and today this one has restored the Kingdom of Golden Beast. Once more, Anequina extends from Valenwood in the west to Cyrodiil in the east, and our might will not be challenged again."
  elsweyr.0004.a:0 "For Anequina!"
 
  elsweyr.0005.t:0 "Dissolution of Elsweyr"
- elsweyr.0005.desc.1:0 "An unruly folk, the Khajiit were briefly united under the #LORE [compendium_elsweyr_confederacy]#! until they rebelled, sacked the capital city of Ne-Quin-Al, and slaughtered the royal family. Only by transferring power to the charismatic Mane Rid-Thar-ri'Datta, who implemented a new system of power sharing between the Khajiit clans, did Elsweyr manage to be at peace for a short time."
+ elsweyr.0005.desc.1:0 "An unruly folk, the Khajiit were briefly united under the Elsweyr Confederacy until they rebelled, sacked the capital city of Ne-Quin-Al, and slaughtered the royal family. Only by transferring power to the charismatic Mane Rid-Thar-ri'Datta, who implemented a new system of power sharing between the Khajiit clans, did Elsweyr manage to be at peace for a short time."
  elsweyr.0005.desc.2:0 "\n\nBut after his death, the further existence of a unified Elsweyr was always in doubt. With [elsweyr_holder.GetTitledFirstName] failing to assume full control over Elsweyr, both Anequinan and Pellitinian nobility no longer respect their legal authority, reverting back to a time when [GetTitleByKey('e_anequina').GetNameNoTier] and [GetTitleByKey('e_pellitine').GetNameNoTier] were considered separate realms."
  elsweyr.0005.desc.2.anequina:0 "\n\nBut after his death, the further existence of a unified Elsweyr was always in doubt. Now this doubt has been made reality as the disparate clans of Anequina have rallied under one banner, led by [kingdom_former.GetTitledFirstName]. With a strong Anequina defiant of the Mane in Torval, the Confederacy has become a thing of the past."
  elsweyr.0005.desc.2.pellitine:0 "\n\nBut after his death, the further existence of a unified Elsweyr was always in doubt. While discontent in Northern Elsweyr was constant, now even the nobility of the south rejects the worldly authority of the Mane in Torval, instead looking to [kingdom_former.GetTitledFirstName]. Without even support in Pellitine, the Confederacy has become a thing of the past."
@@ -149,7 +149,7 @@
  elsweyr.0012.b:0 "I will not give away my hair!"
 
  elsweyr.0014.t:0 "Restoration of the Kingdom of Pellitine"
- elsweyr.0014.desc:0 "During the time of the #LORE [compendium_elsweyr_confederacy]#!, the centre of power of all Khajiit laid in Pellitine, with the Mane in Torval. However this union was apparently not meant to last, proven by the failure of [elsweyr_holder.GetTitledFirstName] to assert their authority first among the unruly Anequinans and now even in Pellitine.\n\nNow a new power has emerged in Southern Elsweyr, led by this one. Only time will tell if Elsweyr will ever be united again."
+ elsweyr.0014.desc:0 "During the time of the Elsweyr Confederacy, the centre of power of all Khajiit laid in Pellitine, with the Mane in Torval. However this union was apparently not meant to last, proven by the failure of [elsweyr_holder.GetTitledFirstName] to assert their authority first among the unruly Anequinans and now even in Pellitine.\n\nNow a new power has emerged in Southern Elsweyr, led by this one. Only time will tell if Elsweyr will ever be united again."
  elsweyr.0014.a:0 "Pellitine is restored."
 
  elsweyr.0015.t:0 "End of Riddle'Thar"
@@ -160,7 +160,7 @@
  elsweyr.0016.c:0 "Interesting..."
  
  ek_rimmen.0001.t: "The Rim-Men"
- ek_rimmen.0001.desc: "With the victory of the Colovian warlord [attrebus.GetFirstName] against the #LORE [compendium_akaviri_potentate]#! in Cyrodiil, nobility and commoners alike of Akaviri descent face an uncertain future. Many have already been displaced by the war, made refugees seeking shelter in foreign lands. One such group, led by [refugee_leader.GetName], now requests asylum in my lands.\n\n#italic "My [ROOT.Char.GetLadyLord], hear our plea: Save us from the warlord's wrath! Grant us a home, and you will find no servant more loyal and grateful!"#!\n\nMany more Akaviri refugees are sure to come should the ambitions of Attrebus come to fruition..."
+ ek_rimmen.0001.desc: "With the victory of the Colovian warlord [attrebus.GetFirstName] against the [Glossary( 'Akaviri Potentate', 'POTENTATE_GLOSS' )] in Cyrodiil, nobility and commoners alike of Akaviri descent face an uncertain future. Many have already been displaced by the war, made refugees seeking shelter in foreign lands. One such group, led by [refugee_leader.GetName], now requests asylum in my lands.\n\n#italic "My [ROOT.Char.GetLadyLord], hear our plea: Save us from the warlord's wrath! Grant us a home, and you will find no servant more loyal and grateful!"#!\n\nMany more Akaviri refugees are sure to come should the ambitions of Attrebus come to fruition..."
  ek_rimmen.0001.a: "We extend our hospitality to your people!"
  ek_rimmen.0001.b: "Can we stand against the might of Cyrodiil?"
 

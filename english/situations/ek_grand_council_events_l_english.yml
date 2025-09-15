@@ -19,9 +19,9 @@
  grand_council.0002.tt: "[situation_phase|E] has changed"
 #Writ of war events
  grand_council.1011.opening: "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
- grand_council.1010: "After much prayer to ALMSIVI and deliberation, I have decided to accept your request for [writ_of_war|E]."
- grand_council.1011:0 "After much prayer to ALMSIVI and deliberation, I have decided to refuse your request for [writ_of_war|E]."
- grand_council.1010.positive: "Praise the [ROOT.Char.GetFaith.HighGodName]!"
+ grand_council.1010: "After much prayer to the ALMSIVI and deliberation, I have decided to accept your request for a Writ of War."
+ grand_council.1011:0 "After much prayer to the ALMSIVI and deliberation, I have decided to refuse your request for a Writ of War."
+ grand_council.1010.positive: "Praise [ROOT.Char.GetFaith.HighGodName]!"
  grand_council.1011.negative: "Most unfortunate..."
 #Vvardenfell vote
  grand_council_vv.0002.t: "Matter of Vvardenfell: Vote"

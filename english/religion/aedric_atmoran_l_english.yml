@@ -1,11 +1,11 @@
 ﻿l_english:
 
 # Atmoran Faiths
- atmoran_pantheon:0 "Atmoran Totemism"
+ atmoran_pantheon:0 "Atmoran"
  atmoran_pantheon_adj:0 "Atmoran"
  atmoran_pantheon_adherent:0 "Atmoran"
  atmoran_pantheon_adherent_plural:0 "Atmorans"
- atmoran_pantheon_desc:0 "The ancient practices of the old Atmorans, though long-forgotten in Tamriel, still hold sway in some of Nirn's coldest and most isolated places."
+ atmoran_pantheon_desc:0 "The folk religions stemming from the practices of the old Atmorans. Chief amongst their beliefs is the totemic worship of animal gods, who serve as spiritual guardians and guides. Over time, the practices of settled Nords diverged from the shamanistic beliefs of their ancestors, giving rise to the Nord Pantheon."
  atmoran_house_of_worship:0 "shrine"
  atmoran_house_of_worship_plural:0 "shrines"
  atmoran_religious_symbol:0 "animal totem"
@@ -56,7 +56,7 @@
  anuic_skaal_adj:1 "All-Maker"
  anuic_skaal_adherent:1 "All-Maker Follower"
  anuic_skaal_adherent_plural:1 "All-Maker Followers"
- anuic_skaal_desc:0 "The All-Maker, God of the Skaal, is a mysterious deity revered as the wellspring of creation at the centre of the dualistic religion of Solstheim. Nature and the cycle of life and death are revered as the sacred gifts of the All-Maker. The Rituals and traditions of the Skaal honour the six great gifts of the All-Maker - flora, fauna, the sun, the earth, water, and wind. Though first worshipped by the distant ancestors of the Nords, reverence for the All-Maker is now nearly extinct. However, the isolated Skaal of Solstheim preserved the ancient beliefs throughout the ages. The All-Maker and the Adversary are comparable to Anu and Padomay leading outside scholars to categorise the faith as a local variation on the monomyth."
+ anuic_skaal_desc:0 "The Skaal tribes of Solstheim worship but one god; the All-Maker is supreme. All good spirits are mere aspects of him, and by his gifts the Skaal survive in their inhospitable home. In gratitude they take no more than they need, and give freely of what they have.\n\nOpposed to the All-Father however stands the Adversary, embodying all greedy spirits and evil deeds, seeking ever to upset the cycles and steal away the great gifts."
  anuic_skaal_house_of_worship:0 "stone"
  anuic_skaal_house_of_worship_plural:0 "stones"
  anuic_skaal_religious_symbol:0 "worldstone"
@@ -103,9 +103,3 @@
  dragon_cult_bishop_neuter:0 "dragon priest"
  dragon_cult_bishop_alternate_plural:0 "dragon priesthood"
 
- #Ternion Totems
- ternion_totems:0 "Ternion Totems"
- ternion_totems_adj:0 "Ternion"
- ternion_totems_adherent:0 "Ternion Totemist"
- ternion_totems_adherent_plural:0 "Ternion Totemists"
- ternion_totems_desc:0 "An old and reclusive cult revering the Three Old Gods - the quick and crafty Fox, the strong and mighty Bear, the sly and observant Wolf."

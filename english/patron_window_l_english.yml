@@ -438,7 +438,12 @@
  desc_light_of_man: "Reman, the Light of Man, defeated the Akaviri invaders and then built the greatest empire the world has ever seen with them."
  desc_the_cyrodiil: "Reman, the Cyrodiil, brought peace to the Heartlands and united its people, becoming one with the land in the process."
  desc_worldly_god: "Reman, the Worldly God, is the god of mortals, the union of the divine and the mundane; born as a mortal, he ascended to godhood on his death due to his great achievements."
- 
+
+#Trinimac
+ desc_paragon: "Trinimac, the Paragon, represents the true ideals of our people — strengh and unity."
+ desc_gold_champ: "Trinimac, the Golden Champion, is the god-king of our people, and through his leadership, we are united."
+ desc_blade_of_courage: "Trinimac, the Blade of Courage, remembers the evil done to him and his people and will not forget."
+
  action_pick_patron:0 "Choose a Patron"
  action_pick_patron_label:0 "$action_pick_patron$"
  action_pick_patron_desc:2 "You have no patron.\n\n#help Your [faith|E] has patron traits. Each trait gives you a bonus of some form.#!"

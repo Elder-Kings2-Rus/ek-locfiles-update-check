@@ -159,6 +159,8 @@
  death_midden: "was claimed by the horrors under Winterhold College"
  death_skeever: "died after an infectious skeever bite"
  death_skeever_trap: "managed to get killed by stepping into a skeever trap"
+ death_lifeforce_stolen: "had their life force drained in a necromantic ritual"
+ death_lifeforce_stolen_killer: "had their life force drained in a necromantic ritual by [TARGET_CHARACTER.GetUIName]"
 
  # purely historical
  death_orsinium:0 "died during the turmoil of the Siege of Orsinium"

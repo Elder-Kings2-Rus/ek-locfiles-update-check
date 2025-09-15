@@ -48,7 +48,7 @@
  solstheim_claim_coast_decision_confirm:0 "No one will forget us!"
 
  reform_first_nordic_empire_decision:0 "An Empire of the Nords"
- reform_first_nordic_empire_decision_desc:0 "Long ago, in the early #LORE [compendium_first_era]#!, our forefathers and foremothers conquered vast parts of High Rock, Morrowind and even Cyrodiil under King Vrage the Gifted and his successors.\n\nThe Cyrods would later call this vast realm the 'First Empire of the Nords', though we Nords simply remember it as the High Kingdom expanding its reaches past Skyrim.\n\nToday, we can restore this great 'Empire' and reestablish our rule over northern Tamriel."
+ reform_first_nordic_empire_decision_desc:0 "Long ago, in the early [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], our forefathers and foremothers conquered vast parts of High Rock, Morrowind and even Cyrodiil under King Vrage the Gifted and his successors.\n\nThe Cyrods would later call this vast realm the 'First Empire of the Nords', though we Nords simply remember it as the High Kingdom expanding its reaches past Skyrim.\n\nToday, we can restore this great 'Empire' and reestablish our rule over northern Tamriel."
  reform_first_nordic_empire_decision_tooltip:0 "Long ago we Nords dominated northern Tamriel - and we can do it again."
  reform_first_nordic_empire_decision_confirm:0 "Northern Tamriel shall once again be under nordic rule!"
  restore_nordic_empire_decision_effect: "All kingdoms within the [region|E] of [GetGeographicalRegion('mundus_tamriel_nordic_empire').GetName] will become [de_jure|E] vassals of [GetTitleByKey('e_skyrim').GetName]"

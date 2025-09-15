@@ -313,7 +313,7 @@
  ek_yearly_events.0074.a.lunatic:0 "LORKHAN IS THE ELVEN NAME! LORKHAN IS THE ELVEN NAME!"
  ek_yearly_events.0074.b:0 "I can endure this. It will all be over soon."
  ek_yearly_events.0075.t:0 "$feast_header$ The Coldharbour Compact"
- ek_yearly_events.0075.desc:0 "The bard announced the upcoming song as a woeful tune, and all laughter ceased. When the music and singing started, all voices got lowered, and an aura of respect raised among the crowd. The audience knew the song very well, and when the chorus came, many voices joined the bard's.\n\nThe song told the tale of Sotha Sil's mysterious #LORE [compendium_first_era]#! agreement with the [Glossary( 'Daedric Princes', 'DAEDRA_GLOSS' )], and, by the end of it, my mind was racing."
+ ek_yearly_events.0075.desc:0 "The bard announced the upcoming song as a woeful tune, and all laughter ceased. When the music and singing started, all voices got lowered, and an aura of respect raised among the crowd. The audience knew the song very well, and when the chorus came, many voices joined the bard's.\n\nThe song told the tale of Sotha Sil's mysterious agreement with the [Glossary( 'Daedric Princes', 'DAEDRA_GLOSS' )], and, by the end of it, my mind was racing."
  ek_yearly_events.0075.a:0 "Long live our Clockwork God!"
  ek_yearly_events.0075.b.molag:0 "This Schemer seems powerful..."
  ek_yearly_events.0075.b.dagon:0 "This Destroyer seems powerful..."
@@ -681,7 +681,7 @@
  ek_yearly_events.0134.d:0 "People are allowed to have their own opinion!"
 
  ek_yearly_events.0135.t:0 "$travel_event_prefix$ Day of Release"
- ek_yearly_events.0135.desc:0 "Since the #LORE [compendium_first_era]#!, people from Glenumbra have celebrated the Day of Release, named after the crowning achievement of Prince Aiden Direnni: leading Direnni forces to victory against the Alessian invaders in the Battle of Glenumbra Moors.\n\nIn [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], the common folk also adhere to the festivities vigorously and it is a day for joyous merriment to all."
+ ek_yearly_events.0135.desc:0 "Since the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], people from Glenumbra have celebrated the Day of Release, named after the crowning achievement of Prince Aiden Direnni: leading Direnni forces to victory against the Alessian invaders in the Battle of Glenumbra Moors.\n\nIn [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], the common folk also adhere to the festivities vigorously and it is a day for joyous merriment to all."
  ek_yearly_events.0135.a:0 "Breton folk would be nothing without the Direnni."
  ek_yearly_events.0135.b:0 "There's beauty in cultures united despite their differences."
  ek_yearly_events.0135.c:0 "Praise Prince Aiden's name!"
@@ -732,7 +732,7 @@
  ek_yearly_events.0140.a:0 "I will join their song and dance!"
 
  ek_yearly_events.0141.t:0 "Festival of Blades: Burning Effigy"
- ek_yearly_events.0141.desc:0 "Every First Seed a festival in honor of HoonDing and his victory over Malooc and his Goblin army in the #LORE [compendium_first_era]#! is celebrated in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip].\n\nIn this festival, the common folk make an effigy representing all things they wanted to overcome. The youngest ones gather sticks and makeshift weapons to dismember the effigy and then the entire village builds a bonfire and burns its remains at night in a very heartwarming ceremony."
+ ek_yearly_events.0141.desc:0 "Every First Seed a festival in honor of HoonDing and his victory over Malooc and his Goblin army in the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )] is celebrated in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip].\n\nIn this festival, the common folk make an effigy representing all things they wanted to overcome. The youngest ones gather sticks and makeshift weapons to dismember the effigy and then the entire village builds a bonfire and burns its remains at night in a very heartwarming ceremony."
  ek_yearly_events.0141.a:0 "I will join them."
 
  ek_yearly_events.0142.t:0 "$travel_event_prefix$ Gardtide"
@@ -759,7 +759,7 @@
  ek_yearly_events.0146.b:0 "Thankfully!"
 
  ek_yearly_events.0147.t:0 "$travel_event_prefix$ Koomu Alezer'i"
- ek_yearly_events.0147.desc:0 "Since the #LORE [compendium_first_era]#!, people from Sentinel have celebrated the Koomu Alezer'i, meaning "We Acknowledge" in Yoku, after the remembrance the city's founder, Yaghoub the Wayfarer, who discovered the city's harborage by following the Steed constellation and named it after the watchman who first saw it.\n\nIn [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], the common folk also adheres to the festivities vigorously and it is a day for joyous merriment to all."
+ ek_yearly_events.0147.desc:0 "Since the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )], people from Sentinel have celebrated the Koomu Alezer'i, meaning "We Acknowledge" in Yoku, after the remembrance the city's founder, Yaghoub the Wayfarer, who discovered the city's harborage by following the Steed constellation and named it after the watchman who first saw it.\n\nIn [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], the common folk also adheres to the festivities vigorously and it is a day for joyous merriment to all."
  ek_yearly_events.0147.a:0 "This proves that we are the rightful rulers of Sentinel."
  ek_yearly_events.0147.b:0 "Yaghoub found Sentinel for the respite of everyone!"
  ek_yearly_events.0147.c:0 "Praise Yaghoub the Wayfarer's name!"
@@ -778,7 +778,7 @@
  friend_fishing_day_corresponding:0 "[CHARACTER.GetShortUIName|U] fished along with [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] on Fishing Day."
 
  ek_yearly_events.0150.t:0 "$travel_event_prefix$ Drigh R'Zimb"
- ek_yearly_events.0150.desc:0 "In the hottest day of the year, people in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] gather in a jubilation held for Daibethe, the sun.\n\nScholars do not know how long Drigh R'Zimb has been held, but it is possible the Redguards brought the festival with them when they came in the #LORE [compendium_first_era]#!."
+ ek_yearly_events.0150.desc:0 "In the hottest day of the year, people in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] gather in a jubilation held for Daibethe, the sun.\n\nScholars do not know how long Drigh R'Zimb has been held, but it is possible the Redguards brought the festival with them when they came to Hammerfell."
  ek_yearly_events.0150.a:0 "These people should be celebrating me!"
  ek_yearly_events.0150.b:0 "All are welcome to celebrate Daibethe!"
  ek_yearly_events.0150.c:0 "People should be allowed to celebrate their ancient customs."
@@ -828,7 +828,7 @@
  ek_yearly_events.0159.desc:0 "Perhaps no other festival fires the spirit of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] as much as the one held today, Harvest's End.\n\nThe work of the year is over, the seeding, sowing, and reaping. Now is the time to celebrate and enjoy the fruits of the harvest, and even visitors to [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] are invited to join the farmers.\n\nThe taverns offer free drinks all day long, an extravagance before the economy of the coming winter months. Underfed farm hands gorging themselves and then getting sick in the town square are the most common sights of the celebration of Harvest's End."
 
  ek_yearly_events.0160.t:0 "Harvest's End: The Bad Man"
- ek_yearly_events.0160.desc:0 "Bretons celebrate the Harvest Festival in an attempt to placate #LORE [compendium_sheor]#!, the Bad Man - the ancient Breton god of crop failure.\n\nAccording to tradition, appeasing the Bad Man will ensure good fortune and a bountiful harvest. Fresh apples and bags of grain are burned on a sacrificial altar in his honor in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], followed by a great party."
+ ek_yearly_events.0160.desc:0 "Bretons celebrate the Harvest Festival in an attempt to placate Sheor, the Bad Man - the ancient Breton god of crop failure.\n\nAccording to tradition, appeasing the Bad Man will ensure good fortune and a bountiful harvest. Fresh apples and bags of grain are burned on a sacrificial altar in his honor in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], followed by a great party."
 
  ek_yearly_events.0161.t:0 "Muskfly Infestation"
  ek_yearly_events.0161.desc:0 "As I was starting to enjoy a pretty uneventful day, [steward.GetFirstName] approaches me, seemingly worried.\n\n[steward.GetSheHe|U] proceeds to tell me that [province.GetName] was plagued by a swarm of muskflies, local insects that destroy crops and even attack people while carrying diseases.\n\n[steward.GetSheHe|U] then urges me to solve this issue post-haste."

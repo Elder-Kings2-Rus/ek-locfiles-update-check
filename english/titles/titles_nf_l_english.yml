@@ -20,8 +20,10 @@
  d_nf_martius: "$dynn_Martius$ Family"
  d_nf_saluphus: "$dynn_Saluphus$ Family"
  d_nf_galenus: "$dynn_Galenus$ Family"
+ d_nf_leztixus: "$dynn_Leztixus$ Family"
 #Imperial - 450
  d_nf_lex: "$dynn_Lex$ Family"
+ d_nf_sosildor: "$dynn_Sosildor$ Family"
  d_nf_haraka: "$dynn_Haraka$ Family"
 #Indoril
  d_nf_meris: "$dynn_Meris$ Family"
@@ -80,7 +82,7 @@
  d_nf_errinorne: "$dynn_Errinorne$ Family"
  d_nf_xarxesar: "$dynn_Xarxesar$ Family"
  d_nf_aunoroe: "$dynn_Aunoroe$ Family"
- d_nf_arelsamirmo: "$dynn_Arelsamirmo$ Family"
+ d_nf_phynaster: "$dynn_Phynastris$ Family"
  d_nf_ancmirar: "$dynn_Ancmirar$ Family"
  d_nf_athlarean: "$dynn_Athlarean$ Family"
  d_nf_fisenon: "$dynn_Fisenon$ Family"

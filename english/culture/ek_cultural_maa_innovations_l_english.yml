@@ -45,7 +45,7 @@
  
  # Goblin
  innovation_primal_tradition:0 "Primal Tradition" 
- innovation_primal_tradition_desc:0 "Contrary to popular belief, goblinken are very traditionally-inclined, with some pieces of goblinken design outfits dating back to the #LORE [compendium_first_era]#!. However, it is debated whether if they inherited this style from previous generations, looted it from ancient ruins, scavenged it from other civilizations, or forged it themselves." 
+ innovation_primal_tradition_desc:0 "Contrary to popular belief, goblinken are very traditionally-inclined, with some pieces of goblinken design outfits dating back to the [Glossary( 'First Era', 'FIRST_ERA_GLOSS' )]. However, it is debated whether if they inherited this style from previous generations, looted it from ancient ruins, scavenged it from other civilizations, or forged it themselves." 
  
  innovation_durzog_breeding:0 "Durzog Breeding"
  innovation_durzog_breeding_desc:0 "Most individuals tend to avoid Durzogs due to their repulsive appearance and carnivorous hunting behavior. However, it's worth noting that these creatures possess remarkable intelligence, making them capable of being trained as formidable war beasts."

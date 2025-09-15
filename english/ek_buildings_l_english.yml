@@ -199,7 +199,7 @@
  building_generic_sulfur_mines_04_desc:1 "$building_type_generic_sulfur_mines_01_desc$"
 
  building_type_generic_ebony_mines_01:0 "Ebony Mines"
- building_type_generic_ebony_mines_01_desc:0 "This is an ebony mine, said to tap into veins of the blood of #LORE [compendium_lorkhan]#! himself. In its depths, miners toil day upon day to extract this precious metal, powerful both physically and magickally and very, very, valuable.\n\nAs unrestricted ebony access is terrifying—and wasteful for their armies—, some polities make it a controlled material. Distributed through a state monopoly, few will be connected or affluent enough to do legit trade, and the majority resort to smugglers to acquire the ore."
+ building_type_generic_ebony_mines_01_desc:0 "This is an ebony mine, said to tap into veins of the blood of Lorkhan himself. In its depths, miners toil day upon day to extract this precious metal, powerful both physically and magickally and very, very, valuable.\n\nAs unrestricted ebony access is terrifying—and wasteful for their armies—, some polities make it a controlled material. Distributed through a state monopoly, few will be connected or affluent enough to do legit trade, and the majority resort to smugglers to acquire the ore."
  building_generic_ebony_mines_01:1 "Ebony Mining Settlement"
  building_generic_ebony_mines_01_desc:1 "$building_type_generic_ebony_mines_01_desc$"
  building_generic_ebony_mines_02:1 "Ebony Mine"

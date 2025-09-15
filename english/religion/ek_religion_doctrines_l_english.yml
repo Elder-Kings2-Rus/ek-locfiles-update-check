@@ -86,17 +86,17 @@
 
  ### Main pantheon
  ## Status of Lorkhan
- doctrine_shezarr_worship_name:0 "Status of the #LORE [compendium_missing_god]#!" # compendium entry plug exception to the rule
+ doctrine_shezarr_worship_name:0 "Status of the Missing God"
  doctrine_shezarr_worship_full_name:0 "Missing God: Worshipped"
-    doctrine_shezarr_worship_full_desc:0 "The #LORE [compendium_missing_god]#! is part of our beliefs and daily prayers, for he forged the world and was betrayed for it. We will not forget him."
+    doctrine_shezarr_worship_full_desc:0 "The Missing God is part of our beliefs and daily prayers, for he forged the world and was betrayed for it. We will not forget him."
     doctrine_parameter_shezarr_worship_full_hostility:0 "Increases [faith_hostility|E] with [faiths|E] with [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName] by #N +10#!"
  doctrine_shezarr_worship_respected_name:0 "Missing God: Respected"
-    doctrine_shezarr_worship_respected_desc:0 "While we do not give prayer to the #LORE [compendium_missing_god]#! we owe him thanks for his deeds and respect his memory."
+    doctrine_shezarr_worship_respected_desc:0 "While we do not give prayer to the Missing God we owe him thanks for his deeds and respect his memory."
     doctrine_parameter_shezarr_worship_respected_hostility:0 "Increases [faith_hostility|E] with [faiths|E] with [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName] by #N +5#!"
  doctrine_shezarr_worship_neutral_name:0 "Missing God: Neutral"
-    doctrine_shezarr_worship_neutral_desc:0 "The contributions of the #LORE [compendium_missing_god]#! to the mortal world are commendable, but we have more important deities and religious figures to revere."
+    doctrine_shezarr_worship_neutral_desc:0 "The contributions of the Missing God to the mortal world are commendable, but we have more important deities and religious figures to revere."
  doctrine_shezarr_worship_forbidden_name:0 "Missing God: Forbidden"
-    doctrine_shezarr_worship_forbidden_desc:0 "The treachery of the #LORE [compendium_missing_god]#! shall never be forgotten."
+    doctrine_shezarr_worship_forbidden_desc:0 "The treachery of the Missing God shall never be forgotten."
     doctrine_parameter_shezarr_worship_forbidden_hostility:0 "Increases [faith_hostility|E] with [faiths|E] with [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName] by #N +10#! and [faiths|E] with [GetFaithDoctrine('doctrine_shezarr_worship_respected').GetBaseName] by #N +5#!"
  ## Number of Deities
  doctrine_main_pantheon_type_name:0 "Number of Deities"
@@ -290,9 +290,9 @@
    doctrine_parameter_pantheon_adds_deity_nerevar:0 "Adherents can take Nerevar as their [patron|E], and become [GetTrait('p_vl_nerevar').GetName( GetNullCharacter )]"
    doctrine_parameter_pantheon_adds_deities_nerevar:0 "Adds the following Patron to the [pantheon|E]: Nerevar"
  doctrine_sp_lorkhan_name:0 "Missing God #italic [secondary|E]#!"
-   doctrine_sp_lorkhan_desc:0 "Whatever name he goes by, the #LORE [compendium_missing_god]#! deserves a place in our prayers and rituals."
+   doctrine_sp_lorkhan_desc:0 "Whatever name he goes by, the Missing God deserves a place in our prayers and rituals."
    doctrine_sp_dv_shezarr_name:0 "The Missing God"
-   doctrine_parameter_pantheon_adds_deity_shezarr:0 "Adherents can take #LORE [compendium_missing_god]#! as their [patron|E], and become [GetTrait('p_dv_shezarr').GetName( GetNullCharacter )]"
+   doctrine_parameter_pantheon_adds_deity_shezarr:0 "Adherents can take Missing God as their [patron|E], and become [GetTrait('p_dv_shezarr').GetName( GetNullCharacter )]"
  doctrine_sp_good_daedra_name:0 "Good Daedra #italic [secondary|E]#!"
     doctrine_sp_good_daedra_desc:0 "[Glossary( 'Good Daedra', 'GOOD_DAEDRA_GLOSS' )] pog" #EK PH
     doctrine_parameter_good_daedra_pantheon_syncretism:0 "Reduces [faith_hostility|E] with [faiths|E] with the [GetFaithDoctrine('doctrine_pantheon_good_daedra').GetBaseName] [pantheon|E] by #P -15#!"
@@ -345,6 +345,18 @@
    doctrine_sp_reman_worldly_god_name: "Worldly God"
    doctrine_sp_reman_worldly_god_desc: "$desc_worldly_god$" #Placeholder
    doctrine_parameter_pantheon_adds_deity_worldly_god: "Adherents can take Worldly God as their [patron|E], and become [GetTrait('p_rm_worldly_god').GetName( GetNullCharacter )]"
+ doctrine_sp_trinimac_name: "Trinimac #italic [secondary|E]#!"
+   doctrine_sp_trinimac_desc: "Trinimac" #Placeholder
+   doctrine_parameter_trinimac_pantheon_syncretism: "Reduces [faith_hostility|E] with [faiths|E] with the [GetFaithDoctrine('doctrine_pantheon_trinimac').GetBaseName] [pantheon|E] by #P -15#!"
+   doctrine_sp_trinimac_paragon_name: "Paragon"
+   doctrine_sp_trinimac_paragon_desc: "$desc_paragon$" #Placeholder
+   doctrine_parameter_pantheon_adds_deity_paragon: "Adherents can take Paragon as their [patron|E], and become [GetTrait('p_tm_paragon').GetName( GetNullCharacter )]"
+   doctrine_sp_trinimac_gold_champ_name: "Golden Champion"
+   doctrine_sp_trinimac_gold_champ_desc: "$desc_gold_champ$" #Placeholder
+   doctrine_parameter_pantheon_adds_deity_gold_champ: "Adherents can take Golden Champion as their [patron|E], and become [GetTrait('p_tm_gold_champ').GetName( GetNullCharacter )]"
+   doctrine_sp_trinimac_blade_of_courage_name: "Blade of Courage"
+   doctrine_sp_trinimac_blade_of_courage_desc: "$desc_blade_of_courage$" #Placeholder
+   doctrine_parameter_pantheon_adds_deity_blade_of_courage: "Adherents can take Blade of Courage as their [patron|E], and become [GetTrait('p_tm_blade_of_courage').GetName( GetNullCharacter )]"
 
 ## Aspect
  doctrine_main_pantheon_aspect_name:0 "Aspect"
@@ -723,7 +735,7 @@
     doctrine_pantheon_the_one_desc:0 "The Supreme Spirit is the only being worthy of worship. The Simian Prophet showed us the way, and through His teachings we freed ourselves from Elven rule."
     doctrine_parameter_devotion_gives_reduced_cb_cost_against_elves:0 "Each level of [piety_experience|E] reduces the [casus_belli|E] cost against Elven rulers by #P 10%#!"
  doctrine_pantheon_lorkhan_name:0 "Missing God"
-    doctrine_pantheon_lorkhan_desc:0 "Even after his death, the #LORE [compendium_missing_god]#! fought by our side so we could be free. We will chant his name wherever we go, until all of Mankind is liberated from its oppressors!"
+    doctrine_pantheon_lorkhan_desc:0 "Even after his death, the Missing God fought by our side so we could be free. We will chant his name wherever we go, until all of Mankind is liberated from its oppressors!"
  doctrine_pantheon_heroes_name: "Cyrodilic Heroes"
     doctrine_parameter_pantheon_adds_deities_cyrodiilic_heroes: "Adds the following Saints to the [pantheon|E]: Alessia, Pelinal, Morihaus, Reman, Bendu Olo"
     doctrine_pantheon_heroes_desc: "Alessia. Pelinal. Morihaus. Reman. Bendu Olo. These are the names of legendary heroes known across all of Tamriel, but for some in Cyrodiil, they have a special importance on par with the Gods themselves."
@@ -731,11 +743,11 @@
     doctrine_parameter_pantheon_adds_deities_thousand_cults:0 "Adds the following Cults to the [pantheon|E]: Cult of Aka, Cult of the Missing, Cult of the Land, Cult of the Ancestor Moth, Cult of God-Beasts, Cult of Love, Cult of Guilds, Cult of the Heavens"
     doctrine_pantheon_thousand_cults_desc:0 "Give praise to the Thousands Gods of the Valley, for their Cults shelters our souls in this life and the next."
  doctrine_pantheon_reman_name:0 "Reman"
-    doctrine_pantheon_reman_desc:0 "Reman 'Light of Man' Cyrodiil was a Dragonborn hero of the #LORE [compendium_first_era]#! and founder of Tamriel's Second Empire. His worship began amongst the Akaviri invaders he famously defeated but has since spread to the land's native populace."
+    doctrine_pantheon_reman_desc:0 "Reman 'Light of Man' Cyrodiil was a Dragonborn hero of the First Era and founder of Tamriel's Second Empire. His worship began amongst the Akaviri invaders he famously defeated but has since spread to the land's native populace."
     doctrine_parameter_pantheon_adds_deities_reman: "Adds following Patrons to the [pantheon|E]: Light of Man, The Cyrodiil, Worldly God"
  doctrine_pantheon_ancestor_moth_name:0 "Ancestor Moths"
     doctrine_pantheon_ancestor_moth_desc:0 "Ancestor Moths are a rare species of Moth, believed by some in Cyrodiil and Southern Skyrim to speak with the voices of the dead."
- doctrine_pantheon_nedic_aedra_name:0 "Nedic Pantheon"
+ doctrine_pantheon_nedic_aedra_name:0 "Gods Around-Us"
     doctrine_pantheon_nedic_aedra_desc:0 "Our Mothers grant us life, their chosen servant grant us death. To oversee the unending cycle of equal exchange, Z'en the Trader remains forever vigilant."
     doctrine_parameter_pantheon_adds_deities_nedic:0 "Adds the following Patrons to the [pantheon|E]: Ark'ay, Dibe, Kin, Mara, Z'en, Lorkh"
     doctrine_parameter_divines_pantheon_nedic:0 "For the purpose of [faith_hostility|E], this [pantheon|E] is considered the same as [GetFaithDoctrine('doctrine_pantheon_divines').GetBaseName], [GetFaithDoctrine('doctrine_pantheon_nord').GetBaseName] and [GetFaithDoctrine('doctrine_pantheon_redguard').GetBaseName]"
@@ -768,6 +780,7 @@
  # Trinimac
  doctrine_pantheon_trinimac_name:0 "Trinimac"
     doctrine_pantheon_trinimac_desc:0 "Trinimac is the Aldmer Hero-God of Truth, Honour and Justice; who in the [Glossary( 'Dawn Era', 'DAWN_ERA_GLOSS' )] famously slew the traitor Lorkhan for deceiving the gods, and then spent centuries preaching to his legions of dedicated followers on military and spiritual matters."
+    doctrine_parameter_pantheon_adds_deities_trinimac: "Adds the following Patrons to the [pantheon|E]: Paragon, Golden Champion, Blade of Courage"
  # Bosmeri
  doctrine_pantheon_green_pact_name:0 "Green Pact"
     doctrine_pantheon_green_pact_desc:0 "The Storyteller Y'ffre, took us under their protection millenia ago, and bound us to the forest. We protected the sacred woods of Valen for generations, and the trees have accepted us in return."
@@ -934,11 +947,11 @@
  doctrine_pantheon_good_daedra_trigger:0 "Cannot have Malacath, Mehrunes Dagon, Molag Bal or Sheogorath set to Pantheon or Accepted"
  doctrine_pantheon_bad_daedra_trigger:0 "Cannot have Azura, Boethiah or Mephala set to Pantheon or Accepted"
 
- shezarr_worship_full_trigger:0 "Must set the #LORE [compendium_missing_god]#! [doctrine|E] to [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName]"
- shezarr_worship_forbidden_trigger:0 "Must set the #LORE [compendium_missing_god]#! [doctrine|E] to [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
+ shezarr_worship_full_trigger:0 "Must set the Missing God [doctrine|E] to [GetFaithDoctrine('doctrine_shezarr_worship_full').GetBaseName]"
+ shezarr_worship_forbidden_trigger:0 "Must set the Missing God [doctrine|E] to [GetFaithDoctrine('doctrine_shezarr_worship_forbidden').GetBaseName]"
  necromancy_related_doctrine_trigger:0 "Must set the Necromancy [doctrine|E] to [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName]"
- vampirism_related_doctrine_trigger:0 "Must set the Vampirism [doctrine|E] to [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName]"
- anti_undeath_god_doctrine_trigger:0 "Cannot have the Vampirism or Necromancy [doctrines|E] set to Accepted"
+ vampirism_related_doctrine_trigger:0 "Must set the Vampirism [doctrine|E] to [GetFaithDoctrine('doctrine_vampirism_virtuous').GetBaseName]"
+ anti_undeath_god_doctrine_trigger:0 "Cannot have the Vampirism or Necromancy [doctrines|E] set to Accepted or Virtuous"
 
  # Deep Ones
  doctrine_pantheon_deepones_name:0 "Deep Ones"
@@ -1025,6 +1038,8 @@
     doctrine_parameter_mystical_birthright_head_of_faith_succession_mane_trait:0 "Upon the [head_of_faith|E]'s death, their successor will be chosen among those with the [GetTrait('furstock_mane').GetName(GetNullCharacter)] trait"
     DOCTRINE_MYSTICAL_BIRTHRIGHT_HEAD_NEEDS_MYSTICAL_BIRTHRIGHT:0 "This [doctrine|E] is only compatible with the [GetFaithDoctrine('tenet_moon_worship').GetBaseName] [core_tenet|E]"
     doctrine_parameter_hof_crown_authority_improves_fe:0 "The [crown_authority|E] of the [head_of_faith|E] impacts the Faith's [fervor_equilibrium|E]\n#weak Each Crown Authority level above $crown_authority_0$ gives #P +5#! Fervor Equilibrium#!"
+    requires_spiritual_or_mystical_birthright_hof:0 "Requires [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName] if your current faith has it, or [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] if your current faith has that"
+    FAITH_CREATION_ADDS_MYSTICAL_BIRTHRIGHT_HEAD_TEXT:0 "Institute [GetFaithDoctrine('doctrine_mystical_birthright_head').GetBaseName] [head_of_faith|E]\nIf you control at least #V 2#! [holy_sites|E] of your faith and is [GetTrait('furstock_mane').GetName(GetNullCharacter)], you can create the [head_of_faith|E] title.\nIf not it can be created later with the #V '$restore_mane_decision$'#! [decision|E]"
  ## Communal / Cultural Identity
  doctrine_cultural_identity_name:0 "Cultural Identity"
  doctrine_cultural_identity_none_name:0 "No Cultural Ties"
@@ -1098,8 +1113,9 @@
     doctrine_parameter_at_least_one_landed_character_to_marry_active:0 "At least one party must be [landed|E] to be [married|E]"
  
  ### Crimes
- doctrine_parameter_witchcraft_crime_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Witchcraft is [GetFaithDoctrine('doctrine_witchcraft_accepted').GetBaseName] by #N +5#!"
+ doctrine_parameter_witchcraft_crime_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Witchcraft is [GetFaithDoctrine('doctrine_witchcraft_accepted').GetBaseName] by #N +5#! and [GetFaithDoctrine('doctrine_witchcraft_virtuous').GetBaseName] by #N +10#!"
  doctrine_parameter_witchcraft_accepted_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Witchcraft is [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName] by #N +5#!"
+ doctrine_parameter_witchcraft_virtuous_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Witchcraft is [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName] by #N +10#!
 
  doctrine_adultery_name:0 "Adultery"
  doctrine_adultery_crime_name:0 "Criminal"
@@ -1110,54 +1126,60 @@
     doctrine_adultery_accepted_desc:0 "There is nothing inherently wrong about a man or a woman deciding to engagunlockse in intercourse outside of marriage, so the decision is their alone."
  
  doctrine_necromancy_name:0 "Necromancy"
- doctrine_necromancy_outlawed_name:0 "Criminal"
-    doctrine_necromancy_outlawed_desc:0 "No one should ever be allowed to break the sacred circle of life and death. To do so would threaten the very balance of your world."
+ doctrine_necromancy_crime_name:0 "Criminal"
+    doctrine_necromancy_crime_desc:0 "No one should ever be allowed to break the sacred circle of life and death. To do so would threaten the very balance of your world."
     doctrine_parameter_necromancy_criminal:0 "Characters with the [GetTrait('necromancer').GetName( GetPlayer )] [trait|E] are [criminals|E]"
     doctrine_parameter_undeath_criminal:0 "Characters with the [GetTrait('undead_character').GetName( GetPlayer )] or [GetTrait('lich_character').GetName( GetPlayer )] [trait|E] are [criminals|E]"
     doctrine_parameter_cleanse_abominations_undead_rulers:0 "[rulers|E] can use [cleanse_abomination_war|E] against Undead rulers"
     doctrine_parameter_cleanse_abominations_necromancers_rulers:0 "[rulers|E] can use [cleanse_abomination_war|E] against Necromancer rulers"
-    doctrine_parameter_necromancy_outlawed_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Necromancy is [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName] by #N +5#!"
- doctrine_necromancy_pragmatic_name:0 "Shunned"
-    doctrine_necromancy_pragmatic_desc:0 "Those who willingly break the balance of life and death to harm others are to be avoided."
+    doctrine_parameter_necromancy_crime_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Necromancy is [GetFaithDoctrine('doctrine_necromancy_accepted').GetBaseName] by #N +5#!"
+ doctrine_necromancy_shunned_name:0 "Shunned"
+    doctrine_necromancy_shunned_desc:0 "Those who willingly break the balance of life and death to harm others are to be avoided."
     doctrine_parameter_necromancy_shunned:0 "Characters with the [GetTrait('necromancer').GetName( GetPlayer )] [trait|E] are [shunned|E]"
     doctrine_parameter_undeath_shunned:0 "Characters with the [GetTrait('undead_character').GetName( GetPlayer )] or [GetTrait('lich_character').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_necromancy_accepted_name:0 "Accepted"
     doctrine_necromancy_accepted_desc:0 "Achieving mastery over the cycle of life and death should be seen as an achievement and a victory, not a crime."
     doctrine_parameter_necromancy_accepted:0 "Characters with the [GetTrait('necromancer').GetName( GetPlayer )] [trait|E] are fully accepted"
     doctrine_parameter_undeath_accepted:0 "Characters with the [GetTrait('undead_character').GetName( GetPlayer )] or [GetTrait('lich_character').GetName( GetPlayer )] [trait|E] are fully accepted"
-    doctrine_parameter_necromancy_accepted_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Necromancy is [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName] by #N +5#!"
+    doctrine_parameter_necromancy_accepted_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Necromancy is [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName] by #N +5#!"
     doctrine_parameter_anti_undeath_gods_blocker:0 "Removes Arkay and Tu'whacca from your [pantheon|E]"
     faith_conversion_cost_necromancy:0 "Converting to [faith|E] accepting of Necromancy"
  
  doctrine_lycanthropy_name:0 "Lycanthropy"
- doctrine_lycanthropy_outlawed_name:0 "Criminal"
-    doctrine_lycanthropy_outlawed_desc:0 "Werebeasts are an affront to nature and a threat to society. They cannot be allowed to threaten our existence."
+ doctrine_lycanthropy_crime_name:0 "Criminal"
+    doctrine_lycanthropy_crime_desc:0 "Werebeasts are an affront to nature and a threat to society. They cannot be allowed to threaten our existence."
     doctrine_parameter_lycanthropy_criminal:0 "Characters with the [GetTrait('lycan_character').GetName( GetPlayer )] [trait|E] are [criminals|E]"
     doctrine_parameter_cleanse_abominations_lycanthropes_rulers:0 "[rulers|E] can use [cleanse_abomination_war|E] against Lycanthrope rulers"
-    doctrine_parameter_lycanthropy_outlawed_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Lycanthropy is [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] by #N +5#!"
- doctrine_lycanthropy_pragmatic_name:0 "Shunned"
-    doctrine_lycanthropy_pragmatic_desc:0 "While lycanthropy is inherently dangerous, those who did not choose to be cursed should not be punished for something they cannot control."
+    doctrine_parameter_lycanthropy_crime_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Lycanthropy is [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] by #N +5#! and [GetFaithDoctrine('doctrine_lycanthropy_virtuous').GetBaseName] by #N +10#!"
+ doctrine_lycanthropy_shunned_name:0 "Shunned"
+    doctrine_lycanthropy_shunned_desc:0 "While lycanthropy is inherently dangerous, those who did not choose to be cursed should not be punished for something they cannot control."
     doctrine_parameter_lycanthropy_shunned:0 "Characters with the [GetTrait('lycan_character').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_lycanthropy_accepted_name:0 "Accepted"
     doctrine_lycanthropy_accepted_desc:0 "While lycanthropes can be seen as dangerous, those who master it should be celebrated."
     doctrine_parameter_lycanthropy_accepted:0 "Characters with the [GetTrait('lycan_character').GetName( GetPlayer )] [trait|E] are fully accepted"
-    doctrine_parameter_lycanthropy_accepted_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Lycanthropy is [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName] by #N +5#!"
+    doctrine_parameter_lycanthropy_accepted_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Lycanthropy is [GetFaithDoctrine('doctrine_lycanthropy_crime').GetBaseName] by #N +5#!"
     faith_conversion_cost_lycan:0 "Converting to [faith|E] accepting of Lycanthropy"
+ doctrine_lycanthropy_virtuous_name:0 "Virtuous"
+    doctrine_lycanthropy_virtuous_desc:0 "We must not forget our roots to nature and to the hunt. The lycanthropes lead the way, as the ultimate hunters."
+    doctrine_parameter_lycanthropy_virtuous_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName] by #N +10#!"
     
  doctrine_vampirism_name:0 "Vampirism"
- doctrine_vampirism_outlawed_name:0 "Criminal"
-    doctrine_vampirism_outlawed_desc:0 "Vampires are mere beasts, hell bent on hunting mortal kind. We must hunt them down before they can hunt us."
+ doctrine_vampirism_crime_name:0 "Criminal"
+    doctrine_vampirism_crime_desc:0 "Vampires are mere beasts, hell bent on hunting mortal kind. We must hunt them down before they can hunt us."
     doctrine_parameter_vampirism_criminal:0 "Characters with the [GetTrait('vampire_character').GetName( GetPlayer )] [trait|E] are [criminals|E]"
     doctrine_parameter_cleanse_abominations_vampires_rulers:0 "[rulers|E] can use [cleanse_abomination_war|E] against Vampires rulers"
-    doctrine_parameter_vampirism_outlawed_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] by #N +5#!"
- doctrine_vampirism_pragmatic_name:0 "Shunned"
-    doctrine_vampirism_pragmatic_desc:0 "The danger that rabid vampires poses must not force us to hunt down those who wish to live in peace."
+    doctrine_parameter_vampirism_crime_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] by #N +5#! and [GetFaithDoctrine('doctrine_vampirism_virtuous').GetBaseName] by #N +10#!"
+ doctrine_vampirism_shunned_name:0 "Shunned"
+    doctrine_vampirism_shunned_desc:0 "The danger that rabid vampires poses must not force us to hunt down those who wish to live in peace."
     doctrine_parameter_vampirism_shunned:0 "Characters with the [GetTrait('vampire_character').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_vampirism_accepted_name:0 "Accepted"
     doctrine_vampirism_accepted_desc:0 "Vampirism must not be seen as a curse, for it blesses us with untold strenghts and abilities."
     doctrine_parameter_vampirism_accepted:0 "Characters with the [GetTrait('vampire_character').GetName( GetPlayer )] [trait|E] are fully accepted"
-    doctrine_parameter_vampirism_accepted_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName] by #N +5#!"
+    doctrine_parameter_vampirism_accepted_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName] by #N +5#!"
     faith_conversion_cost_vampire:0 "Converting to [faith|E] accepting of Vampirism"
+ doctrine_vampirism_virtuous_name:0 "Virtuous"
+    doctrine_vampirism_virtuous_desc:0 "The blessing of Vampirism puts us above the rest of mortalkind. They are mere prey, and we are the hunters."
+    doctrine_parameter_vampirism_virtuous_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName] by #N +10#!"
     
  ### Sins & Virtues
  doctrine_virtues_name:0 "Virtues"
@@ -1624,7 +1646,7 @@
  doctrine_hermaeus_criminal_desc:0 "Seek not the Demon. Forbidden knowledge is thus for good reason."
 
  doctrine_hircine_name:0 "Worship of $hircine$"
- FAITH_MUST_ALLOW_PATRON_HIRCINE:0 "If you don't pick [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] as your main pantheon, you must align yourself with $hircine$ through your doctrines or tenets.\n\nNeed one of:\n • [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] (Lycanthropy)\n • [GetFaithDoctrine('tenet_lycanthrope_worship').GetBaseName] (Tenet)\n • [GetFaithDoctrine('tenet_ritual_hunts').GetBaseName] (Tenet)\n • [GetFaithDoctrine('tenet_sanctity_of_nature').GetBaseName] (Tenet)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_sp_daedra_hircine').GetBaseName] (Secondary Pantheon Deity)" 
+ FAITH_MUST_ALLOW_PATRON_HIRCINE:0 "If you don't pick [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] as your main pantheon, you must align yourself with $hircine$ through your doctrines or tenets.\n\nNeed one of:\n • [GetFaithDoctrine('doctrine_lycanthropy_accepted').GetBaseName] (Lycanthropy)\n • [GetFaithDoctrine('doctrine_lycanthropy_virtuous').GetBaseName] (Lycanthropy)\n • [GetFaithDoctrine('tenet_ritual_hunts').GetBaseName] (Tenet)\n • [GetFaithDoctrine('tenet_sanctity_of_nature').GetBaseName] (Tenet)\n • [GetFaithDoctrine('doctrine_pantheon_khajiiti').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_riddlethar').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_sp_daedra_hircine').GetBaseName] (Secondary Pantheon Deity)" 
  doctrine_parameter_worship_hircine_allowed_active:0 "Worshipping $hircine$ in [daedric_secret|E] is not considered [shunned|E] or [criminal|E]"
  doctrine_parameter_worship_hircine_shunned_active:0 "Worshipping $hircine$ in [daedric_secret|E] is considered [shunned|E]"
  doctrine_parameter_worship_hircine_criminal_active:0 "Worshipping $hircine$ in [daedric_secret|E] is considered [criminal|E]"
@@ -1694,7 +1716,7 @@
  doctrine_meridia_criminal_desc:0 "True light is obscured and burned away by Meridia's corruption."
 
  doctrine_molag_name:0 "Worship of $molag$"
- FAITH_MUST_ALLOW_PATRON_MOLAG:0 "If you don't pick [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] as your main pantheon, you must align yourself with $molag$ through your doctrines or tenets.\n\nNeed one of:\n • [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] (Vampirism)\n • [GetFaithDoctrine('tenet_vampire_worship').GetBaseName] (Tenet)\n • [GetFaithDoctrine('tenet_human_sacrifice').GetBaseName] (Tenet)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_sp_daedra_molag').GetBaseName] (Secondary Pantheon Deity)" 
+ FAITH_MUST_ALLOW_PATRON_MOLAG:0 "If you don't pick [GetFaithDoctrine('doctrine_pantheon_daedra').GetBaseName] as your main pantheon, you must align yourself with $molag$ through your doctrines or tenets.\n\nNeed one of:\n • [GetFaithDoctrine('doctrine_vampirism_accepted').GetBaseName] (Vampirism)\n • [GetFaithDoctrine('doctrine_vampirism_virtuous').GetBaseName] (Vampirism)\n • [GetFaithDoctrine('tenet_human_sacrifice').GetBaseName] (Tenet)\n • [GetFaithDoctrine('doctrine_pantheon_bad_daedra').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_old_gods').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] (Main Pantheon)\n • [GetFaithDoctrine('doctrine_sp_daedra_molag').GetBaseName] (Secondary Pantheon Deity)" 
  doctrine_parameter_worship_molag_allowed_active:0 "Worshipping $molag$ in [daedric_secret|E] is not considered [shunned|E] or [criminal|E]"
  doctrine_parameter_worship_molag_shunned_active:0 "Worshipping $molag$ in [daedric_secret|E] is considered [shunned|E]"
  doctrine_parameter_worship_molag_criminal_active:0 "Worshipping $molag$ in [daedric_secret|E] is considered [criminal|E]"
@@ -1806,7 +1828,7 @@
 
  tenet_tsaescence_name:0 "Tsaescence"
     tenet_tsaescence_desc:0 "Names, like all words, contain an essence, and all containers can be cracked like eggs, and the insides consumed. In so doing, our people become great and new."
-    doctrine_parameter_tsaescence_interaction_active:0 "Enables the '$consume_interaction$' [interaction|E] to increase [tsaescence|E], potentially gaining lifespan or traits. #bold This requires fluency in $language_tsaesci_name$#!"
+    doctrine_parameter_tsaescence_interaction_active:0 "Enables the #V '$consume_interaction$'#! [interaction|E] to increase [tsaescence|E]. #weak This requires knowing the #V $language_tsaesci_name$#! [language|E]#!"
 
  # Terrain stuff
  tenet_children_skyrim_name:0 "Children of Skyrim"
@@ -1836,40 +1858,44 @@
     tenet_lifestyle_lea_faith_desc:0 "Knowledge is the source of all power. We should always seek more, even if only for its own sake."
     doctrine_parameter_children_education_learning:0 "[children|E] are more likely to receive and do well in a [learning_skill|E] [education|E]"
 
+ # Cult tenets
+ tenet_militant_cult_name:0 "Militant Cult"
+   tenet_militant_cult_desc:0 "The Gods have imparted upon us a great and terrible mission, to prepare all Mundus to bask in their radiance. Should the infidels be blind to all but the blade's glint and the fire's blaze, then let us be free in their language."
+   doctrine_parameter_characters_easier_counties_harder:0 "[characters|E] are easier to convert to this [faith|E], while [counties|E] are harder"
+   FAITH_CULT_CHARACTER_REASON: "[actor.GetFaith.GetName] — Cultist [core_tenet|E]: $VALUE|=+0$"
+   FAITH_CULT_COUNTY_REASON:0 "[councillor.GetFaith.GetName] — Cultist [core_tenet|E]"
+   doctrine_parameter_unlock_maa_cultists:0 "Can recruit [GetMaA('cultists').GetName] as [men_at_arms|E]"
+   doctrine_parameter_sanctioned_false_conversion_harder_county_conversion:0 "Conversion Resistance: #P +30%#!"
+   incompatible_tenet_cult_tenet:0 "Cannot have another Cult tenet"
+
+ tenet_mystery_cult_name:0 "Mystery Cult"
+   tenet_mystery_cult_desc:0 "Communion with the Divine and the truth of the Aurbis were never meant for the masses, and we must see that only the worthy few join our ranks, and are led through trials and tests into the flock of true believers."
+   doctrine_parameter_secretive_secrets:0 "[secrets|E] held by [characters|E] of this [faith|E] are harder to discover"
+
+tenet_personality_cult_name:0 "Personality Cult"
+   tenet_personality_cult_desc:0 "Guided by divine inspiration, or perhaps even themselves divine — we follow our leader and strive to emulate them in all matters."
+   doctrine_parameter_sins_virtues_changing:0 "The [sins|E] and [virtues|E] of this [faith|E] will be updated upon gaining a new [head_of_faith|E], based on their [personality|E]"
+   doctrine_parameter_hof_hook_immunity:0 "The [head_of_faith|E] may dismiss [hooks|E] held by same Faith [characters|E]"
+   doctrine_requires_temporal_head_of_faith:0 "Requires the [doctrine|E] [temporal_head_of_faith|E]"
+
  # Criminals are cool stuff
- tenet_witch_worship_name:0 "Sacred Witches"
-    tenet_witch_worship_reach_religion_name:0 "Worship of the Hagravens"
-    tenet_witch_worship_desc:0 "Those who are strong enough to wield the powers of Witchcraft should be celebrated, and not rejected. We should not let blind hatred and widespread misunderstanding get in the way of unlocking the powers of the occult."
-    WITCHCRAFT_MUST_BE_FULLY_ACCEPTED:0 "Incompatible with any [doctrine|E] that makes witchcraft [shunned|E] or [criminal|E]"
-    doctrine_parameter_tenet_witch_worship_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Witchcraft is [GetFaithDoctrine('doctrine_witchcraft_crime').GetBaseName] by #N +10#!"
-
- tenet_vampire_worship_name:0 "Vampiric Blessing"
-    tenet_vampire_worship_desc:0 "The blessing of Vampirism puts us above the rest of mortalkind. They are mere prey, and we are the hunters."
-    VAMPIRISM_MUST_BE_FULLY_ACCEPTED:0 "Incompatible with any [doctrine|E] that makes vampirism [shunned|E] or [criminal|E]"
-    doctrine_parameter_tenet_vampire_worship_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Vampirism is [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName] by #N +10#!"
-
- tenet_lycanthrope_worship_name:0 "Blessings of Lycanthropy"
-    tenet_lycanthrope_worship_desc:0 "We must not forget our roots to nature and to the hunt. The lycanthropes lead the way, as the ultimate hunters."
-    LYCANTHROPY_MUST_BE_FULLY_ACCEPTED:0 "Incompatible with any [doctrine|E] that makes lycanthropy [shunned|E] or [criminal|E]"
-    doctrine_parameter_tenet_lycanthrope_worship_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Lycanthropy is [GetFaithDoctrine('doctrine_lycanthropy_outlawed').GetBaseName] by #N +10#!"
-
  tenet_necromancy_worship_name:0 "Mastery over Undeath"
     tenet_necromancy_worship_desc:0 "We have been blessed with the powers of necromancy. These powers should be considered sacred, and part of our bond with the divine."
     NECROMANCY_MUST_BE_FULLY_ACCEPTED:0 "Incompatible with any [doctrine|E] that makes necromancy [shunned|E] or [criminal|E]"
     doctrine_parameter_lich_ascension:0 "The #V 'Become a Lich'#! [decision|E] is slightly less risky"
     doctrine_parameter_lich_trait_arcana:0 "The [GetTrait('lich_character').GetName( GetNullCharacter )] trait gives [arcana_i][arcana|E]: #P +2#!"
     doctrine_parameter_cheaper_necromancy_spells:0 "Necromancy [spell|E] cost: [magicka_i]#P -10%#!"
-    doctrine_parameter_tenet_necromancy_worship_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Necromancy is [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName] by #N +10#!"
+    doctrine_parameter_tenet_necromancy_worship_hostility:0 "Increases [faith_hostility|E] with [faiths|E] where Necromancy is [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName] by #N +10#!"
 
  # Other
  FAITH_MUST_HAVE_PERYITE_PATRON:0 "Your [faith|E] must have the [GetFaithDoctrine('doctrine_pantheon_peryite').GetBaseName] [pantheon|E]"
 
  tenet_divine_purity_name:0 "Divine Purity"
     tenet_divine_purity_desc:0 "We are the children of the Gods. We must pride ourselves in our purity, and make sure not to taint ourselves with the lesser beings, lest we stray away from the Divine."
-    doctrine_parameter_children_bad_congenital_trait_impure:0 "Children who are born with bad congenital traits are considered [impure|E]"
-    doctrine_parameter_children_non_accepted_culture_impure:0 "If we have the [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName] or [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName] [core_tenet|E], any child born with at least one parent not sharing the accepted [heritage|E] will be considered [impure|E]\n If we have the [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName] or [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName] [core_tenet|E], any child born with at least one parent not sharing the accepted [culture|E] will be considered [impure|E]"
+    doctrine_parameter_children_bad_congenital_trait_impure:0 "Children born with bad [congenital_traits|E] are considered [impure|E]"
+    doctrine_parameter_children_non_accepted_culture_impure:0 "With [GetFaithDoctrine('doctrine_cultural_identity_heritage').GetBaseName] or [GetFaithDoctrine('doctrine_cultural_identity_heritage_exclusive').GetBaseName] [core_tenet|E], children born with at least one parent not sharing the accepted [heritage|E] will be considered [impure|E]\nWith [GetFaithDoctrine('doctrine_cultural_identity_culture').GetBaseName] or [GetFaithDoctrine('doctrine_cultural_identity_culture_exclusive').GetBaseName] [core_tenet|E], children born with at least one parent not sharing the accepted [culture|E] will be considered [impure|E]"
     doctrine_parameter_character_impurity_deformity_election_lowers_score_active:0 "Characters suffering from deformities will suffer a #N harsh penalty#! under elective realms"
-    doctrine_parameter_character_impure_foreign_relationships_impure:0 "Characters who form close relationships with [impure|E] characters, or characters of other faiths are considered [impure|E]"
+    doctrine_parameter_character_impure_foreign_relationships_impure:0 "Characters who form close relationships with characters who are [impure|E] or of other faiths, are considered [impure|E]"
     doctrine_parameter_unlocks_blood_legacy:0 "Unlocks the #V Blood#! [dynasty_perk|E] Track"
     doctrine_parameter_children_of_impure:0 "Children with at least one parent who is [impure|E] are considered [impure|E]"
     
@@ -1896,25 +1922,25 @@
 
  tenet_sanctity_of_life_name:0 "Sanctity of Life"
     tenet_sanctity_of_life_desc:0 "The cycle of life and death cannot be broken under any condition. Anyone, mortal or divine, who defies it must be hunted down and vainquished, as must their undead servants."
-    doctrine_parameter_cheaper_holy_wars_pro_undeath_active:0 "It costs [rulers|E] of this [faith|E] #P -20%#! less [piety|E] to declare [holy_wars|E] against faiths considering Vampirism or Necromancy accepted."
+    doctrine_parameter_cheaper_holy_wars_pro_undeath_active:0 "It costs [rulers|E] of this [faith|E] #P -20%#! less [piety|E] to declare [holy_wars|E] against faiths considering Vampirism or Necromancy Accepted or Virtuous."
     doctrine_parameter_cheaper_cleanse_abominations_active:0 "It costs [rulers|E] of this [faith|E] #P -20%#! less [piety|E] to declare [cleanse_abomination_war|E]."
     doctrine_parameter_bonus_cleanse_abomination_war_piety_active:0 "[piety|E] and [piety_experience|E] from winning [cleanse_abomination_war|E] is increased by #P 50%#!"
-    doctrine_parameter_tenet_sanctity_of_life_hostility:0 "Reduces [faith_hostility|E] with [faiths|E] where Necromancy is [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName] and Vampirism is [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName] by #P -5#! each"
-    VAMPIRISM_MUST_BE_OUTLAWED:0 "Vampirism must be [GetFaithDoctrine('doctrine_vampirism_outlawed').GetBaseName], unless also using the [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] [pantheon|E], in which case Vampirism must be [GetFaithDoctrine('doctrine_vampirism_pragmatic').GetBaseName]"
-    NECROMANCY_MUST_BE_OUTLAWED:0 "Necromancy must be [GetFaithDoctrine('doctrine_necromancy_outlawed').GetBaseName], unless also using the [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] [pantheon|E], in which case Necromancy must be [GetFaithDoctrine('doctrine_necromancy_pragmatic').GetBaseName]"
+    doctrine_parameter_tenet_sanctity_of_life_hostility:0 "Reduces [faith_hostility|E] with [faiths|E] where Necromancy is [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName] and Vampirism is [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName] by #P -5#! each"
+    VAMPIRISM_MUST_BE_OUTLAWED:0 "Vampirism must be [GetFaithDoctrine('doctrine_vampirism_crime').GetBaseName], unless also using the [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] [pantheon|E], in which case Vampirism must be [GetFaithDoctrine('doctrine_vampirism_shunned').GetBaseName]"
+    NECROMANCY_MUST_BE_OUTLAWED:0 "Necromancy must be [GetFaithDoctrine('doctrine_necromancy_crime').GetBaseName], unless also using the [GetFaithDoctrine('doctrine_pantheon_ten_ancestors').GetBaseName] [pantheon|E], in which case Necromancy must be [GetFaithDoctrine('doctrine_necromancy_shunned').GetBaseName]"
     
  tenet_contempt_for_the_weak_name:0 "Contempt for the Weak"
     tenet_contempt_for_the_weak_desc:0 "The world we live in is harsh and unforgiving. If we are to survive we must ensure only the strongest can rule, ousting the weaker rulers when needed."
-    doctrine_parameter_lethal_and_free_claim_duel_active:0 "Uses the #V $duel_for_claim_strong_interaction$#! instead of #V $duel_for_claim_default_interaction$#!.\nThe interaction does not cost [prestige|E], a victory provides [piety|E], but #X every duel is to the death#!."
-    doctrine_parameter_weak_rulers_contest_rule:0 "Rulers with high [prowess_i][prowess_skill|E] may pay [prestige|E] to claim [titles|E] held by other rulers. The higher the difference of Prowess between the rulers, the lower the cost."
-    doctrine_parameter_vassal_contribution_tied_prowess:0 "[vassal_obligations|E] are tied to the difference of [prowess_i][prowess|E] between a [vassal|E] and their [liege|E]."
-    culture_parameter_vassal_contribution_tied_arcana:0 "[vassal_obligations|E] are tied to the difference of [arcana_i][arcana|E] between a [vassal|E] and their [liege|E]."
+    doctrine_parameter_lethal_and_free_claim_duel_active:0 "Uses the #V $duel_for_claim_strong_interaction$#! instead of #V $duel_for_claim_default_interaction$#! [character_interaction|E]"
+    doctrine_parameter_weak_rulers_contest_rule:0 "Rulers with high [prowess_i][prowess_skill|E] may pay [prestige|E] to claim [titles|E] held by other rulers"
+    doctrine_parameter_vassal_contribution_tied_prowess:0 "[vassal_obligations|E] are tied to the difference of [prowess_i][prowess|E] between a [vassal|E] and their [liege|E]"
+    culture_parameter_vassal_contribution_tied_arcana:0 "[vassal_obligations|E] are tied to the difference of [arcana_i][arcana|E] between a [vassal|E] and their [liege|E]"
     vassal_contribution_tied_prowess_default:0 "From [prowess_i][prowess|E]"
-    doctrine_parameter_prowess_bonuses:0 "Rulers get for each point of [prowess_i][prowess|E]:\n\t#P +0.5%#! [levy|E] Size and Reinforcement Rate, #P -0.5%#! Men-at-Arms Maintenance #weak (You need a [marshal|E] for that effect to take place)#!\n\t#P +1#! [vassal|E], [courtier|E], and [guest|E] [opinion|E] #weak (You need a [chancellor|E] for that effect to take place)#!\n\t #P +0.1#! Monthly [county_control|E] #weak (You need a [steward|E] for that effect to take place)#!\n#weak Note: Rulers with low Prowess (below 8) will instead get penalties#!"
+    doctrine_parameter_prowess_bonuses:0 "Rulers get for each point of [prowess_i][prowess|E]:\n$BULLET_WITH_TAB$#P +0.5%#! [levy|E] Size and Reinforcement Rate\n$BULLET_WITH_TAB$#P -0.5%#! Men-at-Arms Maintenance\n$BULLET_WITH_TAB$#P +1#! [vassal|E], [courtier|E], and [guest|E] [opinion|E]#!\n$BULLET_WITH_TAB$#P +0.1#! Monthly [county_control|E]\n#weak Note: Rulers with low Prowess (below 8) will instead get penalties#!"
     prowess_bonuses_army:0 "[prowess|E] - [faith|E]"
     prowess_bonuses_domain:0 "[prowess|E] - [faith|E]"
     prowess_bonuses_opinion:0 "[prowess|E] - [faith|E]"
-    doctrine_parameter_rule_by_might_succession_active:0 "Enables the '#V Rule by Might#!' [succession|E] [law|E]. A successor is chosen among a ruler's eligible children, which will have to face any sibling who contests their claim in [single_combat_duel|E] #X to the death#!."
+    doctrine_parameter_rule_by_might_succession_active:0 "Enables the '#V Rule by Might#!' [succession_law|E]"
 
  tenet_vows_of_squalor_name:0 "Vows of Squalor"
     tenet_vows_of_squalor_desc:0 "To fully embrace the divine, we must reject society's expectations of cleanliness and salubrity. We thrive in the shadow, surrounding by rodents, beggars, and pests."
@@ -1968,7 +1994,7 @@
    tenet_magnus_worship_desc:0 "Where some see the Sun, we see the Magus, the source Magicka itself -  burning brightly with arcane energy pouring into Mundus from the realm beyond. Let us give praise!"
 
  tenet_labyrinthine_canon_name:0 "Labyrinthine Canon"
-    tenet_labyrinthine_canon_desc:0 "As the Alessian Order’s clergy grew and religious matters fused with secular ones, the concept of The One deity became increasingly abstract and unknowable. By the time of its great collapse in the late #LORE [compendium_first_era]#! it contained endless laws and restrictions on every secular and spiritual matter imaginable."
+    tenet_labyrinthine_canon_desc:0 "As the Alessian Order’s clergy grew and religious matters fused with secular ones, the concept of The One deity became increasingly abstract and unknowable. By the time of its great collapse in the late First Era it contained endless laws and restrictions on every secular and spiritual matter imaginable."
     tenet_labyrinthine_canon_requirement:0 "Your [faith|E] must have the [GetFaithDoctrine('doctrine_pantheon_the_one').GetBaseName] [pantheon|E]"
     
  tenet_legacy_of_reman_name: "Legacy of Reman"

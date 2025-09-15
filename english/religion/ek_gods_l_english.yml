@@ -570,8 +570,6 @@
  	god_hermaeus_lord_of_secrets_name_possessive:0 "the Lord of Secrets'"
  god_hermaeus_golden_eye_name:0 "the Golden-Eye"
  	god_hermaeus_golden_eye_name_possessive:0 "the Golden-Eye's"
- god_hermaeus_ur_deadra_name:0 "the Ur-Daedra"
- 	god_hermaeus_ur_deadra_name_possessive:0 "the Ur-Daedra's"
  god_hermaeus_abyssal_cephaliarch_name:0 "the Abyssal Cephaliarch"
  	god_hermaeus_abyssal_cephaliarch_name_possessive:0 "the Abyssal Cephaliarch's"
  god_hermaeus_old_antecedent_name:0 "the Old Antecedent"
@@ -580,6 +578,8 @@
  	god_hermaeus_scryer_name_possessive:0 "the Scryer's"
  god_hermaeus_inevitable_knower_name:0 "the Inevitable Knower"
 	god_hermaeus_inevitable_knower_name_possessive:0 "the Inevitable Knower's"
+ god_hermaeus_prince_of_forbidden_knowledge_name: "Prince of Forbidden Knowledge"
+ god_hermaeus_prince_of_forbidden_knowledge_name_possessive: "Prince of Forbidden Knowledge's"
 
 
  # Hircine
@@ -933,6 +933,8 @@
   god_nocturnal_night_mistress_name_possessive:0 "the Night Mistress'"
  god_nocturnal_saint_of_suspicion_name:0 "the Saint of Suspicion"
   god_nocturnal_saint_of_suspicion_name_possessive:0 "the Saint of Suspicion's"
+ god_nocturnal_ur_dra_name: "Ur-Dra"
+ god_nocturnal_ur_dra_name_possessive: "Ur-Dra's"
 
  god_nocturnal_shadowy_hag_name:0 "the Shadowy Hag"
   god_nocturnal_shadowy_hag_name_possessive:0 "the Shadowy Hag's"
@@ -1284,11 +1286,19 @@
 
  #Sithis
  god_sithis_name:0 "Sithis"
- 	god_sithis_name_possessive: "Sithis's"
+ 	god_sithis_name_possessive: "Sithis'"
  god_ghost_snake_name:0 "the Ghost Snake"
  	god_ghost_snake_name_possessive: "the Ghost Snake's"
  void_name:0 "the Void"
   void_name_possessive:0 "the Void's"
+ god_blind_god_name:0 "the Blind God"
+  god_blind_god_name_possessive:0 "the Blind God's"
+ god_dread_father_name:0 "the Dread Father"
+  god_dread_father_name_possessive:0 "the Dread Father's"
+ god_night_lord_name:0 "the Night Lord"
+  god_night_lord_name_possessive:0 "the Night Lord's"
+ god_king_argonia_name:0 "the King of Argonia"
+  god_king_argonia_name_possessive:0 "the King of Argonia's"
 
  # Akaviri
  akaviri_pantheon_name:0 "the Elemental Gods"
@@ -1391,6 +1401,14 @@
  #Vampire
  god_lamae_name:0 "Lamae Bal"
   god_lamae_name_possessive:0 "Lamae Bal's"
+
+#Trinimac
+ god_paragon_name: "Paragon"
+ god_paragon_name_possessive: "Paragon's"
+ god_gold_champ_name: "Golden Champion"
+ god_gold_champ_possessive: "Golden Champion's"
+ god_blade_of_courage_name: "Blade of Courage"
+ god_blade_of_courage_name_possessive: "Blade Of Courage's"
 
  #Neuter pronouns
  CHARACTER_HERHIS_THEMSELF:0 "themself"
