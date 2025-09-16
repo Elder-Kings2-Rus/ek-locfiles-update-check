@@ -1,12 +1,6 @@
 ﻿l_english:
- crown_authority_0_hierocracy:0 "Dualist Council"
- crown_authority_0_default:0 "Autonomous Vassals"
- crown_authority_1_hierocracy:0 "Weak Hierocratic Council"
- crown_authority_1_default:0 "Limited Crown Authority"
- crown_authority_2_hierocracy:0 "Strong Hierocratic Council"
- crown_authority_2_default:0 "High Crown Authority"
- crown_authority_3_hierocracy:0 "Absolute Hierocracy"
- crown_authority_3_default:0 "Absolute Crown Authority"
+ crown_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Can establish [tributaries|E]#!"
+ tribal_authority_0_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 Can establish [tributaries|E]#!"
 
  religious_tolerance_law: "Religious Tolerance"
  religious_tolerance_law_singular: "$religious_tolerance_law$"

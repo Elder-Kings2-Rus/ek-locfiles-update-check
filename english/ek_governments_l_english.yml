@@ -70,8 +70,8 @@
  autocracy_vassal: "$autocracy_government$"
  autocracy_vassal_desc: "$game_concept_autocracy_desc$"
 
- vassal_revocation_tyranny_effect_low_ca_tyranny:0 "#N You get [tyranny|E] due to your low [crown_authority|E]. Increase it past #V [GetPlayer.Custom('GetCrownAuthority0')]#! to avoid the Tyranny gain.#!"
- revocation_tyranny_effect_low_ca_tyranny:0 "#N You get [tyranny|E] due to your low [crown_authority|E]. Increase it past #V [GetPlayer.Custom('GetCrownAuthority0')]#! to avoid the Tyranny gain.#!"
+ vassal_revocation_tyranny_effect_low_ca_tyranny:0 "#N You get [tyranny|E] due to your low [crown_authority|E]. Increase it past #V $crown_authority_0$#! to avoid the Tyranny gain.#!"
+ revocation_tyranny_effect_low_ca_tyranny:0 "#N You get [tyranny|E] due to your low [crown_authority|E]. Increase it past #V $crown_authority_0$#! to avoid the Tyranny gain.#!"
  ### Pirates
  pirate_government:0 "Pirate"
  pirate_government_with_icon: "@government_type_pirate! $pirate_government$"
